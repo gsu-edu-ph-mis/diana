@@ -475,6 +475,10 @@ function diana_301_redirects() {
 			'new' => 'contact-us'
 		),
 		array(
+			'old' => 'contact-information-2',
+			'new' => 'contact-us'
+		),
+		array(
 			'old' => 'admissions',
 			'new' => 'admission'
 		),
