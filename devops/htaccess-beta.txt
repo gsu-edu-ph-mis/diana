@@ -1,0 +1,37 @@
+# RewriteEngine on
+# RewriteCond %{HTTP_HOST} ^gsc\.edu\.ph$ [OR]
+# RewriteCond %{HTTP_HOST} ^www\.gsc\.edu\.ph$
+# RewriteRule ^/?$ "https\:\/\/www1\.gsc\.edu\.ph\/" [R=302,L]
+
+#RewriteEngine on 
+#RewriteCond %{HTTP_HOST} ^(www.)?gsc.edu.ph$ 
+#RewriteCond %{REQUEST_URI} !^/www1/ 
+#RewriteCond %{REQUEST_FILENAME} !-f 
+#RewriteCond %{REQUEST_FILENAME} !-d 
+#RewriteRule ^(.*)$ /www1/$1  
+#RewriteCond %{HTTP_HOST} ^(www.)?gsc.edu.ph$ 
+#RewriteRule ^(/)?$ www1/ [L]
+#Options +SymLinksIfOwnerMatch
+
+## BETA ##
+RewriteEngine on 
+
+# Domain names that are www.gsc.edu.ph or gsc.edu.ph
+RewriteCond %{HTTP_HOST} ^(www.)?gsc.edu.ph$ 
+
+# Do not include /www1 or /www1/
+RewriteCond %{REQUEST_URI} !^/www1 
+RewriteCond %{REQUEST_URI} !^/www1/ 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ https://beta.gsc.edu.ph/$1 
+
+## CLASSIC ##
+RewriteCond %{HTTP_HOST} ^classic.gsc.edu.ph$ 
+
+# Do not include /www1 or /www1/
+RewriteCond %{REQUEST_URI} !^/www1 
+RewriteCond %{REQUEST_URI} !^/www1/ 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ https://classic.gsc.edu.ph/www1/$1 

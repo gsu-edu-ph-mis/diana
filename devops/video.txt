@@ -1,0 +1,1 @@
+"D:\portables\winff\Bin\Winff\ffmpeg.exe" -i "D:\webserver\htdocs\wp\projects\gsc2\wp-content\themes\diana\media\home.mp4" -c copy -movflags faststart "D:\webserver\htdocs\wp\projects\gsc2\wp-content\themes\diana\media\home-stream.mp4"

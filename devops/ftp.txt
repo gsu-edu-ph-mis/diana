@@ -1,0 +1,9 @@
+FTP upload to wp-content
+
+Add ubuntu to www-data group
+
+	sudo usermod -a -G www-data ubuntu
+
+Give group write permissions to wp-content
+
+	sudo chmod -R g+w wp-content

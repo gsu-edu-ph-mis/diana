@@ -1,0 +1,6 @@
+# list
+
+/vmgo/ /about-us
+/mandates/ /about-us#mandate
+
+/brief-history/ /brief-history

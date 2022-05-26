@@ -1,0 +1,393 @@
+# Copyright (C) 2015 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Diana 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/twentyfifteen\n"
+"POT-Creation-Date: 2022-05-26 11:28+0800\n"
+"PO-Revision-Date: 2015-10-06 12:58+0800\n"
+"Last-Translator: Nico Amarilla <amarillanico@gmail.com>\n"
+"Language-Team: Diana <erika@erikathemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:13
+msgid "404 Error"
+msgstr ""
+
+#: ../404.php:20
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: ../archive.php:49 ../home.php:63 ../index.php:50 ../search.php:43
+msgid "Previous page"
+msgstr ""
+
+#: ../archive.php:50 ../home.php:64 ../index.php:51 ../search.php:44
+msgid "Next page"
+msgstr ""
+
+#: ../archive.php:51 ../content-link.php:40 ../content-page.php:25
+#: ../content.php:39 ../home.php:65 ../image.php:70 ../index.php:52
+#: ../search.php:45
+msgid "Page"
+msgstr ""
+
+#: ../author-bio.php:12
+msgid "Published by"
+msgstr ""
+
+#: ../author-bio.php:34
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../category-bac.php:64 ../page-bac.php:78
+msgid "&laquo; Newer Posts"
+msgstr ""
+
+#: ../category-bac.php:65 ../page-bac.php:79
+msgid "Older Posts &raquo;"
+msgstr ""
+
+#: ../comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-link.php:31 ../content.php:30
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: ../content-link.php:36 ../content-page.php:21 ../content.php:35
+#: ../image.php:66
+msgid "Pages:"
+msgstr ""
+
+#: ../content-link.php:56 ../content-search.php:21 ../inc/template-tags.php:128
+msgid "Edit"
+msgstr ""
+
+#: ../content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../functions.php:96
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:133
+msgid "Widget Area"
+msgstr ""
+
+#: ../functions.php:135
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: ../functions.php:252
+msgid "Visible Section Name"
+msgstr ""
+
+#: ../functions.php:264
+msgid "Control Label"
+msgstr ""
+
+#: ../functions.php:265
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr ""
+
+#: ../header.php:30
+msgid "Skip to content"
+msgstr ""
+
+#: ../image.php:30
+msgid "Previous Image"
+msgstr ""
+
+#: ../image.php:31
+msgid "Next Image"
+msgstr ""
+
+#: ../image.php:90
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: ../inc/back-compat.php:37 ../inc/back-compat.php:47
+#: ../inc/back-compat.php:60
+#, php-format
+msgid ""
+"diana requires at least WordPress version 4.1. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: ../inc/career.php:8 ../inc/career.php:10
+msgid "Job Posts"
+msgstr ""
+
+#: ../inc/career.php:9 ../inc/career.php:11
+msgid "Job Post"
+msgstr ""
+
+#: ../inc/career.php:12
+msgid "Item Archives"
+msgstr ""
+
+#: ../inc/career.php:13
+msgid "Item Attributes"
+msgstr ""
+
+#: ../inc/career.php:14
+msgid "Parent Item:"
+msgstr ""
+
+#: ../inc/career.php:15
+msgid "All Items"
+msgstr ""
+
+#: ../inc/career.php:16
+msgid "Add New Job Post"
+msgstr ""
+
+#: ../inc/career.php:17
+msgid "Add New"
+msgstr ""
+
+#: ../inc/career.php:18
+msgid "New Item"
+msgstr ""
+
+#: ../inc/career.php:19
+msgid "Edit Item"
+msgstr ""
+
+#: ../inc/career.php:20
+msgid "Update Item"
+msgstr ""
+
+#: ../inc/career.php:21
+msgid "View Item"
+msgstr ""
+
+#: ../inc/career.php:22
+msgid "View Items"
+msgstr ""
+
+#: ../inc/career.php:23
+msgid "Search Item"
+msgstr ""
+
+#: ../inc/career.php:24
+msgid "Not found"
+msgstr ""
+
+#: ../inc/career.php:25
+msgid "Not found in Trash"
+msgstr ""
+
+#: ../inc/career.php:26
+msgid "Featured Image"
+msgstr ""
+
+#: ../inc/career.php:27
+msgid "Set featured image"
+msgstr ""
+
+#: ../inc/career.php:28
+msgid "Remove featured image"
+msgstr ""
+
+#: ../inc/career.php:29
+msgid "Use as featured image"
+msgstr ""
+
+#: ../inc/career.php:30
+msgid "Insert into item"
+msgstr ""
+
+#: ../inc/career.php:31
+msgid "Uploaded to this item"
+msgstr ""
+
+#: ../inc/career.php:32
+msgid "Items list"
+msgstr ""
+
+#: ../inc/career.php:33
+msgid "Items list navigation"
+msgstr ""
+
+#: ../inc/career.php:34
+msgid "Filter items list"
+msgstr ""
+
+#: ../inc/career.php:37
+msgid "Career"
+msgstr ""
+
+#: ../inc/career.php:38
+msgid "Research career"
+msgstr ""
+
+#: ../inc/career.php:131
+msgid "Job Post Settings"
+msgstr ""
+
+#: ../inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:26
+msgid "Older Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:50
+msgid "Featured"
+msgstr ""
+
+#: ../inc/template-tags.php:56
+msgid "Format"
+msgstr ""
+
+#: ../inc/template-tags.php:77
+msgid "Posted on"
+msgstr ""
+
+#: ../inc/template-tags.php:114
+msgid "Full size"
+msgstr ""
+
+#: ../inc/template-tags.php:239
+#, php-format
+msgid "Read more %s"
+msgstr ""
+
+#: ../search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:14
+msgid "Search for:"
+msgstr ""
+
+#: ../single.php:40
+msgid "Next"
+msgstr ""
+
+#: ../single.php:41
+msgid "Next post:"
+msgstr ""
+
+#: ../single.php:43
+msgid "Previous"
+msgstr ""
+
+#: ../single.php:44
+msgid "Previous post:"
+msgstr ""
+
+#: ../views/career-settings.php:3
+msgid "Posting Date:"
+msgstr ""
+
+#: ../views/career-settings.php:7
+msgid "Closing Date:"
+msgstr ""
+
+#: ../views/career-settings.php:11
+msgid "Position Title:"
+msgstr ""
+
+#: ../views/career-settings.php:15
+msgid "Place of Assignment:"
+msgstr ""
+
+#: ../views/career-settings.php:19
+msgid "Plantilla Item No.:"
+msgstr ""
+
+#: ../views/career-settings.php:23
+msgid "Salary/Job/Pay Grade:"
+msgstr ""
+
+#: ../views/career-settings.php:28
+msgid "Monthly Salary:"
+msgstr ""
+
+#: ../views/career-settings.php:32
+msgid "Eligibility:"
+msgstr ""
+
+#: ../views/career-settings.php:36
+msgid "Education:"
+msgstr ""
+
+#: ../views/career-settings.php:40
+msgid "Training:"
+msgstr ""
+
+#: ../views/career-settings.php:44
+msgid "Work Experience:"
+msgstr ""
+
+#: ../views/career-settings.php:48
+msgid "Competency:"
+msgstr ""
+
+#: ../views/career-settings.php:52
+msgid "Instructions/Remarks:"
+msgstr ""
+
+#: ../views/career-settings.php:56
+msgid "Documents:"
+msgstr ""
+
+#: ../views/career-settings.php:60
+msgid "Recipient:"
+msgstr ""
+
+#: ../views/career-settings.php:64
+msgid "Recipient Title:"
+msgstr ""
+
+#: ../views/career-settings.php:68
+msgid "Recipient Address:"
+msgstr ""
+
+#: ../views/career-settings.php:72
+msgid "Recipient Email:"
+msgstr ""
