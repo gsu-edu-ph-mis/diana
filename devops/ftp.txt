@@ -7,3 +7,6 @@ Add ubuntu to www-data group
 Give group write permissions to wp-content
 
 	sudo chmod -R g+w wp-content
+	
+	
+	sudo chown ubuntu:ubuntu gsu
