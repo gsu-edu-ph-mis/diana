@@ -112,11 +112,31 @@ jQuery(document).ready(function($) {
         $(window).scroll()
 
         var tick = function(){
-            var now = moment().tz('Asia/Manila');
-            var date = now.format('ddd, MMM D, YYYY');
-            var clock = now.format('h:mm:ss A');
-            $('#clock').html(clock)
-            $('#date').html(date)
+            var now = new Date();
+
+            try {
+                var date = now.toLocaleDateString('en-PH', {
+                    timeZone:'Asia/Manila', 
+                    weekday: 'long', 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric',
+                })
+                var time = now.toLocaleTimeString('fil-PH', {
+                    timeZone:'Asia/Manila', 
+                    hour:'numeric', 
+                    minute:'2-digit',
+                    second:'numeric',
+                })
+
+                $('#date').html(date)
+                $('#clock').html(time)
+            } catch(err) {
+                $('#date').html(now.toDateString())
+                $('#clock').html(now.toTimeString().split(' ')[0])
+            }
+            
+            
         }
         tick();
         setInterval(tick, 250);

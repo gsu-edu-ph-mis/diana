@@ -186,10 +186,6 @@ function diana_scripts() {
 	}
 	wp_enqueue_style( 'diana-style', get_stylesheet_uri() );
 
-    // Theme script
-	// wp_enqueue_script( 'moment', get_template_directory_uri() . '/js/moment.min.js', array(), false, true );
-	wp_enqueue_script( 'moment-timezone-with-data-10-year-range', get_template_directory_uri() . '/js/moment-timezone-with-data-10-year-range.min.js', array('moment'), false, true );
-	
 	if(is_page('map')){
 		wp_enqueue_script( 'leaflet-js', get_template_directory_uri() . '/leaflet/leaflet.js', array(), false, true );
 	}
