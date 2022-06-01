@@ -42,6 +42,8 @@
 		?>
 	</div><!-- .entry-content -->
 
+	<?php diana_entry_share(); ?>
+
 	<?php
 		// Author bio.
 		if ( is_single() && get_the_author_meta( 'description' ) ) :
