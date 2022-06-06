@@ -45,7 +45,7 @@ get_header(); ?>
 				<p>It is true we are young but in judgement old <br>
 				lead us on GSC make our hearts strong and bold <br>
 				lift your banner high, flying in the sky <br>
-				let your sons and daughter all shout; <br>
+				let your sons and daughters all shout; <br>
 				Mabuhay, Mabuhay!</p>
 
 				<p>In this school in the Western shore, <br>
