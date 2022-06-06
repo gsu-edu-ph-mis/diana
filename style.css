@@ -895,6 +895,7 @@ a img.aligncenter {
 	max-width: 96%; /* Image does not overflow the content area */
 	padding: 5px 3px 5px;
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .wp-caption.alignnone {
