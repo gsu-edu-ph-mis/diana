@@ -117,6 +117,9 @@ function diana_setup() {
 	 * Declare woocommerce support.
 	 */
     add_theme_support( 'woocommerce' );
+	
+	remove_filter( 'the_content', 'wpautop' );
+    remove_filter( 'the_excerpt', 'wpautop' );
 }
 endif; // diana_setup
 add_action( 'after_setup_theme', 'diana_setup' );
