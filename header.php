@@ -59,7 +59,13 @@
         <div class="row">
             <div class="col-md-2 pt-4 pb-4 d-flex justify-content-between align-items-center">
                 <div class="logo text-center">
-                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="d-inline-block"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="100" height="100" alt="GSC"></a>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="d-inline-block">
+						<?php if (is_home() || is_front_page()): ?>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/logo.anim.min.svg" width="150" height="150" alt="GSC">
+						<?php else: ?>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/logo.min.svg" width="125" height="125" alt="GSC">
+						<?php endif; ?>
+					</a>
                 </div>
                 <div style="position: absolute; right: 10px;">
                     <?php if ( has_nav_menu( 'primary' ) ) : ?>
