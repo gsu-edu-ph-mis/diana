@@ -115,7 +115,7 @@ get_header(); ?>
 							<div class="h5">
 								<a href="mailto:budget@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									budget@gsc.edu.ph
+									vpaf@gsc.edu.ph
 								</a>	
 								<!-- |
 								<a href="tel:09173228113">
@@ -253,21 +253,6 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/adrian.forca.jpg" width="250" height="250" alt="Profile">
-							</div>
-							<h3 class="h3">Instr. Adrian J. Forca</h3>
-							<h4 class="h4">Director, Information and Communication Technology (ICTO)</h4>
-							<h4 class="h4">Technical Working Group, BAC (ICT Equipment)</h4>
-							<h4 class="h4">Focal Person, SMART Campus Project</h4>
-							<div class="h5">
-								<a href="mailto:adrian.forca@gsc.edu.ph">
-									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									adrian.forca@gsc.edu.ph
-								</a>	
-							</div>
-						</div>
-						<div class="col-md-4 official ">
-							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/reiner.alminaza.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Instr. Reiner Jun G. Alminaza</h3>
@@ -321,8 +306,6 @@ get_header(); ?>
 									khristian.delarama@gsc.edu.ph
 								</a>	
 							</div>
-
-							
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
@@ -331,15 +314,13 @@ get_header(); ?>
 							<h3 class="h3">Dr. Erwin D. Dumagpi</h3>
 							<h4 class="h4">Director, Economic Development Center (EDC)</h4>
 							<h4 class="h4">Program Head, Master in Business Administration (MBA)</h4>
-							<h4 class="h4">Project Manager, Canteen and Dormitory Services, Catering FoodServices and Agri-Eco Hotel/Convention Hall</h4>
+							<h4 class="h4">Project Manager, Canteen and Dormitory Services, Catering Food Services and Agri-Eco Hotel/Convention Hall</h4>
 							<div class="h5">
 								<a href="mailto:erwin.dumagpi@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
 									erwin.dumagpi@gsc.edu.ph
 								</a>	
 							</div>
-
-							
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
@@ -355,8 +336,6 @@ get_header(); ?>
 									violeta.efondo@gsc.edu.ph
 								</a>	
 							</div>
-
-							
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
@@ -364,7 +343,6 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Prof. Rhea Joy D. Flora</h3>
 							<h4 class="h4">Director, Mango and Tropical Fruits Research Center</h4>
-							<h4 class="h4">Program Head, BS Agricultural Sciences</h4>
 							<h4 class="h4">Coordinator, Extension (CAgS)</h4>
 							<div class="h5">
 								<a href="mailto:rheajoy.flora@gsc.edu.ph">
@@ -372,8 +350,21 @@ get_header(); ?>
 									rheajoy.flora@gsc.edu.ph
 								</a>	
 							</div>
-
-							
+						</div>
+						<div class="col-md-4 official ">
+							<div class="official-photo-2 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/adrian.forca.jpg" width="250" height="250" alt="Profile">
+							</div>
+							<h3 class="h3">Instr. Adrian J. Forca</h3>
+							<h4 class="h4">Director, Information and Communications Technology(ICT)</h4>
+							<h4 class="h4">Technical Working Group, BAC (ICT Equipment)</h4>
+							<h4 class="h4">Focal Person, SMART Campus Project</h4>
+							<div class="h5">
+								<a href="mailto:adrian.forca@gsc.edu.ph">
+									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
+									adrian.forca@gsc.edu.ph
+								</a>	
+							</div>
 						</div>
 						
 						<div class="col-md-4 official ">
@@ -383,7 +374,8 @@ get_header(); ?>
 							<h3 class="h3">Dr. Jasmin T. Gadian</h3>
 							<h4 class="h4">Director, Office of the Student Development and Services (OSDS)</h4>
 							<h4 class="h4">Lead Internal Quality Auditor (IQA)</h4>
-							<h4 class="h4">Member, BAC Secretary, Academic Council</h4>
+							<h4 class="h4">Member, BAC</h4>
+							<h4 class="h4">Secretary, Academic Council</h4>
 							<div class="h5">
 								<a href="mailto:jasmin.gadian@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -397,7 +389,7 @@ get_header(); ?>
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/frenz.gal.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Instr. Frenz Rhian G. Gal</h3>
+							<h3 class="h3">Instr. Frenz Rian G. Gal</h3>
 							<h4 class="h4">Director, Intellectual Property Management Office (IPMO)</h4>
 							<h4 class="h4">Manager, Innovation and Technology Support Office (ITSO)</h4>
 							<h4 class="h4">Food Technologist, Food Innovation Center</h4>
@@ -730,19 +722,7 @@ get_header(); ?>
 								</a>	
 							</div>
 						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/josie.gaitano.jpg" width="250" height="250" alt="Profile">
-							</div>
-							<h3 class="h3">Prof. Josie H. Gaitano</h3>
-							<h4 class="h4">Executive Assistant to the President</h4>
-							<div class="h5">
-								<a href="tel:09778660021">
-									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" /></svg>
-									09778660021
-								</a>
-							</div>
-						</div>
+						
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/yyy.jpg" width="250" height="250" alt="Profile">
@@ -773,6 +753,26 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/vivieann.depamallo.jpg" width="250" height="250" alt="Profile">
+							</div>
+							<h3 class="h3">Vivie Ann G. Depamallo</h3>
+							<h4 class="h4">Head, Public Assistance and Complaints Desk (PACD)</h4>
+						</div>
+						<div class="col-md-4 official">
+							<div class="official-photo-2 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile">
+							</div>
+							<h3 class="h3">Engr. Ronel P. Dulla</h3>
+							<h4 class="h4">Registrar</h4>
+							<div class="h5">
+								<!-- <a href="tel:+639262679770">
+									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" /></svg>
+									+63 926 267 9770
+								</a>	 -->
+							</div>
+						</div>
+						<div class="col-md-4 official">
+							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/grace.ello.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Grace D. Ello</h3>
@@ -788,9 +788,24 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/josie.gaitano.jpg" width="250" height="250" alt="Profile">
+							</div>
+							<h3 class="h3">Prof. Josie H. Gaitano</h3>
+							<h4 class="h4">Executive Assistant to the President</h4>
+							<h4 class="h4">Member, BAC Secretariat</h4>
+							<div class="h5">
+								<a href="tel:09778660021">
+									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" /></svg>
+									09778660021
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4 official">
+							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/randy.galve.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Randy G. Galve</h3>
+							<h4 class="h4">Procurement Officer</h4>
 							<h4 class="h4">Chair, BAC Secretariat</h4>
 							<div class="h5">
 								<a href="mailto:randy.galve@gsc.edu.ph">
@@ -814,11 +829,23 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/aser.job.jpg" width="250" height="250" alt="Profile">
+							</div>
+							<h3 class="h3">Instr. Aser M. Job</h3>
+							<h4 class="h4">Head, Transportation Services</h4>
+							<div class="h5">
+								<!-- <a href="tel:+639262679770">
+									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" /></svg>
+									+63 926 267 9770
+								</a>	 -->
+							</div>
+						</div>
+						<div class="col-md-4 official">
+							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/nestor.paez.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Nestor T. Paez</h3>
-							<h4 class="h4">Liaison Officer for Others</h4>
-							<h4 class="h4">Head, Public Assistance and Complaints Desk (PACD)</h4>
+							<h4 class="h4">Messenger</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
@@ -877,19 +904,7 @@ get_header(); ?>
 								</a>	
 							</div>
 						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile">
-							</div>
-							<h3 class="h3">Engr. Ronel P. Dulla</h3>
-							<h4 class="h4">Registrar</h4>
-							<div class="h5">
-								<!-- <a href="tel:+639262679770">
-									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" /></svg>
-									+63 926 267 9770
-								</a>	 -->
-							</div>
-						</div>
+						
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/arnel.villa.jpg" width="250" height="250" alt="Profile">
@@ -903,26 +918,8 @@ get_header(); ?>
 								</a>	
 							</div>
 						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/roland.yanguas.jpg" width="250" height="250" alt="Profile">
-							</div>
-							<h3 class="h3">Mr. Roland S. Yanguas</h3>
-							<h4 class="h4">Staff, BAC</h4>
-						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/aser.job.jpg" width="250" height="250" alt="Profile">
-							</div>
-							<h3 class="h3">Instr. Aser M. Job</h3>
-							<h4 class="h4">Head, Transportation Services</h4>
-							<div class="h5">
-								<!-- <a href="tel:+639262679770">
-									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" /></svg>
-									+63 926 267 9770
-								</a>	 -->
-							</div>
-						</div>
+						
+						
 						
 						
 					</div>

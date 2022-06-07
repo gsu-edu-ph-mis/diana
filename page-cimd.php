@@ -31,6 +31,8 @@ get_header(); ?>
 				<img class="mb-4" src="<?= get_stylesheet_directory_uri(); ?>/images/logos/CIMD-md.png" alt="Logo">
 			</div>
 			<div class="col-lg-6">
+				<h2 class="h2 mb-3">About the Center</h2>
+				<p>The Center for Instructional Materials Development (CIMD) assists faculty authors in meticulously planning, selecting, organizing, refining, and utilizing instructional material (IM) to maximize its effectiveness. It ensures the breadth and depth of content to maximize student learning. CIMD directs the editorial direction of instructional materials and their content, as well as digital content, in order to promote equity of access, effectiveness of teaching and learning, and curriculum enhancement, with the dual goal of increasing student success and ensuring that graduates of the Guimaras State College are globally competitive, locally relevant, socially responsive, and fully representative of the country's diverse population. CIMD's content is managed by teams of editors, designers, industry experts, and freelance contributors.</p>
 				<h2 class="h2 mb-3">Message from the Director</h2>
                 <p>"In this day and age, writing IMs (Instructional Materials) has something to do with the fact that most people are juggling a variety of responsibilities such as family, career, and personal lives.</p>
                 <p>I've discovered that everything is true. </p>

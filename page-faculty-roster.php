@@ -47,7 +47,7 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/marie.david.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Marie Cris David</h3>
-							<h4 class="h4">Research Coordinator</h4>
+							<h4 class="h4">Coordinator, Research</h4>
 
 						</div>
 						<div class="col-md-4 official">
@@ -70,7 +70,8 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/reynro.herrera.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Reynro T. Herrera</h3>
-							<h4 class="h4">Student Affairs and Services Coordinator / Extension Coordinator</h4>
+							<h4 class="h4">Coordinator, Student Affairs and Services</h4>
+							<h4 class="h4">Coordinator, Extension</h4>
 						</div>
 					</div>
 				</div>
@@ -102,14 +103,14 @@ get_header(); ?>
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/lea.ymalay.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Lea P. Ymalay</h3>
+							<h3 class="h3">Dr. Lea P. Ymalay</h3>
 							<h4 class="h4">Program Head, BS Computer Science</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/jed.sorolla.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Jed Sorolla</h3>
+							<h3 class="h3">Instr. Jed P. Sorolla</h3>
 							<h4 class="h4">Program Head, BS Information Systems</h4>
 						</div>
 						<div class="col-md-4 official">
@@ -140,36 +141,42 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Instr. Adrian J. Forca</h3>
 						</div>
+						<!--
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Jessierey Heart C. Gabo</h3>
 						</div>
+						
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Loveson C. Gallos</h3>
 						</div>
+						
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Kristine S. Gonzales</h3>
 						</div>
+						-->
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/rodney.martires.jpg" alt="">
 							</div>
 							<h3 class="h3">Dr. Rodney N. Martires</h3>
 						</div>
+						<!--
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/frenz.gal.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Frenz Rian G. Gal</h3>
 						</div>
+						-->
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/liezel.tabale.jpg" alt="">
@@ -205,30 +212,18 @@ get_header(); ?>
 					<div class="row mb-5">
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/revenlie.galapin.jpg" alt="">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/lovely.egael.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Revenlie G. Galapin</h3>
-							<h4 class="h4">Program Head, BS Entrepreneurship</h4>
-						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/ivony.asprilla.jpg" alt="">
-							</div>
-							<h3 class="h3">Prof. Ivony S. Asprilla</h3>
-							<h4 class="h4">Program Head, BS Hospitality Management</h4>
-						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/anelyn.janaban.jpg" alt="">
-							</div>
-							<h3 class="h3">Dr. Anelyn A. Janaban</h3>
+							<h3 class="h3">Dr. Lovely Joy J. Egael</h3>
 							<h4 class="h4">Program Head, BS Business Administration</h4>
 						</div>
+						
+						
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/ronald.gentapanan.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Michael Victor A. Gonzales</h3>
+							<h3 class="h3">Instr. Ronald G. Gentapanan</h3>
 							<h4 class="h4">Program Head, BS Real Estate Management</h4>
 						</div>
 						<div class="col-md-4 official">
@@ -237,12 +232,15 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Instr. Ellyn Ly O. Maramento</h3>
 							<h4 class="h4">Program Head, BS Tourism Management</h4>
+							<h4 class="h4">Program Head, BS Hospitality Management</h4>
+							<h4 class="h4">Project Leader, EduTourism</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/arthur.soquena.jpg" alt="">
 							</div>
 							<h3 class="h3">Dr. Arthur C. Soqueña</h3>
+							<h4 class="h4">Program Head, BS Entrepreneurship</h4>
 							<h4 class="h4">Subject Area Chair, Business Management and Accounting</h4>
 						</div>
 					</div>
@@ -258,7 +256,13 @@ get_header(); ?>
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/shiela.diaz.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Shiela Mae V. Artajo-Diaz</h3>
+							<h3 class="h3">Instr. Shiela Mae A. Diaz</h3>
+						</div>
+						<div class="col-md-4 official">
+							<div class="official-photo-3 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/ivony.asprilla.jpg" alt="">
+							</div>
+							<h3 class="h3">Prof. Ivony S. Asprilla</h3>
 						</div>
 						<div class="col-md-4 official  mb-4">
 							<div class="official-photo-3 mb-3">
@@ -270,7 +274,7 @@ get_header(); ?>
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/margie.delacruz.jpg" alt="">
 							</div>
-							<h3 class="h3">Dr. Margie Y. de la Cruz</h3>
+							<h3 class="h3">Dr. Margie Y. De la Cruz</h3>
 						</div>
 						<div class="col-md-4 official  mb-4">
 							<div class="official-photo-3 mb-3">
@@ -284,11 +288,19 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Dr. Lovely Joy J. Egael</h3>
 						</div>
+						
 						<div class="col-md-4 official  mb-4">
 							<div class="official-photo-3 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/ronald.gentapanan.jpg" alt="">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/revenlie.galapin.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Ronald  Gentapanan</h3>
+							<h3 class="h3">Instr. Revenlie G. Galapin</h3>
+						</div>
+						<div class="col-md-4 official  mb-4">
+							
+							<div class="official-photo-3 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="">
+							</div>
+							<h3 class="h3">Instr. Michael Victor A. Gonzales</h3>
 						</div>
 						<div class="col-md-4 official  mb-4">
 							<div class="official-photo-3 mb-3">
@@ -304,16 +316,23 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official  mb-4">
 							<div class="official-photo-3 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/anelyn.janaban.jpg" alt="">
+							</div>
+							<h3 class="h3">Dr. Anelyn A. Janaban</h3>
+						</div>
+						<div class="col-md-4 official  mb-4">
+							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/nenen.marquez.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Nenen N. Marquez</h3>
 						</div>
 						<div class="col-md-4 official  mb-4">
 							<div class="official-photo-3 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/andrew.paguntalan.jpg" alt="">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/rome.moralista.jpg" alt="">
 							</div>
-							<h3 class="h3">Dr. Andrew D. Paguntalan</h3>
+							<h3 class="h3">Dr. Rome B. Moralista</h3>
 						</div>
+						
 						<div class="col-md-4 official  mb-4">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/maychelle.sorongon.jpg" alt="">
@@ -330,9 +349,9 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/jufel.fernandez.jpg" alt="Jufel Fernandez">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="Photo">
 							</div>
-							<h3 class="h3">Instr. Jufel D. Fernandez</h3>
+							<h3 class="h3">Dr. Reynald T. Ladera</h3>
 							<h4 class="h4">Dean</h4>
 						</div>
 						<div class="col-md-4">
@@ -342,9 +361,9 @@ get_header(); ?>
 					<div class="row mb-5">
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/aizle.eres.jpg" alt="">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/jufel.fernandez.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Aizle  F. Eres</h3>
+							<h3 class="h3">Instr. Jufel D. Fernandez</h3>
 							<h4 class="h4">Program Head, BS Criminology</h4>
 						</div>
 					</div>
@@ -370,6 +389,12 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/aizle.eres.jpg" alt="">
+							</div>
+							<h3 class="h3">Instr. Aizle  F. Eres</h3>
+						</div>
+						<div class="col-md-4 official">
+							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/kert.pillora.jpg" alt="">
 							</div>
 							<h3 class="h3">Dr. Kert D. Pillora</h3>
@@ -384,7 +409,7 @@ get_header(); ?>
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/shiela.paltiquera.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Shiela Mae S. Paltiquera</h3>
+							<h3 class="h3">Instr. Shiela Mae G. Paltiguera</h3>
 						</div>
 					</div>
 				</div>
@@ -583,7 +608,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/yyy.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Riza P. Gumaling</h3>
 						</div>
@@ -710,7 +735,7 @@ get_header(); ?>
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/french.edang.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. French Mariee Edang</h3>
+							<h3 class="h3">Instr. French Mariee P. Edang</h3>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
@@ -796,9 +821,10 @@ get_header(); ?>
 					<div class="row mb-5">
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/alvin.bales.jpg" alt="">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/michael.occena.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Alvin Erick C. Bales</h3>
+							<h3 class="h3">Instr. Michael M. Occeña</h3>
+							
 							<h4 class="h4">Program Head, BIT</h4>
 						</div>
 						<div class="col-md-4 official">
@@ -858,17 +884,10 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/michael.occena.jpg" alt="">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/alvin.bales.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Michael M. Occeña</h3>
+							<h3 class="h3">Instr. Alvin Erick C. Bales</h3>
 						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-3 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/crisanto.occena.jpg" alt="">
-							</div>
-							<h3 class="h3">Dr.  Crisanto G. Occeña</h3>
-						</div>
-						
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="">
@@ -897,7 +916,7 @@ get_header(); ?>
 						<li>
 							<a href="#cbm" class="d-flex align-items-center" style="line-height: 1.2">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/logos/CBM-sm.png" width="60" height="60" alt="">
-								<span>College of Business Management (CBM)</span>
+								<span>College of Business and Management (CBM)</span>
 							</a>
 						</li>
 						<li>

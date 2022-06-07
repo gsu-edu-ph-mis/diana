@@ -23,7 +23,7 @@ get_header(); ?>
 	<div class="container">
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
 			<div class="order-2 col-md-9 mb-5"> 
-				<h2 id="about" class="h1 mb-5">About Library</h2>
+				<h2 id="about" class="h1 mb-5">About the Library</h2>
 				<div class="form-row mb-4">
 					<div class="col-md-3">
 						<img src="<?= get_stylesheet_directory_uri(); ?>/images/library1.jpg" alt="">
@@ -40,9 +40,9 @@ get_header(); ?>
 				</div>
 				<p>The library is the heart of all learning institution. </p>
 				<p>It is synergy of people, the hardware and the software which assist clients in interpolating the knowledge and technology to transform and improve lives.
-				<p>Information and knowledge are essential to the attainment of institutional goals. The ways in which they selected, acquired, stored, accessed and distributed within Guimaras State College will, in turn, measure and determine the success of teaching, research and other academic concepts.</p>
-				<p>Located in the second floor of the Science building, the library, named after the former Governor Emily R. Lopez, offer rich opportunities for students to boots their academic performance and concretize their holistic growth though books and non- books materials.</p>
-				<p>The library maintains a regular periodical subscription to given student and faculty up-to-date information which are never contained in books yet. Inter-library services with some academic libraries in the city and province of Iloilo are also fostered.</p>
+				<p>Information and knowledge are essential to the attainment of institutional goals. The ways in which they selected, acquired, stored, accessed and distributed within Guimaras State College will measure and determine the success of teaching, research and other academic concepts.</p>
+				<p>Located in the second floor of the Science building, the library, named after the former Governor Emily R. Lopez, offer rich opportunities for students to boost their academic performance and concretize their holistic growth through books and non-books materials.</p>
+				<p>The library maintains a regular periodical subscription to give students and faculty up-to-date information which are not yet contained in books. Inter-library services with some academic libraries in the city and province of Iloilo are also fostered.</p>
 				<p>The library likewise provides computer and internet services to further support learning by taking advantage of the current technologies.</p>
 				
 				<h2 id="vision" class="mb-5 mt-5">Vision, Mission &amp; Objectives</h2>
@@ -56,13 +56,13 @@ get_header(); ?>
 					<li>Support the various aspects of the institution’s research activities and teaching-learning processes;</li>
 					<li>Provide, organize and preserve relevant materials needed by the college to achieve quality and excellent education;</li>
 					<li>Uphold efficient and effective library services and guidance on the use of the materials; and</li>
-					<li>Continuously update the library facilities, equipment to keep abreast with the fast changing technology.</li>
+					<li>Continuously update the library facilities and equipment to keep abreast with the fast changing technology.</li>
 				</ol>
 			</div>
 			<div class="order-1 col-md-3 mb-4">
 				<nav class="page-sub-menu scrolling-nav mb-5">
 					<ul>
-						<li><a href="#about">About Library</a></li>
+						<li><a href="#about">About the Library</a></li>
 						<li><a href="#vision">Vision, Mission & Objectives</a></li>
 						<li><a href="<?= home_url(); ?>/library-online-services">Online Services</a></li>
 						<li><a href="<?= home_url(); ?>/library-online-resources">Online Resources</a></li>

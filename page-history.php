@@ -57,7 +57,7 @@ get_header(); ?>
 					<div class="event right">
 						<h2 class="h2">2000</h2>
 						<p>In June 2000, a consultation and public hearing on House Bill nos. 7382 and 5807 sponsored by Representative Emily R. Lopez of the Lone District of Guimaras was conducted at the GPC Function Room. </p>
-						<p>With 179 registered participants from public and private sectors in attendance, all sectoral representatives expressed full support for the conversion of GPC, Buenavista and West Visayas College of Science and Technology (WVCST)-Mosqueda Campus in the Municipality of Jordan, into a State College.</p>
+						<p>With 179 registered participants from public and private sectors in attendance, all sectoral representatives expressed full support for the conversion of GPC, Buenavista and Western Visayas College of Science and Technology (WVCST)-Mosqueda Campus in the Municipality of Jordan, into a State College.</p>
 					</div>
 					<div class="important event">
 						<h2 class="h2">2001</h2>

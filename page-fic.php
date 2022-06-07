@@ -24,7 +24,7 @@ get_header(); ?>
 		<main id="main" class="row pt-5 pb-5" role="main">
 			<div class="col-md-9 order-1 order-md-2 mb-5">
 				<h2 id="about" class="h2 mb-4 text-center">What is WVFIC?</h2>
-				<p>The department of Science and Technology Region VI, in partnership with Guimaras State College (GSC), have established the Western Visayas Food Innovation Center (WVFIC) intended as one-stop-shop for addressing various technology related concerns of the food processing industry-particularly process and product development and related areas such as technology training and consultancy services, laboratory and testing services, packaging assistance and information services.</p>
+				<p>The Department of Science and Technology Region VI, in partnership with Guimaras State College (GSC), have established the Western Visayas Food Innovation Center (WVFIC) intended as one-stop-shop for addressing various technology related concerns of the food processing industry-particularly process and product development and related areas such as technology training and consultancy services, laboratory and testing services, packaging assistance and information services.</p>
 				<p>The WVFIC will primarily serve as venues for the conduct of R&D activities intended to produce new products, product variants, process technologies and other innovations. Moreover, the center is equipped with an array of major food processing equipment/technologies developed by DOST-industrial Technology Development Institute (ITDI) and DOST-Metals Industry Research and Development Center (MIRDC). These technologies shall be transferred to MSMEs in order to enhance the competitiveness of the food processing industry in Western Visayas. </p>
 				<hr class="mb-5 mt-5">
 
@@ -34,7 +34,7 @@ get_header(); ?>
 				<h3 class="h3">Vision</h3>
 				<p>We commit to provide innovation technologies and relevant support services to contribute to inclusive and sustained development of the food industry in Western Visayas.</p>
 				<h3 class="h3">Goal</h3>
-				<p>To produce value added agricultural and fishery food products through innovation</p>
+				<p>To produce value added agricultural and fishery food products through innovation.</p>
 				<hr class="mb-5 mt-5">
 
 				<h2 id="services" class="h2 mb-4 text-center">Our Services</h2>
@@ -44,7 +44,7 @@ get_header(); ?>
 				</div>
 				<div class="mb-4">
 					<h4 class="h4">Research and Development</h4>
-					<p>The center will serve as a venue for researchers in western Visayas to conduct R&D activities intended to produce new produce new products, product variants, process technologies and other innovations. Food technologies shall leading product and process development activities using the food processing equipment and facilities available in the center. The center could be utilized by professionals and will also be open for non-members to conduct contract researchers on agreed terms and conditions.</p>
+					<p>The center will serve as a venue for researchers in western Visayas to conduct R&D activities intended to produce new products, product variants, process technologies and other innovations. Food technologies shall leading product and process development activities using the food processing equipment and facilities available in the center. The center could be utilized by professionals and will also be open for non-members to conduct contract researchers on agreed terms and conditions.</p>
 				</div>
 				<div class="mb-4">
 					<h4 class="h4">Laboratory and Testing</h4>
@@ -52,15 +52,15 @@ get_header(); ?>
 				</div>
 				<div class="mb-4">
 					<h4 class="h4">Training and Consultancy</h4>
-					<p>Technical training and consultancy services will be provided by technical experts from DOST-RDls, sues  and other institutions as well  as  in-house technical  personnel with established competence in the areas of food product development, process improvement,  food  safety  and quality  control, sensory evaluation  and  food packaging  among others.</p>
+					<p>Technical training and consultancy services will be provided by technical experts from DOST-RDls, SUCs  and other institutions as well  as  in-house technical  personnel with established competence in the areas of food product development, process improvement,  food  safety  and quality  control, sensory evaluation  and  food packaging  among others.</p>
 				</div>
 				<div class="mb-4">
-					<h4 class="h4">Packaging and Labeling</h4>
-					<p>Assistance on the design and determination of compatible packaging materials to enhance the marketability and shelf-life of the product will be provided.  This includes the design of labels compliant with mandatory labeling requirements. A Packaging Center with packaging equipment’s will be made available to enhance capability to conduct product and process development, and other R&D activities.  On the other hand, packaging toll services will be provided   by satellite packaging centers particular1y the DOST-TSKI Design and Packaging Center.</p>
+					<h4 class="h4">Packaging and Labelling</h4>
+					<p>Assistance on the design and determination of compatible packaging materials to enhance the marketability and shelf-life of the product will be provided.  This includes the design of labels compliant with mandatory labelling requirements. A Packaging Center with packaging equipment’s will be made available to enhance capability to conduct product and process development, and other R&D activities.  On the other hand, packaging toll services will be provided by satellite packaging centers particularly the DOST-TSKI Design and Packaging Center.</p>
 				</div>
 					
 				<hr class="mb-5 mt-5">
-				<h2 id="equipments" class="h2 mb-4 text-center">Equipments</h2>
+				<h2 id="equipments" class="h2 mb-4 text-center">Equipment</h2>
 				
 				<div class="form-row">
 					<div class="col-md-4 mb-4">
@@ -145,9 +145,9 @@ get_header(); ?>
 				<nav class="page-sub-menu text-center scrolling-nav mb-5">
 					<ul>
 						<li><a href="#about">About</a></li>
-						<li><a href="#vision-mission-goals">Vision, Mission and Goals</a></li>
+						<li><a href="#vision-mission-goals">Vision, Mission and Goal</a></li>
 						<li><a href="#services">Services</a></li>
-						<li><a href="#equipments">Equipments</a></li>
+						<li><a href="#equipments">Equipment</a></li>
 					</ul>
 				</nav>
 			</div>
