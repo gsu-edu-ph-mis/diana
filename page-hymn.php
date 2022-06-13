@@ -38,7 +38,7 @@ get_header(); ?>
 				with our hearts and hands and soul.</p>
 
 				<p>In the fields and in the hall, <br>
-				she will rise and never fail; our beloved <br>
+				she will rise and never fall; our beloved <br>
 				Guimaras State College, our school <br>
 				in a town at the Guimaras shore.</p>
 
