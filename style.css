@@ -30,7 +30,7 @@ html {
 	color: #fff;
 }
 .top-bar.alt {
-	background: #006ea0; 
+	background: #001968; 
 	opacity: 0.95;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 .entry-title a:hover,
 .entry-title a:focus {
-	color: #007acc;
+	color: #001968;
 }
 .entry-header {
 	margin-bottom: 35px;
@@ -237,7 +237,7 @@ blockquote {
 /* Links */
 a {
 	text-decoration: none;
-	color: #007acc;
+	color: #001968;
 }
 
 a:focus,
@@ -256,7 +256,7 @@ a:focus {
 }
 .entry-content a:active {
 	color: #FFF;
-	background: #007acc;
+	background: #001968;
 }
 
 /*  */
@@ -294,7 +294,7 @@ a:focus {
 }
 .site-branding a:hover,
 .site-branding a:focus {
-	color: #007acc;
+	color: #001968;
 }
 
 /* Site branding - logo */
@@ -340,7 +340,7 @@ a:focus {
 	padding: 0;
 }
 .nav-toggle:focus {
-	box-shadow: 0 0 1px 1px #007acc;
+	box-shadow: 0 0 1px 1px #001968;
 }
 .nav-toggle .icon-bar {
 	position: absolute;
@@ -361,7 +361,7 @@ a:focus {
 }
 .nav-toggle:hover .icon-bar,
 .nav-toggle:focus .icon-bar{
-	background: #007acc;
+	background: #001968;
 }
 
 /* Nav toggle active */
@@ -421,7 +421,7 @@ a:focus {
 }
 .nav a:hover,
 .nav a:focus {
-	color: #007acc
+	color: #001968
 }
 .nav .current-menu-item > a {
 	color: #111111;
@@ -484,7 +484,7 @@ a:focus {
 	box-sizing: border-box;
 }
 .search-form .search-field:focus {
-	border-color: #007acc;
+	border-color: #001968;
 	box-shadow: 0 0 1px 1px #007aac;
 	outline: 0;
 }
@@ -566,11 +566,11 @@ a:focus {
 }
 .menu-expander:hover:after,
 .menu-expander:focus:after {
-	border-color: #007ACC transparent ;
+	border-color: #001968 transparent ;
 }
 .menu-expander:hover,
 .menu-expander:focus {
-	border-color: #007ACC;
+	border-color: #001968;
 }
 .menu-show > .menu-expander:after{
 	/* Up arrow */
@@ -580,7 +580,7 @@ a:focus {
 }
 .menu-show > .menu-expander:hover:after,
 .menu-show > .menu-expander:focus:after{
-	border-color: #007ACC transparent;
+	border-color: #001968 transparent;
 }
 
 
@@ -698,7 +698,7 @@ a:focus {
 
 /* Section page title */
 .section-page-title {
-	background: #006ea0;
+	background: #001968;
 	padding: 35px 0;
 }
 .section-page-title h1 {
@@ -780,13 +780,13 @@ a:focus {
 }
 
 .section-subfooter {
-	background: #2799a3;
+	background: #001968;
 	color: #dddddd;
 }
 
 /* Footer */
 .footer {
-	background: #125198;
+	background: #001968;
 	color: #dddddd;
 	padding-top: 25px;
 	padding-bottom: 30px;
@@ -1026,14 +1026,14 @@ img {
 	border-bottom: 1px solid #ccc;
 }
 .page-sub-menu ul li.current a{
-	background: #006ea0;
+	background: #001968;
 	color: #fff;
 }
 
 .quality-policy .letters {
 	font-size: 22px;
 	font-weight: bold;
-	background: #006ea0;
+	background: #001968;
 	color: #fff;
 	border-radius: 100%;
 	min-width: 40px;
@@ -1058,8 +1058,8 @@ img {
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: #006ea0;
-	background: linear-gradient(270deg, rgba(0,110,160,1) 0%, rgba(0,110,160,0) 100%); 
+	background: #001968;
+	background: linear-gradient(270deg, rgb(0, 25, 104) 0%, rgba(0,110,160,0) 100%) 
 }
 .timeline .event::after {
 	content:"";
@@ -1068,7 +1068,7 @@ img {
 	position: absolute;
 	right: -8px;
 	top: -8px;
-	background: #006ea0;
+	background: #001968;
 	border-radius: 100%;
 }
 .timeline .event.important::after {
@@ -1094,7 +1094,7 @@ img {
 	position: absolute;
 	right: -1px;
 	top: 0;
-	background: #006ea0;
+	background: #001968;
 }
 
 .timeline .event.right {
@@ -1142,14 +1142,14 @@ img {
 	overflow: hidden;
 	max-width: 250px;
 	margin: 0 auto;
-	border: 6px solid #006ea0;
+	border: 6px solid #001968;
 }
 .official-photo-2 {
 	border-radius: 100%;
 	overflow: hidden;
 	max-width: 200px;
 	margin: 0 auto;
-	border: 6px solid #006ea0;
+	border: 6px solid #001968;
 }
 .official-photo-3 {
 	border-radius: 100%;
@@ -1157,10 +1157,10 @@ img {
 	max-width: 150px;
 	min-height: 150px;
 	margin: 0 auto;
-	border: 3px solid #006ea0;
+	border: 3px solid #001968;
 }
 .official .h3{
-	color: #006ea0;
+	color: #001968;
 }
 .official .h4{
 	color: #2799a4;
@@ -1168,7 +1168,7 @@ img {
 	text-transform: none;
 }
 .official .h5{
-	color: #006ea0;
+	color: #001968;
 	font-weight: 300;
 }
 
@@ -1190,7 +1190,7 @@ img {
 	padding-bottom: 9px;
 }
 .college-logo.checked {
-	background: #006ea0;
+	background: #001968;
 	color: #fff;
 	box-shadow: none;
 }
@@ -1217,9 +1217,9 @@ img {
 .college-menu ul li a.checked {
 	padding-top: 6px;
 	padding-bottom: 4px;
-	background: #006ea0;
+	background: #001968;
 	color: #fff;
-	box-shadow: 0 0 2px #006ea0;
+	box-shadow: 0 0 2px #001968;
 }
 .college-menu a > img{
 	display: block;
@@ -1239,13 +1239,13 @@ img {
 
 .college-programs .programs > div {
 	position: relative;
-	border: 1px solid #006ea0;
+	border: 1px solid #001968;
 	padding-top:60px;
 	padding: 15px; 
 	margin: 15px;
 }
 .college-programs .programs > div:hover {
-	box-shadow: 0 0 1px #006ea0;
+	box-shadow: 0 0 1px #001968;
 	padding-top: 16px;
 	padding-bottom: 14px;
 }
@@ -1391,7 +1391,7 @@ img {
 	}
 	.nav a:hover,
 	.nav a:focus {
-		color: #007acc
+		color: #001968
 	}
 	.nav .current-menu-item > a {
 		color: #111111;
