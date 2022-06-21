@@ -23,7 +23,7 @@ get_header(); ?>
 		<h1>Welcome to <?= get_bloginfo( 'name' ); ?></h1>
 		<p>Center of Excellence in Education and Green Technology Generation</p>
 		<div class="scrolling-nav">
-			<a href="#section-features" class="btn btn-sm btn-primary">Why Enroll at GSC?</a>
+			<a href="#section-features" class="btn btn-sm btn-primary">Why Enroll at GSU?</a>
 		</div>
 		<a target="_blank" class="btn btn-sm btn-open-video" href="<?php echo get_stylesheet_directory_uri(); ?>/media/home.mp4">
 			<svg style="width:24px;height:24px" viewBox="0 0 24 24"><path fill="white" d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5Z" /></svg>

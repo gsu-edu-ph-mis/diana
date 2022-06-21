@@ -61,9 +61,9 @@
                 <div class="logo text-center">
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="d-inline-block">
 						<?php if (is_home() || is_front_page()): ?>
-							<img src="<?php echo get_template_directory_uri(); ?>/images/logo.anim.min.svg" width="150" height="150" alt="GSC">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-gsu.png" width="150" height="150" alt="GSC">
 						<?php else: ?>
-							<img src="<?php echo get_template_directory_uri(); ?>/images/logo.min.svg" width="125" height="125" alt="GSC">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/logo-gsu.png" width="150" height="150" alt="GSC">
 						<?php endif; ?>
 					</a>
                 </div>
