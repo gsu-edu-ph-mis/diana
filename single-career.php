@@ -43,10 +43,6 @@ get_header(); ?>
 						<td><?php echo $job_post_meta['diana_career_place_of_assignment']; ?></td>
 					</tr>
 					<tr>
-						<td><strong>Position</strong></td>
-						<td><?php echo $job_post_meta['diana_career_position_title']; ?></td>
-					</tr>
-					<tr>
 						<td><strong>Plantilla Item No.</strong></td>
 						<td><?php echo $job_post_meta['diana_career_plantilla']; ?></td>
 					</tr>
