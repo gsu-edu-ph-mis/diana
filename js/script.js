@@ -71,7 +71,7 @@ jQuery(document).ready(function($) {
             if(href.includes('#')){
 
                 $('html,body').animate({
-                    scrollTop: $(href).offset().top
+                    scrollTop: $(href).offset().top - 40
                 }, 400, 'swing', function(){
                     window.location.hash = href;
                 });
