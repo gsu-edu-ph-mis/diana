@@ -39,9 +39,9 @@ get_header(); ?>
 
 				<p>This initiative is envisioned as a step in the right direction towards solidifying the position of the Philippines as the Pearl of the Orient – a shining example for democratic virtue in the region.</p>
 
-				<h2 class="h2 mt-5">National Budget Circular No. 542</h2>
+				<!-- <h2 class="h2 mt-5">National Budget Circular No. 542</h2>
 
-				<p>A Transparency Seal, prominently displayed on the main page of the website of a particular government agency, is a certificate that it has complied with the requirements of <a target="_blank" href="https://www.dbm.gov.ph/wp-content/uploads/Issuances/2012/National%20Budget%20Circular/NBC542/NBC542.pdf">Section 93 of National Budget Circular No. 542</a>.</p>
+				<p>A Transparency Seal, prominently displayed on the main page of the website of a particular government agency, is a certificate that it has complied with the requirements of <a target="_blank" href="https://www.dbm.gov.ph/wp-content/uploads/Issuances/2012/National%20Budget%20Circular/NBC542/NBC542.pdf">Section 93 of National Budget Circular No. 542</a>.</p> -->
 
 
 				<ol type="I" class="pl-5 pt-5">
@@ -265,13 +265,24 @@ get_header(); ?>
 					</li>
 					<li id="dbm-approved">DBM Approved Budget and Corresponding Targets 
 						<ol type="A">
-							<li>Budget for FY 2022</li><li>GAA Targets for FY 2022</li><li><a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://drive.google.com/file/d/1G6zKcoe45oXyTwg-oZJMSuw2yDdApg0h/preview" target="_blank">Budget for FY 2021</a></li><li><a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://drive.google.com/file/d/1run4JbR8Wxi4x6NXdT602EcNBiy-51A8/preview" target="_blank">GAA Targets for FY 2021</a></li>
+							<li>Budget for FY 2023</li>
+							<li>GAA Targets for FY 2023</li>
+							<li><a href="https://drive.google.com/file/d/1MP4Q_QTY0PcQ1RQvpVnn0Xd36noBuLKT/preview">Budget for FY 2022</a></li>
+							<li><a href="https://drive.google.com/file/d/105KxyvxgwRR4KcQ_doImXrhU7hiC6HWT/preview">GAA Targets for FY 2022</a></li>
+							<!-- <li><a href="https://drive.google.com/file/d/1G6zKcoe45oXyTwg-oZJMSuw2yDdApg0h/preview" target="_blank">Budget for FY 2021</a></li>
+							<li><a href="https://drive.google.com/file/d/1run4JbR8Wxi4x6NXdT602EcNBiy-51A8/preview" target="_blank">GAA Targets for FY 2021</a></li> -->
 						</ol>
 					</li>
 					<li id="ppabsi">Projects, Programs and Activities, Beneficiaries, and Status of Implementation (not applicable)</li>
-					<li id="app">FY 2021 Annual Procurement Plan (FY 2021 APP non-CSE), Indicative FY 2022 APP non-CSE; and FY 2022 APP for Common-Supplies and Equipment (FY 2022 APP CSE);
+					<li id="app">Annual Procurement Plan
 						<ol type="A">
-							<li><a href="/fy-2021-app-non-cse/">FY 2021 APP Non-CSE</a></li><li><a href="/fy-2021-app-cse/">FY 2021 APP CSE</a></li><li><a href="https://drive.google.com/file/d/1hWvp1cUHvGxY2ko6dF89BfosPc7TUdNE/preview">FY 2022 APP Indicative APP Non-CSE</a></li><li><a href="https://drive.google.com/file/d/1n-y1TgLOO0mLRotiywqsa6aM8Im6pU5h/preview">FY 2022 APP-CSE</a></li><li><a href="https://drive.google.com/file/d/1PoQaRUSrObbMZONfjRd7jg6oMQfbEaGo/preview">FY 2022 APP Non CSE</a></li>
+							<!-- <li><a href="/fy-2021-app-non-cse/">FY 2021 APP Non-CSE</a></li>
+							<li><a href="/fy-2021-app-cse/">FY 2021 APP CSE</a></li> -->
+							<!-- <li><a href="https://drive.google.com/file/d/1hWvp1cUHvGxY2ko6dF89BfosPc7TUdNE/preview">FY 2022 APP Indicative APP Non-CSE</a></li>
+							<li><a href="https://drive.google.com/file/d/1n-y1TgLOO0mLRotiywqsa6aM8Im6pU5h/preview">FY 2022 APP-CSE</a></li> -->
+							<li>FY 2023 APP Indicative APP Non-CSE</li>
+							<li>FY 2023 APP-CSE</li>
+							<li><a href="https://drive.google.com/file/d/1PoQaRUSrObbMZONfjRd7jg6oMQfbEaGo/preview">FY 2022 APP Non CSE</a></li>
 						</ol>
 					</li>
 					<li id="qms">QMS Certification 
@@ -279,7 +290,11 @@ get_header(); ?>
 							<li><a href="https://drive.google.com/file/d/1o-lxWJcYUTVb9z4qkYLB8w0BzIb6qB78/preview">Quality Management System (QMS) Certificate (ISO 9001:2015)</a></li>
 						</ol>
 					</li>
-					<li id="srdu">System of Ranking Delivery Units for FY 2021 PBB</li>
+					<li id="srdu">Designation of the Agency’s Committee on Anti-Red Tape (CART)
+						<ol type="A">
+							<li><a href="https://drive.google.com/file/d/1LPpxsP7tHT1Ge9IhwOZUkFuDvtZzoDuF/preview">Committee on Anti-Red Tape (CART)</a></li>
+						</ol>
+					</li>
 					<li id="sfd">The Agency Review and Compliance Procedure of Statements and Financial Disclosures 
 
 						<ol type="A">
@@ -287,13 +302,33 @@ get_header(); ?>
 						</ol>
 					</li>
 					<li id="foi">People’s Freedom of Information (FOI) 
-						<ol type="A"><li><a href="https://drive.google.com/file/d/1yJvktitjpbVMju6Ba7FA--83GNni6dKX/preview">2021 FOI Inventory</a></li><li><a href="https://drive.google.com/file/d/1LRNUxSCe0JadGnoGYUJK4qDWdcEy0hmZ/preview">2021 FOI Registry</a></li><li><a href="https://drive.google.com/file/d/1oJ9A7vO6h2EXWlNJjIZCGZZ-iE9KBdf1/preview">2021 FOI Summary</a></li><li><a href="https://drive.google.com/file/d/18wvQBBi3y2Kv4DkxOb799BpIjmGoPJmv/preview">Agency Information Inventory 2021</a></li><li><a href="https://drive.google.com/file/d/1t7QlGsMhjrnTeI41Smx8zLRD-ht3Y5rA/preview">Peoples FOI Manual With Signature 2021</a></li><li><a href="https://drive.google.com/file/d/1BH_5OcMSY2w44jEwIiu3CBatZABdfDuh/view">Manual signed by head of agency</a></li><li><a href="https://drive.google.com/file/d/17haVzhSEnfMUO-LRZY5yaRnIEtLxZoxS/preview">Agency Information Inventory, 2021 FOI Summary Report and 2021 FOI Registry</a></li></ol>
+						<ol type="A">
+							<li>2022 FOI Inventory</li>
+							<li>2022 FOI Registry</li>
+							<li>2022 FOI Summary</li>
+							<li>Agency Information Inventory 2022</li>
+							<li>Peoples FOI Manual With Signature 2022</li>
+							<li>Manual signed by head of agency</li>
+							<li>Agency Information Inventory, 2022 FOI Summary Report and 2022 FOI Registry</li>
+						</ol>
+						<!-- <ol type="A">
+							<li><a href="https://drive.google.com/file/d/1yJvktitjpbVMju6Ba7FA--83GNni6dKX/preview">2021 FOI Inventory</a></li>
+							<li><a href="https://drive.google.com/file/d/1LRNUxSCe0JadGnoGYUJK4qDWdcEy0hmZ/preview">2021 FOI Registry</a></li>
+							<li><a href="https://drive.google.com/file/d/1oJ9A7vO6h2EXWlNJjIZCGZZ-iE9KBdf1/preview">2021 FOI Summary</a></li>
+							<li><a href="https://drive.google.com/file/d/18wvQBBi3y2Kv4DkxOb799BpIjmGoPJmv/preview">Agency Information Inventory 2021</a></li>
+							<li><a href="https://drive.google.com/file/d/1t7QlGsMhjrnTeI41Smx8zLRD-ht3Y5rA/preview">Peoples FOI Manual With Signature 2021</a></li>
+							<li><a href="https://drive.google.com/file/d/1BH_5OcMSY2w44jEwIiu3CBatZABdfDuh/preview">Manual signed by head of agency</a></li>
+							<li><a href="https://drive.google.com/file/d/17haVzhSEnfMUO-LRZY5yaRnIEtLxZoxS/preview">Agency Information Inventory, 2021 FOI Summary Report and 2021 FOI Registry</a></li>
+						</ol> -->
 						
 					</li>
 					<li id="ara">Agency’s Report on Aging of Unliquidated Cash Advances to Offices and Employees, Cash Disbursing Officer and Special Disbursing Officers
 						<ol type="A">
-							<li><a href="https://drive.google.com/file/d/1xRtPez79S1XrrncGeqvI1s95_dCQ_ZOO/preview">as of November 15, 2021</a></li>
+							<li>as of 2022</li>
 						</ol>
+						<!-- <ol type="A">
+							<li><a href="https://drive.google.com/file/d/1xRtPez79S1XrrncGeqvI1s95_dCQ_ZOO/preview">as of November 15, 2021</a></li>
+						</ol> -->
 					</li>
 					<li id="accountability">Accountability Report Card
 						<ol type="A">
@@ -360,7 +395,7 @@ get_header(); ?>
 						<li>
 							<a class="d-flex" href="#srdu">
 								<span class="pr-2">VII. </span>
-								<span>System of Ranking Delivery Units</span>
+								<span>Designation of the Agency’s Committee on Anti-Red Tape (CART)</span>
 							</a>
 						</li>
 						<li>
