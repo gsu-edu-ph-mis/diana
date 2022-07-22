@@ -192,6 +192,10 @@ function diana_scripts() {
 	if(is_page('map')){
 		wp_enqueue_script( 'leaflet-js', get_template_directory_uri() . '/leaflet/leaflet.js', array(), false, true );
 	}
+	if(is_page('academic-programs')){
+		wp_enqueue_script( 'vuejs', get_template_directory_uri() . '/js/vue.js', array(), false, true );
+		wp_enqueue_script( 'programs', get_template_directory_uri() . '/js/programs.js', array(), false, true );
+	}
 	wp_enqueue_script( 'diana-script', get_template_directory_uri() . '/js/script.js', array(), false, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -209,6 +213,8 @@ function diana_defer_scripts( $tag, $handle, $src ) {
 	  'moment-timezone-with-data-10-year-range',
 	  'simcal-qtip',
 	  'simplecalendar-imagesloaded',
+	  'vuejs',
+	  'programs',
 	  'diana-script'
 	);
 	if ( in_array( $handle, $defer ) ) {
