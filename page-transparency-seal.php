@@ -330,26 +330,7 @@ get_header(); ?>
 							<li><a href="https://drive.google.com/file/d/1xRtPez79S1XrrncGeqvI1s95_dCQ_ZOO/preview">as of November 15, 2021</a></li>
 						</ol> -->
 					</li>
-					<li id="accountability">Accountability Report Card
-						<ol type="A">
-							<li>MFO Accountability Report Card (MARC-1) 
-
-								<ul>
-									<li><a href="https://drive.google.com/file/d/16KyNjKWYy9yAZ_7pMhbHc6w84CYfE9F5/preview">2020</a></li>
-									<li><a href="https://drive.google.com/file/d/1nH1M0ycuIK84bsX2MFg0g5n5XxiwkhL7/preview">2019</a></li>
-								</ul>
-
-							</li>
-							<li>Management Accountability Report Card (MARC-2)  
-
-								<ul>
-									<li><a href="https://drive.google.com/file/d/1g0nZ5uUqP65MJH4JSK2TFCGXLsoaT9pf/preview">2020</a></li>
-									<li><a href="https://drive.google.com/file/d/13G3s5RtV8rMEXyUtFw-mEl5pkYocDqGT/preview">2019</a></li>
-								</ul>
-
-							</li>
-						</ol>
-					</li>
+					
 				</ol>
 			</div>
 			<div class="order-1 col-md-3 mb-5">
@@ -416,12 +397,7 @@ get_header(); ?>
 								<span>Agency’s Report on Aging of Unliquidated Cash Advances to Offices and Employees, Cash Disbursing Officer and Special Disbursing Officers</span>
 							</a>
 						</li>
-						<li>
-							<a class="d-flex" href="#accountability">
-								<span class="pr-3">XI. </span>
-								<span>Accountability Report Card</span>
-							</a>
-						</li>
+						
 					</ul>
 				</nav>
 			</div>
