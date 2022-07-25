@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Board of Trustees
+ * Template Name: Board of Regents
  *
  * The template for displaying pages
  *
@@ -26,7 +26,7 @@ get_header(); ?>
 				<div class="college mb-5 pb-5">
 					<div class="row mb-5 align-items-end">
 						
-						<div class="col-md-4 official">
+						<div class="col-md-6 official">
 							<div class="official-photo mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/prospero.devera.jpg" alt="Profile Photo">
 							</div>
@@ -34,46 +34,41 @@ get_header(); ?>
 							<h4 class="h4">Commissioner, Commission on Higher Education</h4>
 							<h4 class="h4">Chairperson</h4>
 						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-2 mb-3">
+						<div class="col-md-6 official">
+							<div class="official-photo mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/lilian-parreno.jpg" alt="Lilian">
 							</div>
 							<h3 class="h3">Hon. Lilian Diana B. Parreño</h3>
-							<h4 class="h4">College President</h4>
-							<h4 class="h4">Vice Chairperson</h4>
-						</div>
-						<div class="col-md-4">
+							<h4 class="h4">University President</h4>
+							<h4 class="h4">Vice Chair, GSU Board of Regents</h4>
 						</div>
 					</div>
 					<div class="row mb-5">
-						<div class="col-md-4 official ">
+						<div class="col-md-6 official ">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/joel.villanueva.jpg" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. Joel J. Villanueva</h3>
-							<h4 class="h4">Chairman, Committee on Higher, Technical Education and Vocational Education</h4>
+							<h4 class="h4">Chairman, Committee on Higher, Technical and Vocational Education</h4>
 							<h4 class="h4">Member</h4>
+							<h4 class="h4">Represented by: <strong>Hon. Luquin Sartorio</strong></h4>
 						</div>
-						<div class="col-md-4 official ">
+						<div class="col-md-6 official ">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/mark.go.jpg" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. Mark O. Go</h3>
 							<h4 class="h4">Chairman, Committee on Higher Education and Technical Education of the House of Representatives</h4>
-						</div>
-						<div class="col-md-4 official ">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/lucille.nava.jpg" alt="Profile Photo">
-							</div>
-							<h3 class="h3">Hon. Congw. Ma. Lucille L. Nava</h3>
-							<h4 class="h4">Representing Hon. Mark O. Go.</h4>
 							<h4 class="h4">Member</h4>
+							<h4 class="h4">Represented by: <strong>Hon. Congw. Ma. Lucille L. Nava</strong></h4>
 						</div>
+					</div>
+					<div class="row mb-5">
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/meylene.rosales.jpg" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/arecio.casing.jpg" alt="Profile Photo">
 							</div>
-							<h3 class="h3">Hon. Meylene C. Rosales</h3>
+							<h3 class="h3">Hon. Arecio A. Casing, Jr.</h3>
 							<h4 class="h4">Regional Director, National Economic & Development Authority (NEDA) Region VI – Western Visayas</h4>
 							<h4 class="h4">Member</h4>
 						</div>
@@ -126,6 +121,14 @@ get_header(); ?>
 							<h4 class="h4">Representative, Federated Alumni Association</h4>
 							<h4 class="h4">Member</h4>
 						</div>
+						<!-- <div class="col-md-4 official ">
+							<div class="official-photo-2 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/celine.eulin.jpg" alt="Profile Photo">
+							</div>
+							<h3 class="h3">Hon. Celine D. Eulin</h3>
+							<h4 class="h4">President, Federated Student Republic</h4>
+							<h4 class="h4">Member</h4>
+						</div> -->
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="Profile Photo">
