@@ -43,13 +43,13 @@
 	<section id="section-apps" class="section-apps pt-5 pb-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-3">
+				<div class="col-4">
 					<a href="http://siasonline.gsc.edu.ph" class="btn d-flex justify-content-center align-items-end flex-wrap">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/siaso.png" alt="SIASOnline">
 						<span>Online</span>
 					</a>
 				</div>
-				<div class="col-3">
+				<div class="col-4">
 					<a href="https://www.facebook.com/GuimarasStateUniversity" class="btn d-flex justify-content-center align-items-center flex-wrap">
 						<svg style="width:32px;height:32px" viewBox="0 0 24 24">
 							<path fill="currentColor" d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
@@ -57,13 +57,8 @@
 						<span>Facebook</span>
 					</a>
 				</div>
-				<div class="col-3">
-					<a href="<?= home_url('/citizens-charter'); ?>" class="btn d-flex justify-content-center align-items-center flex-wrap">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/charter.png" alt="Citizens Charter">
-						<span>Citizen's Charter</span>
-					</a>
-				</div>
-				<div class="col-3">
+				
+				<div class="col-4">
 					<a href="https://hris.gsc.edu.ph" class="btn d-flex justify-content-center align-items-center flex-wrap">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hris.png" alt="HRIS">
 						<span>HRIS</span>
@@ -75,21 +70,26 @@
 	<section class="pt-5 pb-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<a href="<?= home_url(); ?>/transparency-seal"><img class="mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/images/transparency-seal-sm.png" width="200" height="200" alt="TS"></a>
 					<h2 class="h3 mb-4">Transparency Seal</h2>
 					<p class="text-left">A pearl buried inside a tightly-shut shell is practically worthless. Government information is a pearl, meant to be shared with the public in order to maximize its inherent value. </p>
 
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<a href="https://arta.gov.ph/"><img class="mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/images/arta-sm.png" width="200" height="200" alt="ARTA"></a>
 					<h2 class="h3 mb-4">ARTA</h2>
 					<p class="text-left">A Philippine Government that is clean, just, highly efficient, technology-enabled and people-centered which enables a high-trust society with a globally competitive service and business environment.</p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<a href="https://www.foi.gov.ph/"><img class="mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/images/FOI-logo-sm.png" width="200" height="200" alt="FOI"></a>
 					<h2 class="h3 mb-4">Freedom of Information</h2>
 					<p class="text-left">Freedom of Information aims to promote an open government by increasing the transparency of the executive branch and its agencies.</p>
+				</div>
+				<div class="col-md-3">
+					<a href="<?= home_url('/citizens-charter'); ?>"><img class="mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" width="200" height="200" alt="FOI"></a>
+					<h2 class="h3 mb-4">Citizen's Charter</h2>
+					<p class="text-left">Contains the most current and updated service standards of the Guimaras State University.</p>
 				</div>
 			</div>
 		</div>
