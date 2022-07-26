@@ -1360,6 +1360,11 @@ img {
 .tooltip {
 	font-size: 14px;
 }
+
+iframe {
+	background: #d1d1d1;
+}
+
 .college-programs .programs > div {
 	position: relative;
 	border: 1px solid #001968;
