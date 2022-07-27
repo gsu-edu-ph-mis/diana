@@ -304,3 +304,110 @@ function diana_entry_share(){
 	</div>
 	<?php 
 }
+
+/**
+ * Get array of weekdays with varying weekstart
+ */
+function kalendaryo_get_week_days($weekStart = 0) {
+	$weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    return array_merge(array_slice($weekDays, $weekStart), array_slice($weekDays, 0, $weekStart));
+}
+
+function kalendaryo_get_prefix($momentDate, $weekStart = 0){
+
+	if ($weekStart < 0 || $weekStart > 6) {
+        throw new Error('Invalid param. Weekstart must be 0-6.');
+    }
+
+    $weekDayFirst = (int)((clone $momentDate)->modify('first day of this month')->format('w')); // First day of week. Zero-based. 0-6
+
+	// Prefix length formula
+    $prefixLength = $weekDayFirst - $weekStart;
+    if ($prefixLength < 0) {
+        $prefixLength += 7;
+    }
+
+	$prevMonthDays = (clone $momentDate)->modify('first day of previous month')->format('t');
+	$prefix = ($prevMonthDays > 0) ? range(1, $prevMonthDays) : []; // Get previous month's total number of days and place it in an array
+
+    $prefix = array_slice($prefix, count($prefix) - $prefixLength); // Cut the parts we need
+
+
+    $prefix = array_map(function($i) use ($momentDate){
+		$d = clone $momentDate;
+		$d->modify('first day of previous month');
+		$d->setDate($d->format('Y'), $d->format('m'), $i);
+		return array(
+			'type' => 'prefix',
+			'date' => $d,
+			'key' => $d->format('Ymd'),
+			'events' => []
+		);
+    }, $prefix);
+
+    return $prefix;
+}
+
+
+function kalendaryo_get_suffix($momentDate, $weekStart = 0) {
+
+	if ($weekStart < 0 || $weekStart > 6) {
+        throw new Error('Invalid param. Weekstart must be 0-6.');
+    }
+
+    $weekDayLast = (int)((clone $momentDate)->modify('last day of this month')->format('w')); // This months last day of week. Zero-based. 0-6
+
+	// Suffix length formula
+    $weekDays = 6; // 0-6 (7) days in a week
+    $suffixLength = $weekDays - ($weekDayLast - $weekStart);
+    if ($suffixLength > 6) {
+        $suffixLength = $suffixLength - $weekDays - 1;
+    }
+
+	$suffix = ($suffixLength > 0) ? range(1, $suffixLength) : []; // Get previous month's total number of days and place it in an array
+
+	$suffix = array_map(function($i) use ($momentDate){
+		$d = clone $momentDate;
+		$d->modify('first day of next month');
+		$d->setDate($d->format('Y'), $d->format('m'), $i);
+        return array(
+			'type' => 'suffix',
+			'date' => $d,
+			'key' => $d->format('Ymd'),
+			'events' => []
+		);
+    }, $suffix);
+    return $suffix;
+}
+
+
+function kalendaryo_get_days($momentDate, $weekStart = 0) {
+
+	$totalDays = $momentDate->format('t');
+    $daysArray = range(1, $totalDays);
+
+    $daysArray = array_map(function($day) use ($momentDate) {
+        $d = new DateTime();
+		$d->setDate($momentDate->format('Y'), $momentDate->format('m'), $day);
+		return array(
+			'type' => 'day',
+			'date' => $d,
+			'key' => $d->format('Ymd'),
+			'events' => []
+		);
+    }, $daysArray);
+
+    $daysArray = array_merge(kalendaryo_get_prefix($momentDate, $weekStart), $daysArray, kalendaryo_get_suffix($momentDate, $weekStart));
+    return $daysArray;
+}
+
+/**
+ * Split 1D array into chunk of 7 (2D array)
+ */
+function kalendaryo_get_matrix($momentDate, $weekStart = 0) {
+    $weekDays = kalendaryo_get_week_days($weekStart);
+    $daysArray = kalendaryo_get_days($momentDate, $weekStart);
+    $daysArray = array_merge($weekDays, $daysArray);
+    $matrix = array_chunk($daysArray, 7);
+    return $matrix;
+}
