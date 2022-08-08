@@ -31,8 +31,8 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/prospero.devera.jpg" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. J. Prospero E. De Vera, III</h3>
-							<h4 class="h4">Commissioner, Commission on Higher Education</h4>
-							<h4 class="h4">Chairperson</h4>
+							<h4 class="h4">Chairman, Commission on Higher Education</h4>
+							<h4 class="h4">Chairman, GSU Board of Regents</h4>
 						</div>
 						<div class="col-md-6 official">
 							<div class="official-photo mb-3">
@@ -58,7 +58,7 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/mark.go.jpg" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. Mark O. Go</h3>
-							<h4 class="h4">Chairman, Committee on Higher Education and Technical Education of the House of Representatives</h4>
+							<h4 class="h4">Chairman, Committee on Higher and Technical Education of the House of Representatives</h4>
 							<h4 class="h4">Member</h4>
 							<h4 class="h4">Represented by: <strong>Hon. Congw. Ma. Lucille L. Nava</strong></h4>
 						</div>
@@ -121,28 +121,28 @@ get_header(); ?>
 							<h4 class="h4">Representative, Federated Alumni Association</h4>
 							<h4 class="h4">Member</h4>
 						</div>
-						<!-- <div class="col-md-4 official ">
+						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/celine.eulin.jpg" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. Celine D. Eulin</h3>
 							<h4 class="h4">President, Federated Student Republic</h4>
 							<h4 class="h4">Member</h4>
-						</div> -->
-						<div class="col-md-4 official ">
+						</div>
+						<!-- <div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. John Kin I. Guzman</h3>
 							<h4 class="h4">President, Federated Student Republic</h4>
 							<h4 class="h4">Member</h4>
-						</div>
+						</div> -->
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/janet.aleman.jpg" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Mrs. Janet R. Aleman</h3>
-							<h4 class="h4">College Board Secretary</h4>
+							<h4 class="h4">University Board Secretary</h4>
 						</div>
 					</div>
 				</div>
