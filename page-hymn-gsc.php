@@ -33,9 +33,11 @@ get_header(); ?>
 				</ul>
 
 				<div class="tab-content">
-					<div class="bg-white border border-top-0 p-4 pt-5" role="tabpanel">
+					<div class="bg-white border border-top-0 p-4 pt-5 hymn-lyrics" role="tabpanel">
 						<h2 class="h1">Guimaras State College Hymn</h2>
-						<p>By: Juan N. Palmos Jr.</p>
+						<p class="credits">
+							<small>By: Juan N. Palmos Jr.</small>
+						</p>
 
 						<div class="mb-5">
 							<iframe width="100%" height="auto" style="max-width: 680px; min-height:315px; border: 6px solid #006ea0; border-radius: 2px" src="https://www.youtube.com/embed/wwouEKB9Y1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

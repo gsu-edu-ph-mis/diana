@@ -1252,6 +1252,9 @@ img {
 	font-size: 24px;
 	margin-bottom: 50px;
 }
+.hymn .credits small {
+	font-size: 16px;
+}
 
 .official {
 	text-align: center;
@@ -1779,13 +1782,23 @@ iframe {
 		padding-top: 30px;
 		text-align: left;
 	}
+	.hymn h2 {
+		font-size: 22px;
+	}
+	.hymn p {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.hymn .credits small {
+		font-size: 12px;
+	}
 }
 @media (max-width:560px){
 	.opres {
 		margin-top: -10px; 
 	}
 }
-@media (max-width:450px){
+@media (max-width:460px){
 	.opres {
 		margin-top: 0; 
 	}
@@ -1795,5 +1808,12 @@ iframe {
 	}
 	.section-video-overlay h1 {
 		font-size: 15px;
+	}
+	.hymn p {
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+	.hymn .credits small {
+		font-size: 9px;
 	}
 }

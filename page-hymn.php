@@ -32,13 +32,13 @@ get_header(); ?>
 					</li>
 				</ul>
 				<div class="tab-content">
-  					<div class="bg-white border border-top-0 p-4 pt-5">
+  					<div class="bg-white border border-top-0 p-4 pt-5 hymn-lyrics">
 						<h2 class="mb-4">Guimaras State University Hymn</h2>
-						<div class="mb-5">
+						<p class="credits mb-5">
 							<small>Based on the original lyrics of GSC March by Juan Palmos, Jr. <br>
 							Rearranged by Mary Elizabeth Parreño, Prof. Josie H. Gaitano &amp; Dr. Roger Rueda <br>
 							Music by Argiel Resurreccion &amp; Roque Magsipoc</small>
-						</div>
+						</p>
 
 						<div class="mb-5">
 							<audio controls autoplay src="<?php echo get_stylesheet_directory_uri(); ?>/media/gsu-orchestra.mp3">
