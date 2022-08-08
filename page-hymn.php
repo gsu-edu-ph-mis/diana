@@ -23,48 +23,62 @@ get_header(); ?>
 	<div class="container">
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
 			<div class="col-md-9 order-1 order-md-2 mb-5 text-center hymn">
-				<h2 class="h1">GSC Hymn</h2>
-				<p>By: Juan N. Palmos Jr.</p>
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="nav-item" role="presentation">
+						<a class="nav-link active" href="<?= home_url('/hymn'); ?>">GSU Hymn</a>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a class="nav-link" href="<?= home_url('/hymn-gsc'); ?>">GSC Hymn</a>
+					</li>
+				</ul>
+				<div class="tab-content">
+  					<div class="bg-white border border-top-0 p-4 pt-5">
+						<h2 class="mb-4">Guimaras State University Hymn</h2>
+						<div class="mb-5">
+							<small>Based on the original lyrics of GSC March by Juan Palmos, Jr. <br>
+							Rearranged by Mary Elizabeth Parreño, Prof. Josie H. Gaitano &amp; Dr. Roger Rueda <br>
+							Music by Argiel Resurreccion &amp; Roque Magsipoc</small>
+						</div>
 
-				
-				<div class="mb-5">
-					<iframe width="100%" height="auto" style="max-width: 680px; min-height:315px; border: 6px solid #006ea0; border-radius: 2px" src="https://www.youtube.com/embed/wwouEKB9Y1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					
-				</div>
+						<div class="mb-5">
+							<audio controls autoplay src="<?php echo get_stylesheet_directory_uri(); ?>/media/gsu-orchestra.mp3">
+								Your browser does not support the
+								<code>audio</code> element.
+							</audio>
+						</div>
 
-				<p>In a town at the Guimaras shore <br>
-				stands a school we all honor <br>
-				GSC that we all adore, <br>
-				with our hearts and hands and soul.</p>
+						<p>In the towns on the Guimaras shores <br>
+						stands the University we all honor— <br>
+						GSU, whom we all adore, with our hearts <br>
+						and minds and souls.</p>
 
-				<p>In the fields and in the hall, <br>
-				she will rise and never fall; our beloved <br>
-				Guimaras State College, our school <br>
-				in a town at the Guimaras shore.</p>
+						<p>In the hall and throughout the world, <br>
+						she will rise and never fall, <br>
+						our beloved Guimaras State University, <br>
+						a center of excellence and green technology.</p>
 
-				<p>It is true we are young but in judgement old <br>
-				lead us on GSC make our hearts strong and bold <br>
-				lift your banner high, flying in the sky <br>
-				let your sons and daughters all shout; <br>
-				Mabuhay, Mabuhay!</p>
+						<p>Excellent in education and champions of the Earth, <br>
+						we are future global builders pushing boundaries, <br>
+						chasing our dreams, lifting our banners high up into the sky, <br>
+						the world cheering for the children, <em>Mabuhay! Mabuhay!</em></p>
 
-				<p>In this school in the Western shore, <br>
-				we are brothers and sisters all <br>
-				together we've one purpose sure; <br>
-				for the success of our school.</p>
+						<p>A university for all in this part of the western shore,<br>
+						brothers and sisters united for a common goal<br>
+						to lift each other up through education and culture<br>
+						for the success of one and all.</p>
 
-				<p>In the fields and in the hall, <br>
-				we are ready to heed her call <br>
-				our Beloved Guimaras State College, our school <br>
-				in a town at the Guimaras shore.</p>
+						<p>In the hall and throughout the world,<br>
+						we are ready to heed her call,<br>
+						our beloved Guimaras State University<br>
+						in the towns on the Guimaras shores.</p>
 
-				<div class="mb-5 pt-5">
-					<h2 class="h2">Audio Only</h2>
-					<p class="mb-4">For the audio only, minus one, play it here.</p>
-					<audio controls src="<?php echo get_stylesheet_directory_uri(); ?>/media/gsc-hymn-audio-only.mp3">
-						Your browser does not support the
-						<code>audio</code> element.
-					</audio>
+						<p>Excellent in education and champions of the Earth, <br>
+						we are future global builders pushing boundaries, <br>
+						chasing our dreams, lifting our banners high up into the sky, <br>
+						the world cheering for the children, <em>Mabuhay! Mabuhay!</em></p>
+						<p>Excellent in education, <em>Mabuhay! Mabuhay!</em></p>
+						
+					</div>
 				</div>
 			</div>
 			<div class="col-md-3 order-2 order-md-1 mb-4">
