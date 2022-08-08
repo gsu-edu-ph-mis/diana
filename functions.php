@@ -196,6 +196,11 @@ function diana_scripts() {
 		wp_enqueue_script( 'vuejs', get_template_directory_uri() . '/js/vue.js', array(), false, true );
 		wp_enqueue_script( 'programs', get_template_directory_uri() . '/js/programs.js', array(), false, true );
 	}
+	if(is_page('frames')){
+		wp_enqueue_script( 'vuejs', get_template_directory_uri() . '/js/vue.js', array(), false, true );
+		wp_enqueue_script( 'konva', 'https://unpkg.com/konva@8.3.5/konva.min.js', array(), false, true );
+		wp_enqueue_script( 'frames', get_template_directory_uri() . '/js/frames.js', array(), false, true );
+	}
 	wp_enqueue_script( 'diana-script', get_template_directory_uri() . '/js/script.js', array(), false, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -215,6 +220,8 @@ function diana_defer_scripts( $tag, $handle, $src ) {
 	  'simplecalendar-imagesloaded',
 	  'vuejs',
 	  'programs',
+	  'konva',
+	  'frames',
 	  'diana-script'
 	);
 	if ( in_array( $handle, $defer ) ) {
