@@ -61,16 +61,16 @@ get_header(); ?>
 					$weekStart = 0;
 					$weekDays = kalendaryo_get_week_days($weekStart);
 					$daysArray = kalendaryo_get_days($d, $weekStart);
-					$daysArray = array_map(function($day) use ($events){
-						// print_r($ical);
-						for ($x = 0; $x < count($events); $x++){
-							$event = $events[$x];
-							if($event->dtstart === $day['key']){
-								$day['events'][] = $event->summary;
-							}
-						}
-						return $day;
-					}, $daysArray);
+					// $daysArray = array_map(function($day) use ($events){
+					// 	// print_r($ical);
+					// 	for ($x = 0; $x < count($events); $x++){
+					// 		$event = $events[$x];
+					// 		if($event->dtstart === $day['key']){
+					// 			$day['events'][] = $event->summary;
+					// 		}
+					// 	}
+					// 	return $day;
+					// }, $daysArray);
 					$daysArray = array_merge($weekDays, $daysArray);
 					$matrix = array_chunk($daysArray, 7);
 					
