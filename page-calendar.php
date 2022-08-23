@@ -21,8 +21,8 @@ get_header(); ?>
 </div>
 <div class="site-content">
 	<div class="container">
-		<main id="main" class="row pt-5 pb-5  text-left" role="main">
-			<div class="col-md-12">
+		<main id="main" class="row pt-5 pb-5 text-left" role="main">
+			<div class="col-md-8 mb-5">
 				<?php
 				require_once str_replace('\\', '/', get_template_directory()).'/inc/ICal/Event.php';
 				require_once str_replace('\\', '/', get_template_directory()).'/inc/ICal/ICal.php';
@@ -88,8 +88,8 @@ get_header(); ?>
 						<span><?= $d->format('F Y'); ?></span>
 						<a href="?date=<?= (clone $d)->modify('first day of next month')->format('Y-m-d'); ?>" class="btn btn-light">&gt;</a>
 					</h2>
-					<div class="table-responsive">
-					<table class="table">
+					<div class="table-responsive mb-5">
+					<table class="table table-calendar">
 						<?php for($row = 0; $row < count($matrix); $row++): ?>
 							<tr>
 							<?php
@@ -130,9 +130,115 @@ get_header(); ?>
 						?>
 					</table>
 					</div>
+					<!-- .table-responsive -->
+
+					<p><em>Tip: To add this to your Google Calendar, visit the <a href="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FManila&showCalendars=0&showPrint=0&showTabs=0&src=Y183ZXIwMzJvbTlsamN1Y2Z1ZDQ3cmFkOWp0a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F09300">Calendar Link</a> <br class="d-md-block">and click the google calendar button at the bottom (<img src="<?= get_stylesheet_directory_uri(); ?>/images/calendar-add.jpg" alt="add">)</em></p>
 				<?php
 				endif;
 				?>
+			</div>
+			<div class="col-md-4 mb-5">
+				<div class="calendar-box">
+					<h2 class="h4 mb-4 text-center">For Academic Year 2022-2023</h2>
+					<div class="title-first bg-gsu-blue text-center text-white p-3">
+						<h3 class="h4 mb-0">First Semester</h3>
+						<p class="mb-0">August 22, 2022 - January 14, 2023</p>
+					</div>
+					<div class="body">
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue">
+							<div class="col-md-5">
+								<div class="p-2">Midterm Exam</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2022-10-01">October 24 - 26, 2022</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Christmas Break</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2022-12-01">December 21, 2022 - January 3, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Final Exam</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-01-01">January 12 - 13, 2022</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Semestral Break</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-01-01">January 15 - 29, 2023</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="title bg-gsu-blue text-center text-white p-3">
+						<h3 class="h4 mb-0">Second Semester</h3>
+						<p class="mb-0">January 30, 2023 - June 16, 2023</p>
+					</div>
+					<div class="body">
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue">
+							<div class="col-md-5">
+								<div class="p-2">Midterm Exam</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-03-01">March 20 - 21, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Final Exam (Graduating)</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-05-01">May 29 - 30, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Final Exam (Non-graduating)</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-06-01">June 5 - 7, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Semestral Break</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-06-01">June 18 - 25, 2023</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="title bg-gsu-blue text-center text-white p-3">
+						<h3 class="h4 mb-0">Summer Class</h3>
+						<p class="mb-0">June 26, 2023 - August 4, 2023</p>
+					</div>
+					<div class="body">
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue">
+							<div class="col-md-5">
+								<div class="p-2">Midterm Exam</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-07-01">July 12, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Final Exam </div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-08-01">August 4, 2023</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</main>
 	</div><!-- .container -->
