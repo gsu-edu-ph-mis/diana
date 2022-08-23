@@ -385,7 +385,7 @@ function kalendaryo_get_suffix($momentDate, $weekStart = 0) {
  * @param DateTime $endDate Date should be before this date to return true
  * return bool
  */
-function isDateBetweenDates(DateTime $date, DateTime $startDate, DateTime $endDate) {
+function kalendaryo_is_between_dates(DateTime $date, DateTime $startDate, DateTime $endDate) {
     return $date > $startDate && $date < $endDate;
 }
 

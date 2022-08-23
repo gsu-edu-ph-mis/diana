@@ -71,11 +71,7 @@ get_header(); ?>
 							$momentEventEnd = DateTime::createFromFormat('Ymd', $event->dtend);
 							$event->description = trim($event->description);
 							$priority = (!isset($event->description) || $event->description == false) ? 0 : (int)$event->description - 1;
-							if(isDateBetweenDates($day['date'], $momentEventStart, $momentEventEnd)){
-							// if($event->dtstart === $day['key']){
-
-								// print_r($day['date']);
-
+							if(kalendaryo_is_between_dates($day['date'], $momentEventStart, $momentEventEnd)){
 								$day['events'][$priority][] = $event->summary;
 							}
 						}
