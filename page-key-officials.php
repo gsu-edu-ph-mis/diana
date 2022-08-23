@@ -42,7 +42,7 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/lilian-parreno.jpg" width="300" height="300" alt="Profile Lilian">
 							</div>
 							<h3 class="h3">Dr. Lilian Diana B. Parreño</h3>
-							<h4 class="h4">SUC President III</h4>
+							<h4 class="h4">University President</h4>
 							
 							<div class="h5">
 								<a href="mailto:guimstate@gsc.edu.ph" class="mail">
@@ -235,17 +235,32 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/helen.vilbar.jpg" width="250" height="250" alt="Profile">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Dr. Helen R. Vilbar</h3>
+							<h3 class="h3">Dr. Bernardo G. Cagasan</h3>
 							<h4 class="h4">Dean, College of Arts and Sciences (CAS)</h4>
-							<h4 class="h4">Continuing Professional Development (CPD) Officer</h4>
-							<h4 class="h4">Program Head, Master of Arts in Education (MAEd)</h4>
+							<!-- <h4 class="h4">Continuing Professional Development (CPD) Officer</h4> -->
+							<!-- <h4 class="h4">Program Head, Master of Arts in Education (MAEd)</h4> -->
 							<div class="h5">
-								<a href="mailto:helen.vilbar@gsc.edu.ph">
+								<!-- <a href="mailto:helen.vilbar@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
 									helen.vilbar@gsc.edu.ph
-								</a>	
+								</a>	 -->
+							</div>
+						</div>
+						<div class="col-md-4 official ">
+							<div class="official-photo-2 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile">
+							</div>
+							<h3 class="h3">Dr. Reynald T. Ladera</h3>
+							<h4 class="h4">Dean, College of Criminal Justice Education (CCJE)</h4>
+							<!-- <h4 class="h4">Continuing Professional Development (CPD) Officer</h4> -->
+							<!-- <h4 class="h4">Program Head, Master of Arts in Education (MAEd)</h4> -->
+							<div class="h5">
+								<!-- <a href="mailto:helen.vilbar@gsc.edu.ph">
+									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
+									helen.vilbar@gsc.edu.ph
+								</a>	 -->
 							</div>
 						</div>
 						<div class="col-md-12 mb-4 text-center">
@@ -565,8 +580,8 @@ get_header(); ?>
 							<h4 class="h4">Director, Finance Division</h4>
 							<h4 class="h4">Member, PBB Committee</h4>
 							<h4 class="h4">Member, Project Monitoring Team</h4>
-							<h4 class="h4">Main Signatory - Authorized</h4>
-							<h4 class="h4">Approving Officer, PAG-IBIG Short Term Loan</h4>
+							<!-- <h4 class="h4">Main Signatory - Authorized</h4>
+							<h4 class="h4">Approving Officer, PAG-IBIG Short Term Loan</h4> -->
 							<div class="h5">
 								<a href="mailto:accounting@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -730,12 +745,12 @@ get_header(); ?>
 							<h3 class="h3">Jean R. Baterzal</h3>
 							<h4 class="h4">Nurse</h4>
 							<h4 class="h4">Chair, COVID-19 Task Force</h4>
-							<div class="h5">
+							<!-- <div class="h5">
 								<a href="tel:09381393637">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" /></svg>
 									09381393637
 								</a>
-							</div>
+							</div> -->
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
@@ -756,7 +771,7 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/vivieann.depamallo.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Vivie Ann G. Depamallo</h3>
-							<h4 class="h4">Head, Public Assistance and Complaints Desk (PACD)</h4>
+							<h4 class="h4">Accounting Staff</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
@@ -778,7 +793,7 @@ get_header(); ?>
 							<h3 class="h3">Grace D. Ello</h3>
 							<h4 class="h4">Secretariat, PBB Committee</h4>
 							<h4 class="h4">Liaison Officer, GSIS, PhilHealth and SSS</h4>
-							<h4 class="h4">Alternate Signatory - Authorized Approving Officer, PAG-IBIG Short Term Loan</h4>
+							<!-- <h4 class="h4">Alternate Signatory - Authorized Approving Officer, PAG-IBIG Short Term Loan</h4> -->
 							<div class="h5">
 								<a href="mailto:grace.ello@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -793,12 +808,12 @@ get_header(); ?>
 							<h3 class="h3">Prof. Josie H. Gaitano</h3>
 							<h4 class="h4">Executive Assistant to the President</h4>
 							<h4 class="h4">Member, BAC Secretariat</h4>
-							<div class="h5">
+							<!-- <div class="h5">
 								<a href="tel:09778660021">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" /></svg>
 									09778660021
 								</a>
-							</div>
+							</div> -->
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
@@ -819,7 +834,7 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/hazel.jarangue.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Hazel D. Jarangue</h3>
-							<h4 class="h4">Cashier</h4>
+							<h4 class="h4">University Cashier</h4>
 							<div class="h5">
 								<a href="mailto:hazel.jarangue@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -840,13 +855,13 @@ get_header(); ?>
 								</a>	 -->
 							</div>
 						</div>
-						<div class="col-md-4 official">
+						<!-- <div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/nestor.paez.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Nestor T. Paez</h3>
 							<h4 class="h4">Messenger</h4>
-						</div>
+						</div> -->
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/ken.pillora.jpg" width="250" height="250" alt="Profile">
@@ -868,18 +883,18 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Ma. Rechel A. Pillora</h3>
 							<h4 class="h4">Human Resource Management Officer (HRMO)</h4>
-							<h4 class="h4">Secretary, Administrative Council</h4>
-							<h4 class="h4">Alternate Signatory - Authorized Approving Officer, PAG-IBIG Short Term Loan</h4>
+							<!-- <h4 class="h4">Secretary, Administrative Council</h4>
+							<h4 class="h4">Alternate Signatory - Authorized Approving Officer, PAG-IBIG Short Term Loan</h4> -->
 							<div class="h5">
 								<a href="mailto:hrmo@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
 									hrmo@gsc.edu.ph
 								</a>	
-								|
+								<!-- |
 								<a href="tel:+09171564778">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" /></svg>
 									09171564778
-								</a>
+								</a> -->
 							</div>
 							
 						</div>
@@ -896,7 +911,7 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/regina.traifalgar.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Mrs. Regina V. Traifalgar</h3>
-							<h4 class="h4">Head Librarian</h4>
+							<h4 class="h4">University Librarian</h4>
 							<div class="h5">
 								<a href="mailto:library@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -911,12 +926,12 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Mr. Arnel P. Villa</h3>
 							<h4 class="h4">Chief, Security Services</h4>
-							<div class="h5">
+							<!-- <div class="h5">
 								<a href="tel:+639557812795">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" /></svg>
 									+63 955 781 2795
 								</a>	
-							</div>
+							</div> -->
 						</div>
 						
 						
