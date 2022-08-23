@@ -69,12 +69,14 @@ get_header(); ?>
 
 							$momentEventStart = DateTime::createFromFormat('Ymd', $event->dtstart);
 							$momentEventEnd = DateTime::createFromFormat('Ymd', $event->dtend);
+							$event->description = trim($event->description);
+							$priority = (!isset($event->description) || $event->description == false) ? 0 : (int)$event->description - 1;
 							if(isDateBetweenDates($day['date'], $momentEventStart, $momentEventEnd)){
 							// if($event->dtstart === $day['key']){
 
 								// print_r($day['date']);
 
-								$day['events'][] = $event->summary;
+								$day['events'][$priority][] = $event->summary;
 							}
 						}
 						return $day;
@@ -104,13 +106,20 @@ get_header(); ?>
 									<th width="14%" class=""><?= $cell; ?></th>
 								<?php
 								else:
+									// sort($cell['events'])
 								?>
 								<td class="p-4 position-relative" style="<?php if($cell['type']==='prefix' || $cell['type']==='suffix'): ?>color:#aaa<?php else: ?>color:#000;<?php endif; ?>">
-									<div style="min-height: 80px;">
-										<?= $cell['date']->format('d'); ?>
-										<?php for($x = 0; $x < count($cell['events']); $x++): ?>
-											<div class="position-absolutex"><?php echo $cell['events'][$x]; ?></div>
+									<div class="calendar-day">
+										<div><?= $cell['date']->format('d'); ?></div>
+										<div class="calendar-events">
+										<?php for($p = 0; $p <= 5; $p++): ?>
+											<?php if(isset($cell['events'][$p])): ?>
+												<?php for($x = 0; $x < count($cell['events'][$p]); $x++): ?>
+													<div class="calendar-entry"><?php echo $cell['events'][$p][$x]; ?></div>
+												<?php endfor; ?>
+											<?php endif; ?>
 										<?php endfor; ?>
+										</div>
 									</div>
 								</td>
 								<?php
