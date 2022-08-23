@@ -40,6 +40,7 @@ get_header(); ?>
 						'skipRecurrence'              => false, // Default value
 					));
 					$events = $ical->events();
+					// print_r($events);
 					// print_r($ical->cal);
 
 				} catch (\Exception $e) {
@@ -61,16 +62,23 @@ get_header(); ?>
 					$weekStart = 0;
 					$weekDays = kalendaryo_get_week_days($weekStart);
 					$daysArray = kalendaryo_get_days($d, $weekStart);
-					// $daysArray = array_map(function($day) use ($events){
-					// 	// print_r($ical);
-					// 	for ($x = 0; $x < count($events); $x++){
-					// 		$event = $events[$x];
-					// 		if($event->dtstart === $day['key']){
-					// 			$day['events'][] = $event->summary;
-					// 		}
-					// 	}
-					// 	return $day;
-					// }, $daysArray);
+					$daysArray = array_map(function($day) use ($events){
+						// print_r($ical);
+						for ($x = 0; $x < count($events); $x++){
+							$event = $events[$x];
+
+							$momentEventStart = DateTime::createFromFormat('Ymd', $event->dtstart);
+							$momentEventEnd = DateTime::createFromFormat('Ymd', $event->dtend);
+							if(isDateBetweenDates($day['date'], $momentEventStart, $momentEventEnd)){
+							// if($event->dtstart === $day['key']){
+
+								// print_r($day['date']);
+
+								$day['events'][] = $event->summary;
+							}
+						}
+						return $day;
+					}, $daysArray);
 					$daysArray = array_merge($weekDays, $daysArray);
 					$matrix = array_chunk($daysArray, 7);
 					
@@ -82,18 +90,14 @@ get_header(); ?>
 						<span><?= $d->format('F Y'); ?></span>
 						<a href="?date=<?= (clone $d)->modify('first day of next month')->format('Y-m-d'); ?>" class="btn btn-light">&gt;</a>
 					</h2>
+					<div class="table-responsive">
 					<table class="table">
-						<?php
-
-						for($row = 0; $row < count($matrix); $row++):
-							?>
+						<?php for($row = 0; $row < count($matrix); $row++): ?>
 							<tr>
 							<?php
 							$rowNow = $matrix[$row];
-
 							for($column = 0; $column < count($rowNow); $column++):
 								$cell = $rowNow[$column];
-
 								// print_r($cell);
 								if($row <= 0):
 								?>
@@ -120,6 +124,7 @@ get_header(); ?>
 						endfor;
 						?>
 					</table>
+					</div>
 				<?php
 				endif;
 				?>
