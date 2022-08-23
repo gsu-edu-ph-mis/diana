@@ -1521,7 +1521,7 @@ iframe {
 	.nav li {
 		position: relative;
 	}
-	.nav li:hover > a{
+	.nav-main li:hover > a{
 		background: #001968;
 		border-radius: 3px 3px 0 0;
 	}
