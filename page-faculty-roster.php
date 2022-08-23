@@ -512,9 +512,9 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/helen.vilbar.jpg" alt="">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="">
 							</div>
-							<h3 class="h3">Dr. Helen R. Vilbar</h3>
+							<h3 class="h3">Dr. Bernardo G. Cagasan</h3>
 							<h4 class="h4">Dean</h4>
 						</div>
 						<div class="col-md-4">
