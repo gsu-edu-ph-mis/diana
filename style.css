@@ -291,7 +291,7 @@ blockquote {
 /* Links */
 a {
 	text-decoration: none;
-	color: #001968;
+	color: #0062cc;
 }
 
 a:focus,
@@ -1502,6 +1502,18 @@ iframe {
 	}
 	.nav li {
 		position: relative;
+	}
+	.nav li:hover > a{
+		background: #001968;
+		border-radius: 3px 3px 0 0;
+	}
+	.nav-main .menu-item:hover > a,
+	.nav-main .menu-item:hover > .menu-expander:after {
+		color: #fff;
+		border-color: #fff transparent;
+	}
+	.nav-main .menu-item:hover > .menu-expander{
+		border-color: #fff;
 	}
 	.nav > ul {
 		display: flex;
