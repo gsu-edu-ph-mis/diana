@@ -30,7 +30,14 @@ get_header(); ?>
 		</a>
 	</div>
 </section>
-<section id="section-press" class="section-press pt-5 pb-5" >
+<section class="pb-5" >
+	<div class="container-fluid">
+		<div class="row">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/bg-research2.jpg" alt="">
+		</div>
+	</div>
+</section>
+<section id="section-press" class=" pt-5 pb-5" >
 	<div class="container">
 		<div class="row pt-0 pt-md-5 pb-5">
 			<div class="col-md-8 text-left order-2 order-md-1">
