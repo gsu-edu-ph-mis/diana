@@ -29,7 +29,14 @@ get_header(); ?>
 			<svg style="width:24px;height:24px" viewBox="0 0 24 24"><path fill="white" d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5Z" /></svg>
 		</a>
 	</div>
-	<a target="_blank" href="https://journals.gsu.edu.ph"><img style="position: absolute; left:0; bottom:0; width:100%; z-index:1" src="<?php echo get_stylesheet_directory_uri(); ?>/images/journals.jpg" alt=""></a>
+	<div class="journals">
+		<div class="d-flex align-items-center justify-content-end justify-content-md-center pt-4">
+			<h2 class="h3 pt-4 text-white ml-2 mr-3 d-none d-md-block">Research Journals</h2>
+			<a class="d-block ml-2 mr-2" target="_blank" href="https://journals.gsu.edu.ph/himal-us/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-1.png" alt=""></a>
+			<a class="d-block ml-2 mr-2" target="_blank" href="https://journals.gsu.edu.ph/the-graduate-school-journal/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-2.png" alt=""></a>
+			<a class="d-block ml-2 mr-2 mr-md-5 pr-md-5" target="_blank" href="https://journals.gsu.edu.ph/higher-education-research-review/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-3.png" alt=""></a>
+		</div>
+	</div>
 </section>
 
 <section id="section-press" class=" pt-5 pb-5" >
