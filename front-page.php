@@ -32,9 +32,9 @@ get_header(); ?>
 	<div class="journals">
 		<div class="d-flex align-items-center justify-content-end justify-content-md-center pt-4">
 			<h2 class="h3 pt-4 text-white ml-2 mr-3 d-none d-md-block">Research Journals</h2>
-			<a class="d-block ml-2 mr-2" target="_blank" href="https://journals.gsu.edu.ph/himal-us/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-1.png" alt=""></a>
-			<a class="d-block ml-2 mr-2" target="_blank" href="https://journals.gsu.edu.ph/the-graduate-school-journal/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-2.png" alt=""></a>
-			<a class="d-block ml-2 mr-2 mr-md-5 pr-md-5" target="_blank" href="https://journals.gsu.edu.ph/higher-education-research-review/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-3.png" alt=""></a>
+			<a class="d-block ml-1 mr-1" target="_blank" href="https://journals.gsu.edu.ph/himal-us/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-1.png" alt=""></a>
+			<a class="d-block ml-1 mr-1" target="_blank" href="https://journals.gsu.edu.ph/the-graduate-school-journal/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-2.png" alt=""></a>
+			<a class="d-block ml-1 mr-1 mr-md-5 pr-md-5" target="_blank" href="https://journals.gsu.edu.ph/higher-education-research-review/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-3.png" alt=""></a>
 		</div>
 	</div>
 </section>
