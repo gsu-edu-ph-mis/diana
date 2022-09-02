@@ -29,14 +29,9 @@ get_header(); ?>
 			<svg style="width:24px;height:24px" viewBox="0 0 24 24"><path fill="white" d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5Z" /></svg>
 		</a>
 	</div>
+	<a target="_blank" href="https://journals.gsu.edu.ph"><img style="position: absolute; left:0; bottom:0; width:100%; z-index:1" src="<?php echo get_stylesheet_directory_uri(); ?>/images/journals.jpg" alt=""></a>
 </section>
-<section class="pb-5" >
-	<div class="container-fluid">
-		<div class="row">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/bg-research2.jpg" alt="">
-		</div>
-	</div>
-</section>
+
 <section id="section-press" class=" pt-5 pb-5" >
 	<div class="container">
 		<div class="row pt-0 pt-md-5 pb-5">
