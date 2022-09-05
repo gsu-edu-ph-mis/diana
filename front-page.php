@@ -159,7 +159,7 @@ get_header(); ?>
 				<h3 class="h1 mb-3">Courses</h3>
 				<p class="text-left">Choose from a multitude of undergraduate and graduate programs that <?= get_bloginfo( 'name' ); ?> has to offer.</p>
 				<div class="text-center">
-					<a href="<?= home_url('/undergraduate-programs'); ?>" class="btn btn-primary btn-lg">Browse Courses</a>
+					<a href="<?= home_url('/academic-programs'); ?>" class="btn btn-primary btn-lg">Browse Courses</a>
 				</div>
 			</div>
 			<div class="col-md-6 mb-5 text-center order-1 order-md-2">
