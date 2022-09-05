@@ -206,7 +206,177 @@ get_header(); ?>
 			</div>
 			<div class="col-md-6 text-center order-1">
 				<a href="<?= home_url('/faculty-roster'); ?>">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/why-quality-ed.jpg" style="max-width:300px" width="500" height="300" alt="Quality Education">
+					<div id="faculty-roster" class="faculty-roster">
+						<div class="heads">
+							<div class="scene">
+								<div class="coin coin-1">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/adrian.alumbro.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/adora.gabayoyo.jpg" alt="">
+									</div>
+								</div>
+							</div>
+							
+							<div class="scene">
+								<div class="coin coin-2">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/adrian.forca.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/agatha.norilla.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-3">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/aizle.eres.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/allan.david.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-4">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/anthony.jalandoon.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/aziel.estilo.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-5">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/divon.tamdang.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/donnavie.loriezo.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-6">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ellyn.maramento.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/erly.martir.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-7">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ivony.asprilla.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ervin.isogon.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-8">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ivony.asprilla.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/jed.sorolla.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-9">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rheajoy.flora.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/reynro.herrera.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-10">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/joan.gerada.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/joel.japitana.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+
+							<div class="scene">
+								<div class="coin coin-11">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/monaliza.sollano.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rome.moralista.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-12">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/french.edang.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ruben.habana.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-13">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rosabeth.arturo.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rey.arturo.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-14">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/reiner.alminaza.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/khristian.delarama.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-15">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/lovely.egael.jpg" alt="">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/julieta.infante.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
 				</a>
 			</div>
 		</div>

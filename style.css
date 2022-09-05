@@ -320,6 +320,65 @@ h6 {
 	max-width: 100%;
 	height: 150px;
 }
+
+/* Faculty Roster */
+.faculty-roster {
+	display: inline-block;
+	background: #115296;
+	width: 100%;
+	max-width: 300px;
+	min-height: 180px;
+	position: relative;
+}
+.faculty-roster::after {
+	content:"";
+	background: #aacbd0;
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.faculty-roster .heads {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+.faculty-roster .scene {
+	width: 46px;
+	height: 46px;
+	margin: 10px 0 0 11px;
+	perspective: 100px;
+	border: 1px solid #0d6998;
+	overflow: hidden;
+	border-radius: 100%;
+}
+.faculty-roster .coin {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transition: transform 1s;
+  	transform-style: preserve-3d;
+	border-radius: 100%;
+}
+.faculty-roster .coin.flipped {
+	transform: rotateY(180deg);
+}
+.faculty-roster .coin .front,
+.faculty-roster .coin .back {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	backface-visibility:hidden;
+}
+.faculty-roster .coin .back {
+	transform: rotateY(180deg);
+}
+
+
 /* Definition list */
 dl {
 	margin: 0 0 28px;
