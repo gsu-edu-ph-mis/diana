@@ -42,14 +42,14 @@ get_header(); ?>
 					<!-- FACU -->
 					<h3 class="h1 text-center mb-4">Faculty</h3>
 					<div class="row mb-5">
-						<div class="col-md-4 official">
+						<!-- <div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/marie.david.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Marie Cris David</h3>
 							<h4 class="h4">Coordinator, Research</h4>
 
-						</div>
+						</div> -->
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/rheajoy.flora.jpg" alt="">
