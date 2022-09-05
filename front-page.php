@@ -358,7 +358,7 @@ get_header(); ?>
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/reiner.alminaza.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/khristian.delarama.jpg" alt="Flip Photo" width="250" height="250">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/gerald.gamo.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
