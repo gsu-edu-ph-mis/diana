@@ -211,10 +211,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-1">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/adrian.alumbro.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/adrian.alumbro.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/adora.gabayoyo.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/adora.gabayoyo.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -222,10 +222,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-2">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/adrian.forca.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/adrian.forca.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/agatha.norilla.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/agatha.norilla.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -233,10 +233,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-3">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/aizle.eres.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/aizle.eres.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/allan.david.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/allan.david.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -244,10 +244,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-4">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/anthony.jalandoon.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/anthony.jalandoon.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/aziel.estilo.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/aziel.estilo.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -255,10 +255,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-5">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/divon.tamdang.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/divon.tamdang.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/donnavie.loriezo.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/donnavie.loriezo.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -266,10 +266,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-6">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ellyn.maramento.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ellyn.maramento.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/erly.martir.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/erly.martir.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -277,10 +277,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-7">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ivony.asprilla.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ivony.asprilla.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ervin.isogon.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ervin.isogon.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -288,10 +288,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-8">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ivony.asprilla.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ivony.asprilla.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/jed.sorolla.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/jed.sorolla.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -299,10 +299,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-9">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rheajoy.flora.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rheajoy.flora.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/reynro.herrera.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/reynro.herrera.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -310,10 +310,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-10">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/joan.gerada.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/joan.gerada.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/joel.japitana.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/joel.japitana.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -322,10 +322,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-11">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/monaliza.sollano.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/monaliza.sollano.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rome.moralista.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rome.moralista.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -333,10 +333,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-12">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/french.edang.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/french.edang.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ruben.habana.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ruben.habana.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -344,10 +344,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-13">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rosabeth.arturo.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rosabeth.arturo.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rey.arturo.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rey.arturo.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -355,10 +355,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-14">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/reiner.alminaza.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/reiner.alminaza.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/khristian.delarama.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/khristian.delarama.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
@@ -366,10 +366,10 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-15">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/lovely.egael.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/lovely.egael.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/julieta.infante.jpg" alt="">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/julieta.infante.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 								</div>
 							</div>
