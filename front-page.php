@@ -277,7 +277,7 @@ get_header(); ?>
 							<div class="scene">
 								<div class="coin coin-7">
 									<div class="front">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ivony.asprilla.jpg" alt="Flip Photo" width="250" height="250">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/jasmin.gadian.jpg" alt="Flip Photo" width="250" height="250">
 									</div>
 									<div class="back">
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ervin.isogon.jpg" alt="Flip Photo" width="250" height="250">
