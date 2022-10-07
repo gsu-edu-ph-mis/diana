@@ -52,7 +52,7 @@ get_header(); ?>
 						GSU, whom we all adore, with our hearts <br>
 						and minds and souls.</p>
 
-						<p>In the hall and throughout the world, <br>
+						<p>In the halls and throughout the world, <br>
 						she will rise and never fall, <br>
 						our beloved Guimaras State University, <br>
 						a center of excellence and green technology.</p>
@@ -67,7 +67,7 @@ get_header(); ?>
 						to lift each other up through education and culture<br>
 						for the success of one and all.</p>
 
-						<p>In the hall and throughout the world,<br>
+						<p>In the halls and throughout the world,<br>
 						we are ready to heed her call,<br>
 						our beloved Guimaras State University<br>
 						in the towns on the Guimaras shores.</p>
