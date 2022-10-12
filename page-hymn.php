@@ -41,43 +41,45 @@ get_header(); ?>
 						</p>
 
 						<div class="mb-5">
-							<audio controls autoplay src="<?php echo get_stylesheet_directory_uri(); ?>/media/gsu-orchestra.mp3">
+							<audio id="track" controls autoplay src="<?php echo get_stylesheet_directory_uri(); ?>/media/gsu-hymn-solo.mp3">
 								Your browser does not support the
 								<code>audio</code> element.
 							</audio>
+
+							
 						</div>
+						<div id="lyrics-area">
+							<p><span class="10">In the towns on the Guimaras shores</span><br>
+							<span class="14">stands the University we all honor—</span> <br>
+							<span class="19">GSU, whom we all adore, with our hearts</span> <br>
+							<span class="26">and minds and souls.</span></p>
 
-						<p>In the towns on the Guimaras shores <br>
-						stands the University we all honor— <br>
-						GSU, whom we all adore, with our hearts <br>
-						and minds and souls.</p>
+							<p><span class="30">In the halls and throughout the world,</span> <br>
+							<span class="34">she will rise and never fall,</span> <br>
+							<span class="36">our beloved Guimaras State University,</span> <br>
+							<span class="41">a center of excellence and green technology.</span></p>
 
-						<p>In the halls and throughout the world, <br>
-						she will rise and never fall, <br>
-						our beloved Guimaras State University, <br>
-						a center of excellence and green technology.</p>
+							<p><span class="47">Excellent in education and champions of the Earth,</span> <br>
+							<span class="56">we are future global builders pushing boundaries,</span> <br>
+							<span class="61">chasing our dreams, lifting our banners high up into the sky,</span> <br>
+							<span class="67">the world cheering for the children, <em>Mabuhay! Mabuhay!</em></span></p>
 
-						<p>Excellent in education and champions of the Earth, <br>
-						we are future global builders pushing boundaries, <br>
-						chasing our dreams, lifting our banners high up into the sky, <br>
-						the world cheering for the children, <em>Mabuhay! Mabuhay!</em></p>
+							<p><span class="79">A university for all in this part of the western shore,</span><br>
+							<span class="84">brothers and sisters united for a common goal</span><br>
+							<span class="89">to lift each other up through education and culture</span><br>
+							<span class="96">for the success of one and all.</span></p>
 
-						<p>A university for all in this part of the western shore,<br>
-						brothers and sisters united for a common goal<br>
-						to lift each other up through education and culture<br>
-						for the success of one and all.</p>
+							<p><span class="100">In the halls and throughout the world,</span><br>
+							<span class="104">we are ready to heed her call,</span><br>
+							<span class="109">our beloved Guimaras State University</span><br>
+							<span class="113">in the towns on the Guimaras shores.</span></p>
 
-						<p>In the halls and throughout the world,<br>
-						we are ready to heed her call,<br>
-						our beloved Guimaras State University<br>
-						in the towns on the Guimaras shores.</p>
-
-						<p>Excellent in education and champions of the Earth, <br>
-						we are future global builders pushing boundaries, <br>
-						chasing our dreams, lifting our banners high up into the sky, <br>
-						the world cheering for the children, <em>Mabuhay! Mabuhay!</em></p>
-						<p>Excellent in education, <em>Mabuhay! Mabuhay!</em></p>
-						
+							<p><span class="118">Excellent in education and champions of the Earth,</span> <br>
+							<span class="127">we are future global builders pushing boundaries,</span> <br>
+							<span class="133">chasing our dreams, lifting our banners high up into the sky,</span> <br>
+							<span class="139">the world cheering for the children, <em>Mabuhay! Mabuhay!</em></span></p>
+							<p><span class="149">Excellent in education, <em>Mabuhay! Mabuhay!</em></span></p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -96,4 +98,4 @@ get_header(); ?>
 		</main>
 	</div><!-- .container -->
 </div>
-<?php get_footer(); ?>
+<?php get_footer();

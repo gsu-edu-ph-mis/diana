@@ -234,4 +234,16 @@ jQuery(document).ready(function ($) {
         }, timeOut);
     }());
 
+    document.getElementById('track').addEventListener('timeupdate', function(e){
+        let currentTimeSec = Math.floor(e.target.currentTime);
+     
+        $('#lyrics-area span').css({
+            color: '', 
+        })
+        let selectors = Array.from(Array(currentTimeSec).keys()).map(i => '.'+(i+1))
+        $('#lyrics-area').find(selectors.join(', ')).css({
+            color: '#0062cc', 
+        })
+    }, false);
+
 });
