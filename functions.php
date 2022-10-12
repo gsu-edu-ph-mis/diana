@@ -187,7 +187,7 @@ function diana_scripts() {
 	if(is_page('map')){
 		wp_enqueue_style( 'leaflet-css', get_template_directory_uri() . '/leaflet/leaflet.css', array(), '1.7.1' );
 	}
-	wp_enqueue_style( 'diana-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'diana-style', get_template_directory_uri() . '/style.css', array(), '20221012' );
 
 	if(is_page('map')){
 		wp_enqueue_script( 'leaflet-js', get_template_directory_uri() . '/leaflet/leaflet.js', array(), false, true );
@@ -201,7 +201,7 @@ function diana_scripts() {
 		wp_enqueue_script( 'konva', 'https://unpkg.com/konva@8.3.5/konva.min.js', array(), false, true );
 		wp_enqueue_script( 'frames', get_template_directory_uri() . '/js/frames.js', array(), false, true );
 	}
-	wp_enqueue_script( 'diana-script', get_template_directory_uri() . '/js/script.js', array(), false, true );
+	wp_enqueue_script( 'diana-script', get_template_directory_uri() . '/js/script.js', array(), '20221012', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
