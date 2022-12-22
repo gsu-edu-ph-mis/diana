@@ -87,7 +87,7 @@
 					<p class="text-left">Freedom of Information aims to promote an open government by increasing the transparency of the executive branch and its agencies.</p>
 				</div>
 				<div class="col-md-3">
-					<a href="<?= home_url('/citizens-charter'); ?>"><img class="mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" width="200" height="200" alt="FOI"></a>
+					<a href="<?= home_url('/citizens-charter'); ?>"><img class="mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-gsu.png" width="200" height="200" alt="FOI"></a>
 					<h2 class="h3 mb-4">Citizen's Charter</h2>
 					<p class="text-left">Contains the most current and updated service standards of the Guimaras State University.</p>
 				</div>
