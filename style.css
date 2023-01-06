@@ -3,7 +3,7 @@ Theme Name: Diana
 Theme URI: https://wordpress.org/themes/diana/
 Author: GSU MIS Team
 Author URI: https://mis.gsc.edu.ph/
-Description: Diana signifies a new beginning, clean and modern, built with speed and accessibility in mind while maintaining government compliance..
+Description: Diana signifies a new beginning, clean and modern, built with speed and accessibility in mind while maintaining government compliance.
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -305,6 +305,77 @@ h6 {
 }
 .calendar-box .h4 {
 	font-weight: bold;
+}
+
+.journals {
+	position: absolute; 
+	left: 0; 
+	bottom: 0; 
+	width: 100%; 
+	z-index: 1;
+	background: url(images/journals-bg.jpg) no-repeat center bottom;
+	background-size: cover;
+}
+.journals img {
+	max-width: 100%;
+	height: 150px;
+}
+
+/* Faculty Roster */
+.faculty-roster {
+	display: inline-block;
+	background: #115296;
+	width: 100%;
+	max-width: 300px;
+	min-height: 180px;
+	position: relative;
+}
+.faculty-roster::after {
+	content:"";
+	background: #aacbd0;
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.faculty-roster .heads {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+.faculty-roster .scene {
+	width: 46px;
+	height: 46px;
+	margin: 10px 0 0 11px;
+	perspective: 100px;
+	border: 1px solid #0d6998;
+	overflow: hidden;
+	border-radius: 100%;
+}
+.faculty-roster .coin {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transition: transform 1s;
+  	transform-style: preserve-3d;
+	border-radius: 100%;
+}
+.faculty-roster .coin.flipped {
+	transform: rotateY(180deg);
+}
+.faculty-roster .coin .front,
+.faculty-roster .coin .back {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	backface-visibility:hidden;
+}
+.faculty-roster .coin .back {
+	transform: rotateY(180deg);
 }
 
 
@@ -728,7 +799,7 @@ a:focus {
 	padding-top: 90px;
 	padding-left: 30px;
 	padding-right: 30px;
-	z-index: 1;
+	z-index: 2;
 }
 .section-video-overlay h1 {
 	font-size: 40px;
@@ -1792,10 +1863,15 @@ iframe {
 	.timeline .event p {
 		padding: 10px 50px;
 	}
-	
+	.journals {
+		background-size: contain;
+	}
 }
 
 @media (max-width: 768px){
+	.journals img {
+		height: 90px;
+	}
 	.research-ball {
 		width:250px; 
 		height:250px; 

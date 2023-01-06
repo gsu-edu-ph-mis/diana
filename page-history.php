@@ -28,14 +28,16 @@ get_header(); ?>
 				<div class="timeline mb-5">
 					<div class="event">
 						<h2 class="h2">1962</h2>
+						<p><img src="<?= get_stylesheet_directory_uri(); ?>/images/history/munofficials1962.jpg" alt=""></p>
 						<p>The establishment of BVS was the culmination of the efforts of many local officials starting with Hon. Tomas Junco, who sponsored a resolution requesting the statesmen in Congress to establish a vocational school in Buenavista in 1962. </p>
 					</div>
-					<div class="important event right">
+					<div class="event right">
 						<h2 class="h2">1964</h2>
 						<p>With the passage of Republic Act 3933 in 1964, Congressman Fermin Caram of the Lone District of Iloilo City exerted effort for the implementation of the law.</p>
 					</div>
-					<div class="event">
+					<div class="important event">
 						<h2 class="h2">1968</h2>
+						<p><img src="<?= get_stylesheet_directory_uri(); ?>/images/history/marker1968.jpg" alt=""></p>
 						<p>Four years after, through the efforts of Atty. Ernesto Gaduyon and Governor Abelardo Javellana, the philanthropist, Atty. Juan Salvador, donated 50,000 square meter lot of his estate in Barangay Mclain, Buenavista, Guimaras, to be the school site.</p>
 					</div>
 					<div class="event right">

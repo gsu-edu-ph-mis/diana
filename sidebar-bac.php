@@ -56,6 +56,11 @@
 				url => home_url('/category/bac/small-value-procurement'),
 				name => 'Small Value Procurement (SVP)',
 			),
+			array(
+				regex => '/\/category\/bac\/bidding-documents/',
+				url => home_url('/category/bac/bidding-documents'),
+				name => 'Bidding Documents',
+			),
 		);
 		for ($i = 0; $i < count($urls); $i++):
 		?>

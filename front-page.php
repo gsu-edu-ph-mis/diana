@@ -29,8 +29,17 @@ get_header(); ?>
 			<svg style="width:24px;height:24px" viewBox="0 0 24 24"><path fill="white" d="M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5Z" /></svg>
 		</a>
 	</div>
+	<div class="journals">
+		<div class="d-flex align-items-center justify-content-end justify-content-md-center pt-4">
+			<h2 class="h3 pt-4 text-white ml-2 mr-3 d-none d-md-block">Research Journals</h2>
+			<a class="d-block ml-1 mr-1" target="_blank" href="https://journals.gsu.edu.ph/himal-us/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-1.png" alt=""></a>
+			<a class="d-block ml-1 mr-1" target="_blank" href="https://journals.gsu.edu.ph/the-graduate-school-journal/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-2.png" alt=""></a>
+			<a class="d-block ml-1 mr-1 mr-md-5 pr-md-5" target="_blank" href="https://journals.gsu.edu.ph/higher-education-research-review/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-3.png" alt=""></a>
+		</div>
+	</div>
 </section>
-<section id="section-press" class="section-press pt-5 pb-5" >
+
+<section id="section-press" class=" pt-5 pb-5" >
 	<div class="container">
 		<div class="row pt-0 pt-md-5 pb-5">
 			<div class="col-md-8 text-left order-2 order-md-1">
@@ -150,7 +159,7 @@ get_header(); ?>
 				<h3 class="h1 mb-3">Courses</h3>
 				<p class="text-left">Choose from a multitude of undergraduate and graduate programs that <?= get_bloginfo( 'name' ); ?> has to offer.</p>
 				<div class="text-center">
-					<a href="<?= home_url('/undergraduate-programs'); ?>" class="btn btn-primary btn-lg">Browse Courses</a>
+					<a href="<?= home_url('/academic-programs'); ?>" class="btn btn-primary btn-lg">Browse Courses</a>
 				</div>
 			</div>
 			<div class="col-md-6 mb-5 text-center order-1 order-md-2">
@@ -197,7 +206,177 @@ get_header(); ?>
 			</div>
 			<div class="col-md-6 text-center order-1">
 				<a href="<?= home_url('/faculty-roster'); ?>">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/why-quality-ed.jpg" style="max-width:300px" width="500" height="300" alt="Quality Education">
+					<div id="faculty-roster" class="faculty-roster">
+						<div class="heads">
+							<div class="scene">
+								<div class="coin coin-1">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/adrian.alumbro.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/adora.gabayoyo.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+							
+							<div class="scene">
+								<div class="coin coin-2">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/adrian.forca.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/agatha.norilla.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-3">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/aizle.eres.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/allan.david.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-4">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/anthony.jalandoon.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/aziel.estilo.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-5">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/divon.tamdang.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/donnavie.loriezo.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-6">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ellyn.maramento.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/erly.martir.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-7">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/jasmin.gadian.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ervin.isogon.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-8">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ivony.asprilla.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/jed.sorolla.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-9">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rheajoy.flora.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/reynro.herrera.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-10">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/joan.gerada.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/joel.japitana.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+
+							<div class="scene">
+								<div class="coin coin-11">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/monaliza.sollano.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rome.moralista.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-12">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/french.edang.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/ruben.habana.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-13">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rosabeth.arturo.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/rey.arturo.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-14">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/reiner.alminaza.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/gerald.gamo.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+							<div class="scene">
+								<div class="coin coin-15">
+									<div class="front">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/lovely.egael.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+									<div class="back">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/officials/julieta.infante.jpg" alt="Flip Photo" width="250" height="250">
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
 				</a>
 			</div>
 		</div>

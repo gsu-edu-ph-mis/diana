@@ -69,7 +69,9 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Dr. Ruby D. Catalan</h3>
 							<h4 class="h4">Vice President for Academic Affairs </h4>
-							<h4 class="h4">Program Head, Doctor of Philosophy (PhD)</h4>
+							<h4 class="h4">Chair, Project Monitoring Team</h4>
+							<h4 class="h4">Alternate Member, BAC (for Dr. Jasmin Gadian)</h4>
+							<h4 class="h4">Member, PBB Committee</h4>
 							<div class="h5">
 								<a href="mailto:vpaa@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -90,6 +92,7 @@ get_header(); ?>
 							<h3 class="h3">Dr. Julieta G. Infante</h3>
 							<h4 class="h4">Vice President for Research, Extension, Training and Innovation</h4>
 							<h4 class="h4">Member, Project Monitoring Team</h4>
+							<h4 class="h4">Member, PBB Committee</h4>
 							
 							<div class="h5">
 								<a href="mailto:julieta.infante@gsc.edu.ph">
@@ -111,7 +114,9 @@ get_header(); ?>
 							<h4 class="h4">Vice President for Administration and Finance</h4>
 							<h4 class="h4">Budget Officer</h4>
 							<h4 class="h4">Chair, BAC</h4>
-							
+							<h4 class="h4">Member, COVID-19 Task Force</h4>
+							<h4 class="h4">Member, PBB Committee</h4>
+							<!-- <h4 class="h4">Main Approver, LDDAP and ACIC</h4> -->
 							<div class="h5">
 								<a href="mailto:budget@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -129,11 +134,23 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile">
+							</div>
+							<h3 class="h3">Dr. Bernardo G. Cagasan</h3>
+							<h4 class="h4">Dean, College of Arts and Sciences (CAS)</h4>
+							<div class="h5">
+								<a href="mailto:bernardo.cagasan@gsc.edu.ph">
+									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
+									bernardo.cagasan@gsc.edu.ph
+								</a>	
+							</div>
+						</div>
+						<div class="col-md-4 official ">
+							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/simeon.cainday.jpg" width="250" height="250" alt="ProfileProfile Photo">
 							</div>
 							<h3 class="h3">Dr. Simeon J. Cainday III</h3>
-							<h4 class="h4">Dean, College of Science and Technology(CST)</h4>
-							<h4 class="h4">Director, Quality Assurance</h4>
+							<h4 class="h4">Dean, College of Science and Technology (CST)</h4>
 							<h4 class="h4">Data Protection Officer</h4>
 							
 							<div class="h5">
@@ -154,7 +171,10 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Engr. Ruben M. Habaña</h3>
 							<h4 class="h4">Dean, College of Engineering and Industrial Technology (CEIT)</h4>
-							<h4 class="h4">Head, Electrical System of GSC</h4>
+							<h4 class="h4">Head, Electrical System of GSU</h4>
+							<h4 class="h4">Project Engineer</h4>
+							<h4 class="h4">Technical Working Group, BAC (Electrical)</h4>
+							<h4 class="h4">Member, Project Monitoring Team</h4>
 							
 							<div class="h5">
 								<a href="mailto:ruben.habana@gsc.edu.ph">
@@ -171,14 +191,25 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile">
+							</div>
+							<h3 class="h3">Dr. Reynald T. Ladera</h3>
+							<h4 class="h4">Dean, College of Criminal Justice Education (CCJE)</h4>
+							<div class="h5">
+								<a href="mailto:reynald.ladera@gsc.edu.ph">
+									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
+									reynald.ladera@gsc.edu.ph
+								</a>	
+							</div>
+						</div>
+						<div class="col-md-4 official ">
+							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/erly.martir.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Dr. Erly M. Martir</h3>
 							<h4 class="h4">Dean, Graduate School</h4>
-							<h4 class="h4">Program Head, Master of Public Administration</h4>
 							<h4 class="h4">Head, Beautification and Landscaping of All Campuses</h4>
-							<h4 class="h4">Technical Working Group, BAC</h4>
-
+							<h4 class="h4">Technical Working Group, BAC (Office and Other Supplies)</h4>
 							<div class="h5">
 								<a href="mailto:erly.martir@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -204,15 +235,17 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/norie.palma.jpg" width="250" height="250" alt="Profile">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/jasmin.gadian.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Dr. Norie H. Palma</h3>
+							<h3 class="h3">Dr. Jasmin T. Gadian</h3>
 							<h4 class="h4">Dean, College of Teacher Education (CTE)</h4>
-							<h4 class="h4">Alternate Member, BAC</h4>
+							<h4 class="h4">Lead Internal Quality Auditor (IQA)</h4>
+							<h4 class="h4">Member, BAC</h4>
+							<h4 class="h4">Secretary, Academic Council</h4>
 							<div class="h5">
-								<a href="mailto:norie.palma@gsc.edu.ph">
+								<a href="mailto:jasmin.gadian@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									norie.palma@gsc.edu.ph
+									jasmin.gadian@gsc.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -233,56 +266,15 @@ get_header(); ?>
 								</a>	
 							</div>
 						</div>
-						<div class="col-md-4 official ">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile">
-							</div>
-							<h3 class="h3">Dr. Bernardo G. Cagasan</h3>
-							<h4 class="h4">Dean, College of Arts and Sciences (CAS)</h4>
-							<!-- <h4 class="h4">Continuing Professional Development (CPD) Officer</h4> -->
-							<!-- <h4 class="h4">Program Head, Master of Arts in Education (MAEd)</h4> -->
-							<div class="h5">
-								<!-- <a href="mailto:helen.vilbar@gsc.edu.ph">
-									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									helen.vilbar@gsc.edu.ph
-								</a>	 -->
-							</div>
-						</div>
-						<div class="col-md-4 official ">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile">
-							</div>
-							<h3 class="h3">Dr. Reynald T. Ladera</h3>
-							<h4 class="h4">Dean, College of Criminal Justice Education (CCJE)</h4>
-							<!-- <h4 class="h4">Continuing Professional Development (CPD) Officer</h4> -->
-							<!-- <h4 class="h4">Program Head, Master of Arts in Education (MAEd)</h4> -->
-							<div class="h5">
-								<!-- <a href="mailto:helen.vilbar@gsc.edu.ph">
-									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									helen.vilbar@gsc.edu.ph
-								</a>	 -->
-							</div>
-						</div>
+						
+						
 						<div class="col-md-12 mb-4 text-center">
 							<h2 class="h2 pt-5">Directors</h2>
 						</div>
+						
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/reiner.alminaza.jpg" width="250" height="250" alt="Profile">
-							</div>
-							<h3 class="h3">Instr. Reiner Jun G. Alminaza</h3>
-							<h4 class="h4">Director, Management Information System (MIS)</h4>
-							<h4 class="h4">Coordinator, Extension (CST)</h4>
-							<div class="h5">
-								<a href="mailto:reinerjun.alminaza@gsc.edu.ph">
-									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									reinerjun.alminaza@gsc.edu.ph
-								</a>	
-							</div>
-						</div>
-						<div class="col-md-4 official ">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/eric.catalan.jpg" width="250" height="250" alt="Profile">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Prof. Eric P. Catalan</h3>
 							<h4 class="h4">Director, Industrial Technology Research and Development Center (ITRDC)/Affiliated Renewable Energy Center (AREC)</h4>
@@ -313,8 +305,7 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/khristian.delarama.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Prof. Khristian T. De la Rama</h3>
-							<h4 class="h4">Director, Journal Publications</h4>
-							<h4 class="h4">Chair, Professional Subjects(CTE)</h4>
+							<h4 class="h4">Director, Journal Publications &amp; Instructional Materials Development</h4>
 							<div class="h5">
 								<a href="mailto:khristian.delarama@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -327,8 +318,8 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/erwin.dumagpi.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Dr. Erwin D. Dumagpi</h3>
+							<h4 class="h4">Director, Quality Assurance (QA)</h4>
 							<h4 class="h4">Director, Economic Development Center (EDC)</h4>
-							<h4 class="h4">Program Head, Master in Business Administration (MBA)</h4>
 							<h4 class="h4">Project Manager, Canteen and Dormitory Services, Catering Food Services and Agri-Eco Hotel/Convention Hall</h4>
 							<div class="h5">
 								<a href="mailto:erwin.dumagpi@gsc.edu.ph">
@@ -342,7 +333,7 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/violeta.efondo.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Instr. Violeta C. Efondo</h3>
-							<h4 class="h4">Director, Safety, Security & Disaster Risk Reduction Management and Mitigation</h4>
+							<h4 class="h4">Director, Office of the Student Development and Services (OSDS)</h4>
 							<h4 class="h4">Executive Assistant on Legal Matters</h4>
 							<h4 class="h4">Member, BAC Secretariat</h4>
 							<div class="h5">
@@ -358,6 +349,7 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Prof. Rhea Joy D. Flora</h3>
 							<h4 class="h4">Director, Mango and Tropical Fruits Research Center</h4>
+							<h4 class="h4">Program Head, BS Agricultural Sciences</h4>
 							<h4 class="h4">Coordinator, Extension (CAgS)</h4>
 							<div class="h5">
 								<a href="mailto:rheajoy.flora@gsc.edu.ph">
@@ -371,9 +363,10 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/adrian.forca.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Instr. Adrian J. Forca</h3>
-							<h4 class="h4">Director, Information and Communications Technology(ICT)</h4>
+							<h4 class="h4">Director, Information and Communications Technology Office (ICTO)</h4>
 							<h4 class="h4">Technical Working Group, BAC (ICT Equipment)</h4>
 							<h4 class="h4">Focal Person, SMART Campus Project</h4>
+							<h4 class="h4">Focal Person, STARRPLAN VI</h4>
 							<div class="h5">
 								<a href="mailto:adrian.forca@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -382,24 +375,7 @@ get_header(); ?>
 							</div>
 						</div>
 						
-						<div class="col-md-4 official ">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/jasmin.gadian.jpg" width="250" height="250" alt="Profile">
-							</div>
-							<h3 class="h3">Dr. Jasmin T. Gadian</h3>
-							<h4 class="h4">Director, Office of the Student Development and Services (OSDS)</h4>
-							<h4 class="h4">Lead Internal Quality Auditor (IQA)</h4>
-							<h4 class="h4">Member, BAC</h4>
-							<h4 class="h4">Secretary, Academic Council</h4>
-							<div class="h5">
-								<a href="mailto:jasmin.gadian@gsc.edu.ph">
-									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									jasmin.gadian@gsc.edu.ph
-								</a>	
-							</div>
-
-							
-						</div>
+						
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/frenz.gal.jpg" width="250" height="250" alt="Profile">
@@ -408,15 +384,25 @@ get_header(); ?>
 							<h4 class="h4">Director, Intellectual Property Management Office (IPMO)</h4>
 							<h4 class="h4">Manager, Innovation and Technology Support Office (ITSO)</h4>
 							<h4 class="h4">Food Technologist, Food Innovation Center</h4>
-							<h4 class="h4">OJT Supervisor, BS Food Technology</h4>
 							<div class="h5">
 								<a href="mailto:frenz.gal@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
 									frenz.gal@gsc.edu.ph
 								</a>	
 							</div>
-
-							
+						</div>
+						<div class="col-md-4 official ">
+							<div class="official-photo-2 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/joan.gerada.jpg" width="250" height="250" alt="Profile">
+							</div>
+							<h3 class="h3">Instr. Jo Ann T. Gerada</h3>
+							<h4 class="h4">Director, Management Information System (MIS)</h4>
+							<div class="h5">
+								<a href="mailto:joann.gerada@gsc.edu.ph">
+									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
+									joann.gerada@gsc.edu.ph
+								</a>	
+							</div>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
@@ -450,18 +436,17 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/roger.rueda.jpg" width="250" height="250" alt="Profile">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/rome.moralista.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Dr. Roger B. Rueda</h3>
-							<h4 class="h4">Director, Instructional Materials Development</h4>
+							<h3 class="h3">Dr. Rome B. Moralista</h3>
+							<h4 class="h4">Director, Graduate School Linkages and Consortium</h4>
+							<h4 class="h4">Coordinator, Disaster Risk Reduction Management and Mitigation and Climate Change Adaptation</h4>
 							<div class="h5">
-								<a href="mailto:roger.rueda@gsc.edu.ph">
+								<a href="mailto:rome.moralista@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									roger.rueda@gsc.edu.ph
+									rome.moralista@gsc.edu.ph
 								</a>	
 							</div>
-
-							
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
@@ -502,8 +487,7 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Dr. Enriqueta N. Siva</h3>
 							<h4 class="h4">Director, Gender and Development (GAD)</h4>
-							<h4 class="h4">Coordinator, Office of the Anti-Harassment (OASH)</h4>
-							<h4 class="h4">Program Head, Master of Arts in Teaching Mathematics (MATM)</h4>
+							<h4 class="h4">Coordinator, Office of the AntiSexual Harassment (OASH)</h4>
 							<h4 class="h4">Member, BAC Secretariat</h4>
 							<div class="h5">
 								<a href="mailto:enriqueta.siva@gsc.edu.ph">
@@ -511,8 +495,6 @@ get_header(); ?>
 									enriqueta.siva@gsc.edu.ph
 								</a>	
 							</div>
-
-							 
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
@@ -539,8 +521,6 @@ get_header(); ?>
 									planning@gsc.edu.ph
 								</a>	
 							</div>
-
-							
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
@@ -554,8 +534,6 @@ get_header(); ?>
 									third.tumapang@gsc.edu.ph
 								</a>	
 							</div>
-
-							
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
@@ -569,8 +547,6 @@ get_header(); ?>
 									luna.lamera@gsc.edu.ph
 								</a>	
 							</div>
-
-							
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
@@ -727,8 +703,9 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Mrs. Janet R. Aleman</h3>
 							<h4 class="h4">Board Secretary</h4>
-							<h4 class="h4">Focal Person, PBB</h4>
+							<h4 class="h4">Focal Person, PBB Committee</h4>
 							<h4 class="h4">Vice Chair, BAC</h4>
+							<h4 class="h4">Chair, Public Information Committee</h4>
 							<h4 class="h4">Member, ISO Documentation Committee</h4>
 							<div class="h5">
 								<a href="mailto:gscbrdsec@gsc.edu.ph">
@@ -745,6 +722,7 @@ get_header(); ?>
 							<h3 class="h3">Jean R. Baterzal</h3>
 							<h4 class="h4">Nurse</h4>
 							<h4 class="h4">Chair, COVID-19 Task Force</h4>
+							<h4 class="h4">Chair, Occupational Safety and Health</h4>
 							<!-- <div class="h5">
 								<a href="tel:09381393637">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" /></svg>
@@ -765,13 +743,6 @@ get_header(); ?>
 									rosalinda.cinco@gsc.edu.ph
 								</a>	
 							</div>
-						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/vivieann.depamallo.jpg" width="250" height="250" alt="Profile">
-							</div>
-							<h3 class="h3">Vivie Ann G. Depamallo</h3>
-							<h4 class="h4">Accounting Staff</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
@@ -834,11 +805,24 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/hazel.jarangue.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Hazel D. Jarangue</h3>
-							<h4 class="h4">University Cashier</h4>
+							<h4 class="h4">Cashier</h4>
 							<div class="h5">
 								<a href="mailto:hazel.jarangue@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
 									hazel.jarangue@gsc.edu.ph
+								</a>	
+							</div>
+						</div>
+						<div class="col-md-4 official">
+							<div class="official-photo-2 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/luna.lamera.jpg" width="250" height="250" alt="Profile">
+							</div>
+							<h3 class="h3">Luna V. Lamera</h3>
+							<h4 class="h4">Chair, Committee on Anti-Red Tape</h4>
+							<div class="h5">
+								<a href="mailto:luna.lamera@gsc.edu.ph">
+									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
+									luna.lamera@gsc.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -868,8 +852,10 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Ken D. Pillora</h3>
 							<h4 class="h4">Supply Officer/Property Custodian</h4>
-							<h4 class="h4">Project Manager, Property and Space Rentals</h4>
 							<h4 class="h4">Head, General Services Unit</h4>
+							<h4 class="h4">Coordinator, Solid Waste Management Program/Pollution</h4>
+							<h4 class="h4">Control Officer</h4>
+							<h4 class="h4">Member, COVID-19 Task Force</h4>
 							<div class="h5">
 								<a href="mailto:gscsupplyoffice@gmail.com">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -883,8 +869,8 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Ma. Rechel A. Pillora</h3>
 							<h4 class="h4">Human Resource Management Officer (HRMO)</h4>
-							<!-- <h4 class="h4">Secretary, Administrative Council</h4>
-							<h4 class="h4">Alternate Signatory - Authorized Approving Officer, PAG-IBIG Short Term Loan</h4> -->
+							<h4 class="h4">Secretary, Administrative Council</h4>
+							<!-- <h4 class="h4">Alternate Signatory - Authorized Approving Officer, PAG-IBIG Short Term Loan</h4> -->
 							<div class="h5">
 								<a href="mailto:hrmo@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -911,7 +897,7 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/regina.traifalgar.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Mrs. Regina V. Traifalgar</h3>
-							<h4 class="h4">University Librarian</h4>
+							<h4 class="h4">Head Librarian</h4>
 							<div class="h5">
 								<a href="mailto:library@gsc.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -933,14 +919,10 @@ get_header(); ?>
 								</a>	
 							</div> -->
 						</div>
-						
-						
-						
-						
 					</div>
 				</div>
 			</div>
 		</main>
 	</div><!-- .container -->
 </div>
-<?php get_footer(); ?>
+<?php get_footer();
