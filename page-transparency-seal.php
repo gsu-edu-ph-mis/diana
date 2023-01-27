@@ -314,18 +314,14 @@ get_header(); ?>
 					<li id="sfd">The Agency Review and Compliance Procedure of Statements and Financial Disclosures 
 
 						<ol type="A">
-							<li><a href="https://www.gsc.edu.ph/the-agency-review-and-compliance-procedure-of-statements-and-financial-disclosures/">The Agency Review and Compliance Procedure of Statements and Financial Disclosures</a></li>
+							<li><a href="/the-agency-review-and-compliance-procedure-of-statements-and-financial-disclosures/">The Agency Review and Compliance Procedure of Statements and Financial Disclosures</a></li>
 						</ol>
 					</li>
 					<li id="foi">People’s Freedom of Information (FOI) 
 						<ol type="A">
-							<li>2022 FOI Inventory</li>
-							<li>2022 FOI Registry</li>
-							<li>2022 FOI Summary</li>
-							<li>Agency Information Inventory 2022</li>
-							<li>Peoples FOI Manual With Signature 2022</li>
-							<li>Manual signed by head of agency</li>
-							<li>Agency Information Inventory, 2022 FOI Summary Report and 2022 FOI Registry</li>
+							<li><a href="/transparency-seal/peoples-foi-manual/">People's FOI Manual</a></li>
+							<li><a href="/transparency-seal/one-page-foi-manual/">One-Page FOI Manual</a></li>
+							<li><a href="/transparency-seal/foi-reports/">FOI Reports</a></li>
 						</ol>
 						<!-- <ol type="A">
 							<li><a href="https://drive.google.com/file/d/1yJvktitjpbVMju6Ba7FA--83GNni6dKX/preview">2021 FOI Inventory</a></li>
