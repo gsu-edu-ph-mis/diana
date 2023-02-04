@@ -326,6 +326,7 @@ get_header(); ?>
 							<li><a href="/transparency-seal/peoples-foi-manual/">People's FOI Manual</a></li>
 							<li><a href="/transparency-seal/one-page-foi-manual/">One-Page FOI Manual</a></li>
 							<li><a href="/transparency-seal/foi-reports/">FOI Reports</a></li>
+							<li><a href="https://www.foi.gov.ph/requests?agency=GSU">eFOI Portal</a></li>
 						</ol>
 						<!-- <ol type="A">
 							<li><a href="https://drive.google.com/file/d/1yJvktitjpbVMju6Ba7FA--83GNni6dKX/preview">2021 FOI Inventory</a></li>

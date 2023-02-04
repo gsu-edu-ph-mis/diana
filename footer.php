@@ -82,7 +82,7 @@
 					<p class="text-left">A Philippine Government that is clean, just, highly efficient, technology-enabled and people-centered which enables a high-trust society with a globally competitive service and business environment.</p>
 				</div>
 				<div class="col-md-3">
-					<a href="https://www.foi.gov.ph/"><img class="mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/images/FOI-logo-sm.png" width="200" height="200" alt="FOI"></a>
+					<a href="https://www.foi.gov.ph/requests?agency=GSU"><img class="mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/images/FOI-logo-sm.png" width="200" height="200" alt="FOI"></a>
 					<h2 class="h3 mb-4">Freedom of Information</h2>
 					<p class="text-left">Freedom of Information aims to promote an open government by increasing the transparency of the executive branch and its agencies.</p>
 				</div>
