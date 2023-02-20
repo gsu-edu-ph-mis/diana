@@ -819,6 +819,13 @@ a:focus {
 	z-index: 2;
 }
 
+.smooth-edges {
+	border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px #607d8b;
+	display: inline-block;
+}
+
 .section-press {
 	margin-top: -300px;
 	background: #fff;
