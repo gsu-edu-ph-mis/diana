@@ -41,13 +41,13 @@ get_header(); ?>
 				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				$posts_per_page  = $query->query_vars['posts_per_page'] > -1 ? $query->query_vars['posts_per_page'] : 0;
 				?>
-				<h2 class="h2 mb-5">Showing <?= $query->found_posts; ?> posts from Community Extension Services</h2>
+				<h2 class="h1 mb-5 text-center">News and Updates</h2>
 
 				<div class="row mb-5">
 					<?php while ( $query->have_posts() ) : $query->the_post(); $count++; ?>
 					<div class="col-md-4 mb-4">
 						<h3 class="h3"><a href="<?php the_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a></h3>
-						<?php the_post_thumbnail('post'); ?>
+						<div class="pt-3 pb-3"><?php the_post_thumbnail('post'); ?></div>
 						<p><?php echo diana_get_excerpt($post->post_content, $post); ?></p>
 					</div>
 					<?php endwhile;  ?>
