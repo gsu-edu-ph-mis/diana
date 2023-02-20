@@ -73,7 +73,7 @@ get_header(); ?>
 					<div class="col-md-4 mb-4 d-flex flex-wrap">
 						<h3 class="h3 mb-0"><?php echo $_post->post_title; ?></h3>
 						<div class="pt-3 pb-3"><a href="<?php the_permalink($_post->ID); ?>"><?php echo get_the_post_thumbnail($_post, 'post'); ?></a></div>
-						<p class="align-self-end"><?php echo diana_get_excerpt($_post->post_content, $_post, 'Read Article &raquo;'); ?></p>
+						<p class="align-self-end"><?php echo diana_get_excerpt(($_post->post_excerpt) ? $_post->post_excerpt : $_post->post_content, $_post, 'Read Article &raquo;'); ?></p>
 					</div>
 					<?php 
 						endforeach
