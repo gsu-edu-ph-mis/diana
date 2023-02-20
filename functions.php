@@ -441,9 +441,9 @@ function diana_limit_text($text, $limit) {
     return $text;
 }
 
-function diana_get_excerpt($content, $post) {
+function diana_get_excerpt($content, $post, $more = 'Read &raquo;') {
 	$plain = wp_strip_all_tags($content);
-	return diana_limit_text($plain, 10) .'<a href="'.get_permalink($post->ID).'" class="btn btn-sm btn-light text-primary">Read &raquo;</a>';
+	return diana_limit_text($plain, 10) .' <a href="'.get_permalink($post->ID).'" class="btn btn-sm btn-light text-primary">'.$more.'</a>';
 }
 
 function diana_custom_excerpt_length( $length ) {
