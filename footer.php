@@ -44,7 +44,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-4">
-					<a href="http://siasonline.gsu.edu.ph/sias/" class="btn d-flex justify-content-center align-items-end flex-wrap">
+					<a href="http://siasonline.gsu.edu.ph" class="btn d-flex justify-content-center align-items-end flex-wrap">
 						<img width="98px" height="30px" src="<?php echo get_stylesheet_directory_uri(); ?>/images/footer-sias.png" alt="SIASOnline">
 					</a>
 				</div>
