@@ -39,8 +39,7 @@ get_header(); ?>
 					$posts_per_page  = $query->query_vars['posts_per_page'] > -1 ? $query->query_vars['posts_per_page'] : 0;
 					?>
 					<h2 class="h1 mb-5 text-center">News and Updates</h2>
-
-					<div class="row">
+					<div class="row mb-5">
 						<?php while ( $query->have_posts() ) : $query->the_post(); $count++; ?>
 						<div class="col-md-4 mb-4">
 							<h3 class="h3"><a href="<?php the_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a></h3>
@@ -49,9 +48,8 @@ get_header(); ?>
 						</div>
 						<?php endwhile;  ?>
 					</div>
-					<div class="pagination">
 						<?php 
-							echo paginate_links( array(
+							$pagination = paginate_links( array(
 								'base'         => str_replace( 999999999, '%#%', esc_url( get_pagenum_link( 999999999 ) ) ),
 								'total'        => $query->max_num_pages,
 								'current'      => max( 1, get_query_var( 'paged' ) ),
@@ -67,8 +65,11 @@ get_header(); ?>
 								'add_fragment' => '',
 							) );
 						?>
-					</div>
-
+						<?php if ($pagination): ?>
+							<div class="pagination">
+								<?= $pagination; ?>
+							</div>
+						<?php endif; ?>
 					<?php 
 					// next_posts_link( 'Older Entries', $query->max_num_pages );
 					// previous_posts_link( 'Next Entries &raquo;' ); 
