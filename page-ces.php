@@ -42,11 +42,18 @@ get_header(); ?>
 					<div class="row mb-5">
 						<?php while ( $query->have_posts() ) : $query->the_post(); $count++; ?>
 						<div class="col-md-4 mb-4 d-flex flex-wrap">
-							<h3 class="h3 mb-0"><a href="<?php the_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a></h3>
+							<div class="mb-4">
+								<h3 class="h3 mb-3"><a href="<?php the_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a></h3>
+								<div class="post-meta">
+									<svg style="margin-right:0; width:24px;height:24px" viewBox="0 0 24 24">    <path fill="currentColor" d="M9,10H7V12H9V10M13,10H11V12H13V10M17,10H15V12H17V10M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M19,19H5V8H19V19Z"></path></svg> 
+									<time class="entry-date published updated"><?= date("M d, Y", strtotime($post->post_date)); ?></time>
+								</div>
+							</div>
+							
 							<?php if (has_post_thumbnail($post)): ?>
-								<div class="pt-3 pb-3 "><a class="smooth-edges" href="<?php the_permalink($post->ID); ?>"><?php echo get_the_post_thumbnail($post, 'medium'); ?></a></div>
+								<div class="pb-3 flex-grow-1 text-center text-md-left"><a class="smooth-edges" href="<?php the_permalink($post->ID); ?>"><?php echo get_the_post_thumbnail($post, 'medium'); ?></a></div>
 							<?php endif; ?>
-							<p class="align-self-end"><?php echo diana_get_excerpt(($post->post_excerpt) ? $post->post_excerpt : $post->post_content, $post, 'Read Article &raquo;'); ?></p>
+							<!-- <p class="align-self-end"><?php echo diana_get_excerpt(($post->post_excerpt) ? $post->post_excerpt : $post->post_content, $post, 'Read Article &raquo;'); ?></p> -->
 						</div>
 						<?php endwhile;  ?>
 					</div>

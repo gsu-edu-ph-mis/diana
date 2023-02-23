@@ -42,9 +42,11 @@ get_header(); ?>
 <section id="section-press" class=" pt-5 pb-5" >
 	<div class="container">
 		<div class="row pt-0 pt-md-5 pb-5">
-			<div class="col-md-8 text-left order-2 order-md-1">
-				<h2 class="h1 mb-5">News and Updates </h2>
-				<div class="row">
+			<div class="col-md-9 text-left order-2 order-md-1">
+				<h2 class="h1 mb-5 d-flex">
+					<span>News and Updates </span>
+				</h2>
+				<div class="form-row">
 					<?php 
 					$cat1 = get_category_by_slug( 'bac' );
 					$cat2 = get_category_by_slug( 'career' );
@@ -56,13 +58,6 @@ get_header(); ?>
 							$cat1->term_id,
 							$cat2->term_id,
 						) 
-						// 'meta_query' => array(
-						// 	array(
-						// 		'key'       => '_diana_settings_career',
-						// 		'value'     => '"' . $post->post_name . '"',
-						// 		'compare'   => 'LIKE'
-						// 	)
-						// )
 					);
 					$posts   = get_posts( $args ); // Returns array 
 					?>
@@ -70,22 +65,31 @@ get_header(); ?>
 					foreach($posts as $_post):
 						// print_r($_post);
 					?>
-					<div class="col-md-4 mb-4 d-flex flex-wrap">
-						<h3 class="h3 mb-0"><?php echo $_post->post_title; ?></h3>
-						<?php if (has_post_thumbnail($_post)): ?>
-							<div class="pt-3 pb-3 "><a class="smooth-edges" href="<?php the_permalink($_post->ID); ?>"><?php echo get_the_post_thumbnail($_post, 'medium'); ?></a></div>
-						<?php endif; ?>
-						<p class="align-self-end"><?php echo diana_get_excerpt(($_post->post_excerpt) ? $_post->post_excerpt : $_post->post_content, $_post, 'Read Article &raquo;'); ?></p>
+					<div class="col-md-6 text-center text-md-left mb-4">
+						<div class="form-row">
+							<div class="col-md-12 col-xl-5 mb-3 text-md-left">
+								<a class="d-block" href="<?= get_permalink($_post->ID); ?>"><?= diana_get_featured_image(get_post_thumbnail_id($_post->ID), 'medium', 'Image', 'border: 2px solid teal;'); ?></a>
+							</div>
+							<div class="col-md-12 col-xl-7 mb-3">
+								<h3 class="h3 mb-3"><a href="<?= get_permalink($_post->ID); ?>"><?php echo $_post->post_title; ?></a></h3>
+								<div class="post-meta mb-3">
+									<span class="posted-on"><span class="screen-reader-text">Posted on </span>
+										<svg style="width:24px;height:24px" viewBox="0 0 24 24">    <path fill="currentColor" d="M9,10H7V12H9V10M13,10H11V12H13V10M17,10H15V12H17V10M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M19,19H5V8H19V19Z"></path></svg> 
+										<time class="entry-date published updated"><?= date("M d, Y", strtotime($_post->post_date)); ?></time>
+									</span>
+								</div>
+							</div>
+						</div>
 					</div>
 					<?php endforeach; ?>
 				</div>
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<a href="<?php echo home_url(); ?>/news" class="btn btn-light btn-sm btn-outline-primary">More News &raquo;</a>
+						<a href="<?php echo home_url(); ?>/news" class="btn btn-lg btn-primary">More News &raquo;</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 text-left order-1 order-md-2 mb-5 mb-md-0">
+			<div class="col-md-3 text-left order-1 order-md-2 mb-5 mb-md-0">
 				<div class="row">
 					<div class="col-5 col-md-12 order-2 order-md-1">
 						<img srcset="<?= get_stylesheet_directory_uri(); ?>/images/opres-200w.png 200w,
