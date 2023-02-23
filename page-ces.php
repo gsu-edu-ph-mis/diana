@@ -51,7 +51,7 @@ get_header(); ?>
 							</div>
 							
 							<?php if (has_post_thumbnail($post)): ?>
-								<div class="pb-3 flex-grow-1 text-center text-md-left"><a class="smooth-edges" href="<?php the_permalink($post->ID); ?>"><?php echo get_the_post_thumbnail($post, 'medium'); ?></a></div>
+								<div class="align-self-end flex-grow-1 text-center text-md-left"><a class="smooth-edges" href="<?php the_permalink($post->ID); ?>"><?php echo get_the_post_thumbnail($post, 'medium'); ?></a></div>
 							<?php endif; ?>
 							<!-- <p class="align-self-end"><?php echo diana_get_excerpt(($post->post_excerpt) ? $post->post_excerpt : $post->post_content, $post, 'Read Article &raquo;'); ?></p> -->
 						</div>
