@@ -79,7 +79,7 @@ get_header(); ?>
 								<h2 class="h3">Master in Public Administration <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
 							</div>
 							<div>
-								<h2 class="h3">Master of Education <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
+								<h2 class="h3">Master in Education <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
 								<p class="mb-0">Major in: Educational Management </p>
 							</div>
 							<div>
@@ -99,7 +99,7 @@ get_header(); ?>
 								<h2 class="h3">Doctor of Philosophy in Educational Management  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
 							</div>
 							<div>
-								<h2 class="h3">Doctor of Management <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
+								<h2 class="h3">Doctor in Management <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
 								<p class="mb-0">Major in: Business Administration, Human Resource Management </p>
 							</div>
 							<div>

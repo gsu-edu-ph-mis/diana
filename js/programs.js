@@ -336,7 +336,7 @@ var vApp = new Vue({
                 majors: ''
             },
             {
-                name: 'Master of Education',
+                name: 'Master in Education',
                 logo: '/images/logos/gradschool-md.png',
                 logoCampus: '/images/campus-salvador-sm.png',
                 campus: 'Salvador Campus',
@@ -377,7 +377,7 @@ var vApp = new Vue({
                 majors: ''
             },
             {
-                name: 'Doctor of Management',
+                name: 'Doctor in Management',
                 logo: '/images/logos/gradschool-md.png',
                 logoCampus: '/images/campus-salvador-sm.png',
                 campus: 'Salvador Campus',

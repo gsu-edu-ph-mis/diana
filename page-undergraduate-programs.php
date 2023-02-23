@@ -136,7 +136,6 @@ get_header(); ?>
 						<div class="programs">
 							<div>
 								<h2 class="h3">Bachelor of Science in Information Technology  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-mosqueda-sm.png" data-toggle="tooltip" alt="Mosqueda" title="Mosqueda"></h2>
-								<p class="mb-0">Major in: Web and Mobile Application Development</p>
 							</div>
 							<div>
 								<h2 class="h3">Bachelor of Science in Computer Science  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-mosqueda-sm.png" data-toggle="tooltip" alt="Mosqueda" title="Mosqueda"></h2>
