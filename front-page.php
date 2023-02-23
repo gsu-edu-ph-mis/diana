@@ -72,12 +72,6 @@ get_header(); ?>
 							</div>
 							<div class="col-md-12 col-xl-7 mb-3">
 								<h3 class="h3 mb-3"><a href="<?= get_permalink($_post->ID); ?>"><?php echo $_post->post_title; ?></a></h3>
-								<div class="post-meta mb-3">
-									<span class="posted-on"><span class="screen-reader-text">Posted on </span>
-										<svg style="width:24px;height:24px" viewBox="0 0 24 24">    <path fill="currentColor" d="M9,10H7V12H9V10M13,10H11V12H13V10M17,10H15V12H17V10M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M19,19H5V8H19V19Z"></path></svg> 
-										<time class="entry-date published updated"><?= date("M d, Y", strtotime($_post->post_date)); ?></time>
-									</span>
-								</div>
 							</div>
 						</div>
 					</div>
