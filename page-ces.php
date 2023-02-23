@@ -44,7 +44,7 @@ get_header(); ?>
 						<div class="col-md-4 mb-4">
 							<h3 class="h3"><a href="<?php the_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a></h3>
 							<div class="pt-3 pb-3"><?php the_post_thumbnail('post'); ?></div>
-							<p><?php echo diana_get_excerpt($post->post_content, $post); ?></p>
+							<p><?php echo diana_get_excerpt(($post->post_excerpt) ? $post->post_excerpt : $post->post_content, $post, 'Read Article &raquo;'); ?></p>
 						</div>
 						<?php endwhile;  ?>
 					</div>
