@@ -77,9 +77,7 @@ get_header(); ?>
 						<?php endif; ?>
 						<p class="align-self-end"><?php echo diana_get_excerpt(($_post->post_excerpt) ? $_post->post_excerpt : $_post->post_content, $_post, 'Read Article &raquo;'); ?></p>
 					</div>
-					<?php 
-						endforeach
-					?>
+					<?php endforeach; ?>
 				</div>
 				<div class="row">
 					<div class="col-md-12 text-center">
