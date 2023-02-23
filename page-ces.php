@@ -41,10 +41,12 @@ get_header(); ?>
 					<h2 class="h1 mb-5 text-center">News and Updates</h2>
 					<div class="row mb-5">
 						<?php while ( $query->have_posts() ) : $query->the_post(); $count++; ?>
-						<div class="col-md-4 mb-4">
-							<h3 class="h3"><a href="<?php the_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a></h3>
-							<div class="pt-3 pb-3"><?php the_post_thumbnail('post'); ?></div>
-							<p><?php echo diana_get_excerpt(($post->post_excerpt) ? $post->post_excerpt : $post->post_content, $post, 'Read Article &raquo;'); ?></p>
+						<div class="col-md-4 mb-4 d-flex flex-wrap">
+							<h3 class="h3 mb-0"><a href="<?php the_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a></h3>
+							<?php if (has_post_thumbnail($post)): ?>
+								<div class="pt-3 pb-3 "><a class="smooth-edges" href="<?php the_permalink($post->ID); ?>"><?php echo get_the_post_thumbnail($post, 'medium'); ?></a></div>
+							<?php endif; ?>
+							<p class="align-self-end"><?php echo diana_get_excerpt(($post->post_excerpt) ? $post->post_excerpt : $post->post_content, $post, 'Read Article &raquo;'); ?></p>
 						</div>
 						<?php endwhile;  ?>
 					</div>
