@@ -59,7 +59,7 @@ get_header(); ?>
 						</div>
 						<div class="programs">
 							<div>
-								<h2 class="h3">Bachelor of Arts in English Language <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
+								<h2 class="h3">Bachelor of Arts in English Language Studies <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
 							</div>
 							<div>
 								<h2 class="h3">Bachelor of Public Administration <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
@@ -111,7 +111,7 @@ get_header(); ?>
 						</div>
 						<div class="programs">
 							<div>
-								<h2 class="h3">Bachelor in Industrial Technology  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
+								<h2 class="h3">Bachelor of Industrial Technology  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
 								<p class="mb-0">Major in: Automotive Technology, Electricity Technology, Electronics Technology, Mechanical Technology</p>
 							</div>
 							<div>

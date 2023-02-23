@@ -212,7 +212,7 @@ var vApp = new Vue({
             },
             //
             {
-                name: 'Bachelor in Industrial Technology',
+                name: 'Bachelor of Industrial Technology',
                 logo: '/images/logos/CEIT-md.png',
                 logoCampus: '/images/campus-salvador-sm.png',
                 campus: 'Salvador Campus',
