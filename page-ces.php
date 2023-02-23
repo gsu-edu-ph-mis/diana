@@ -84,7 +84,7 @@ get_header(); ?>
 				<?php
 				endif;
 				?>
-				<div class="mb-5">
+				<div class="mb-5 text-justify">
 					<?= the_content(); ?>
 				</div>
 			</div>
