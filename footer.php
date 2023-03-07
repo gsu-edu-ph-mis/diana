@@ -121,7 +121,7 @@
             </div>
         </div>
 		<div class="row">
-			<p class="col-md-12 pt-5 text-right mb-0"><em>&copy; 2022 - by <a href="https://mis.gsc.edu.ph">MIS</a></em></p>
+			<p class="col-md-12 pt-5 text-right mb-0"><em>&copy; 2022 - by <a href="https://mis.gsu.edu.ph">MIS Team</a></em></p>
 		</div>
     </div>
 </footer>
