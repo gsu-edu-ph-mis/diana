@@ -1160,6 +1160,15 @@ a img.aligncenter {
 	padding: 0 5px;
 }
 
+.wp-caption {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 1.2;
+}
+.wp-caption-text {
+	padding: 5px;
+}
+
 /* WordPress comment */
 .entry-comments {
 	padding-top: 20px;
