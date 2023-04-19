@@ -187,7 +187,7 @@ function diana_scripts() {
 	if(is_page('map')){
 		wp_enqueue_style( 'leaflet-css', get_template_directory_uri() . '/leaflet/leaflet.css', array(), '1.7.1' );
 	}
-	wp_enqueue_style( 'diana-style', get_template_directory_uri() . '/style.css', array(), '20221012' );
+	wp_enqueue_style( 'diana-style', get_template_directory_uri() . '/style.css', array(), '20230419' );
 
 	if(is_page('map')){
 		wp_enqueue_script( 'leaflet-js', get_template_directory_uri() . '/leaflet/leaflet.js', array(), false, true );
