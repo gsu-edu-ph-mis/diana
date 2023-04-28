@@ -41,7 +41,7 @@ get_header(); ?>
 					<h2 class="h1 mb-5 text-center">News and Updates</h2>
 					<div class="row mb-5">
 						<?php while ( $query->have_posts() ) : $query->the_post(); $count++; ?>
-						<div class="col-md-4 mb-5 d-flex flex-wrap">
+						<div class="col-md-4 mb-5 pb-5 d-flex flex-wrap">
 							<div class="mb-2">
 								<h3 class="h3 mb-2"><a href="<?php the_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a></h3>
 								<div class="post-meta">
