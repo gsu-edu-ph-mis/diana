@@ -41,7 +41,10 @@ get_header(); ?>
 					<h2 class="h1 mb-5 text-center">News and Updates</h2>
 					<div class="row mb-5">
 						<?php while ( $query->have_posts() ) : $query->the_post(); $count++; ?>
-						<div class="col-md-4 mb-5 pb-5 d-flex flex-wrap">
+						<div class="col-md-4 mb-5 d-flex flex-wrap">
+							<?php if (has_post_thumbnail($post)): ?>
+								<div class="flex-grow-1 text-center text-md-left"><a class="smooth-edges" href="<?php the_permalink($post->ID); ?>"><?php echo get_the_post_thumbnail($post, 'medium'); ?></a></div>
+							<?php endif; ?>
 							<div class="mb-2">
 								<h3 class="h3 mb-2"><a href="<?php the_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a></h3>
 								<div class="post-meta">
@@ -50,9 +53,7 @@ get_header(); ?>
 								</div>
 							</div>
 							
-							<?php if (has_post_thumbnail($post)): ?>
-								<div class="align-self-end flex-grow-1 text-center text-md-left"><a class="smooth-edges" href="<?php the_permalink($post->ID); ?>"><?php echo get_the_post_thumbnail($post, 'medium'); ?></a></div>
-							<?php endif; ?>
+							
 							<!-- <p class="align-self-end"><?php echo diana_get_excerpt(($post->post_excerpt) ? $post->post_excerpt : $post->post_content, $post, 'Read Article &raquo;'); ?></p> -->
 						</div>
 						<?php endwhile;  ?>
