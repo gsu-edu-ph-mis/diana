@@ -234,7 +234,7 @@ jQuery(document).ready(function ($) {
         }, timeOut);
     }());
 
-    document.getElementById('track').addEventListener('timeupdate', function(e){
+    document.getElementById('track')?.addEventListener('timeupdate', function(e){
         let currentTimeSec = Math.floor(e.target.currentTime);
      
         $('#lyrics-area span').css({
