@@ -27,7 +27,7 @@ get_header(); ?>
 				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
 				$args = array( 
-					'posts_per_page' => 10, 
+					'posts_per_page' => 12, 
 					'category_name' => 'community-extension-services',
 					'paged' => $paged,
 					'post_type' => 'post' 
