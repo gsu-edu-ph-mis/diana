@@ -219,7 +219,7 @@ var vApp = new Vue({
                 tags: ['undergrad', 'ceit', 'salvador'],
                 college: 'College of Engineering and Industrial Technology (CEIT)',
                 board: '',
-                majors: 'Automotive Technology, Electricity Technology, Electronics Technology, Mechanical Technology'
+                majors: 'Automotive Technology, Electrical Technology, Electronics Technology, Mechanical Technology'
             },
             {
                 name: 'Bachelor of Science in Electrical Engineering',
