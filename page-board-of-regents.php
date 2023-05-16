@@ -32,7 +32,7 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Hon. J. Prospero E. De Vera, III</h3>
 							<h4 class="h4">Chairman, Commission on Higher Education</h4>
-							<h4 class="h4">Chairman, GSU Board of Regents</h4>
+							<h4 class="h5">Chairman, GSU Board of Regents</h4>
 						</div>
 						<div class="col-md-6 official">
 							<div class="official-photo mb-3">
@@ -40,18 +40,18 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Hon. Lilian Diana B. Parreño</h3>
 							<h4 class="h4">University President</h4>
-							<h4 class="h4">Vice Chair, GSU Board of Regents</h4>
+							<h4 class="h5">Vice Chair, GSU Board of Regents</h4>
 						</div>
 					</div>
 					<div class="row mb-5">
 						<div class="col-md-6 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/joel.villanueva.jpg" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="Profile Photo">
 							</div>
-							<h3 class="h3">Hon. Joel J. Villanueva</h3>
-							<h4 class="h4">Chairman, Committee on Higher, Technical and Vocational Education</h4>
-							<h4 class="h4">Member</h4>
-							<h4 class="h4">Represented by: <strong>Hon. Luquin Sartorio</strong></h4>
+							<h3 class="h3">Hon. Francis "Chiz" G. Escudero</h3>
+							<h4 class="h4">Chairman, Senate Committee on Higher and Technical Education</h4>
+							<h4 class="h5">Member</h4>
+							<h4 class="h4">Represented by: <strong>Hon. Rani E. Rodriguez</strong></h4>
 						</div>
 						<div class="col-md-6 official ">
 							<div class="official-photo-2 mb-3">
@@ -59,7 +59,7 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Hon. Mark O. Go</h3>
 							<h4 class="h4">Chairman, Committee on Higher and Technical Education of the House of Representatives</h4>
-							<h4 class="h4">Member</h4>
+							<h4 class="h5">Member</h4>
 							<h4 class="h4">Represented by: <strong>Hon. Congw. Ma. Lucille L. Nava</strong></h4>
 						</div>
 					</div>
@@ -70,7 +70,7 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Hon. Arecio A. Casing, Jr.</h3>
 							<h4 class="h4">Regional Director, National Economic & Development Authority (NEDA) Region VI – Western Visayas</h4>
-							<h4 class="h4">Member</h4>
+							<h4 class="h5">Member</h4>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
@@ -78,48 +78,48 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Hon. Rowen R. Gelonga</h3>
 							<h4 class="h4">Regional Director, Department of Science and Technology (DOST) Region VI – Western Visayas
-							<h4 class="h4">Member</h4>
+							<h4 class="h5">Member</h4>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/remelyn.recoter.jpg" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/barrogo.albert.jpg" alt="Profile Photo">
 							</div>
-							<h3 class="h3">Hon. Remelyn R. Recoter</h3>
+							<h3 class="h3">Hon. Jose Albert A. Barrogo</h3>
 							<h4 class="h4">Regional Director, Department of Agriculture (DA) Region VI – Western Visayas</h4>
-							<h4 class="h4">Member</h4>
+							<h4 class="h5">Member</h4>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/rebecca.tubongbanua.jpg" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="Profile Photo">
 							</div>
-							<h3 class="h3">Hon. Rebecca C. Tubongbanua</h3>
+							<h3 class="h3">Hon. Dionne B. Fernandez</h3>
 							<h4 class="h4">Private Sector Representative</h4>
-							<h4 class="h4">Member</h4>
+							<h4 class="h5">Member</h4>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/charity.delmo.jpg" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="Profile Photo">
 							</div>
-							<h3 class="h3">Hon. Charity Mae Z. Delmo</h3>
+							<h3 class="h3">Hon. Sanie D. Ong</h3>
 							<h4 class="h4">Private Sector Representative</h4>
-							<h4 class="h4">Member</h4>
+							<h4 class="h5">Member</h4>
 						</div>
 						
-						<div class="col-md-4 official ">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/jonathan.gabion.jpg" alt="Profile Photo">
-							</div>
-							<h3 class="h3">Hon. Jonathan G. Gabion</h3>
-							<h4 class="h4">President, Federated Faculty Association</h4>
-							<h4 class="h4">Member</h4>
-						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/erly.martir.jpg" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. Erly M. Martir</h3>
 							<h4 class="h4">Representative, Federated Alumni Association</h4>
-							<h4 class="h4">Member</h4>
+							<h4 class="h5">Member</h4>
+						</div>
+						<div class="col-md-4 official ">
+							<div class="official-photo-2 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/jonathan.gabion.jpg" alt="Profile Photo">
+							</div>
+							<h3 class="h3">Hon. Jonathan G. Gabion</h3>
+							<h4 class="h4">President, Federated Faculty Association</h4>
+							<h4 class="h5">Member</h4>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
@@ -127,7 +127,7 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Hon. Celine D. Eulin</h3>
 							<h4 class="h4">President, Federated Student Republic</h4>
-							<h4 class="h4">Member</h4>
+							<h4 class="h5">Member</h4>
 						</div>
 						<!-- <div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
