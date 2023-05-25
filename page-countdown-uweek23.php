@@ -54,7 +54,16 @@
 			padding-top: 60px;
 		}
 		.timer {
-			padding: 20px 0 250px 0;
+			padding: 20px 0 100px 0;
+		}
+		.btns {
+			padding-bottom: 250px;
+		}
+		.btn-warning {
+			box-shadow: 0 0 5px #fff;
+			border: 5px solid #117e99;
+			color: #117e99;
+			padding: 5px 15px;
 		}
 		.slot {
 			color: #117e99;
@@ -148,6 +157,13 @@
 				min-width: 66px;
 				font-size: 12px;
 			}
+			
+			.btn-warning {
+				border: 3px solid #117e99;
+				color: #117e99;
+				padding: 5px 10px;
+				font-size: 12px;
+			}
 		}
 
 		/* <576px Extra Small */
@@ -220,8 +236,8 @@
 							</div>
 						</div>
 					</div>
-					<div>
-
+					<div class="btns">
+						<!-- <a href="https://www.facebook.com/GuimarasStateUniversity/posts/pfbid02xXSA6Rxctor3KeqxqG6i48xuJhNHcGDnnaHpVDKgtzXroqqtPe6yGJBqZCBx2vDQl" class="btn btn-warning">View Schedule of Activities</a> -->
 					</div>
 				</div>			
 			</div>
@@ -233,6 +249,7 @@
 	</div>
     <script src="<?= get_stylesheet_directory_uri(); ?>/js/jquery.min.js"></script>
     <script src="<?= get_stylesheet_directory_uri(); ?>/js/moment.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.9.3/tsparticles.confetti.bundle.min.js"></script>
 	<script>
 		var time = null;
 		var mTarget = moment('2023-06-05').hours(7).minutes(30).seconds(0)
@@ -288,6 +305,49 @@
 		}
 		countdown()
 		timer = setInterval(countdown, 1000)
+
+
+		// 
+
+		const duration = 1 * 1000,
+  		animationEnd = Date.now() + duration;
+
+		let skew = 1;
+
+		function randomInRange(min, max) {
+		return Math.random() * (max - min) + min;
+		}
+
+		(function frame() {
+			const timeLeft = animationEnd - Date.now(),
+				ticks = Math.max(200, 500 * (timeLeft / duration));
+
+			skew = Math.max(0.8, skew - 0.001);
+
+			confetti({
+				particleCount: 1,
+				startVelocity: 0,
+				ticks: ticks,
+				origin: {
+					x: Math.random(),
+					// since particles fall down, skew start toward the top
+					y: Math.random() * skew - 0.2,
+				},
+				colors: ["#FFFFFF", "#FFd700"],
+				shapes: [
+					"circle",
+					"square",
+					"triangle",
+				],
+				gravity: randomInRange(0.4, 0.6),
+				scalar: randomInRange(0.4, 1),
+				drift: randomInRange(-0.4, 0.4),
+			});
+
+			if (timeLeft > 0) {
+				requestAnimationFrame(frame);
+			}
+		})();
 	</script>
   </body>
 </html>
