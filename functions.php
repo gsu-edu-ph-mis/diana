@@ -538,16 +538,23 @@ function diana_301_redirects() {
 			'old' => 'academic-calendar',
 			'new' => 'school-calendar'
 		),
+		array(
+			'old' => 'zumba2023',
+			'new' => 'https://docs.google.com/forms/d/e/1FAIpQLSdUvcD8OC4GLKgRCneZUG0qSq7b8PZp85oywleKFFUnxiT-gA/viewform'
+		),
 	);
 
 	$searchMe = $wp->request;
 	$found = array_search($searchMe, array_column($urls, 'old'));
 	
 	if($found !== false and $searchMe !== $urls[$found]['new']){
+		if (preg_match('/(^https:\/\/)|(^http:\/\/)/', $urls[$found]['new'])) {
+			wp_redirect( $urls[$found]['new'], 301 );
+			exit;
+		}
 		wp_redirect( home_url($urls[$found]['new']), 301 );
 		exit;
 	}
-	
 }
 add_action ('template_redirect', 'diana_301_redirects');
 
