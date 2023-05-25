@@ -259,26 +259,26 @@
 				clearInterval(timer)
 			} else {
 				if(window.clicked) audio.play()
-				if(dayOnly <= 0){
-					$('.dayOnly').parents('.slot').hide('fast')
-				} else {
-					$('.dayOnly').parents('.slot').show('fast')
-				}
-				if(hoursOnly <= 0){
-					$('.hoursOnly').parents('.slot').hide('fast')
-				} else {
-					$('.hoursOnly').parents('.slot').show('fast')
-				}
-				if(minutesOnly <= 0){
-					$('.minutesOnly').parents('.slot').hide('fast')
-				} else {
-					$('.minutesOnly').parents('.slot').show('fast')
-				}
-				if(secondsOnly <= 0){
-					$('.secondsOnly').parents('.slot').hide('fast')
-				} else {
-					$('.secondsOnly').parents('.slot').show('fast')
-				}
+				// if(dayOnly <= 0){
+				// 	$('.dayOnly').parents('.slot').hide('fast')
+				// } else {
+				// 	$('.dayOnly').parents('.slot').show('fast')
+				// }
+				// if(hoursOnly <= 0){
+				// 	$('.hoursOnly').parents('.slot').hide('fast')
+				// } else {
+				// 	$('.hoursOnly').parents('.slot').show('fast')
+				// }
+				// if(minutesOnly <= 0){
+				// 	$('.minutesOnly').parents('.slot').hide('fast')
+				// } else {
+				// 	$('.minutesOnly').parents('.slot').show('fast')
+				// }
+				// if(secondsOnly <= 0){
+				// 	$('.secondsOnly').parents('.slot').hide('fast')
+				// } else {
+				// 	$('.secondsOnly').parents('.slot').show('fast')
+				// }
 				$('.dayOnly').text(dayOnly)
 				$('.hoursOnly').text(hoursOnly)
 				$('.minutesOnly').text(minutesOnly)
