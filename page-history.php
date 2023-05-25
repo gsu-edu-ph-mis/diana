@@ -38,7 +38,7 @@ get_header(); ?>
 					<div class="important event">
 						<h2 class="h2">1968</h2>
 						<p><img src="<?= get_stylesheet_directory_uri(); ?>/images/history/marker1968.jpg" alt=""></p>
-						<p>Four years after, through the efforts of Atty. Ernesto Gaduyon and Governor Abelardo Javellana, the philanthropist, Atty. Juan Salvador, donated 50,000 square meter lot of his estate in Barangay Mclain, Buenavista, Guimaras, to be the school site.</p>
+						<p>Four years after, through the efforts of Atty. Ernesto Gaduyon and Governor Abelardo Javellana, the philanthropist, Atty. Juan Salvador, donated 50,000 square meter lot of his estate in Barangay Mclain, Buenavista, Guimaras, to be the school site. Buenavista Vocational School was officially opened.</p>
 					</div>
 					<div class="event right">
 						<h2 class="h2">1980</h2>
