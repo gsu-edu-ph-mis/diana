@@ -781,14 +781,14 @@ get_header(); ?>
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/joven.cablas.jpg" alt="">
 							</div>
-							<h3 class="h3">Prof. Joven C. Cablas</h3>
+							<h3 class="h3">Engr. Joven C. Cablas</h3>
 						</div>
 						
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/conrado.calumpita.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Conrado S. Calumpita </h3>
+							<h3 class="h3">Engr. Conrado S. Calumpita </h3>
 							<h4 class="h4">Program Head, Mechanical Engineering</h4>
 						</div>
 						<div class="col-md-4 official">
