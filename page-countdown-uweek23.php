@@ -54,7 +54,7 @@
 			padding-top: 60px;
 		}
 		.timer {
-			padding: 20px 0 100px 0;
+			padding: 20px 0 60px 0;
 		}
 		.btns {
 			padding-bottom: 250px;
@@ -236,8 +236,11 @@
 							</div>
 						</div>
 					</div>
+					<div class="text-center pb-5">
+						<p>See you in GSU on June 5th at 7:30AM!</p>
+					</div>
 					<div class="btns">
-						<!-- <a href="https://www.facebook.com/GuimarasStateUniversity/posts/pfbid02xXSA6Rxctor3KeqxqG6i48xuJhNHcGDnnaHpVDKgtzXroqqtPe6yGJBqZCBx2vDQl" class="btn btn-warning">View Schedule of Activities</a> -->
+						<a href="https://www.facebook.com/photo/?fbid=621283406701442&set=pcb.609085454587904" class="btn btn-warning">View Schedule of Activities</a>
 					</div>
 				</div>			
 			</div>
@@ -309,7 +312,7 @@
 
 		// 
 
-		const duration = 1 * 1000,
+		const duration = 1 * 2000,
   		animationEnd = Date.now() + duration;
 
 		let skew = 1;
