@@ -237,7 +237,7 @@
 						</div>
 					</div>
 					<div class="text-center pb-5">
-						<p>See you in GSU on June 5th at 7:30AM!</p>
+						<p>See you on June 5th at 7:30AM!</p>
 					</div>
 					<div class="btns">
 						<a href="https://www.facebook.com/photo/?fbid=621283406701442&set=pcb.609085454587904" class="btn btn-warning">View Schedule of Activities</a>
