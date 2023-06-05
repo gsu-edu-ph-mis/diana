@@ -254,7 +254,7 @@
     <script src="<?= get_stylesheet_directory_uri(); ?>/js/moment.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.9.3/tsparticles.confetti.bundle.min.js"></script>
 	<script>
-		var time = null;
+		var timer = null;
 		var mTarget = moment('2023-06-05').hours(7).minutes(30).seconds(0)
 		// var mTarget = moment('2023-06-25').hours(14).minutes(8).seconds(0)
 		var audio = new Audio('<?= get_stylesheet_directory_uri(); ?>/images/uweek/tick.mp3');
@@ -276,29 +276,14 @@
 			var secondsOnly = Math.floor(seconds)
 
 			if(days <= 0 && timer){
+				$('.dayOnly').text(0)
+				$('.hoursOnly').text(0)
+				$('.minutesOnly').text(0)
+				$('.secondsOnly').text(0)
 				clearInterval(timer)
 			} else {
 				if(window.clicked) audio.play()
-				// if(dayOnly <= 0){
-				// 	$('.dayOnly').parents('.slot').hide('fast')
-				// } else {
-				// 	$('.dayOnly').parents('.slot').show('fast')
-				// }
-				// if(hoursOnly <= 0){
-				// 	$('.hoursOnly').parents('.slot').hide('fast')
-				// } else {
-				// 	$('.hoursOnly').parents('.slot').show('fast')
-				// }
-				// if(minutesOnly <= 0){
-				// 	$('.minutesOnly').parents('.slot').hide('fast')
-				// } else {
-				// 	$('.minutesOnly').parents('.slot').show('fast')
-				// }
-				// if(secondsOnly <= 0){
-				// 	$('.secondsOnly').parents('.slot').hide('fast')
-				// } else {
-				// 	$('.secondsOnly').parents('.slot').show('fast')
-				// }
+				
 				$('.dayOnly').text(dayOnly)
 				$('.hoursOnly').text(hoursOnly)
 				$('.minutesOnly').text(minutesOnly)
@@ -306,9 +291,12 @@
 			}
 			// console.log(days, dayOnly, hoursOnly, minutesOnly, secondsOnly)
 		}
-		countdown()
-		timer = setInterval(countdown, 1000)
-
+		//countdown()
+		//timer = setInterval(countdown, 1000)
+		$('.dayOnly').text(0)
+		$('.hoursOnly').text(0)
+		$('.minutesOnly').text(0)
+		$('.secondsOnly').text(0)
 
 		// 
 
