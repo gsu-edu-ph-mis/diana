@@ -38,6 +38,9 @@ let vApp = new Vue({
     mounted: function () {
     },
     methods: {
+        getUserAgent: function(){
+            return navigator.userAgent
+        },
         openTab: function(data){
             let w = window.open('about:blank');
             let image = new Image();

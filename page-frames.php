@@ -36,7 +36,7 @@ get_header(); ?>
 							<button type="button" v-if="photo" class="btn-full-width mt-3 mb-5 mr-1 btn btn-lg btn-warning" v-on:click="download">Download</button>
 							<!-- <button type="button" v-if="photo" class="btn-full-width mt-3 mb-5 ml-1 btn btn-lg btn-secondary" v-on:click="openTab(photo)">Open in new Tab</button> -->
 						</div>
-
+						<div>${getUserAgent()}</div>
 					</div>
 				</div>
 				<div class="table-responsive">
