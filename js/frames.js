@@ -38,6 +38,16 @@ let vApp = new Vue({
     mounted: function () {
     },
     methods: {
+        openTab: function(data){
+            let w = window.open('about:blank');
+            let image = new Image();
+            image.src = data;
+            image.width = 1000
+            image.height = 1000
+            setTimeout(function(){
+                w.document.write(image.outerHTML);
+            }, 0);
+        },
         download: function(){
             const me = this;
             let a = document.createElement("a"); //Create <a>

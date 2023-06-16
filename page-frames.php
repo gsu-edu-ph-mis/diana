@@ -32,7 +32,11 @@ get_header(); ?>
 						<div id="scrollDL"></div>
 						<img v-if="!photo" src="<?=get_stylesheet_directory_uri(); ?>/images/frame.png" alt="Frame">
 						<img v-if="photo" v-bind:src="photo" alt="Frame">
-						<button type="button" v-if="photo" class="btn-full-width mt-3 mb-5 btn btn-lg btn-warning" v-on:click="download">Download</button>
+						<div class="d-flex">
+							<button type="button" v-if="photo" class="btn-full-width mt-3 mb-5 mr-1 btn btn-lg btn-warning" v-on:click="download">Download</button>
+							<button type="button" v-if="photo" class="btn-full-width mt-3 mb-5 ml-1 btn btn-lg btn-secondary" v-on:click="openTab(photo)">Open in new Tab</button>
+						</div>
+
 					</div>
 				</div>
 				<div class="table-responsive">
