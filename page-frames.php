@@ -24,7 +24,7 @@ get_header(); ?>
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
 			<div class="col-md-12">
 				<div id="vApp" v-cloak class="text-center" v-bind:data-pending="pending">
-					<div v-if="!isInFbApp" class="breakout" style="box-shadow: 0 0 5px gray; position: fixed; top: 0; right:0; width: 100%; height: 100%; z-index: 9999; background: #fff;">
+					<div v-if="isInFbApp" class="breakout" style="box-shadow: 0 0 5px gray; position: fixed; top: 0; right:0; width: 100%; height: 100%; z-index: 9999; background: #fff;">
 						<div class="alert alert-success text-right d-flex align-items-start justify-content-end p-4">
 							<!-- <div class="alert alert-warning mb-0 text-left" style="width: 50%">Frames must be opened in a browser like Firefox or Chrome.</div> -->
 							<div class="d-flex align-items-center">
