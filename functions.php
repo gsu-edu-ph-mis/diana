@@ -198,7 +198,8 @@ function diana_scripts() {
 	}
 	if(is_page('frames')){
 		wp_enqueue_script( 'vuejs', get_template_directory_uri() . '/js/vue.js', array(), false, true );
-		wp_enqueue_script( 'konva', 'https://unpkg.com/konva@8.3.5/konva.min.js', array(), false, true );
+		wp_enqueue_script( 'lodash', get_template_directory_uri() . '/js/unpkg.com_lodash@4.17.21_lodash.min.js', array(), false, true );
+		wp_enqueue_script( 'konva', get_template_directory_uri() . '/js/unpkg.com_konva@8.3.5_konva.min.js', array(), false, true );
 		wp_enqueue_script( 'frames', get_template_directory_uri() . '/js/frames.js', array(), false, true );
 	}
 	wp_enqueue_script( 'diana-script', get_template_directory_uri() . '/js/script.js', array(), '20221012', true );
