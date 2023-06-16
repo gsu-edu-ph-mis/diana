@@ -37,21 +37,28 @@ let vApp = new Vue({
     },
     mounted: function () {
     },
+    computed: {
+        isInFbApp: function () {
+            return /FB_IAB/.test(navigator.userAgent) ||
+                /FBAN/.test(navigator.userAgent) ||
+                /FBAV/.test(navigator.userAgent)
+        }
+    },
     methods: {
-        getUserAgent: function(){
+        getUserAgent: function () {
             return navigator.userAgent
         },
-        openTab: function(data){
+        openTab: function (data) {
             let w = window.open('about:blank');
             let image = new Image();
             image.src = data;
             image.width = 1000
             image.height = 1000
-            setTimeout(function(){
+            setTimeout(function () {
                 w.document.write(image.outerHTML);
             }, 0);
         },
-        download: function(){
+        download: function () {
             const me = this;
             let a = document.createElement("a"); //Create <a>
             a.href = me.photo; //Image Base64 Goes here
@@ -101,15 +108,15 @@ let vApp = new Vue({
                                     const targetWidth = 1000;
                                     const targetHeight = 1000;
                                     let { resizeWidth, resizeHeight } = resizeDimensions(thisImage.width, thisImage.height, targetWidth, targetHeight)
-                                    
+
                                     // console.log(thisImage.width, thisImage.height)
 
                                     let resizeX = 0
                                     let resizeY = 0
-                                    if(resizeWidth > targetWidth){
+                                    if (resizeWidth > targetWidth) {
                                         resizeX = Math.round((targetWidth - resizeWidth) / 2)
                                     }
-                                    if(resizeHeight > targetHeight){
+                                    if (resizeHeight > targetHeight) {
                                         resizeY = Math.round((targetHeight - resizeHeight) / 2)
                                     }
 

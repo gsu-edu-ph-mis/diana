@@ -24,7 +24,14 @@ get_header(); ?>
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
 			<div class="col-md-12">
 				<div id="vApp" v-cloak class="text-center" v-bind:data-pending="pending">
-					<div style="max-width: 500px; margin: auto">
+					<div v-if="isInFbApp" class="breakout" style="box-shadow: 0 0 5px gray; position: fixed; top: 0; right:0; width: 100%; height: 100%; z-index: 9999; background: #fff;">
+						<div class=" d-flex align-items-center justify-content-end p-3">
+							<div>Tap Open in Browser</div>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32"><title>arrow-up-right</title><path d="M21.5 9.5L20.09 10.92L17 7.83V13.5C17 17.09 14.09 20 10.5 20H4V18H10.5C13 18 15 16 15 13.5V7.83L11.91 10.91L10.5 9.5L16 4L21.5 9.5Z" /></svg>
+						</div>
+						
+					</div>
+					<div v-else style="max-width: 500px; margin: auto">
 						<div class="custom-file mb-5">
 							<input v-on:change="readFile" name="photo" id="photo" ref="file_photo" type="file">
 							<label class="custom-file-label" for="photo" style="border: 3px dotted #f5c014">Select Your Profile Photo</label>
@@ -36,7 +43,6 @@ get_header(); ?>
 							<button type="button" v-if="photo" class="btn-full-width mt-3 mb-5 mr-1 btn btn-lg btn-warning" v-on:click="download">Download</button>
 							<!-- <button type="button" v-if="photo" class="btn-full-width mt-3 mb-5 ml-1 btn btn-lg btn-secondary" v-on:click="openTab(photo)">Open in new Tab</button> -->
 						</div>
-						<div>${getUserAgent()}</div>
 					</div>
 				</div>
 				<div class="table-responsive">
