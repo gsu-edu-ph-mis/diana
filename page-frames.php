@@ -25,7 +25,7 @@ get_header(); ?>
 			<div class="col-md-12">
 				<div id="vApp" v-cloak class="text-center" v-bind:data-pending="pending">
 					<div v-if="isInFbApp" class="breakout" style="box-shadow: 0 0 5px gray; position: fixed; top: 0; right:0; width: 100%; height: 100%; z-index: 9999; background: #fff;">
-						<div class="text-right d-flex align-items-center justify-content-end p-4">
+						<div class="text-right d-flex align-items-start justify-content-end p-4">
 							<div>To continue with Frames, tap Open in Browser</div>
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32"><title>arrow-up-right</title><path d="M21.5 9.5L20.09 10.92L17 7.83V13.5C17 17.09 14.09 20 10.5 20H4V18H10.5C13 18 15 16 15 13.5V7.83L11.91 10.91L10.5 9.5L16 4L21.5 9.5Z" /></svg>
 						</div>
