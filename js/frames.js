@@ -15,14 +15,14 @@ function resizeDimensions(width, height, newWidth, newHeight) {
     let resizeWidth = newWidth;
     let resizeHeight = Math.round(newWidth / ratio);
 
-    if ((resizeWidth > newWidth) || (resizeHeight > newHeight)) { // Oops, either width or height does not fit
+    if ((resizeWidth < newWidth) || (resizeHeight < newHeight)) { // Oops, either width or height does not fit
         // So base on height instead
         resizeHeight = newHeight;
         resizeWidth = newHeight * ratio;
     }
     return {
-        resizeWidth: resizeWidth,
-        resizeHeight: resizeHeight,
+        resizeWidth: Math.round(resizeWidth),
+        resizeHeight: Math.round(resizeHeight),
     }
 }
 let vApp = new Vue({
@@ -30,12 +30,21 @@ let vApp = new Vue({
     delimiters: ["${", "}"],
     mixins: [],
     data: {
+        pending: false,
         accept: ['image/jpeg', 'image/png'],
         photo: '',
+        mime: '',
     },
     mounted: function () {
     },
     methods: {
+        download: function(){
+            const me = this;
+            let a = document.createElement("a"); //Create <a>
+            a.href = me.photo; //Image Base64 Goes here
+            a.download = "frame." + me.mime.replace('image/', ''); //File name Here
+            a.click(); //Downloaded file
+        },
         readFile: function (event) {
             let me = this;
             let files = [];
@@ -75,41 +84,45 @@ let vApp = new Vue({
 
                                 let blank = new Image(); // Hold uploaded file
                                 blank.onload = function (e) {
-                                    // let img = e.target;
-                                    // let canvas = document.getElementById("canvas");
-                                    // let {resizeWidth, resizeHeight} = resizeDimensions(img.width, img.height, 600, 600)
-                                    // canvas.width = resizeWidth;
-                                    // canvas.height = resizeHeight;
-                                    // let ctx = canvas.getContext("2d");
+                                    const thisImage = this;
+                                    const targetWidth = 1000;
+                                    const targetHeight = 1000;
+                                    let { resizeWidth, resizeHeight } = resizeDimensions(thisImage.width, thisImage.height, targetWidth, targetHeight)
+                                    
+                                    // console.log(thisImage.width, thisImage.height)
 
-                                    // ctx.drawImage(img, 0, 0, resizeWidth, resizeHeight);
+                                    let resizeX = 0
+                                    let resizeY = 0
+                                    if(resizeWidth > targetWidth){
+                                        resizeX = Math.round((targetWidth - resizeWidth) / 2)
+                                    }
+                                    if(resizeHeight > targetHeight){
+                                        resizeY = Math.round((targetHeight - resizeHeight) / 2)
+                                    }
 
-                                    // me.photo = canvas.toDataURL("image/jpeg");
+                                    // console.log(resizeX, resizeY, resizeWidth, resizeHeight)
 
                                     let yoda = new Konva.Image({
                                         image: blank,
-                                        crop: {
-                                            x:0,
-                                            y:0,
-                                            width: 1000,
-                                            height: 1000,
-                                        },
-                                        width: 1000,
-                                            height: 1000,
+                                        x: resizeX,
+                                        y: resizeY,
+                                        width: resizeWidth,
+                                        height: resizeHeight,
                                     });
-
                                     layer.add(yoda);
 
                                     // Konva.Image.fromURL("http://localhost/gsu.edu.ph/wp-content/themes/diana/images/frame.png", function (node) {
                                     Konva.Image.fromURL("/wp-content/themes/diana/images/frame.png", function (node) {
                                         layer.add(node);
                                         me.photo = stage.toDataURL({ pixelRatio: 3 });
-                                        let a = document.createElement("a"); //Create <a>
-                                        a.href = me.photo; //Image Base64 Goes here
-                                        a.download = "frame." + mime.replace('image/', ''); //File name Here
-                                        a.click(); //Downloaded file
+                                        me.mime = mime
+                                        me.pending = false
+                                        $('html,body').animate({
+                                            scrollTop: $('#scrollDL').offset().top - 40
+                                        }, 1000, 'swing');
                                     });
                                 }
+                                me.pending = true
                                 blank.src = base64Data; // data URL base64 encoded
                             } else {
                                 throw new Error('File type not allowed.')

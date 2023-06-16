@@ -23,15 +23,16 @@ get_header(); ?>
 	<div class="container">
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
 			<div class="col-md-12">
-				<div id="vApp" v-cloak>
-					
-					<div class="text-center">
-						<p>Select Your Profile Photo (Must be a square photo)</p>
-						<input v-on:change="readFile" name="photo" id="photo" ref="file_photo" type="file" class="mb-5">
+				<div id="vApp" v-cloak class="text-center" v-bind:data-pending="pending">
+					<div style="max-width: 500px; margin: auto">
+						<div class="custom-file mb-5">
+							<input v-on:change="readFile" name="photo" id="photo" ref="file_photo" type="file">
+							<label class="custom-file-label" for="photo" style="border: 3px dotted #f5c014">Select Your Profile Photo</label>
+						</div>
+						<div id="scrollDL"></div>
 						<img v-if="!photo" src="<?=get_stylesheet_directory_uri(); ?>/images/frame.png" alt="Frame">
-						<p v-else>Download the frame below <em>(Right-click or hold tap)</em>:</p>
-						<p v-if="photo"><em>Note: Open in a browser for download to work.</em></p>
 						<img v-if="photo" v-bind:src="photo" alt="Frame">
+						<button type="button" v-if="photo" class="btn-full-width mt-3 mb-5 btn btn-lg btn-warning" v-on:click="download">Download</button>
 					</div>
 				</div>
 				<div class="table-responsive">
