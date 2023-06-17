@@ -574,7 +574,7 @@ function diana_og_tags(){
 	echo '<meta property="og:title" content="'. esc_attr(get_the_title())  .'" />'."\n";
 	echo '<meta property="og:description" content="'. esc_attr(get_bloginfo('description'))  .'" />'."\n";
     if(is_singular()) {
-		$img = get_the_post_thumbnail_url(get_the_ID(), 'full');
+		$img = get_the_post_thumbnail_url(get_the_ID(), 'medium');
 		if($img){
         	echo '<meta property="og:image" content="'. esc_url($img)   .'" />'."\n";
 		}
