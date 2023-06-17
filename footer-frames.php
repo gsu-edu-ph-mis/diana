@@ -15,11 +15,11 @@
 			<div class="row">
 				<h2 class="h3 mb-5 col-md-12">Previous Frames</h2>
 				<div class="col-md-3 mb-4 mb-md-0">
-					<img width="60" src="<?=get_stylesheet_directory_uri(); ?>/images/frame.png" alt="Frame">
+					<img width="60" src="<?=get_stylesheet_directory_uri(); ?>/images/frame-02-sm.jpg" alt="Frame 2">
 					<p>1st University Week</p>
 				</div>
 				<div class="col-md-3 mb-4 mb-md-0">
-					<img width="60" src="<?=get_stylesheet_directory_uri(); ?>/images/frame2.png" alt="Frame">
+					<img width="60" src="<?=get_stylesheet_directory_uri(); ?>/images/frame-01-sm.jpg" alt="Frame 1">
 					<p>50th Commencement</p>
 				</div>
 			</div>
