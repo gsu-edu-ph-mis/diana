@@ -573,9 +573,11 @@ function diana_og_tags(){
 	echo '<meta property="og:url" content="'. esc_url(get_permalink())  .'" />'."\n";
 	echo '<meta property="og:title" content="'. esc_attr(get_the_title())  .'" />'."\n";
 	echo '<meta property="og:description" content="'. esc_attr(get_bloginfo('description'))  .'" />'."\n";
-	$img = get_the_post_thumbnail_url(get_the_ID(), 'full');
-    if( is_single() && $img) {
-        echo '<meta property="og:image" content="'. esc_url($img)   .'" />'."\n";
+    if(is_singular()) {
+		$img = get_the_post_thumbnail_url(get_the_ID(), 'full');
+		if($img){
+        	echo '<meta property="og:image" content="'. esc_url($img)   .'" />'."\n";
+		}
     }
 }
 add_action('wp_head', 'diana_og_tags', 1);
