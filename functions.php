@@ -572,6 +572,7 @@ add_action( 'admin_enqueue_scripts', 'diana_register_admin_scripts', 10);
 function diana_og_tags(){
 	echo '<meta property="og:url" content="'. esc_url(get_permalink())  .'" />'."\n";
 	echo '<meta property="og:title" content="'. esc_attr(get_the_title())  .'" />'."\n";
+	echo '<meta property="og:description" content="'. esc_attr(get_bloginfo('description'))  .'" />'."\n";
 	$img = get_the_post_thumbnail_url(get_the_ID(), 'full');
     if( is_single() && $img) {
         echo '<meta property="og:image" content="'. esc_url($img)   .'" />'."\n";
