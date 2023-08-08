@@ -21,7 +21,7 @@ get_header(); ?>
 	</video>
 	<div class="section-video-overlay">
 		<h1>Welcome to <?= get_bloginfo( 'name' ); ?></h1>
-		<p>Center of Excellence in Education and Green Technology Generation</p>
+		<p>GSU Excels As One</p>
 		<div class="scrolling-nav">
 			<a href="#section-features" class="btn btn-sm btn-primary">Why Enroll at GSU?</a>
 		</div>
