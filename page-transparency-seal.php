@@ -49,7 +49,7 @@ get_header(); ?>
 						Agency’s Mandate, Vision, Mission and List of Officials	
 						<ol type="A">
 							<li><a href="<?= home_url('/the-mandate/'); ?>">Agency’s Mandate</a></li>
-							<li><a href="<?= home_url('/vision-mission-goals/'); ?>">Vision, Mission and Goals</a></li>
+							<li><a href="<?= home_url('/vision-mission-goals/'); ?>">VMGO</a></li>
 							<li><a href="<?= home_url('/key-officials/'); ?>">List of Officials</a></li>
 						</ol>
 					</li>
