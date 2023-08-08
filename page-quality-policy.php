@@ -26,6 +26,9 @@ get_header(); ?>
 				<p>Guimaras State University (GSU) aims to have an effective and efficient implementation of its quality management system along with its vision, mission and core values.</p>
 				<p>To achieve this, Guimaras State University will produce globally competitive, technologically-equipped and research-oriented graduates of quality and innovative advanced and higher education programs in sustainable agriculture, fisheries, forestry and tourism, entrepreneurship, liberal arts, education, healthcare, science and good governance. It shall endeavor to continually improve its quality management system, satisfying applicable requirements of the standard, addressing risks and maximizing opportunities.</p>
 				<p>Further, the top Management pledges to inspire a university-wide commitment to this Policy and ensure to regularly review and monitor strategic implementation of the Quality Management System in all levels of the organization for customer’s satisfaction and continual improvement.</p>
+
+				<p class="mb-5 text-right"><small><em>Source: MEMORANDUM NO. 302 Series of 2023</em></small></p>
+
 			</div>
 			<div class="col-md-3 order-2 order-md-1 mb-4">
 				<nav class="page-sub-menu text-center scrolling-nav mb-5">

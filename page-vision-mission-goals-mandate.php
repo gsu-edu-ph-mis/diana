@@ -90,13 +90,14 @@ get_header(); ?>
 					</li>
 				</ol>
 				<h2>Core Values</h2>
-				<ol type="a">
+				<ol type="a" class="mb-4">
 					<li>God-Fearing</li>
 					<li>People Centered</li>
 					<li>Pro – Environment</li>
 					<li>Selfless Public Service</li>
 					<li>Respect for Human Dignity</li>
 				</ol>
+				<p class="mb-5 text-right"><small><em>Source: MEMORANDUM NO. 302 Series of 2023</em></small></p>
 			</div>
 			<div class="col-md-3 order-2 order-md-1 mb-4">
 				<nav class="page-sub-menu text-center scrolling-nav mb-5">
