@@ -156,7 +156,6 @@ function diana_save_post_hook_career( $post_id ){
 		return $post_id;
 	}
 
-	if ( empty($post->ID) || get_post_type( $post->ID ) != 'career' ) return $post_id;
 
 	// Remove temporarily to avoid infinite loop
 	remove_action( "save_post_career", 'diana_save_post_hook_career' );
