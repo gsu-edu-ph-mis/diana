@@ -73,7 +73,7 @@ get_header(); ?>
 					</tr>
 					<tr>
 						<td><strong>Competency </strong></td>
-						<td><?php echo $job_post_meta['diana_career_competency']; ?></td>
+						<td><?php echo nl2br($job_post_meta['diana_career_competency']); ?></td>
 					</tr>
 					
 					
