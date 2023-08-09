@@ -46,7 +46,7 @@
 </div>
 <div class="diana-field">
 	<label for="diana_career_competency"><?php _e('Competency:', 'diana'); ?> </label>
-	<input id="diana_career_competency" type="text" class="widefat" name="diana_career_competency" value="<?php echo esc_attr($diana_career_competency); ?>" />
+	<textarea autocomplete="false" name="diana_career_competency" class="widefat" id="diana_career_competency" cols="30" rows="10"><?php echo esc_textarea($diana_career_competency); ?></textarea>
 </div>
 <div class="diana-field">
 	<label for="diana_career_remarks"><?php _e('Instructions/Remarks:', 'diana'); ?> </label>
