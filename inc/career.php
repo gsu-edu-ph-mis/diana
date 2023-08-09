@@ -94,22 +94,17 @@ function diana_render_career_metabox( $post ){
 		}
 		$vars['diana_career_posting_date'] = date("Y-m-d");;
 		$vars['diana_career_closing_date'] = date("Y-m-d");;
-		$vars['diana_career_place_of_assignment'] = 'GSC';
+		$vars['diana_career_place_of_assignment'] = 'GSU';
 		$vars['diana_career_documents'] = '1. Fully accomplished Personal Data Sheet (PDS) with recent passport-sized picture (CS Form No. 212, Revised 2017) which can be downloaded at www.csc.gov.ph;
 2. Performance rating in the last rating period (if applicable);
 3. Authenticated copy of certificate of eligibility/rating/license (if applicable);
 4. Authenticated copy of Transcript of Records and Diploma (BS and Masters); and
 5. Photocopy of Certificate of training';
-		$vars['diana_career_remarks'] = 'The College encourages interested and qualified applicants regardless of age, sex, sexual orientation and
-gender identity, civil status, disability, religion, ethnicity, social status, income class, paternity and
-filiation, political affiliation, or other similar factors/personal circumstances ethnicity and political
-affiliation or other similar factors/ personal circumstances to apply as per their qualifications. Interested
-and qualified applicants should signify their interest in writing. Attach the following documents to the
-application letter and send to the address below not later than the closing date.';
+		$vars['diana_career_remarks'] = 'The University encourages all interested and qualified applicants including persons vmh disability (PWD), and members of the indigenous communities, irrespective of sexual orientation and gender iden@es and expression, to apply.';
 		$vars['diana_career_recipient'] = 'DR. LILIAN DIANA B. PARREÑO';
 		$vars['diana_career_recipient_title'] = 'SUC President III';
-		$vars['diana_career_recipient_address'] = 'Guimaras State College, Mclain, Buenavista, Guimaras';
-		$vars['diana_career_recipient_email'] = 'career@gsc.edu.ph';
+		$vars['diana_career_recipient_address'] = 'Guimaras State University, Mclain, Buenavista, Guimaras';
+		$vars['diana_career_recipient_email'] = 'career@gsu.edu.ph';
 	} else {
 		$_diana_settings_career = diana_get_post_meta($post->ID, '_diana_settings_career');
 

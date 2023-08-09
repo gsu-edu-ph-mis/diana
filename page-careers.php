@@ -74,7 +74,7 @@ get_header(); ?>
 							</table>
 						</div>
 
-						<p>The College encourages interested and qualified applicants regardless of age, sex, sexual orientation and gender identity, civil status, disability, religion, ethnicity, social status, income class, paternity and filiation, political affiliation, or other similar factors/personal circumstances ethnicity and political affiliation or other similar factors/ personal circumstances to apply as per their qualifications.</p>
+						<p>The University encourages all interested and qualified applicants including persons vmh disability (PWD), and members of the indigenous communities, irrespective of sexual orientation and gender iden@es and expression, to apply.</p>
 
 					<?php else: ?>
 						<div style="min-height: 200px">
