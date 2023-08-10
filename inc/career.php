@@ -96,11 +96,10 @@ function diana_render_career_metabox( $post ){
 		$vars['diana_career_closing_date'] = date("Y-m-d");;
 		$vars['diana_career_place_of_assignment'] = 'GSU';
 		$vars['diana_career_documents'] = '1. Fully accomplished Personal Data Sheet (PDS) with recent passport-sized picture (CS Form No. 212, Revised 2017) which can be downloaded at www.csc.gov.ph;
-2. Performance rating in the last rating period (if applicable);
-3. Authenticated copy of certificate of eligibility/rating/license (if applicable);
-4. Authenticated copy of Transcript of Records and Diploma (BS and Masters); and
-5. Photocopy of Certificate of training';
-		$vars['diana_career_remarks'] = 'The University encourages all interested and qualified applicants including persons vmh disability (PWD), and members of the indigenous communities, irrespective of sexual orientation and gender iden@es and expression, to apply.';
+2. Performance rating in the last rating period;
+3. Photocopy of certificate of eligibility/rating/license; and
+4. Photocopy of Transcript of Records and Diploma';
+		$vars['diana_career_remarks'] = 'The University encourages all interested and qualified applicants including persons with disability (PWD), and members of the indigenous communities, irrespective of sexual orientation and gender identities and expression, to apply.';
 		$vars['diana_career_recipient'] = 'DR. LILIAN DIANA B. PARREÑO';
 		$vars['diana_career_recipient_title'] = 'SUC President III';
 		$vars['diana_career_recipient_address'] = 'Guimaras State University, Mclain, Buenavista, Guimaras';
