@@ -182,9 +182,11 @@ function diana_save_post_hook_career( $post_id ){
 		'diana_career_recipient_email'
 	];
 
+	$_diana_settings_career_old = diana_get_post_meta($post_id, '_diana_settings_career');
+
 	for ($i = 0; $i < count($keys); $i++) {
 		$key = $keys[$i];
-		$_diana_settings_career[$key] = isset($post[$key]) ? $post[$key] : "";
+		$_diana_settings_career[$key] = isset($post[$key]) ? $post[$key] : ( $_diana_settings_career_old[$key] ? $_diana_settings_career_old[$key] : '');
 	}
 
 	update_post_meta($post_id, '_diana_settings_career', $_diana_settings_career);
