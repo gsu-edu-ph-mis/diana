@@ -138,6 +138,100 @@ get_header(); ?>
 				?>
 			</div>
 			<div class="col-md-4 mb-5">
+				<div class="calendar-box mb-4">
+					<h2 class="h4 mb-4 text-center">For Academic Year 2023-2024</h2>
+					<div class="title-first bg-gsu-blue text-center text-white p-3">
+						<h3 class="h4 mb-0">First Semester</h3>
+						<p class="mb-0">August - December, 2023</p>
+					</div>
+					<div class="body">
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue">
+							<div class="col-md-12 text-center">
+								<div class="p-2">Enrollment Schedule</div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">4<sup>th</sup> Year</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-07-17">July 17 - 21, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">3<sup>rd</sup> Year</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-07-24">July 24 - 28, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">2<sup>nd</sup> Year</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-08-04">July 31 - Aug 4, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Incoming 1<sup>st</sup> Year and All Programs/ Year Levels/ Transferees</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-08-04">Aug 7 - Aug 18, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Beginning of Classes</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-08-22">Aug 22, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Changing, Adding and Dropping</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-08-29">Aug 29 - Sep 8, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Orientation Program/ Campus/ College Acquaintance Party</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-08-29">Sep 4 - 9, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Middle Term Exam</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-10-11">October 9 - 11, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Cultural Activities</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-10-19">October 19 - 21, 2023</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Final Exam</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2023-12-19">December 19 - 20, 2023</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="calendar-box">
 					<h2 class="h4 mb-4 text-center">For Academic Year 2022-2023</h2>
 					<div class="title-first bg-gsu-blue text-center text-white p-3">
