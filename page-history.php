@@ -76,7 +76,7 @@ get_header(); ?>
 					</div>
 					<div class="event right">
 						<h2 class="h2">2019</h2>
-						<p><a target="_blank" href="<?= get_stylesheet_directory_uri(); ?>/files/20190426-RA-11335-RRD.jpg"><img src="<?= get_stylesheet_directory_uri(); ?>/images/history/20190426-RA-11335-RRD.jpg" alt="20190426-RA-11335-RRD"></a> <br> President Rodrigo R. Duterte signed Republic Act 11335 on April 26, 2019.</p>
+						<p><a target="_blank" href="<?= get_stylesheet_directory_uri(); ?>/files/20190426-RA-11335-RRDr.pdf"><img src="<?= get_stylesheet_directory_uri(); ?>/images/history/20190426-RA-11335-RRD.jpg" alt="20190426-RA-11335-RRD"></a> <br> President Rodrigo R. Duterte signed Republic Act 11335 on April 26, 2019.</p>
 					</div>
 					<div class="important event">
 						<h2 class="h2">2022</h2>
