@@ -47,23 +47,18 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/rheajoy.flora.jpg" alt="">
 							</div>
 							<h3 class="h3">Prof. Rhea Joy D. Flora</h3>
-							<h4 class="h4">Program Head, Bachelor of Science in Agriculture</h4>
-							<h4 class="h4">Coordinator, Extension (CAgS)</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/gerald.gamo.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Gerald Sheo Thon D. Gamo </h3>
-							<h4 class="h4">Program Head, Bachelor of Science in Fisheries</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/reynro.herrera.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Reynro T. Herrera</h3>
-							<h4 class="h4">Coordinator, Student Affairs and Services</h4>
-							<h4 class="h4">Coordinator, Extension</h4>
 						</div>
 					</div>
 				</div>
@@ -88,21 +83,19 @@ get_header(); ?>
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/reiner.alminaza.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Reiner Jun G. Alminaza</h3>
-							<h4 class="h4">Coordinator, Extension (CST)</h4>
+							<h3 class="h3">Prof. Reiner Jun G. Alminaza</h3>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/adrian.alumbro.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Adrian C. Alumbro</h3>
-							<h4 class="h4">Program Head, BS Food Technology</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/adrian.forca.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Adrian J. Forca</h3>
+							<h3 class="h3">Prof. Adrian J. Forca</h3>
 						</div>
 						<!--
 						<div class="col-md-4 official">
@@ -147,27 +140,22 @@ get_header(); ?>
 							<h3 class="h3">Instr. James Ryan B. Ga</h3>
 						</div>
 						<div class="col-md-4 official">
-							<div class="official-photo-2 mb-3">
+							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/jed.sorolla.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Jed P. Sorolla</h3>
-							<h4 class="h4">Program Head, BS Information Systems</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/divon.tamdang.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Divon G. Tamdang</h3>
-							<h4 class="h4">Program Head, BS Information Technology</h4>
-							<h4 class="h4">Coordinator, Student Affairs Services (Mosqueda Campus)</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/lea.ymalay.jpg" alt="">
 							</div>
 							<h3 class="h3">Dr. Lea P. Ymalay</h3>
-							<h4 class="h4">Program Head, Bachelor of Science in Computer Science</h4>
-							<h4 class="h4">Bachelor of Science in Information Systems (BSIS)</h4>
 						</div>
 					</div>
 				</div>
@@ -179,9 +167,9 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/andrew.paguntalan.jpg" alt="Rome Moralista">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/arthur.soquena.jpg" alt="Rome Moralista">
 							</div>
-							<h3 class="h3">Dr. Andrew D. Paguntalan</h3>
+							<h3 class="h3">Dr. Arthur C. Soqueña</h3>
 							<h4 class="h4">Dean</h4>
 						</div>
 						<div class="col-md-4">
@@ -230,7 +218,6 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/lovely.egael.jpg" alt="">
 							</div>
 							<h3 class="h3">Dr. Lovely Joy J. Egael</h3>
-							<h4 class="h4">Program Head, BS Business Administration</h4>
 						</div>
 						<div class="col-md-4 official  mb-4">
 							<div class="official-photo-3 mb-3">
@@ -243,8 +230,6 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/ronald.gentapanan.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Ronald G. Gentapanan</h3>
-							<h4 class="h4">Program Head, Bachelor of Science in Real Estate Management</h4>
-							<h4 class="h4">Program Head, Bachelor of Science in Entrepreneurship</h4>
 						</div>
 						<div class="col-md-4 official  mb-4">
 							<div class="official-photo-3 mb-3">
@@ -274,10 +259,7 @@ get_header(); ?>
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/ellyn.maramento.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Ellyn Ly O. Maramento</h3>
-							<h4 class="h4">Program Head, BS Tourism Management</h4>
-							<h4 class="h4">Program Head, BS Hospitality Management</h4>
-							<h4 class="h4">Coordinator, Edu-Tourism</h4>
+							<h3 class="h3">Prof. Ellyn Ly O. Maramento</h3>
 						</div>
 						
 						<div class="col-md-4 official  mb-4">
@@ -294,11 +276,15 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/andrew.paguntalan.jpg" alt="">
+							</div>
+							<h3 class="h3">Dr. Andrew D. Paguntalan</h3>
+						</div>
+						<div class="col-md-4 official">
+							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/arthur.soquena.jpg" alt="">
 							</div>
 							<h3 class="h3">Dr. Arthur C. Soqueña</h3>
-							<h4 class="h4">Program Head, BS Entrepreneurship</h4>
-							<h4 class="h4">Subject Area Chair, Business Management and Accounting</h4>
 						</div>
 						<div class="col-md-4 official  mb-4">
 							<div class="official-photo-3 mb-3">
@@ -314,11 +300,12 @@ get_header(); ?>
 					<div class="row mb-5">
 						<div class="col-md-4">
 						</div>
+						
 						<div class="col-md-4 official">
 							<div class="official-photo mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/daniel.arboleda.jpg" alt="Photo">
 							</div>
-							<h3 class="h3">Dr. Reynald T. Ladera</h3>
+							<h3 class="h3">Dr. Daniel John D. Arboleda</h3>
 							<h4 class="h4">Dean</h4>
 						</div>
 						<div class="col-md-4">
@@ -358,6 +345,12 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="Photo">
+							</div>
+							<h3 class="h3">Dr. Reynald T. Ladera</h3>
+						</div>
+						<div class="col-md-4 official">
+							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/kert.pillora.jpg" alt="">
 							</div>
 							<h3 class="h3">Dr. Kert D. Pillora</h3>
@@ -383,9 +376,9 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/norie.palma.jpg" alt="Norie Palma">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/jasmin.gadian.jpg" alt="">
 							</div>
-							<h3 class="h3">Dr. Norie H. Palma</h3>
+							<h3 class="h3">Dr. Jasmin T. Gadian</h3>
 							<h4 class="h4">Dean</h4>
 						</div>
 						<div class="col-md-4">
@@ -398,8 +391,6 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/gilbert.amistas.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Gilbert A. Amistas</h3>
-							<h4 class="h4">Program Head, Bachelor of Technology and Livelihood Education (BTLEd)</h4>
-							<h4 class="h4">Coordinator, Extension (BTLEd)</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
@@ -445,6 +436,12 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/norie.palma.jpg" alt="">
+							</div>
+							<h3 class="h3">Dr. Norie H. Palma</h3>
+						</div>
+						<div class="col-md-4 official">
+							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/joel.japitana.jpg" alt="">
 							</div>
 							<h3 class="h3">Dr. Joel V. Japitana</h3>
@@ -459,7 +456,7 @@ get_header(); ?>
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/israel.tagudin.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. John Israel G. Tagudin</h3>
+							<h3 class="h3">Prof. John Israel G. Tagudin</h3>
 						</div>
 					</div>
 				</div>
@@ -486,7 +483,7 @@ get_header(); ?>
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/daniel.arboleda.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Daniel John D. Arboleda</h3>
+							<h3 class="h3">Dr. Daniel John D. Arboleda</h3>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
@@ -535,7 +532,6 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/agatha.norilla.jpg" alt="">
 							</div>
 							<h3 class="h3">Dr. Agatha Rica B. Norilla</h3>
-							<h4 class="h4">Chair, Social Science Department</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
@@ -563,7 +559,7 @@ get_header(); ?>
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/joan.gerada.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Jo Ann T. Gerada</h3>
+							<h3 class="h3">Prof. Jo Ann T. Gerada</h3>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
@@ -600,8 +596,6 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/kyrl.palma.jpg" alt="">
 							</div>
 							<h3 class="h3">Dr. Kyrl S. Palma</h3>
-							<h4 class="h4">Program Head, Bachelor of Arts in English Language Studies </h4>
-							<h4 class="h4">Chair, English Department</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
@@ -660,7 +654,6 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/geraldo.cang.jpg" alt="">
 							</div>
 							<h3 class="h3">Prof. Geraldo B. Cang</h3>
-							<h4 class="h4">Chair, Mathematics Department</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
@@ -678,7 +671,7 @@ get_header(); ?>
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/rodrigo.paglomutan.jpg" alt="">
 							</div>
-							<h3 class="h3">Instr. Rodrigo G. Paglomutan</h3>
+							<h3 class="h3">Prof. Rodrigo G. Paglomutan</h3>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
@@ -701,7 +694,6 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/adora.gabayoyo.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Adora B. Gabayoyo</h3>
-							<h4 class="h4">Program Head, Bachelor of Elementary Education (BEEd)</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
@@ -718,7 +710,6 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/ervin.isogon.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Ervin L. Isogon</h3>
-							<h4 class="h4">Chair, P.E. Department</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
@@ -753,7 +744,6 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/rodante.villaflor.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Rodante G. Villaflor</h3>
-							<h4 class="h4">Program Head, Bachelor in Public Administration (BPA)</h4>
 						</div>
 					</div>
 					<!-- FACU -->
@@ -789,7 +779,6 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/conrado.calumpita.jpg" alt="">
 							</div>
 							<h3 class="h3">Engr. Conrado S. Calumpita </h3>
-							<h4 class="h4">Program Head, Mechanical Engineering</h4>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
@@ -838,7 +827,6 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/michael.occena.jpg" alt="">
 							</div>
 							<h3 class="h3">Instr. Michael M. Occeña</h3>
-							<h4 class="h4">Program Head, Bachelor in Industrial Technology (BIT) </h4>
 						</div>
 					</div>
 				</div>
