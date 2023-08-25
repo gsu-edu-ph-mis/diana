@@ -41,7 +41,7 @@ get_header(); ?>
 						</p>
 
 						<div class="mb-5">
-							<audio id="track" controls autoplay src="<?php echo get_stylesheet_directory_uri(); ?>/media/gsu-hymn-solo.mp3">
+							<audio id="track" controls autoplay src="<?php echo get_stylesheet_directory_uri(); ?>/media/gsu-hymn-orchestra.mp3">
 								Your browser does not support the
 								<code>audio</code> element.
 							</audio>
