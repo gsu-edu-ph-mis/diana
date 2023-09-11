@@ -54,7 +54,7 @@
 					</a>
 				</div>
 				<div class="col-4">
-					<a href="https://hris.gsc.edu.ph" class="btn d-flex justify-content-center align-items-center flex-wrap">
+					<a href="https://hris.gsu.edu.ph" class="btn d-flex justify-content-center align-items-center flex-wrap">
 						<img width="98px" height="30px" src="<?php echo get_stylesheet_directory_uri(); ?>/images/footer-hris.png" alt="HRIS">
 					</a>
 				</div>
