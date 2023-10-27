@@ -23,7 +23,7 @@ get_header(); ?>
 	<div class="container">
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
 			<div class="col-md-9 order-1 order-md-2 mb-5">
-				<p class="mb-5 p-0 p-md-4">Guimaras State College has its humble beginning as a secondary vocational institution, the Buenavista Vocational School (BVS), which was created by virtue of Republic Act 3933 in 1964 with Representative Rodolfo Ganzon of the 2nd District of Iloilo as the principal sponsor.</p>
+				<p class="mb-5 p-0 p-md-4">Guimaras State University has its humble beginning as a secondary vocational institution, the Buenavista Vocational School (BVS), which was created by virtue of Republic Act 3933 in 1964 with Representative Rodolfo Ganzon of the 2nd District of Iloilo as the principal sponsor.</p>
 				<h2 class="text-center mb-5 pb-3">Timeline</h2>
 				<div class="timeline mb-5">
 					<div class="event">
