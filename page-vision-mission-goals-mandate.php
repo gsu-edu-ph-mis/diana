@@ -103,7 +103,7 @@ get_header(); ?>
 				<nav class="page-sub-menu text-center scrolling-nav mb-5">
 					<ul>
 						<li><a href="<?= home_url(); ?>/brief-history">Brief History</a></li>
-						<li><a href="<?= home_url(); ?>/the-mandate">The Mandate</a></li>
+						<li><a href="<?= home_url(); ?>/the-mandate">Mandate</a></li>
 						<li class="current"><a href="<?= home_url(); ?>/vision-mission-goals">VMGO</a></li>
 						<li><a href="<?= home_url(); ?>/quality-policy">Quality Policy</a></li>
 						<li><a href="<?= home_url(); ?>/hymn">Hymn</a></li>
