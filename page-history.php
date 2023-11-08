@@ -23,7 +23,7 @@ get_header(); ?>
 	<div class="container">
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
 			<div class="col-md-9 order-1 order-md-2 mb-5">
-				<p class="mb-5 p-0 p-md-4">Guimaras State University has its humble beginning as a secondary vocational institution, the Buenavista Vocational School (BVS), which was created by virtue of Republic Act 3933 in 1964 with Representative Rodolfo Ganzon of the 2nd District of Iloilo as the principal sponsor.</p>
+				<p class="mb-5 p-0 p-md-4">Guimaras State University had its humble beginnings as a secondary vocational institution, the Buenavista Vocational School (BVS), which was established through Republic Act 3933 in 1964, with Representative Rodolfo Ganzon of the 2nd District of Iloilo as the principal sponsor.</p>
 				<h2 class="text-center mb-5 pb-3">Timeline</h2>
 				<div class="timeline mb-5">
 					<div class="event">
@@ -37,8 +37,11 @@ get_header(); ?>
 					</div>
 					<div class="important event">
 						<h2 class="h2">1968</h2>
+						<h3 class="h3 pt-5">Buenavista Vocational School</h3>
 						<p><img src="<?= get_stylesheet_directory_uri(); ?>/images/history/marker1968.jpg" alt=""></p>
-						<p>Four years later, through the efforts of Atty. Ernesto Gaduyon and Governor Abelardo Javellana, the philanthropist Atty. Juan Salvador donated a 50,000-square-meter lot from his estate in Barangay Mclain, Buenavista, Guimaras, to serve as the school site. As a result, Buenavista Vocational School was officially opened.</p>
+						<p>Four years later, through the efforts of Atty. Ernesto Gaduyon and Governor Abelardo Javellana, the philanthropist Atty. Juan Salvador donated a 50,000-square-meter lot from his estate in Barangay Mclain, Buenavista, Guimaras, to serve as the school site. </p>
+						<p class="pt-3 pb-3"><img width="100" height="100" src="<?= get_stylesheet_directory_uri(); ?>/images/bvs.png" alt="Logo"></p>
+						<p>As a result, Buenavista Vocational School was officially opened.</p>
 					</div>
 					<div class="event right">
 						<h2 class="h2">1980</h2>
@@ -54,7 +57,12 @@ get_header(); ?>
 					</div>
 					<div class="important event">
 						<h2 class="h2">1995</h2>
-						<p>In March 1995, President Fidel V. Ramos signed into law Republic Act 7944, paving the way for the conversion of Buenavista Vocational School into Guimaras Polytechnic College.</p>
+						<h3 class="h3 pt-5">Guimaras Polytechnic College</h3>
+						<p class="pt-3 pb-3"><img width="100" height="100" src="<?= get_stylesheet_directory_uri(); ?>/images/gpc.png" alt="Logo"></p>
+						<p>In March 1995, President Fidel V. Ramos signed into law Republic Act 7944, 
+						<a class="pt-3 pb-3 d-inline-block" target="_blank" href="<?= get_stylesheet_directory_uri(); ?>/files/RA-7944.pdf"><img src="<?= get_stylesheet_directory_uri(); ?>/images/history/RA-7944.jpg" alt="RA-7944"></a><br>
+							
+						paving the way for the conversion of Buenavista Vocational School into Guimaras Polytechnic College.</p>
 					</div>
 					<div class="event right">
 						<h2 class="h2">2000</h2>
@@ -62,12 +70,14 @@ get_header(); ?>
 					</div>
 					<div class="important event">
 						<h2 class="h2">2001</h2>
+						<h3 class="h3 pt-5">Guimaras State College</h3>
 						<p>Dante V. Liban and Emily R. Lopez filed House Bill 12358 in the eleventh Congress' first regular session (in substitution of House Bills 5807 & 7382). </p>
+						<p class="pt-3 pb-3"><img width="100" height="100" src="<?= get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Logo"></p>
 						<p>On June 8, 2001, President Gloria M. Arroyo signed Republic Act 9138, creating the Guimaras State College by merging the Guimaras Polytechnic College in Buenavista and the Western Visayas College of Science and Technology - Guimaras Extension in Jordan.</p>
 					</div>
 					<div class="event right">
 						<h2 class="h2">2012</h2>
-						<p><a target="_blank" href="<?= get_stylesheet_directory_uri(); ?>/files/HB06634.pdf"><img src="<?= get_stylesheet_directory_uri(); ?>/images/history/HB06634.jpg" alt="HB06634"></a><br>The 15th Congress enacted House Bill 06634 (An Act Converting the Guimaras State College in The Province of Guimaras Into a State University to Be Known as The Guimaras State University and Appropriating Funds Therefor) by former Congressman Joaquin Carlos Rahman Nava.</p>
+						<p><a class="pt-3 pb-3 d-inline-block" target="_blank" href="<?= get_stylesheet_directory_uri(); ?>/files/HB06634.pdf"><img src="<?= get_stylesheet_directory_uri(); ?>/images/history/HB06634.jpg" alt="HB06634"></a><br>The 15th Congress enacted House Bill 06634 (An Act Converting the Guimaras State College in The Province of Guimaras Into a State University to Be Known as The Guimaras State University and Appropriating Funds Therefor) by former Congressman Joaquin Carlos Rahman Nava.</p>
 					</div>
 					<div class="event ">
 						<h2 class="h2">2014</h2>
@@ -80,7 +90,9 @@ get_header(); ?>
 					</div>
 					<div class="important event">
 						<h2 class="h2">2022</h2>
+						<h3 class="h3 pt-5">Guimaras State University</h3>
 						<p>In June 7, 2022, the CHED Commission en Banc confirmed the conversion of Guimaras State College into Guimaras State University.</p>
+						<p class="pt-3 pb-3"><img width="100" height="100" src="<?= get_stylesheet_directory_uri(); ?>/images/logo-gsu.png" alt="Logo"></p>
 					</div>
 				</div>
 				<p class="h1 text-center text-md-left p-0 p-md-5">At last, the people of Guimaras have the chance to get educated and become professionals right in their own locale, spending less for quality education.</p>
