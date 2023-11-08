@@ -184,7 +184,7 @@ get_header(); ?>
 		<div class="row pt-5 pb-5 mb-5">
 			<div class="col-md-6 mb-4 order-md-1 order-2">
 				<h3 class="h1 mb-3">Accessibility</h3>
-				<p class="text-left">You dont need to leave the island of Guimaras as our campuses are located across the 3 municipalities of the province.</p>
+				<p class="text-left">There is no need to leave the island of Guimaras as our campuses are located across the 3 municipalities of the province.</p>
 				<div class="text-center">
 					<a href="<?= home_url('/map'); ?>" class="btn btn-primary btn-lg">Open Map</a>
 				</div>
@@ -198,7 +198,7 @@ get_header(); ?>
 		<div class="row pt-5 pb-5 mb-5">
 			<div class="col-md-6 pt-5 order-2">
 				<h3 class="h1 mb-3">Quality Education</h3>
-				<p class="text-left">Our faculty roster are qualified in their field of expertise and have the highest educational attainment fit for higher education.</p>
+				<p class="text-left">Our faculty members are highly qualified in their respective fields of expertise and possess the highest level of educational attainment.</p>
 				<div class="text-center">
 					<a href="<?= home_url('/faculty-roster'); ?>" class="btn btn-primary btn-lg">See Faculty</a>
 				</div>
