@@ -513,6 +513,7 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/luna.lamera.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Dr. Luna V. Lamera</h3>
+							<h4 class="h4">Chief Administrative Officer (CAO)</h4>
 							<h4 class="h4">Director, Internal Audit Service</h4>
 							<div class="h5">
 								<a href="mailto:luna.lamera@gsc.edu.ph">
