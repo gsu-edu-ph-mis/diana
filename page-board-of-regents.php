@@ -46,7 +46,7 @@ get_header(); ?>
 					<div class="row mb-5">
 						<div class="col-md-6 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/chiz.escudero.jpg" width="250" height="250" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. Francis "Chiz" G. Escudero</h3>
 							<h4 class="h4">Chairman, Senate Committee on Higher and Technical Education</h4>
@@ -123,7 +123,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/yyy.jpg" width="250" height="250" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/axyl.gadian.jpg" width="250" height="250" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. Axyl Rose T. Gadian</h3>
 							<h4 class="h4">President, Federated Student Republic</h4>
