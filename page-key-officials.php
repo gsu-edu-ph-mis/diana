@@ -45,9 +45,9 @@ get_header(); ?>
 							<h4 class="h4">University President</h4>
 							
 							<div class="h5">
-								<a href="mailto:guimstate@gsc.edu.ph" class="mail">
+								<a href="mailto:university.president@gsu.edu.ph " class="mail">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									guimstate@gsc.edu.ph
+									university.president@gsu.edu.ph 
 								</a>	
 								<!-- |
 								<a href="tel:+639778660104" class="phone">
@@ -70,9 +70,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Ruby D. Catalan</h3>
 							<h4 class="h4">Vice President for Academic Affairs </h4>
 							<div class="h5">
-								<a href="mailto:vpaa@gsc.edu.ph">
+								<a href="mailto:vpaa@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									vpaa@gsc.edu.ph
+									vpaa@gsu.edu.ph
 								</a>
 								<!-- |
 								<a href="tel:+639173032368">
@@ -89,9 +89,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Julieta G. Infante</h3>
 							<h4 class="h4">Vice President for Research, Extension, Training and Innovation</h4>
 							<div class="h5">
-								<a href="mailto:julieta.infante@gsc.edu.ph">
+								<a href="mailto:julieta.infante@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									julieta.infante@gsc.edu.ph
+									julieta.infante@gsu.edu.ph
 								</a>	
 								<!-- |
 								<a href="tel:+639177614760">
@@ -108,9 +108,9 @@ get_header(); ?>
 							<h4 class="h4">Vice President for Administration and Finance</h4>
 							<!-- <h4 class="h4">Main Approver, LDDAP and ACIC</h4> -->
 							<div class="h5">
-								<a href="mailto:budget@gsc.edu.ph">
+								<a href="mailto:budget@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									vpaf@gsc.edu.ph
+									vpaf@gsu.edu.ph
 								</a>	
 								<!-- |
 								<a href="tel:09173228113">
@@ -129,9 +129,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Bernardo G. Cagasan</h3>
 							<h4 class="h4">Dean, College of Arts and Sciences (CAS)</h4>
 							<div class="h5">
-								<a href="mailto:bernardo.cagasan@gsc.edu.ph">
+								<a href="mailto:bernardo.cagasan@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									bernardo.cagasan@gsc.edu.ph
+									bernardo.cagasan@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -160,9 +160,9 @@ get_header(); ?>
 							<h3 class="h3">Engr. Ruben M. Habaña</h3>
 							<h4 class="h4">Dean, College of Engineering and Industrial Technology (CEIT)</h4>
 							<div class="h5">
-								<a href="mailto:ruben.habana@gsc.edu.ph">
+								<a href="mailto:ruben.habana@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									ruben.habana@gsc.edu.ph
+									ruben.habana@gsu.edu.ph
 								</a>	
 								<!-- |
 								<a href="tel:09380130447">
@@ -192,9 +192,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Erly M. Martir</h3>
 							<h4 class="h4">Dean, Graduate School</h4>
 							<div class="h5">
-								<a href="mailto:erly.martir@gsc.edu.ph">
+								<a href="mailto:erly.martir@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									erly.martir@gsc.edu.ph
+									erly.martir@gsu.edu.ph
 								</a>	
 							</div>
 
@@ -207,9 +207,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Arthur Soqueña</h3>
 							<h4 class="h4">Dean, College of Business and Management (CBM)</h4>
 							<div class="h5">
-								<a href="mailto:arthur.soquena@gsc.edu.ph ">
+								<a href="mailto:arthur.soquena@gsu.edu.ph ">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									arthur.soquena@gsc.edu.ph 
+									arthur.soquena@gsu.edu.ph 
 								</a>	
 							</div>
 
@@ -221,9 +221,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Jasmin T. Gadian</h3>
 							<h4 class="h4">Dean, College of Teacher Education (CTE)</h4>
 							<div class="h5">
-								<a href="mailto:jasmin.gadian@gsc.edu.ph">
+								<a href="mailto:jasmin.gadian@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									jasmin.gadian@gsc.edu.ph
+									jasmin.gadian@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -234,9 +234,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Julius T. Vergara</h3>
 							<h4 class="h4">Dean, College of Agricultural Sciences (CAgS)</h4>
 							<div class="h5">
-								<a href="mailto:julius.vergara@gsc.edu.ph">
+								<a href="mailto:julius.vergara@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									julius.vergara@gsc.edu.ph
+									julius.vergara@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -252,9 +252,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Kert D. Pillora</h3>
 							<h4 class="h4">Campus Director, Mosqueda Campus</h4>
 							<div class="h5">
-								<a href="mailto:kert.pillora@gsc.edu.ph">
+								<a href="mailto:kert.pillora@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									kert.pillora@gsc.edu.ph
+									kert.pillora@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -265,9 +265,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Julius T. Vergara</h3>
 							<h4 class="h4">Campus Director, Baterna Campus</h4>
 							<div class="h5">
-								<a href="mailto:julius.vergara@gsc.edu.ph">
+								<a href="mailto:julius.vergara@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									julius.vergara@gsc.edu.ph
+									julius.vergara@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -284,9 +284,9 @@ get_header(); ?>
 							<h3 class="h3">Prof. Eric P. Catalan</h3>
 							<h4 class="h4">Director, Industrial Technology Research and Development Center (ITRDC)/Affiliated Renewable Energy Center (AREC)</h4>
 							<div class="h5">
-								<a href="mailto:eric.catalan@gsc.edu.ph">
+								<a href="mailto:eric.catalan@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									eric.catalan@gsc.edu.ph
+									eric.catalan@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -297,9 +297,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Margie Y. De la Cruz</h3>
 							<h4 class="h4">Director, Community Extension Services</h4>
 							<div class="h5">
-								<a href="mailto:margie.delacruz@gsc.edu.ph">
+								<a href="mailto:margie.delacruz@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									margie.delacruz@gsc.edu.ph
+									margie.delacruz@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -310,9 +310,9 @@ get_header(); ?>
 							<h3 class="h3">Prof. Khristian T. De la Rama</h3>
 							<h4 class="h4">Director, Journal Publications &amp; Instructional Materials Development</h4>
 							<div class="h5">
-								<a href="mailto:khristian.delarama@gsc.edu.ph">
+								<a href="mailto:khristian.delarama@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									khristian.delarama@gsc.edu.ph
+									khristian.delarama@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -323,9 +323,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Erwin D. Dumagpi</h3>
 							<h4 class="h4">Director, Economic Development Center (EDC)</h4>
 							<div class="h5">
-								<a href="mailto:erwin.dumagpi@gsc.edu.ph">
+								<a href="mailto:erwin.dumagpi@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									erwin.dumagpi@gsc.edu.ph
+									erwin.dumagpi@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -336,9 +336,9 @@ get_header(); ?>
 							<h3 class="h3">Instr. Violeta C. Efondo</h3>
 							<h4 class="h4">Director, Office of the Student Development and Services (OSDS)</h4>
 							<div class="h5">
-								<a href="mailto:violeta.efondo@gsc.edu.ph">
+								<a href="mailto:violeta.efondo@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									violeta.efondo@gsc.edu.ph
+									violeta.efondo@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -349,9 +349,9 @@ get_header(); ?>
 							<h3 class="h3">Prof. Rhea Joy D. Flora</h3>
 							<h4 class="h4">Director, Mango and Tropical Fruits Research Center</h4>
 							<div class="h5">
-								<a href="mailto:rheajoy.flora@gsc.edu.ph">
+								<a href="mailto:rheajoy.flora@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									rheajoy.flora@gsc.edu.ph
+									rheajoy.flora@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -362,9 +362,9 @@ get_header(); ?>
 							<h3 class="h3">Instr. Adrian J. Forca</h3>
 							<h4 class="h4">Director, Information and Communications Technology Office (ICTO)</h4>
 							<div class="h5">
-								<a href="mailto:adrian.forca@gsc.edu.ph">
+								<a href="mailto:adrian.forca@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									adrian.forca@gsc.edu.ph
+									adrian.forca@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -377,9 +377,9 @@ get_header(); ?>
 							<h3 class="h3">Instr. Frenz Rian G. Gal</h3>
 							<h4 class="h4">Director, Intellectual Property Management Office (IPMO)</h4>
 							<div class="h5">
-								<a href="mailto:frenz.gal@gsc.edu.ph">
+								<a href="mailto:frenz.gal@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									frenz.gal@gsc.edu.ph
+									frenz.gal@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -390,9 +390,9 @@ get_header(); ?>
 							<h3 class="h3">Instr. Jo Ann T. Gerada</h3>
 							<h4 class="h4">Director, Management Information System (MIS)</h4>
 							<div class="h5">
-								<a href="mailto:joann.gerada@gsc.edu.ph">
+								<a href="mailto:joann.gerada@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									joann.gerada@gsc.edu.ph
+									joann.gerada@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -418,9 +418,9 @@ get_header(); ?>
 							<h3 class="h3">Prof. Ethel P. Junco</h3>
 							<h4 class="h4">Director, Research and Development</h4>
 							<div class="h5">
-								<a href="mailto:ethel.junco@gsc.edu.ph">
+								<a href="mailto:ethel.junco@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									ethel.junco@gsc.edu.ph
+									ethel.junco@gsu.edu.ph
 								</a>	
 							</div>
 
@@ -433,9 +433,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Rome B. Moralista</h3>
 							<h4 class="h4">Director, Disaster Risk Reduction Management and Mitigation and Climate Change Adaptation</h4>
 							<div class="h5">
-								<a href="mailto:rome.moralista@gsc.edu.ph">
+								<a href="mailto:rome.moralista@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									rome.moralista@gsc.edu.ph
+									rome.moralista@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -447,9 +447,9 @@ get_header(); ?>
 							<h4 class="h4">Director, Food Innovation Center &amp; Industry Linkages</h4>
 							<h4 class="h4">Director, Quality Assurance (QA)</h4>
 							<div class="h5">
-								<a href="mailto:methusela.perrocha@gsc.edu.ph">
+								<a href="mailto:methusela.perrocha@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									methusela.perrocha@gsc.edu.ph
+									methusela.perrocha@gsu.edu.ph
 								</a>	
 							</div>
 
@@ -463,9 +463,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Enriqueta N. Siva</h3>
 							<h4 class="h4">Director, Gender and Development (GAD)</h4>
 							<div class="h5">
-								<a href="mailto:enriqueta.siva@gsc.edu.ph">
+								<a href="mailto:enriqueta.siva@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									enriqueta.siva@gsc.edu.ph
+									enriqueta.siva@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -476,9 +476,9 @@ get_header(); ?>
 							<h3 class="h3">Prof. Maribeth E. Sumalde</h3>
 							<h4 class="h4">Director, Cultural Affairs, Traditional and Contemporary Arts</h4>
 							<div class="h5">
-								<a href="mailto:maribeth.sumalde@gsc.edu.ph">
+								<a href="mailto:maribeth.sumalde@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									maribeth.sumalde@gsc.edu.ph
+									maribeth.sumalde@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -489,9 +489,9 @@ get_header(); ?>
 							<h3 class="h3">Dr. Efren S. Tellermo</h3>
 							<h4 class="h4">Director, Planning Office</h4>
 							<div class="h5">
-								<a href="mailto:planning@gsc.edu.ph">
+								<a href="mailto:planning@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									planning@gsc.edu.ph
+									planning@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -502,9 +502,9 @@ get_header(); ?>
 							<h3 class="h3">Instr. Leopoldo Third R. Tumapang</h3>
 							<h4 class="h4">Director, Sports and Wellness</h4>
 							<div class="h5">
-								<a href="mailto:third.tumapang@gsc.edu.ph">
+								<a href="mailto:third.tumapang@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									third.tumapang@gsc.edu.ph
+									third.tumapang@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -516,9 +516,9 @@ get_header(); ?>
 							<h4 class="h4">Chief Administrative Officer (CAO)</h4>
 							<h4 class="h4">Director, Internal Audit Service</h4>
 							<div class="h5">
-								<a href="mailto:luna.lamera@gsc.edu.ph">
+								<a href="mailto:luna.lamera@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									luna.lamera@gsc.edu.ph
+									luna.lamera@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -529,9 +529,9 @@ get_header(); ?>
 							<h3 class="h3">Mr. Philippe R. Prologo</h3>
 							<h4 class="h4">Director, Finance Division</h4>
 							<div class="h5">
-								<a href="mailto:accounting@gsc.edu.ph">
+								<a href="mailto:accounting@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									accounting@gsc.edu.ph
+									accounting@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -674,9 +674,9 @@ get_header(); ?>
 							<h3 class="h3">Mrs. Janet R. Aleman</h3>
 							<h4 class="h4">Board Secretary</h4>
 							<div class="h5">
-								<a href="mailto:gscbrdsec@gsc.edu.ph">
+								<a href="mailto:gscbrdsec@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									gscbrdsec@gsc.edu.ph
+									gscbrdsec@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -701,9 +701,9 @@ get_header(); ?>
 							<h3 class="h3">Rosalinda N. Cinco</h3>
 							<h4 class="h4">Collecting Officer</h4>
 							<div class="h5">
-								<a href="mailto:rosalinda.cinco@gsc.edu.ph">
+								<a href="mailto:rosalinda.cinco@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									rosalinda.cinco@gsc.edu.ph
+									rosalinda.cinco@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -728,9 +728,9 @@ get_header(); ?>
 							<h4 class="h4">Liaison Officer, GSIS, PhilHealth and SSS</h4>
 							<!-- <h4 class="h4">Alternate Signatory - Authorized Approving Officer, PAG-IBIG Short Term Loan</h4> -->
 							<div class="h5">
-								<a href="mailto:grace.ello@gsc.edu.ph">
+								<a href="mailto:grace.ello@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									grace.ello@gsc.edu.ph
+									grace.ello@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -754,9 +754,9 @@ get_header(); ?>
 							<h3 class="h3">Randy G. Galve</h3>
 							<h4 class="h4">Procurement Officer</h4>
 							<div class="h5">
-								<a href="mailto:randy.galve@gsc.edu.ph">
+								<a href="mailto:randy.galve@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									randy.galve@gsc.edu.ph
+									randy.galve@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -767,9 +767,9 @@ get_header(); ?>
 							<h3 class="h3">Hazel D. Jarangue</h3>
 							<h4 class="h4">Cashier</h4>
 							<div class="h5">
-								<a href="mailto:hazel.jarangue@gsc.edu.ph">
+								<a href="mailto:hazel.jarangue@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									hazel.jarangue@gsc.edu.ph
+									hazel.jarangue@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -780,9 +780,9 @@ get_header(); ?>
 							<h3 class="h3">Luna V. Lamera</h3>
 							<h4 class="h4">Chief Administrative Officer</h4>
 							<div class="h5">
-								<a href="mailto:luna.lamera@gsc.edu.ph">
+								<a href="mailto:luna.lamera@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									luna.lamera@gsc.edu.ph
+									luna.lamera@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -828,9 +828,9 @@ get_header(); ?>
 							<h4 class="h4">Human Resource Management Officer (HRMO)</h4>
 							<!-- <h4 class="h4">Alternate Signatory - Authorized Approving Officer, PAG-IBIG Short Term Loan</h4> -->
 							<div class="h5">
-								<a href="mailto:hrmo@gsc.edu.ph">
+								<a href="mailto:hrmo@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									hrmo@gsc.edu.ph
+									hrmo@gsu.edu.ph
 								</a>	
 								<!-- |
 								<a href="tel:+09171564778">
@@ -854,9 +854,9 @@ get_header(); ?>
 							<h3 class="h3">Mrs. Regina V. Traifalgar</h3>
 							<h4 class="h4">Head Librarian</h4>
 							<div class="h5">
-								<a href="mailto:library@gsc.edu.ph">
+								<a href="mailto:library@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									library@gsc.edu.ph
+									library@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
