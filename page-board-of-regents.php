@@ -82,10 +82,10 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/barrogo.albert.jpg" width="250" height="250" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile Photo">
 							</div>
-							<h3 class="h3">Hon. Jose Albert A. Barrogo</h3>
-							<h4 class="h4">Regional Director, Department of Agriculture (DA) Region VI – Western Visayas</h4>
+							<h3 class="h3">Hon. Dennis R. Arpia</h3>
+							<h4 class="h4">Regional Executive Director, Department of Agriculture (DA) Region VI – Western Visayas</h4>
 							<h4 class="h5">Member</h4>
 						</div>
 						<div class="col-md-4 official ">
@@ -107,36 +107,28 @@ get_header(); ?>
 						
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/erly.martir.jpg" width="250" height="250" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile Photo">
 							</div>
-							<h3 class="h3">Hon. Erly M. Martir</h3>
+							<h3 class="h3">Hon. Vizur-Ty C. Gaitano</h3>
 							<h4 class="h4">Representative, Federated Alumni Association</h4>
 							<h4 class="h5">Member</h4>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/jonathan.gabion.jpg" width="250" height="250" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/erly.martir.jpg" width="250" height="250" alt="Profile Photo">
 							</div>
-							<h3 class="h3">Hon. Jonathan G. Gabion</h3>
+							<h3 class="h3">Hon. Erly M. Martir</h3>
 							<h4 class="h4">President, Federated Faculty Association</h4>
 							<h4 class="h5">Member</h4>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/celine.eulin.jpg" width="250" height="250" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/yyy.jpg" width="250" height="250" alt="Profile Photo">
 							</div>
-							<h3 class="h3">Hon. Celine D. Eulin</h3>
+							<h3 class="h3">Hon. Axyl Rose T. Gadian</h3>
 							<h4 class="h4">President, Federated Student Republic</h4>
 							<h4 class="h5">Member</h4>
 						</div>
-						<!-- <div class="col-md-4 official ">
-							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" alt="Profile Photo">
-							</div>
-							<h3 class="h3">Hon. John Kin I. Guzman</h3>
-							<h4 class="h4">President, Federated Student Republic</h4>
-							<h4 class="h4">Member</h4>
-						</div> -->
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/janet.aleman.jpg" width="250" height="250" alt="Profile Photo">
