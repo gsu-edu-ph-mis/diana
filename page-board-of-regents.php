@@ -105,14 +105,14 @@ get_header(); ?>
 							<h4 class="h5">Member</h4>
 						</div>
 						
-						<div class="col-md-4 official ">
+						<!-- <div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/vizur.gaitano.jpg" width="250" height="250" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. Vizur-Ty C. Gaitano</h3>
 							<h4 class="h4">Representative, Federated Alumni Association</h4>
 							<h4 class="h5">Member</h4>
-						</div>
+						</div> -->
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/erly.martir.jpg" width="250" height="250" alt="Profile Photo">
