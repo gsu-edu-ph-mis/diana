@@ -82,7 +82,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/dennis.arpia.jpg" width="250" height="250" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. Dennis R. Arpia</h3>
 							<h4 class="h4">Regional Executive Director, Department of Agriculture (DA) Region VI – Western Visayas</h4>
@@ -90,7 +90,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/dionne.fernandez.jpg" width="250" height="250" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. Dionne B. Fernandez</h3>
 							<h4 class="h4">Private Sector Representative</h4>
@@ -98,7 +98,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/sanie.ong.jpg" width="250" height="250" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. Sanie D. Ong</h3>
 							<h4 class="h4">Private Sector Representative</h4>
@@ -107,7 +107,7 @@ get_header(); ?>
 						
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile Photo">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/vizur.gaitano.jpg" width="250" height="250" alt="Profile Photo">
 							</div>
 							<h3 class="h3">Hon. Vizur-Ty C. Gaitano</h3>
 							<h4 class="h4">Representative, Federated Alumni Association</h4>
