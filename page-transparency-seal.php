@@ -80,7 +80,7 @@ get_header(); ?>
 										<a target="_blank" href="https://drive.google.com/file/d/1rp9NhRcHp2CjL2fM514pXT135iBjQhnc/preview">Q3</a>, 
 										Q4
 									</li>
-									<li>FY 2019 - 
+									<!-- <li>FY 2019 - 
 										<a target="_blank" href="https://drive.google.com/file/d/1sQHlVp4muYL8vx1I0j-oJfeuuQIID2PR/preview">Q1</a>, 
 										<a target="_blank" href="https://drive.google.com/file/d/1PAa0iF3dfi_uf9iaur8jCq_LlpIseph6/preview">Q2</a>, 
 										<a target="_blank" href="https://drive.google.com/file/d/10GzwSJDqzvjQOxXPKBCYHCP_k1NckmI-/preview">Q3</a>, 
@@ -97,7 +97,7 @@ get_header(); ?>
 										<a target="_blank" href="https://drive.google.com/file/d/1EASfQ365zcYZ-inL3UkGD7a1L0sU5tTP/preview">Q2</a>, 
 										<a target="_blank" href="https://drive.google.com/file/d/1ifViOzZJiaiOMkWtZEZtjxfs5RKwftEH/preview">Q3</a>, 
 										<a target="_blank" href="https://drive.google.com/file/d/1orIyVpc97LKPuJ1dD8fx7solN8Dukzb8/preview">Q4</a>
-									</li>
+									</li> -->
 								</ul>
 							</li>
 
@@ -156,7 +156,7 @@ get_header(); ?>
 										<a target="_blank" href="https://drive.google.com/file/d/14P4IRzziyBO9D0ywRqoG8a_aGYjl3Ziy/preview">Nov</a>,
 										Dec
 									</li>
-									<li>FY 2019 - 
+									<!-- <li>FY 2019 - 
 										<a target="_blank" href="https://drive.google.com/file/d/1uXSmch2AnHUSpehY2ebF1MmfdblGCVy8/preview">Jan</a>, 
 										<a target="_blank" href="https://drive.google.com/file/d/1QrAlQAL-DLwkniEi4-zaSm1iTHCEbfJO/preview">Feb</a>,
 										<a target="_blank" href="https://drive.google.com/file/d/1QrAlQAL-DLwkniEi4-zaSm1iTHCEbfJO/preview">Mar</a>,
@@ -197,53 +197,7 @@ get_header(); ?>
 										<a target="_blank" href="https://drive.google.com/file/d/1nD5t-ytHFYt9VnAyWIEulDvx__5C4QRr/preview">Oct</a>,
 										<a target="_blank" href="https://drive.google.com/file/d/1NqNOH_SIiFFlWW9TzKIf_gR9l5MUkM0D/preview">Nov</a>,
 										<a target="_blank" href="https://drive.google.com/file/d/1YjKtPyNKNg-7OcQEbf89R44Hp3BNbqXW/preview">Dec</a>
-									</li>
-								</ul>
-							</li>
-							<li>FAR No. 5 – Quarterly Report on Revenue and Other Receipts
-
-								<ul>
-									<li>FY 2023 - 
-										<a target="_blank" href="https://drive.google.com/file/d/1Qd4-CyYCnIrC7UWhdyK0LpK2HaviHYSm/preview">Q1</a>,
-										<a target="_blank" href="https://drive.google.com/file/d/1DGydWWBJwGYS0qt2V1s2v5EB4i-AdkGG/preview">Q2</a>,
-										<a target="_blank" href="https://drive.google.com/file/d/1MHbvWnTJRfX8Ox8fvHMAfTxWGiIdbrCV/preview">Q3</a>
-									</li>
-									<li>FY 2022 - 
-										<a target="_blank" href="https://drive.google.com/file/d/1yYwzH-vrwXevW7W_nLqrwemDKZLmo8KP/preview">Q1</a>,
-										<a target="_blank" href="https://drive.google.com/file/d/1VxHw4O78_daecE4YCxCGqIk2ktm_aVOO/preview">Q2</a>,
-										<a target="_blank" href="https://drive.google.com/file/d/1kKtZnkL0YF6hAiOlws_sW7KtXhB2vNdk/preview">Q3</a>,
-										<a target="_blank" href="https://drive.google.com/file/d/1LKyaEXDS_6vY91ESsSnY7NtRWiiy7Zqz/preview">Q4</a>,
-									</li>
-									<li>FY 2021 - 
-										<a target="_blank" href="https://drive.google.com/file/d/1ic76t0uDk-Tu1mT7mCjUUIYaLhYRcNW1/preview">Q1</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/1J_hNCuodZoT2MYwoHh_aeak_G8QfjjaH/preview">Q2</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/1zkID9hV5TFKW5keDndxfFkWtpMbP9_XO/preview">Q3</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/153oebDhCdCH_nW-mKJpdmXY4zNo6DeVw/preview">Q4</a>
-									</li>
-									<li>FY 2020 - 
-										<a target="_blank" href="https://drive.google.com/file/d/18vEyXk-U0-Jj9J_Br0_L7VF0QhHNRAP9/preview">Q1</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/1wJeMRWnHx_9rrUkUIjN8XcFnmbxG9gvr/preview">Q2</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/1yNSv280eroZNKnDaeEWMHplMJj1dVFd0/preview">Q3</a>, 
-										Q4
-									</li>
-									<li>FY 2019 - 
-										<a target="_blank" href="https://drive.google.com/file/d/1MfK-z1DoVIWMCAD8EHKwUb5OnFZ9u-Oj/preview">Q1</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/15cCaI18jzbwHOCT8ukIcIoT--jWSBfBm/preview">Q2</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/13S7nectHf4rX4L4S8zde4GjYXIjQNCmQ/preview">Q3</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/1EuvFU4q96R399ycq122novfKNNa2ucrN/preview">Q4</a>
-									</li>
-									<li>FY 2018 - 
-										<a target="_blank" href="https://drive.google.com/file/d/1bbAFnvZfRWHAVhKu2mXveSN0yPHFZDtq/preview">Q1</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/1FaXXcEgDFatSKnC_f6T16Pj4-asfkfun/preview">Q2</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/1cP634T5zV56T5fhycI6XfL-R1ATFH6UH/preview">Q3</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/1Ra2ZYIE_6sjNORO6UyyUxpZF4dz4B7wV/preview">Q4</a>
-									</li>
-									<li>FY 2017 - 
-										<a target="_blank" href="https://drive.google.com/file/d/1NGRuN692d5-xB6va2nTaGaiwgo_PiaOo/preview">Q1</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/1xUdVmB9GkOu0W9w5gTJ-PiqGq3Vt2UIW/preview">Q2</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/1QWNStsvGJa-4G-9UqUN8vHpBWRI3NiqY/preview">Q3</a>, 
-										<a target="_blank" href="https://drive.google.com/file/d/1GPtW4a6oNBKtIJM3wNtJyecjM0A6W8dw/preview">Q4</a>
-									</li>
+									</li> -->
 								</ul>
 							</li>
 							<li>BAR No. 1 – Quarterly Physical Report of Operations/Physical Plan
@@ -272,7 +226,7 @@ get_header(); ?>
 										<a target="_blank" href="https://drive.google.com/file/d/1Aj4Sd0YL2v37mkvNabqHfpSqN5pQoKwf/preview">Q3</a>,
 										<a target="_blank" href="https://drive.google.com/file/d/1BwSEyl0SWyZgH6oZkt5ERZfqSKGSfvLm/preview">Q4</a>
 									</li>
-									<li>FY 2019 - 
+									<!-- <li>FY 2019 - 
 										<a target="_blank" href="https://drive.google.com/file/d/1slo3wd177YNHooE7-AZEYdqo7TeTgNiE/preview">Q1</a>,
 										Q2,
 										<a target="_blank" href="https://drive.google.com/file/d/1MDtPCwandtKpMP1JfAz_NOpH_qePrpXl/preview">Q3</a>,
@@ -289,9 +243,56 @@ get_header(); ?>
 										Q2,
 										<a target="_blank" href="https://drive.google.com/file/d/1pOrqKuTuu67tKTNc07K2-CLnU4C8uzxv/preview">Q3</a>,
 										<a target="_blank" href="https://drive.google.com/file/d/1KtjeZ_haykTNMW0i5GsRLqyf-i-e4xt7/preview">Q4</a>
-									</li>
+									</li> -->
 								</ul>
 							</li>
+							<li>FAR No. 5 – Quarterly Report on Revenue and Other Receipts
+
+								<ul>
+									<li>FY 2023 - 
+										<a target="_blank" href="https://drive.google.com/file/d/1Qd4-CyYCnIrC7UWhdyK0LpK2HaviHYSm/preview">Q1</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1DGydWWBJwGYS0qt2V1s2v5EB4i-AdkGG/preview">Q2</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1MHbvWnTJRfX8Ox8fvHMAfTxWGiIdbrCV/preview">Q3</a>
+									</li>
+									<li>FY 2022 - 
+										<a target="_blank" href="https://drive.google.com/file/d/1yYwzH-vrwXevW7W_nLqrwemDKZLmo8KP/preview">Q1</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1VxHw4O78_daecE4YCxCGqIk2ktm_aVOO/preview">Q2</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1kKtZnkL0YF6hAiOlws_sW7KtXhB2vNdk/preview">Q3</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1LKyaEXDS_6vY91ESsSnY7NtRWiiy7Zqz/preview">Q4</a>,
+									</li>
+									<li>FY 2021 - 
+										<a target="_blank" href="https://drive.google.com/file/d/1ic76t0uDk-Tu1mT7mCjUUIYaLhYRcNW1/preview">Q1</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/1J_hNCuodZoT2MYwoHh_aeak_G8QfjjaH/preview">Q2</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/1zkID9hV5TFKW5keDndxfFkWtpMbP9_XO/preview">Q3</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/153oebDhCdCH_nW-mKJpdmXY4zNo6DeVw/preview">Q4</a>
+									</li>
+									<li>FY 2020 - 
+										<a target="_blank" href="https://drive.google.com/file/d/18vEyXk-U0-Jj9J_Br0_L7VF0QhHNRAP9/preview">Q1</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/1wJeMRWnHx_9rrUkUIjN8XcFnmbxG9gvr/preview">Q2</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/1yNSv280eroZNKnDaeEWMHplMJj1dVFd0/preview">Q3</a>, 
+										Q4
+									</li>
+									<!-- <li>FY 2019 - 
+										<a target="_blank" href="https://drive.google.com/file/d/1MfK-z1DoVIWMCAD8EHKwUb5OnFZ9u-Oj/preview">Q1</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/15cCaI18jzbwHOCT8ukIcIoT--jWSBfBm/preview">Q2</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/13S7nectHf4rX4L4S8zde4GjYXIjQNCmQ/preview">Q3</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/1EuvFU4q96R399ycq122novfKNNa2ucrN/preview">Q4</a>
+									</li>
+									<li>FY 2018 - 
+										<a target="_blank" href="https://drive.google.com/file/d/1bbAFnvZfRWHAVhKu2mXveSN0yPHFZDtq/preview">Q1</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/1FaXXcEgDFatSKnC_f6T16Pj4-asfkfun/preview">Q2</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/1cP634T5zV56T5fhycI6XfL-R1ATFH6UH/preview">Q3</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/1Ra2ZYIE_6sjNORO6UyyUxpZF4dz4B7wV/preview">Q4</a>
+									</li>
+									<li>FY 2017 - 
+										<a target="_blank" href="https://drive.google.com/file/d/1NGRuN692d5-xB6va2nTaGaiwgo_PiaOo/preview">Q1</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/1xUdVmB9GkOu0W9w5gTJ-PiqGq3Vt2UIW/preview">Q2</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/1QWNStsvGJa-4G-9UqUN8vHpBWRI3NiqY/preview">Q3</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/1GPtW4a6oNBKtIJM3wNtJyecjM0A6W8dw/preview">Q4</a>
+									</li> -->
+								</ul>
+							</li>
+							
 							
 							<li>Financial Plan (Detailed Statement of Current Year’s Obligations, Disbursements and Unpaid Obligations)
 								<ul>
@@ -299,9 +300,9 @@ get_header(); ?>
 									<li><a target="_blank" href="https://drive.google.com/file/d/1NYbrOx5EIrh5nJoZVvU5AxshMZmMYCVp/preview">FY 2022</a></li>
 									<li><a target="_blank" href="https://drive.google.com/file/d/1qUw1zcwjcRV0NN_HdOtNVH7dGzlTtWdz/preview">FY 2021</a></li>
 									<li><a target="_blank" href="https://drive.google.com/file/d/1PwFJKnZjSH8if95gSP9kVeLD09uJfYpX/preview">FY 2020</a></li>
-									<li><a target="_blank" href="https://drive.google.com/file/d/1-YSgOLqcJwXbWg3H1tH4TeGcaKqoDI89/preview">FY 2019</a></li>
+									<!-- <li><a target="_blank" href="https://drive.google.com/file/d/1-YSgOLqcJwXbWg3H1tH4TeGcaKqoDI89/preview">FY 2019</a></li>
 									<li><a target="_blank" href="https://drive.google.com/file/d/17JGE0Eep-CN62boIdpa-l774PLmhSovG/preview">FY 2018</a></li>
-									<li><a target="_blank" href="https://drive.google.com/file/d/1G2RRs_fLCJiwDSnRMv47FIsLu1-ON9z2/preview">FY 2017</a></li>
+									<li><a target="_blank" href="https://drive.google.com/file/d/1G2RRs_fLCJiwDSnRMv47FIsLu1-ON9z2/preview">FY 2017</a></li> -->
 								</ul>
 							</li>
 						</ol>
