@@ -314,16 +314,16 @@ var vApp = new Vue({
                 board: '',
                 majors: 'Industrial Arts, Home Economics and Livelihood Education'
             },
-            {
-                name: 'Diploma in Teaching',
-                logo: '/images/logos/CTE-md.png',
-                logoCampus: '/images/campus-salvador-sm.png',
-                campus: 'Salvador Campus',
-                tags: ['undergrad', 'cte', 'salvador'],
-                college: 'College of Teacher Education (CTE)',
-                board: '',
-                majors: ''
-            },
+            // {
+            //     name: 'Diploma in Teaching',
+            //     logo: '/images/logos/CTE-md.png',
+            //     logoCampus: '/images/campus-salvador-sm.png',
+            //     campus: 'Salvador Campus',
+            //     tags: ['undergrad', 'cte', 'salvador'],
+            //     college: 'College of Teacher Education (CTE)',
+            //     board: '',
+            //     majors: ''
+            // },
 
             //
             {
