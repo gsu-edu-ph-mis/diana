@@ -276,9 +276,9 @@ var vApp = new Vue({
             {
                 name: 'Bachelor of Science in Food Technology',
                 logo: '/images/logos/CST-md.png',
-                logoCampus: '/images/campus-mosqueda-sm.png',
+                logoCampus: '/images/campus-baterna-sm.png',
                 campus: 'Mosqueda Campus',
-                tags: ['undergrad', 'cst', 'mosqueda'],
+                tags: ['undergrad', 'cst', 'baterna'],
                 college: 'College of Science and Technology (CST)',
                 board: '',
                 majors: ''
