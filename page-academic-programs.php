@@ -19,8 +19,8 @@ get_header(); ?>
 		<h1 class="page-title"><?php single_post_title(); ?></h1>
 	</div>
 </div>
-<div class="site-content">
-	<div id="vApp" v-cloak class="container">
+<div id="vApp" v-cloak :data-pending="pending" class="site-content">
+	<div class="container">
 		<main id="main" class="row pt-5 pb-5 text-left" role="main">
 			<div class="col-md-12 order-2">
 				<div class="d-flex flex-wrap align-items-center mb-5">

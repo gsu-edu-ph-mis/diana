@@ -5,6 +5,7 @@ var vApp = new Vue({
     mixins: [
     ],
     data: {
+        pending: false,
         filters: [
             {
                 key: 'grad',
@@ -438,6 +439,15 @@ var vApp = new Vue({
         },
         checkbox: function (event) {
             var me = this;
+            me.pending = true;
+            setTimeout(function(){
+                me.pending = false;
+                me.update(event)
+            }, 800)
+            
+        },
+        update: function (event) {
+            var me = this;
             var key = event.target.value;
             var checked = event.target.checked;
 
@@ -448,6 +458,7 @@ var vApp = new Vue({
             if (found) {
                 found.checked = checked
             }
-        }
+
+        },
     }
 });
