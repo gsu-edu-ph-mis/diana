@@ -44,7 +44,7 @@ get_header(); ?>
 				<p>The Graduate School Journal enclosed the research articles endorsed by the Graduate School and approved by the editorial board. Further, the center mediates the GSC personnel in complying with the standards for Scopus, Thomson Reuters, Web of Science Indexability, ASEAN, and other reputable citation indexes for possible external journal publications.</p>
 
 			</div>
-			<div class="col-lg-3 text-center">
+			<!-- <div class="col-lg-3 text-center">
 				<div class="official">
 					<div class="official-photo-2">
 						<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/khristian.delarama.jpg" alt="Khristian">
@@ -54,7 +54,7 @@ get_header(); ?>
 					~ <strong>Prof. Khristian Dela Rama</strong> <br>
 					<em>Director, Center for Journal Publications</em>
 				</p>
-			</div>
+			</div> -->
 			
 		
 		</main>
