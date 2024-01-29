@@ -333,6 +333,9 @@ get_header(); ?>
 							<li>
 								<a target="_blank" href="https://drive.google.com/file/d/1h-RdT6qWG2I9KuwUC9-Z_pl0eNDU_b9S/preview">FY 2023 APP-CSE</a>
 							</li>
+							<li>
+								<a target="_blank" href="https://drive.google.com/file/d/1hrQxX_qe7OzrDYU22ool-A6U5ckHGCHU/preview">FY 2024 Early Procurement Activities (EPA)</a>
+							</li>
 							<!-- <li><a target="_blank" href="https://drive.google.com/file/d/1PoQaRUSrObbMZONfjRd7jg6oMQfbEaGo/preview">FY 2022 APP Non-CSE</a></li> -->
 						</ol>
 					</li>
@@ -343,7 +346,8 @@ get_header(); ?>
 					</li>
 					<li id="srdu">Designation of the Agency’s Committee on Anti-Red Tape (CART)
 						<ol type="A">
-							<li><a target="_blank" href="https://drive.google.com/file/d/1LPpxsP7tHT1Ge9IhwOZUkFuDvtZzoDuF/preview">Committee on Anti-Red Tape (CART)</a></li>
+							<li><a target="_blank" href="https://drive.google.com/file/d/1KWytKswD-yro7w2yQH6W_J1LNj0Utc70/preview">Committee on Anti-Red Tape (CART)</a></li>
+							<!-- <li><a target="_blank" href="https://drive.google.com/file/d/1LPpxsP7tHT1Ge9IhwOZUkFuDvtZzoDuF/preview">Committee on Anti-Red Tape (CART)</a></li> -->
 						</ol>
 					</li>
 					<li id="sfd">The Agency Review and Compliance Procedure of Statements and Financial Disclosures 
