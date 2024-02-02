@@ -92,7 +92,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 text-center mb-5">
 							<div class="mb-3">
-								<a href="https://www.facebook.com/cstofficial2016"><img src="<?= get_stylesheet_directory_uri(); ?>/images/logos/cst.png" width="200" height="200" alt="CST"></a>
+								<a href="https://www.facebook.com/cstofficial2016"><img src="<?= get_stylesheet_directory_uri(); ?>/images/logos/CST.png" width="200" height="200" alt="CST"></a>
 							</div>
 							<h3 class="h3">College of Science and Technology</h3>
 							<h3 class="h4">
