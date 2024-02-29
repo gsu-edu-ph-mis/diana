@@ -45,12 +45,7 @@ get_header(); ?>
 							<a href="<?php echo get_permalink( get_page_by_path( '/reti/intellectual-property-management-office' ) ); ?>" class="btn btn-primary">Read more...</a>
 						</div>
 					</div>
-					<div class="col-12 col-md-4 text-center mb-5">
-						<div class="d-flex align-content-center flex-wrap justify-content-center research-ball" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/images/reti/book.jpg')">
-							<h3 class="h3 font-weight-bold mb-3" style="text-shadow: 0 0 4px #fff">Center for Instructional Materials Development (CIMD)</h3>
-							<a href="<?php echo get_permalink( get_page_by_path( '/reti/center-for-instructional-materials-development' ) ); ?>" class="btn btn-primary">Read more...</a>
-						</div>
-					</div>
+					
 					<div class="col-12 col-md-4 text-center mb-5">
 						<div class="d-flex align-content-center flex-wrap justify-content-center research-ball" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/images/reti/stats.jpg')">
 							<h3 class="h3 font-weight-bold mb-3" style="text-shadow: 0 0 4px #fff">Statistical Data Processing Center (SDPC)</h3>
