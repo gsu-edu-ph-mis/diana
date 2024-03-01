@@ -32,7 +32,7 @@ get_header(); ?>
 			</div>
 			<div class="col-lg-6">
 				<h2 class="h2 mb-3">About the Center</h2>
-				<p>The Center for Instructional Materials Development (CIMD) assists faculty authors in meticulously planning, selecting, organizing, refining, and utilizing instructional material (IM) to maximize its effectiveness. It ensures the breadth and depth of content to maximize student learning. CIMD directs the editorial direction of instructional materials and their content, as well as digital content, in order to promote equity of access, effectiveness of teaching and learning, and curriculum enhancement, with the dual goal of increasing student success and ensuring that graduates of the Guimaras State College are globally competitive, locally relevant, socially responsive, and fully representative of the country's diverse population. CIMD's content is managed by teams of editors, designers, industry experts, and freelance contributors.</p>
+				<p>The Center for Instructional Materials Development (CIMD) assists faculty authors in meticulously planning, selecting, organizing, refining, and utilizing instructional materials (IM) to maximize their effectiveness. It ensures both the breadth and depth of content to optimize student learning. CIMD guides the editorial direction of instructional materials and their content, including digital content, to promote equitable access, effective teaching and learning, and curriculum enhancement. The dual goal is to increase student success and ensure that graduates of the Guimaras State University are globally competitive, locally relevant, socially responsive, and fully representative of the country's diverse population. CIMD's content is managed by teams of editors, designers, industry experts, and freelance contributors.</p>
 				<!-- <h2 class="h2 mb-3">Message from the Director</h2>
                 <p>"In this day and age, writing IMs (Instructional Materials) has something to do with the fact that most people are juggling a variety of responsibilities such as family, career, and personal lives.</p>
                 <p>I've discovered that everything is true. </p>
@@ -40,17 +40,17 @@ get_header(); ?>
                 </p>
                 <p>Because they aren't familiar with the appearance of these students, IMs are, in my opinion, important vehicles for enabling education to produce fully formed and well-prepared individuals while also serving as a lever for social change."</p> -->
 			</div>
-			<!-- <div class="col-lg-3 text-center">
+			<div class="col-lg-3 text-center">
 				<div class="official">
 					<div class="official-photo-2">
 						<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/roger.rueda.jpg" alt="Roger">
 					</div>
 				</div>
 				<p>
-					~ <strong>Dr. Roger B. Rueda</strong> <br>
+					<strong>Dr. Roger B. Rueda</strong> <br>
 					<em>Director, Center for Instructional Materials Development</em>
 				</p>
-			</div> -->
+			</div>
 			<!-- <div class="col-12">
 				<div class="row">
 					<div class="col-sm-3 mt-3 mb-3">
@@ -82,7 +82,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
 		</main>
 	</div><!-- .container -->
 </div>
