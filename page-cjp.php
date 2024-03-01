@@ -37,26 +37,24 @@ get_header(); ?>
 					</a>
 				</p>
 			</div>
-			<div class="col-lg-6">
+			<div class="col-lg-6 text-justify">
 				<h2 class="h2 mb-3">About the Center</h2>
 				<p>The Center for Journal Publications undertakes the publication of the institutional research journals, namely, Himal-Us, Higher Education Research Review (HERR), and The Graduate School Journal.</p>
 				<p>These journals are recognized by the National Library and with respective International Standard Serial Numbers (ISSN). The Himal-us and HERR include quality completed research outputs that satisfactorily complied with the in-house review's rigorous process.</p>
 				<p>The Graduate School Journal enclosed the research articles endorsed by the Graduate School and approved by the editorial board. Further, the center mediates the GSC personnel in complying with the standards for Scopus, Thomson Reuters, Web of Science Indexability, ASEAN, and other reputable citation indexes for possible external journal publications.</p>
 
 			</div>
-			<!-- <div class="col-lg-3 text-center">
+			<div class="col-lg-3 text-center">
 				<div class="official">
 					<div class="official-photo-2">
-						<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/khristian.delarama.jpg" alt="Khristian">
+						<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/joan.gerada.jpg" alt="Gerada">
 					</div>
 				</div>
 				<p>
-					~ <strong>Prof. Khristian Dela Rama</strong> <br>
+					<strong>Prof. Jo Ann T. Gerada</strong> <br>
 					<em>Director, Center for Journal Publications</em>
 				</p>
-			</div> -->
-			
-		
+			</div>
 		</main>
 	</div><!-- .container -->
 </div>
