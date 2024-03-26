@@ -325,6 +325,7 @@ get_header(); ?>
 					<li id="ppabsi">Projects, Programs and Activities, Beneficiaries, and Status of Implementation (not applicable)</li>
 					<li id="app">Annual Procurement Plan
 						<ol type="A">
+							<li><a target="_blank" href="https://drive.google.com/file/d/1fQX09sVDwdc66vTEFH2zDIPQjwizzTLp/preview">FY 2024 APP Non-CSE</a></li>
 							<li><a target="_blank" href="https://drive.google.com/file/d/10jW0dhbJzwCBAY5BKR7rbCIJkueIMVIJ/preview">FY 2024 APP-CSE</a></li>
 
 							<!-- <li><a target="_blank" href="/fy-2021-app-non-cse/">FY 2021 APP Non-CSE</a></li>
