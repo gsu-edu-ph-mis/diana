@@ -237,7 +237,7 @@
 					</div>
 					<div class="text-center pb-5">
 						<p class="mb-4">
-							<span class="alert alert-warning">See you on June 3rd!</span>
+							<span class="alert alert-warning">See you on June 3!</span>
 						</p>
 						<p>For the meantime, you can play with the Rubiks Cube</p>
 					</div>
