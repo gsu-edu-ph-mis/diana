@@ -290,7 +290,7 @@
 				$('.secondsOnly').text(0)
 				clearInterval(timer)
 			} else {
-				if(window.clicked) audio.play()
+				// if(window.clicked) audio.play()
 				
 				$('.dayOnly').text(dayOnly)
 				$('.hoursOnly').text(hoursOnly)
