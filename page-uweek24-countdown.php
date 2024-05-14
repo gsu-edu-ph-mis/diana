@@ -24,7 +24,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/style.css">
-    <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/rubik/css/style.css">
 	<style>
 		html {
 			margin-top: 0;
@@ -41,14 +40,14 @@
 			margin-bottom: 15px;
 		}
 		.box {
-			padding: 5px;
+			padding: 50px;
 			background: #f5efe0;
 			border-radius: 20px;
 			border: 10px solid #f5c115;
 		}
 		h1 {
 			font-family: Poppins;
-			font-size: 40px;
+			font-size: 60px;
 			text-transform: uppercase;
 			color: #117e99;
 			font-weight: bold;
@@ -58,7 +57,7 @@
 			padding: 20px 0 60px 0;
 		}
 		.btns {
-			padding-bottom: 50px;
+			padding-bottom: 250px;
 		}
 		.btn-warning {
 			box-shadow: 0 0 5px #fff;
@@ -172,7 +171,7 @@
 			
 		}
 	</style>
-    <title>Countdown U-Week 2024</title>
+    <title>Countdown U-Week 2023</title>
   </head>
   <body>
     <div class="container-fluid">
@@ -195,8 +194,10 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="box text-center">
-
-					<h1>University Week 2024 Countdown</h1>
+					<div class="text-center">
+						<img src="<?= get_stylesheet_directory_uri(); ?>/images/uweek/title.png" width="600"  alt="55th Founding Anniversary and 1 st University Week Celebration">
+					</div>
+					<h1>Countdown</h1>
 					<div class="timer d-flex justify-content-center">
 						<div class="slot">
 							<div class="time">
@@ -236,39 +237,30 @@
 						</div>
 					</div>
 					<div class="text-center pb-5">
-						<p class="mb-4">
-							<span class="alert alert-warning">See you on June 3rd!</span>
-						</p>
-						<p>For the meantime, you can play with the Rubiks Cube</p>
+						<p>See you on June 5th at 7:30AM!</p>
 					</div>
-					<div id="cube" style="min-height: 400px; max-width: 400px; margin: auto; margin-bottom: 200px; background: #e7e1d3; border-radius: 10px;"></div>
+					<div class="btns">
+						<a href="https://www.facebook.com/photo/?fbid=621283406701442&set=pcb.609085454587904" class="btn btn-warning">View Schedule of Activities</a>
+					</div>
 				</div>			
 			</div>
 		</div>
 	</div>
 	<div class="waves">
-		<!-- <img class="guitarist fx-sway" id="guitarist" src="<?= get_stylesheet_directory_uri(); ?>/images/uweek/GSU-Excels-as-One.png" width="300"  alt="GSU-Excels-as-One"> -->
+		<img class="guitarist fx-sway" id="guitarist" src="<?= get_stylesheet_directory_uri(); ?>/images/uweek/GSU-Excels-as-One.png" width="300"  alt="GSU-Excels-as-One">
 		<img class="fx-noticemesenpai" src="<?= get_stylesheet_directory_uri(); ?>/images/uweek/waves.png" alt="Waves">
 	</div>
     <script src="<?= get_stylesheet_directory_uri(); ?>/js/jquery.min.js"></script>
     <script src="<?= get_stylesheet_directory_uri(); ?>/js/moment.min.js"></script>
-    <script src="<?= get_stylesheet_directory_uri(); ?>/rubik/js/oz.js"></script>
-    <script src="<?= get_stylesheet_directory_uri(); ?>/rubik/js/css3.oz.js"></script>
-    <script src="<?= get_stylesheet_directory_uri(); ?>/rubik/js/rubik.js"></script>
-    <script src="<?= get_stylesheet_directory_uri(); ?>/rubik/js/quaternion.js"></script>
-
-	<!-- <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.9.3/tsparticles.confetti.bundle.min.js"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.9.3/tsparticles.confetti.bundle.min.js"></script>
 	<script>
 		var timer = null;
-		var mTarget = moment('2024-06-03').hours(1).minutes(0).seconds(0)
+		var mTarget = moment('2023-06-05').hours(7).minutes(30).seconds(0)
 		// var mTarget = moment('2023-06-25').hours(14).minutes(8).seconds(0)
 		var audio = new Audio('<?= get_stylesheet_directory_uri(); ?>/images/uweek/tick.mp3');
 		window.clicked = false;
 		$(document).on('click', function(){
 			window.clicked = true
-		})
-		$(document).ready(function($){
-			new Rubik()
 		})
 		var countdown = function(){
 			var mNow = moment()
@@ -299,12 +291,12 @@
 			}
 			// console.log(days, dayOnly, hoursOnly, minutesOnly, secondsOnly)
 		}
-		countdown()
-		timer = setInterval(countdown, 1000)
-		// $('.dayOnly').text(0)
-		// $('.hoursOnly').text(0)
-		// $('.minutesOnly').text(0)
-		// $('.secondsOnly').text(0)
+		//countdown()
+		//timer = setInterval(countdown, 1000)
+		$('.dayOnly').text(0)
+		$('.hoursOnly').text(0)
+		$('.minutesOnly').text(0)
+		$('.secondsOnly').text(0)
 
 		// 
 
@@ -317,7 +309,36 @@
 		return Math.random() * (max - min) + min;
 		}
 
-		
+		(function frame() {
+			const timeLeft = animationEnd - Date.now(),
+				ticks = Math.max(200, 500 * (timeLeft / duration));
+
+			skew = Math.max(0.8, skew - 0.001);
+
+			confetti({
+				particleCount: 1,
+				startVelocity: 0,
+				ticks: ticks,
+				origin: {
+					x: Math.random(),
+					// since particles fall down, skew start toward the top
+					y: Math.random() * skew - 0.2,
+				},
+				colors: ["#FFFFFF", "#FFd700"],
+				shapes: [
+					"circle",
+					"square",
+					"triangle",
+				],
+				gravity: randomInRange(0.4, 0.6),
+				scalar: randomInRange(0.4, 1),
+				drift: randomInRange(-0.4, 0.4),
+			});
+
+			if (timeLeft > 0) {
+				requestAnimationFrame(frame);
+			}
+		})();
 	</script>
   </body>
 </html>
