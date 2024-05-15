@@ -30,7 +30,8 @@
 			margin-top: 0;
 		}
 		body {
-			background: #117e99;
+			background: url("<?= get_stylesheet_directory_uri(); ?>/rubik/concrete.jpg");
+
 			font-weight: normal;
 			font-family: Poppins;
 		}
@@ -38,13 +39,12 @@
 			background: white;
 			padding: 15px 0;
 			line-height: 1.2;
-			margin-bottom: 15px;
+		}
+		.sub {
+			font-size: 13px;
+			font-weight: 200;
 		}
 		.box {
-			padding: 5px;
-			background: #f5efe0;
-			border-radius: 20px;
-			border: 10px solid #f5c115;
 		}
 		h1 {
 			font-family: Poppins;
@@ -73,6 +73,7 @@
 			font-size: 24px;
 			margin: 0 10px;
 			min-width: 200px;
+			border-radius: 20%;
 		}
 		.slot .time {
 			font-size: 80px;
@@ -95,6 +96,10 @@
 			z-index: 1;
 			cursor: pointer;
 		}
+
+		/* .face5 {
+			background: url("<?= get_stylesheet_directory_uri(); ?>/rubik/fun.png");
+		} */
 
 		.fx-noticemesenpai {
 			display: inline-block;
@@ -179,10 +184,11 @@
 		<div class="row header">
 			<div class="col-6">
 				<div class="d-flex align-items-center">
+					<img src="<?= get_stylesheet_directory_uri(); ?>/rubik/bagong-ph.png" width="70" alt="GSU" class="mr-3">
 					<img src="<?= get_stylesheet_directory_uri(); ?>/images/logo-gsu.png" width="70" alt="GSU" class="mr-3">
 					<div class="d-md-block d-none">
 						<strong>GUIMARAS STATE UNIVERSITY</strong> <br>
-						McLain, Buenavista, Guimaras, Philippines
+						<span class="sub">McLain, Buenavista, Guimaras, Philippines</span>
 					</div>
 				</div>
 			</div>
@@ -236,19 +242,22 @@
 						</div>
 					</div>
 					<div class="text-center pb-5">
-						<p class="mb-4">
+						<p class="mb-5">
 							<span class="alert alert-warning">See you on June 3!</span>
 						</p>
 						<p>For the meantime, you can play with the Rubiks Cube</p>
 					</div>
-					<div id="cube" style="min-height: 400px; max-width: 400px; margin: auto; margin-bottom: 200px; background: #e7e1d3; border-radius: 10px;"></div>
+					<div id="cube" style="min-height: 400px; max-width: 400px; margin: auto; margin-bottom: 200px; background: #232843; border-radius: 10px;"></div>
 				</div>			
 			</div>
 		</div>
 	</div>
 	<div class="waves">
 		<!-- <img class="guitarist fx-sway" id="guitarist" src="<?= get_stylesheet_directory_uri(); ?>/images/uweek/GSU-Excels-as-One.png" width="300"  alt="GSU-Excels-as-One"> -->
-		<img class="fx-noticemesenpai" src="<?= get_stylesheet_directory_uri(); ?>/images/uweek/waves.png" alt="Waves">
+		<!-- <img class="fx-noticemesenpai" src="<?= get_stylesheet_directory_uri(); ?>/images/uweek/ribbon.png" alt="ribbon" style="
+  left: 50%;
+  position: absolute;
+  bottom:-100px; transform: translate(-50%, 0)"> -->
 	</div>
     <script src="<?= get_stylesheet_directory_uri(); ?>/js/jquery.min.js"></script>
     <script src="<?= get_stylesheet_directory_uri(); ?>/js/moment.min.js"></script>
