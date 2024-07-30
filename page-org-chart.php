@@ -23,7 +23,7 @@ get_header(); ?>
 	<div class="container">
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
 			<div class="col-md-12">
-				<a href="<?php echo get_stylesheet_directory_uri(); ?>/images/org-chart-2023-04.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/org-chart-2023-04.jpg" alt="Org Chart"></a>
+				<a href="<?php echo get_stylesheet_directory_uri(); ?>/images/org-chart-2023-04.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/org-chart-2024-04.jpg" alt="Org Chart"></a>
 			</div>
 		</main>
 	</div><!-- .container -->
