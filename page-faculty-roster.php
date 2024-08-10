@@ -481,12 +481,6 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/raquel.buelva.jpg" alt="">
-							</div>
-							<h3 class="h3">Raquel T. Buelva</h3>
-						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/anthony.jalandoon.jpg" alt="">
 							</div>
 							<h3 class="h3">Anthony P. Jalando-on</h3>
