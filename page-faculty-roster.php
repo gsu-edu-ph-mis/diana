@@ -550,8 +550,6 @@ get_header(); ?>
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/maxy.yanguas.jpg" alt="">
 							</div>
 							<h3 class="h3">Ma Xy J. Yanguas</h3>
-							<h4 class="h4">Chair, Science Department</h4>
-
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
