@@ -60,7 +60,7 @@ get_header(); ?>
 								</a>
 							</h3> -->
 							<h3 class="h4">
-								<a href="mailto:ict@gsc.edu.ph">
+								<a href="mailto:ict@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
 									ict@gsu.edu.ph 
 								</a>
@@ -77,7 +77,7 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Graduate School</h3>
 							<h3 class="h4">
-								<a href="mailto:graduateschool@gsc.edu.ph">
+								<a href="mailto:graduateschool@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
 									graduateschool@gsu.edu.ph
 								</a>
@@ -96,7 +96,7 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">College of Science and Technology</h3>
 							<h3 class="h4">
-								<a href="mailto:new.cst@gsc.edu.ph">
+								<a href="mailto:new.cst@gsu.edu.ph">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
 									new.cst@gsu.edu.ph
 								</a>
