@@ -582,5 +582,8 @@ function diana_og_tags(){
 }
 add_action('wp_head', 'diana_og_tags', 1);
 
+// Disable for security - https://codex.wordpress.org/XML-RPC_WordPress_API
+add_filter('xmlrpc_enabled', '__return_false');
+
 require get_template_directory() . '/inc/career.php';
 require get_template_directory() . '/inc/query.php';
