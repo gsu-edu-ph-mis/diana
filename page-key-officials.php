@@ -27,7 +27,7 @@ get_header(); ?>
 				<div class="college mb-5 pb-5">
 					<div class="row mb-5">
 						<div class="col-12">
-						<p class="text-center alert alert-warning mb-5"><em><strong>Note:</strong> Images and emails are hidden by default to protect the info of our key officials. Just click manually to view.</em></p>
+						<p class="text-center alert alert-warning mb-5"><em><strong>Note:</strong> Images and emails are hidden by default to protect the info of our key officials from spammers and web scrapers. Just click manually to view.</em></p>
 
 						</div>
 						<div class="col-md-4">
