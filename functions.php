@@ -196,6 +196,10 @@ function diana_scripts() {
 		wp_enqueue_script( 'vuejs', get_template_directory_uri() . '/js/vue.js', array(), false, true );
 		wp_enqueue_script( 'programs', get_template_directory_uri() . '/js/programs.js', array(), false, true );
 	}
+	if(is_page('key-officials')){
+		wp_enqueue_script( 'vuejs', get_template_directory_uri() . '/js/vue.js', array(), false, true );
+		wp_enqueue_script( 'programs', get_template_directory_uri() . '/js/key-officials.js', array(), false, true );
+	}
 	if(is_page('frames')){
 		wp_enqueue_script( 'vuejs', get_template_directory_uri() . '/js/vue.js', array(), false, true );
 		wp_enqueue_script( 'lodash', get_template_directory_uri() . '/js/unpkg.com_lodash@4.17.21_lodash.min.js', array(), false, true );
