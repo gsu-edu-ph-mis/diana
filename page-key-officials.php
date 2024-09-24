@@ -112,7 +112,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/bernardo.cagasan.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Dr. Bernardo G. Cagasan</h3>
 							<h4 class="h4">Dean, College of Arts and Sciences (CAS)</h4>
@@ -138,7 +138,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/yyy.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/jasmin.parreno.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Dr. Jasmin L. Parreño</h3>
 							<h4 class="h4">Dean, College of Criminal Justice Education (CCJE)</h4>
@@ -428,7 +428,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/yyy.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/jean.baterzal.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Jean G. Baterzal</h3>
 							<h4 class="h4">University Medical Office / Nurse II</h4>
@@ -650,7 +650,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/felizardo.valdez.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Felizardo S. Valdez, III</h3>
 							<h4 class="h4">Head, Project Management Unit</h4>
@@ -719,7 +719,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/yyy.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/shyra.maximo.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Arch. Shyra V. Maximo</h3>
 							<h4 class="h4">Head, Planning Unit</h4>
