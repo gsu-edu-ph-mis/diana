@@ -325,6 +325,9 @@ get_header(); ?>
 					<li id="ppabsi">Projects, Programs and Activities, Beneficiaries, and Status of Implementation (not applicable)</li>
 					<li id="app">Annual Procurement Plan
 						<ol type="A">
+						<li>
+								<a target="_blank" href="https://drive.google.com/file/d/1VXq8KXpfBN8uUW-Hjc2lPcEm4nL1beBc/preview">FY 2025 APP Non-CSE</a>
+							</li>
 							<li><a target="_blank" href="https://drive.google.com/file/d/1B4bDXBPmg_jivB0IGfYQX52IYmQjirRC/preview">FY 2024 APP Non-CSE</a></li>
 							<li><a target="_blank" href="https://drive.google.com/file/d/10jW0dhbJzwCBAY5BKR7rbCIJkueIMVIJ/preview">FY 2024 APP-CSE</a></li>
 
@@ -333,14 +336,15 @@ get_header(); ?>
 							<!-- <li><a target="_blank" href="https://drive.google.com/file/d/1hWvp1cUHvGxY2ko6dF89BfosPc7TUdNE/preview">FY 2022 APP Indicative APP Non-CSE</a></li>
 							<li><a target="_blank" href="https://drive.google.com/file/d/1n-y1TgLOO0mLRotiywqsa6aM8Im6pU5h/preview">FY 2022 APP-CSE</a></li> -->
 							<li>
+								<a target="_blank" href="https://drive.google.com/file/d/1hrQxX_qe7OzrDYU22ool-A6U5ckHGCHU/preview">FY 2024 Early Procurement Activities (EPA)</a>
+							</li>
+							<li>
 								<a target="_blank" href="https://drive.google.com/file/d/14f6k0mjHp803Pvh9MYTVKCvQbCpes_J0/preview">FY 2023 Indicative APP Non-CSE</a>
 							</li>
 							<li>
 								<a target="_blank" href="https://drive.google.com/file/d/1h-RdT6qWG2I9KuwUC9-Z_pl0eNDU_b9S/preview">FY 2023 APP-CSE</a>
 							</li>
-							<li>
-								<a target="_blank" href="https://drive.google.com/file/d/1hrQxX_qe7OzrDYU22ool-A6U5ckHGCHU/preview">FY 2024 Early Procurement Activities (EPA)</a>
-							</li>
+							
 							<!-- <li><a target="_blank" href="https://drive.google.com/file/d/1PoQaRUSrObbMZONfjRd7jg6oMQfbEaGo/preview">FY 2022 APP Non-CSE</a></li> -->
 						</ol>
 					</li>
