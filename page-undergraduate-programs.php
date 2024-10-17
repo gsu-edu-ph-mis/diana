@@ -76,9 +76,7 @@ get_header(); ?>
 								<h2 class="h3">Bachelor of Science in Business Administration <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
 								<p class="mb-0">Major in: Financial Management, Marketing Management, Human Resource Management </p>
 							</div>
-							<div>
-								<h2 class="h3">Bachelor of Science in Hospitality Management  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
-							</div>
+							
 							<div>
 								<h2 class="h3">Bachelor of Science in Real Estate Management  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
 							</div>
@@ -160,6 +158,20 @@ get_header(); ?>
 							</div>
 						</div>
 					</div>
+					<div id="cthm" class="college-programs">
+						<div class="program-header">
+							<!-- <img src="<?= get_stylesheet_directory_uri(); ?>/images/logos/CTE-md.png" alt=""> -->
+							<h2 class="h2">College of Tourism and Hospitality Management (CTHM)</h2>
+						</div>
+						<div class="programs">
+							<div>
+								<h2 class="h3">Bachelor of Science in Hospitality Management  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
+							</div>
+							<div>
+								<h2 class="h3">Bachelor of Science in Tourism Management <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-4 order-1 mb-5">
@@ -205,6 +217,12 @@ get_header(); ?>
 							<a href="#cte" class="d-flex align-items-center" style="line-height: 1.2">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/logos/CTE-sm.png" width="60" height="60" alt="">
 								<span>College of Teacher Education (CTE)</span>
+							</a>
+						</li>
+						<li>
+							<a href="#cthm" class="d-flex align-items-center" style="line-height: 1.2">
+								<!-- <img src="<?= get_stylesheet_directory_uri(); ?>/images/logos/CTE-sm.png" width="60" height="60" alt=""> -->
+								<span>College of Tourism and Hospitality Management (CTHM)</span>
 							</a>
 						</li>
 					</ul>
