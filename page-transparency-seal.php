@@ -57,6 +57,10 @@ get_header(); ?>
 						<ol type="A" class="pl-5">
 							<li>FAR No. 1: SAAODB (Statement of Appropriations, Allotments, Obligations, Disbursements and Balances)
 								<ul>
+									<li>FY 2024 - 
+										<a target="_blank" href="https://drive.google.com/file/d/13O2x7WRJaP1xVjYPQbt--PpudwwMky46/preview">Q1</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1zjvdWc7s5kqxwOd6EuHiYgYMMta62vWU/preview">Q2</a>
+									</li>
 									<li>FY 2023 - 
 										<a target="_blank" href="https://drive.google.com/file/d/12n-Q7LWz-aV4Uh9mErEHFfEWBtm1RGr8/preview">Q1</a>,
 										<a target="_blank" href="https://drive.google.com/file/d/15B138hg3JzOhUZeATwIh_RRfzsDkWPa2/preview">Q2</a>,
@@ -104,6 +108,15 @@ get_header(); ?>
 
 							<li>FAR No. 4 – Monthly Report on Disbursement / Summary Report on Disbursement
 								<ul>
+									<li>FY 2024 - <a target="_blank" href="https://drive.google.com/file/d/1tXim3x51_FPsAjdiCdEhYknwq_wA5E1j/view?usp=sharing">Jan</a>, 
+										<a target="_blank" href="https://drive.google.com/file/d/16AZJzjaU5PF8AYuIymXyIggjLRfP1nWj/view?usp=sharing">Feb</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1r4P-y9brE3UmuZmgVgAZ3dsrCcoiwSoa/view?usp=sharing">Mar</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1TkLgVw5zQIott38-du4WsQH7Pm7RHiFH/view?usp=sharing">Apr</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1AjN0fF6tiiXTfjcVyhY5kgI_tARLyGU5/view?usp=sharing">May</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1oVp5qXVCpt_asrB60Cj0BxIosrYjhdW1/preview">Jun</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1uHPcAxi8vd8S564zZIXgX_qUlaDLT3tY/preview">Jul</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1IaTzrZpwPE1ALQdnEf2bSNJB4SXxi21P/preview">Aug</a>
+									</li>
 									<li>FY 2023 - <a target="_blank" href="https://drive.google.com/file/d/1UaimKbfYDSZ28f8wRffMDf1naPePEZ5L/preview">Jan</a>, 
 										<a target="_blank" href="https://drive.google.com/file/d/1YgLQOsi3I70qF7HVSidXDhwHG6CImvav/preview">Feb</a>,
 										<a target="_blank" href="https://drive.google.com/file/d/1M9w-eO0xMaGydzqJzOrsc8lG2-UhgKur/preview">Mar</a>,
@@ -205,6 +218,10 @@ get_header(); ?>
 							<li>BAR No. 1 – Quarterly Physical Report of Operations/Physical Plan
 
 								<ul>
+									<li>FY 2024 - 
+										<a target="_blank" href="https://drive.google.com/file/d/1RvqOcogKrFpJANqPGPwcqD_JLGm_mL7W/preview">Q1</a>,
+										<a target="_blank" href="https://drive.google.com/file/d/1u29AHAcZ8Zi44eoc7h4CXOq9-yl_QDQb/preview">Q2</a>
+									</li>
 									<li>FY 2023 - 
 										<a target="_blank" href="https://drive.google.com/file/d/1RvqOcogKrFpJANqPGPwcqD_JLGm_mL7W/preview">Q1</a>,
 										<a target="_blank" href="https://drive.google.com/file/d/1u29AHAcZ8Zi44eoc7h4CXOq9-yl_QDQb/preview">Q2</a>,
@@ -300,6 +317,7 @@ get_header(); ?>
 							
 							<li>Financial Plan (Detailed Statement of Current Year’s Obligations, Disbursements and Unpaid Obligations)
 								<ul>
+									<li><a target="_blank" href="https://drive.google.com/file/d/1uhvI4PgRjriZj0fvQ99k8kD3gEg4q09c/preview">FY 2024</a></li>
 									<li><a target="_blank" href="https://drive.google.com/file/d/1CKC_071UbdeJpDz1fZg6ur10VPG9xr2B/preview">FY 2023</a></li>
 									<li><a target="_blank" href="https://drive.google.com/file/d/1NYbrOx5EIrh5nJoZVvU5AxshMZmMYCVp/preview">FY 2022</a></li>
 									<li><a target="_blank" href="https://drive.google.com/file/d/1qUw1zcwjcRV0NN_HdOtNVH7dGzlTtWdz/preview">FY 2021</a></li>
