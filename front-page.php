@@ -38,7 +38,20 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
+<section id="section-sdg" class="section-sdg" >
+	<div class="sdg-display">
+		<div>
+		<a href="<?= home_url('/sustainable-development-goals'); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sdg/E_SDG_logo_UN_emblem_horizontal_trans_WEB.png" alt="SDG"></a>
 
+		</div>
+		<div>
+			<a href="<?= home_url('/sustainable-development-goals'); ?>" class="btn p-0 pl-3 pr-3 btn-sm btn-primary">Read More</a>
+		</div>
+	</div>
+
+	<img class="bg-image" src="<?php echo get_stylesheet_directory_uri(); ?>/images/sdg/sdg-bg.jpg'" alt="">
+	
+</section>
 <section id="section-press" class=" pt-5 pb-5" >
 	<div class="container">
 		<div class="row pt-0 pt-md-5 pb-5">

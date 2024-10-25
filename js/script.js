@@ -224,7 +224,7 @@ jQuery(document).ready(function ($) {
 
     // Faculty Roster
     function toggler(index) {
-        $('#faculty-roster').find('.coin-'+index).toggleClass('flipped');
+        $('#faculty-roster').find('.coin-' + index).toggleClass('flipped');
     }
     (function loop() {
         var timeOut = getRandomInt(1000, 3000);
@@ -234,15 +234,40 @@ jQuery(document).ready(function ($) {
         }, timeOut);
     }());
 
-    document.getElementById('track')?.addEventListener('timeupdate', function(e){
+    // SDG
+    const isTouchDevice = 'ontouchstart' in document.documentElement;
+
+    if (isTouchDevice) {
+        // Touch devices: use touchstart
+        jQuery('.sdg .scene').on('touchstart', function (event) {
+            // Your code for touchstart event
+            jQuery(this).find('.coin').addClass('flipped')
+        });
+        jQuery('.sdg .scene').on('touchend', function (event) {
+            // Your code for touchstart event
+            jQuery(this).find('.coin').removeClass('flipped')
+        });
+    } else {
+        // Non-touch devices: use mouseenter
+        jQuery('.sdg .scene').on('mouseenter', function (event) {
+            // Your code for mouseenter event
+            jQuery(this).find('.coin').addClass('flipped')
+        });
+        jQuery('.sdg .scene').on('mouseleave', function (event) {
+            // Your code for mouseenter event
+            jQuery(this).find('.coin').removeClass('flipped')
+        });
+    }
+
+    document.getElementById('track')?.addEventListener('timeupdate', function (e) {
         let currentTimeSec = Math.floor(e.target.currentTime);
-     
+
         $('#lyrics-area span').css({
-            color: '', 
+            color: '',
         })
-        let selectors = Array.from(Array(currentTimeSec).keys()).map(i => '.'+(i+1))
+        let selectors = Array.from(Array(currentTimeSec).keys()).map(i => '.' + (i + 1))
         $('#lyrics-area').find(selectors.join(', ')).css({
-            color: '#0062cc', 
+            color: '#0062cc',
         })
     }, false);
 

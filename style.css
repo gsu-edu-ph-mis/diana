@@ -419,6 +419,131 @@ h6 {
 	transform: rotateY(180deg);
 }
 
+/* SDG  */
+.sdg {
+	display: flex;
+	flex-wrap: wrap;
+}
+.sdg .heads {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+.sdg .scene {
+	width: 200px;
+	height: 200px;
+	perspective: 200px;
+	overflow: hidden;
+}
+.sdg .coin {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transition: transform 500ms;
+  	transform-style: preserve-3d;
+}
+.sdg .coin.flipped {
+	transform: rotateY(180deg);
+}
+.sdg .coin .front,
+.sdg .coin .back {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	backface-visibility:hidden;
+}
+.sdg .coin .back {
+	transform: rotateY(180deg);
+	color: #fff;
+	padding: 15px 10px;
+}
+.sdg .coin .back h2 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.sdg .coin .back p {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.sdg .scene:nth-child(1) .coin{
+	background: #e5243b;
+}
+.sdg .scene:nth-child(2) .coin{
+	background: #dda83a;
+}
+.sdg .scene:nth-child(3) .coin{
+	background: #4c9f38;
+}
+.sdg .scene:nth-child(4) .coin{
+	background: #c5192d;
+}
+.sdg .scene:nth-child(5) .coin{
+	background: #ff3a21;
+}
+.sdg .scene:nth-child(6) .coin{
+	background: #26bde2;
+}
+.sdg .scene:nth-child(7) .coin{
+	background: #fcc30b;
+}
+.sdg .scene:nth-child(8) .coin{
+	background: #a21942;
+}
+.sdg .scene:nth-child(9) .coin{
+	background: #fd6925;
+}
+.sdg .scene:nth-child(10) .coin{
+	background: #dd1367;
+}
+.sdg .scene:nth-child(11) .coin{
+	background: #fd9d24;
+}
+.sdg .scene:nth-child(12) .coin{
+	background: #bf8b2e;
+}
+.sdg .scene:nth-child(13) .coin{
+	background: #3f7e44;
+}
+.sdg .scene:nth-child(14) .coin{
+	background: #0a97d9;
+}
+.sdg .scene:nth-child(15) .coin{
+	background: #56c02b;
+}
+.sdg .scene:nth-child(16) .coin{
+	background: #00689d;
+}
+.sdg .scene:nth-child(17) .coin{
+	background: #19486a;
+}
+.sdg-horz-logo {
+	width: 600px;
+	height: 200px;
+	display: flex;
+	align-items: end;
+}
+/* SDG Sidebar */
+.sdg-sidebar .sidebar-title h3{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.sdg-sidebar .sidebar-body{
+	display: flex;
+	flex-wrap: wrap;
+}
+.sdg-sidebar a {
+	display: block;
+	width: 33%;
+}
+.sdg-sidebar a:hover {
+	padding: 5px;
+}
 
 /* Definition list */
 dl {
@@ -872,6 +997,26 @@ a:focus {
 	background: #fff;
 	position: relative;
 }
+.section-sdg {
+	background: #ccc url('images/sdg/sdg-bgx.jpg') no-repeat top center;
+	background-size: contain;
+	position: relative;
+	min-height: 200px;
+}
+.section-sdg a img {
+	max-width: 100%;
+}
+.section-sdg .sdg-display {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
 .section-hero {
 	background: #222;
 	color: #ffffff;
@@ -1947,6 +2092,15 @@ iframe {
 	.official-photo-3 {
 		min-height: 150px;
 	}
+	.sdg .scene {
+		width: 160px;
+		height: 160px;
+		perspective: 160px;
+	}
+	.sdg-horz-logo {
+		width: 480px;
+		height: 160px;
+	}
 }
 
 @media (max-width: 700px){
@@ -2009,5 +2163,18 @@ iframe {
 	}
 	.hymn .credits small {
 		font-size: 9px;
+	}
+
+	.sdg .scene {
+		width: 300px;
+		height: 300px;
+		margin: auto;
+		perspective: 300px;
+	}
+	.sdg-horz-logo {
+		width: 300px;
+		height: 300px;
+		margin: auto;
+		align-items: center;
 	}
 }
