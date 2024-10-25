@@ -239,14 +239,11 @@ jQuery(document).ready(function ($) {
 
     if (isTouchDevice) {
         // Touch devices: use touchstart
-        jQuery('.sdg .scene').on('touchstart', function (event) {
+        jQuery('.sdg .scene').on('click', function (event) {
             // Your code for touchstart event
-            jQuery(this).find('.coin').addClass('flipped')
+            jQuery(this).find('.coin').toggleClass('flipped')
         });
-        jQuery('.sdg .scene').on('touchend', function (event) {
-            // Your code for touchstart event
-            jQuery(this).find('.coin').removeClass('flipped')
-        });
+        
     } else {
         // Non-touch devices: use mouseenter
         jQuery('.sdg .scene').on('mouseenter', function (event) {
