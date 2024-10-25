@@ -239,7 +239,7 @@ jQuery(document).ready(function ($) {
 
     if (isTouchDevice) {
         // Touch devices: use touchstart
-        jQuery('.sdg .scene').on('click', function (event) {
+        jQuery('.sdg .scene').on('touchstart', function (event) {
             // Your code for touchstart event
             jQuery(this).find('.coin').toggleClass('flipped')
         });
