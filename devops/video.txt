@@ -1,1 +1,1 @@
-"D:\portables\winff\Bin\Winff\ffmpeg.exe" -i "D:\webserver\htdocs\wp\projects\gsc2\wp-content\themes\diana\media\home.mp4" -c copy -movflags faststart "D:\webserver\htdocs\wp\projects\gsc2\wp-content\themes\diana\media\home-stream.mp4"
+"C:\Users\Acer Nitro\Desktop\portables\WinFF\Bin\Winff\ffmpeg.exe" -i "C:\xampp\htdocs\gsu.edu.ph\wp-content\themes\diana\media\home-gsu.mp4" -c copy -movflags faststart "C:\xampp\htdocs\gsu.edu.ph\wp-content\themes\diana\media\home-stream.mp4"

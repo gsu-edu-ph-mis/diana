@@ -29,7 +29,7 @@ function diana_bac_custom_query( $query ){
 function diana_news_query($query) {
 	$cat1 = get_category_by_slug( 'bac' );
 	$cat2 = get_category_by_slug( 'career' );
-    if ( ! is_admin() &&  $query->query['pagename'] === 'news' && ! $query->is_search ) {
+    if ( ! is_admin() &&  @$query->query['pagename'] === 'news' && ! $query->is_search ) {
         $query->set( 'category__not_in', array(
             $cat1->term_id,
             $cat2->term_id,

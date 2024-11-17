@@ -95,6 +95,9 @@ function diana_setup() {
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu',      'diana' )
 	) );
+	register_nav_menus( array(
+		'secondary' => __( 'Secondary Menu',      'diana' )
+	) );
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments
@@ -191,6 +194,9 @@ function diana_scripts() {
 
 	if(is_page('map')){
 		wp_enqueue_script( 'leaflet-js', get_template_directory_uri() . '/leaflet/leaflet.js', array(), false, true );
+	}
+	if(is_front_page()){
+		wp_enqueue_script( 'anime-js', get_template_directory_uri() . '/js/anime.min.js', array(), false, true );
 	}
 	if(is_page('academic-programs')){
 		wp_enqueue_script( 'vuejs', get_template_directory_uri() . '/js/vue.js', array(), false, true );

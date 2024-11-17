@@ -88,8 +88,14 @@ jQuery(document).ready(function ($) {
             var scroll = $(window).scrollTop();
             if (scroll < 50) {
                 $('#top-bar').removeClass('alt')
+                $('#main-bar').removeClass('alt')
+                $('#logo').removeClass('alt')
+                $('body').removeClass('scrolled')
             } else {
                 $('#top-bar').addClass('alt')
+                $('#main-bar').addClass('alt')
+                $('#logo').addClass('alt')
+                $('body').addClass('scrolled')
             }
             if (scroll < 200) {
                 $('#to-top').css('visibility', 'hidden')
@@ -124,9 +130,9 @@ jQuery(document).ready(function ($) {
                 })
                 var time = now.toLocaleTimeString('fil-PH', {
                     timeZone: 'Asia/Manila',
-                    hour: 'numeric',
+                    hour: '2-digit',
                     minute: '2-digit',
-                    second: 'numeric',
+                    second: '2-digit',
                 })
 
                 $('#date').html(date)
@@ -233,6 +239,12 @@ jQuery(document).ready(function ($) {
             loop();
         }, timeOut);
     }());
+
+   
+    jQuery('#toggler').on('click', function(e){
+        jQuery('#toggler').toggleClass('open')
+        jQuery('body').toggleClass('menu-open')
+    })
 
     // SDG
     const isTouchDevice = 'ontouchstart' in document.documentElement;
