@@ -93,15 +93,15 @@ class diana_Nav_Walker extends Walker_Nav_Menu {
             }
         }
 
-        $item_output = $args->before;
+        $item_output = @$args->before;
         $item_output .= '<a'. $attributes .'>';
         /** This filter is documented in wp-includes/post-template.php */
-        $item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
+        $item_output .= @$args->link_before . apply_filters( 'the_title', @$item->title, @$item->ID ) . @$args->link_after;
         $item_output .= '</a>';
         if(in_array('menu-item-has-children', $classes)){
             $item_output .= ' <button class="menu-expander"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M7,10L12,15L17,10H7Z" /></svg></button> ';
         }
-        $item_output .= $args->after;
+        $item_output .= @$args->after;
 
         /**
          * Filter a menu item's starting output.

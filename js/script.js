@@ -15,14 +15,14 @@ jQuery(document).ready(function ($) {
     /* Nav */
     (function ($) {
         if ($('#nav-toggle').is(':visible') === true) { /* Do this on mobile only */
-            $('#nav-main').find('.current-menu-ancestor').toggleClass('menu-show'); /* Expand menus up to current item */
+            $('.nav-expandables').find('.current-menu-ancestor').toggleClass('menu-show'); /* Expand menus up to current item */
         }
         $(document).on('click.diana', function (e) { /* Hide subnavs when click is not on nav */
             if ($('#nav-toggle').is(':visible') === false) { /* Do this only in desktop, where nav-toggle is hidden */
                 $('.nav .menu-show').removeClass('menu-show');
             }
 
-        }).on('click.diana', '#nav-main', function (e) { /* Do not close subnavs if nav was clicked */
+        }).on('click.diana', '.nav-expandables', function (e) { /* Do not close subnavs if nav was clicked */
             e.stopPropagation();
 
         }).on('click.diana', '.menu-expander', function (e) {
@@ -33,13 +33,14 @@ jQuery(document).ready(function ($) {
             }
             parent.toggleClass('menu-show');
         }).on('click.diana', '#nav-toggle', function (e) { /* Toggle main nav class */
-            var navMain = $('#nav-main');
+            // var navMain = $('#nav-main');
 
-            $(this).toggleClass('toggle-active');
+            // $(this).toggleClass('toggle-active');
 
-            navMain.toggleClass('menu-show');
+            // navMain.toggleClass('menu-show');
 
         });
+        
         $('#college-menu').on('click.diana', 'a', function (e) {
             var menu = $('#college-menu');
             var programs = $('#data-programs');
@@ -87,14 +88,8 @@ jQuery(document).ready(function ($) {
         $(window).scroll(function (event) {
             var scroll = $(window).scrollTop();
             if (scroll < 50) {
-                $('#top-bar').removeClass('alt')
-                $('#main-bar').removeClass('alt')
-                $('#logo').removeClass('alt')
                 $('body').removeClass('scrolled')
             } else {
-                $('#top-bar').addClass('alt')
-                $('#main-bar').addClass('alt')
-                $('#logo').addClass('alt')
                 $('body').addClass('scrolled')
             }
             if (scroll < 200) {
@@ -136,10 +131,14 @@ jQuery(document).ready(function ($) {
                 })
 
                 $('#date').html(date)
+                $('#date2').html(date)
                 $('#clock').html(time)
+                $('#clock2').html(time)
             } catch (err) {
                 $('#date').html(now.toDateString())
+                $('#date2').html(now.toDateString())
                 $('#clock').html(now.toTimeString().split(' ')[0])
+                $('#clock2').html(now.toTimeString().split(' ')[0])
             }
 
 
@@ -244,7 +243,7 @@ jQuery(document).ready(function ($) {
     jQuery('#toggler').on('click', function(e){
         jQuery('#toggler').toggleClass('open')
         jQuery('body').toggleClass('menu-open')
-    })
+    }).trigger('click')
 
     // SDG
     const isTouchDevice = 'ontouchstart' in document.documentElement;

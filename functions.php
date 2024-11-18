@@ -98,6 +98,9 @@ function diana_setup() {
 	register_nav_menus( array(
 		'secondary' => __( 'Secondary Menu',      'diana' )
 	) );
+	register_nav_menus( array(
+		'top' => __( 'Top Left Menu',      'diana' )
+	) );
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments

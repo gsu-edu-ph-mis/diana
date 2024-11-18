@@ -94,16 +94,16 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-5 mb-5">
-                <h3 class="h3 mb-3">Republic of the Philippines</h3>
-                <p>All content is in the public domain unless otherwise stated.</p>
+                <h3 class="h3 mb-3">Guimaras State University</h3>
+                <p>&copy; 2024. All Rights Reserved.</p>
             </div>
             <div class="col-6 col-md-4">
-                <h3 class="h3 mb-3">About GOVPH</h3>
-                <p class="mb-3">Learn more about the Philippine government, its structure, how government works and the people behind it.</p>
+                <h3 class="h3 mb-3">About GSU</h3>
+                <p class="mb-3">Learn more about the Guimaras State University, its structure, how it works and the people behind it.</p>
                 <ul class="p-0 ml-4">
-                    <li><a target="_blank" href="http://www.gov.ph/">GOV.PH</a></li>
-                    <li><a target="_blank" href="http://www.gov.ph/data">Open Data Portal</a></li>
-                    <li><a target="_blank" href="http://www.officialgazette.gov.ph/">Official Gazette</a></li>
+                    <li><a href="<?= home_url('/brief-history'); ?>">History</a></li>
+                    <li><a href="<?= home_url('/academic-programs'); ?>">Academics</a></li>
+                    <li><a href="<?= home_url('/key-officials'); ?>">Key Officials</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md-3">
@@ -121,7 +121,7 @@
             </div>
         </div>
 		<div class="row">
-			<p class="col-md-12 pt-5 text-right mb-0"><em>&copy; 2022 - by <a href="https://mis.gsu.edu.ph">MIS Team</a></em></p>
+			<p class="col-md-12 pt-5 text-right mb-0"><em>&copy; 2024 - by <a href="https://ict.gsu.edu.ph/about-us">ICT Unit</a></em></p>
 		</div>
     </div>
 </footer>
