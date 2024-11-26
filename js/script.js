@@ -79,10 +79,24 @@ jQuery(document).ready(function ($) {
             }
 
         });
-        $('#to-top').on('click.diana', function (e) { /* Toggle main nav class */
+        const audioBackToTop = new Audio(window.mediaDirUrl + '/media/back-to-top.mp3');
+        $('#back-to-top').on('click.diana', function (e) { /* Toggle main nav class */
+            $('#back-to-top').addClass('play') ;
+            audioBackToTop.play();
             $('html,body').animate({
                 scrollTop: 0
+            }, 1000, null, function(){
+                $('#back-to-top').removeClass('play') ;
             });
+        });
+        $('.btn-videos').on('click.diana', function (e) { /* Toggle main nav class */
+            $('.vid-gallery').toggleClass('roll')
+            let hv = document.getElementById("homeVideo")
+            if(hv.paused){
+                if(hv.readyState === 4) hv.play()
+            } else {
+                hv.pause()
+            }
         });
 
         $(window).scroll(function (event) {
@@ -93,9 +107,10 @@ jQuery(document).ready(function ($) {
                 $('body').addClass('scrolled')
             }
             if (scroll < 200) {
-                $('#to-top').css('visibility', 'hidden')
+                $('body').removeClass('scrolled200')
             } else {
-                $('#to-top').css('visibility', 'visible')
+                $('body').addClass('scrolled200')
+
             }
 
             if ($('#section-counters').isInViewport()) {
@@ -239,11 +254,13 @@ jQuery(document).ready(function ($) {
         }, timeOut);
     }());
 
+    const toggleSound = new Audio(window.mediaDirUrl + '/media/toggle.mp3');
    
     jQuery('#toggler').on('click', function(e){
         jQuery('#toggler').toggleClass('open')
         jQuery('body').toggleClass('menu-open')
-    }).trigger('click')
+        toggleSound.play()
+    })//.trigger('click')
 
     // SDG
     const isTouchDevice = 'ontouchstart' in document.documentElement;

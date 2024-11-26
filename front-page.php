@@ -19,6 +19,19 @@ get_header(); ?>
 	<video autoplay muted loop id="homeVideo" class="video">
 		<source src="<?php echo get_stylesheet_directory_uri(); ?>/media/home-stream.mp4" type="video/mp4">
 	</video>
+	<div class="vid-gallery">
+		<div>
+			<a href="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-hymn.mp4"><img src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-hymn.png" alt=""></a>
+			<!-- <div>GSU Hymn</div> -->
+		</div>
+		<div>
+			<a href="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-the-prayer.mp4"><img src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-the-prayer.png" alt=""></a>
+			<!-- <div>The Prayer</div> -->
+		</div>
+	</div>
+	<button class="btn btn-videos" type="button">
+		<svg width="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M8.16,3L6.75,4.41L9.34,7H4C2.89,7 2,7.89 2,9V19C2,20.11 2.89,21 4,21H20C21.11,21 22,20.11 22,19V9C22,7.89 21.11,7 20,7H14.66L17.25,4.41L15.84,3L12,6.84L8.16,3M4,9H17V19H4V9M19.5,9A1,1 0 0,1 20.5,10A1,1 0 0,1 19.5,11A1,1 0 0,1 18.5,10A1,1 0 0,1 19.5,9M19.5,12A1,1 0 0,1 20.5,13A1,1 0 0,1 19.5,14A1,1 0 0,1 18.5,13A1,1 0 0,1 19.5,12Z" /></svg>
+	</button>
 </section>
 
 <section id="section-journals" class="section-journals">
@@ -116,7 +129,7 @@ get_header(); ?>
 						<path fill="currentColor" d="M12 3L1 9L5 11.18V17.18L12 21L19 17.18V11.18L21 10.09V17H23V9L12 3M18.82 9L12 12.72L5.18 9L12 5.28L18.82 9M17 16L12 18.72L7 16V12.27L12 15L17 12.27V16Z" />
 					</svg>
 				</div>
-				<h2 class="counters" style="font-size: 0; min-height: 33.6px;">7</h2>
+				<h2 class="counters" style="font-size: 0; min-height: 33.6px;">9</h2>
 				<h3 class="h2">Colleges</h3>
 			</div>
 			<div class="col-md-3 col-6 text-white text-center mb-4">
