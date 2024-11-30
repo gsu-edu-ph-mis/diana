@@ -1,14 +1,14 @@
 jQuery(document).ready(function ($) {
     $.fn.isInViewport = function () {
-        var $this = $(this)
+        const $this = $(this)
         if ($this.length) {
-            var elementTop = $this.offset().top;
-            var elementBottom = elementTop + $this.outerHeight();
+            const elementTop = $this.offset().top;
+            const elementBottom = elementTop + $this.outerHeight();
 
-            var viewportTop = $(window).scrollTop();
-            var viewportBottom = viewportTop + $(window).height();
+            const viewportTop = $(window).scrollTop();
+            const viewportBottom = viewportTop + $(window).height();
 
-            var offset = $this.outerHeight();
+            const offset = $this.outerHeight();
             return elementBottom - offset > viewportTop && elementTop + offset < viewportBottom;
         }
     };
@@ -16,41 +16,40 @@ jQuery(document).ready(function ($) {
     (function ($) {
 
         /* Nav */
-        if ($('#nav-toggle').is(':visible') === true) { /* Do this on mobile only */
-            $('.nav-expandables').find('.current-menu-ancestor').toggleClass('menu-show'); /* Expand menus up to current item */
-        }
-        $(document).on('click.diana', function (e) { /* Hide subnavs when click is not on nav */
-            if ($('#nav-toggle').is(':visible') === false) { /* Do this only in desktop, where nav-toggle is hidden */
-                $('.nav .menu-show').removeClass('menu-show');
-            }
+        
+        $(document).on('click.diana', function (e) { 
+            $('#main-bar .menu-show').removeClass('menu-show');
 
-        }).on('click.diana', '.nav-expandables', function (e) { /* Do not close subnavs if nav was clicked */
+        }).on('click.diana', '#main-bar', function (e) { /* Do not close subnavs if nav was clicked */
             e.stopPropagation();
 
-        }).on('click.diana', '.menu-expander', function (e) {
-            var parent = $(this).parent();
+        }).on('click.diana', '#main-bar .menu-expander', function (e) {
+            const $parent = $(this).parent();
 
-            if ($('#nav-toggle').is(':visible') === false) { /* Do this only in desktop, where nav-toggle is hidden */
-                parent.siblings().removeClass('menu-show').find('.menu-show').removeClass('menu-show');
-            }
-            parent.toggleClass('menu-show');
-        }).on('click.diana', '#nav-toggle', function (e) { /* Toggle main nav class */
-            // var navMain = $('#nav-main');
-
-            // $(this).toggleClass('toggle-active');
-
-            // navMain.toggleClass('menu-show');
-
+            $parent.siblings().removeClass('menu-show').find('.menu-show').removeClass('menu-show');
+            $parent.toggleClass('menu-show');
         });
-        
+
+        $('#mobile-menu').on('click.diana', '.menu-expander', function (e) {
+                let $parent = $(this).parent();
+                let $subMenu = $parent.find('.sub-menu')
+                if($parent.hasClass('menu-show')){
+                    $subMenu.height(0)
+                    $parent.removeClass('menu-show');
+                } else {
+                    let height = $subMenu.find('> li').height() * $subMenu.find('> li').length
+                    $subMenu.height(height)
+                    $parent.addClass('menu-show');
+                }
+        })
         $('#college-menu').on('click.diana', 'a', function (e) {
-            var menu = $('#college-menu');
-            var programs = $('#data-programs');
-            var anchor = $(this)
+            const menu = $('#college-menu');
+            const programs = $('#data-programs');
+            const anchor = $(this)
             anchor.toggleClass('checked')
 
             menu.find('a').each(function () {
-                var $a = $(this),
+                const $a = $(this),
                     href = $a.attr('href');
 
                 if ($a.hasClass('checked')) {
@@ -68,7 +67,7 @@ jQuery(document).ready(function ($) {
             e.preventDefault();
         });
         $('.scrolling-nav').on('click.diana', 'a', function (e) {
-            var $a = $(this),
+            const $a = $(this),
                 href = $a.attr('href');
 
             if (href.includes('#')) {
@@ -92,7 +91,7 @@ jQuery(document).ready(function ($) {
             });
         });
         $('.btn-videos').on('click.diana', function (e) { /* Toggle main nav class */
-            $('.vid-gallery').toggleClass('roll')
+            $('.video-roll').toggleClass('roll')
             let hv = document.getElementById("homeVideo")
             if(hv.paused){
                 if(hv.readyState === 4) hv.play()
@@ -119,10 +118,13 @@ jQuery(document).ready(function ($) {
                 $('body').removeClass('scrollingUp')
             }
 
+            if ($('#section-journals').isInViewport()) {
+                $('#section-journals').addClass('anim8')
+            }
             if ($('#section-counters').isInViewport()) {
                 $('.counters').each(function (index) {
-                    var $counter = $(this)
-                    var done = $counter.data('done')
+                    const $counter = $(this)
+                    const done = $counter.data('done')
                     if (done !== true) {
                         $counter.stop().delay(index * 300).animate({ fontSize: "2.8rem" }, 400, 'swing', function () {
                             $counter.data('done', true)
@@ -156,54 +158,85 @@ jQuery(document).ready(function ($) {
         document.dispatchEvent(new Event("scroll")); // Manual
 
 
-        var tick = function () {
-            var now = new Date();
+        
+
+        const tick = function () {
+            const now = new Date();
 
             try {
-                var date = now.toLocaleDateString('en-PH', {
+                const date = now.toLocaleDateString('en-PH', {
                     timeZone: 'Asia/Manila',
                     weekday: 'long',
                     year: 'numeric',
                     month: 'long',
                     day: 'numeric',
                 })
-                var time = now.toLocaleTimeString('fil-PH', {
+                const time = now.toLocaleTimeString('fil-PH', {
                     timeZone: 'Asia/Manila',
                     hour: '2-digit',
                     minute: '2-digit',
                     second: '2-digit',
                 })
+                
+                $('.date-ticker').html(date)
+                $('.clock-ticker').html(time)
 
-                $('#date').html(date)
-                $('#date2').html(date)
-                $('#clock').html(time)
-                $('#clock2').html(time)
+                const clockTime = now.toLocaleTimeString('fil-PH', {
+                    timeZone: 'Asia/Manila',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                    hourCycle: 'h23',
+                })
+
+                let timeParts = clockTime.split(':')
+                let seconds = parseInt(timeParts.at(-1));
+                let minutes = parseInt(timeParts.at(1));
+                let hours = parseInt(timeParts.at(0));
+
+                let rotate = seconds * 6 - 90
+                if(rotate < 0) {
+                    rotate = 360 + rotate
+                }
+                $('.arm-second').attr(`style`, `rotate: ${rotate}deg`)
+
+                let rotateM = minutes * 6 - 90
+                if(rotateM < 0) {
+                    rotateM = 360 + rotateM
+                }
+                $('.arm-minute').attr(`style`, `rotate: ${rotateM}deg`)
+
+                let rotateH = hours * 30 - 90
+                if(rotateH < 0) {
+                    rotateH = 360 + rotateH
+                }
+                $('.arm-hour').attr(`style`, `rotate: ${rotateH}deg`)
+
             } catch (err) {
-                $('#date').html(now.toDateString())
-                $('#date2').html(now.toDateString())
-                $('#clock').html(now.toTimeString().split(' ')[0])
-                $('#clock2').html(now.toTimeString().split(' ')[0])
+                console.error(err)
+                $('.date-ticker').html(now.toDateString())
+                $('.clock-ticker').html(now.toTimeString().split(' ')[0])
             }
 
 
         }
         tick();
-        setInterval(tick, 250);
+        createAnimationFrameRunner(tick, 900);
 
         // 
         if (document.getElementById('map')) {
-            var map = L.map('map');
+            let map = L.map('map');
             map.setView([10.650, 122.65067], 12);
             map.scrollWheelZoom.disable();
 
-            var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia29zaW5peCIsImEiOiJjamFsd2t3Y3QydW05MzNxdXUyeWV6azhoIn0.aqHKe7JGKQrNMD5-WP8xDQ', {
+            let tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia29zaW5peCIsImEiOiJjamFsd2t3Y3QydW05MzNxdXUyeWV6azhoIn0.aqHKe7JGKQrNMD5-WP8xDQ', {
                 maxZoom: 18,
                 id: 'mapbox/streets-v11',
                 tileSize: 512,
                 zoomOffset: -1
             }).addTo(map);
 
-            var polygon = L.polygon([
+            let polygon = L.polygon([
                 [10.6990108, 122.6498571],
                 [10.6980449, 122.6508093],
                 [10.6984059, 122.6512063],
@@ -267,18 +300,18 @@ jQuery(document).ready(function ($) {
     } catch (_) { }
 
 
-    var getRandomInt = function (min, max) {
+    const getRandomInt = function (min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
     // Faculty Roster
-    function toggler(index) {
+    function facultyFlipper(index) {
         $('#faculty-roster').find('.coin-' + index).toggleClass('flipped');
     }
     (function loop() {
-        var timeOut = getRandomInt(1000, 3000);
+        const timeOut = getRandomInt(1000, 3000);
         setTimeout(function () {
-            toggler(getRandomInt(1, 15));
+            facultyFlipper(getRandomInt(1, 15));
             loop();
         }, timeOut);
     }());
@@ -326,3 +359,40 @@ jQuery(document).ready(function ($) {
     }, false);
 
 });
+
+/**
+ * A generic requestAnimationFrame wrapper function
+ * 
+ * Usage:
+ * let stopThis = createAnimationFrameRunner(tick, 900);
+ * setTimeout(stopThis, 5000);
+ * @param {*} callback 
+ * @param {*} debounceTime 
+ * @returns 
+ */
+function createAnimationFrameRunner(callback, debounceTime = 0) {
+    let animationFrameId = null; // Store the requestAnimationFrame ID
+    let lastTimestamp = 0; // Track the last executed timestamp
+
+    function frame(timestamp) {
+        // Check if the debounce threshold is met
+        if (timestamp - lastTimestamp >= debounceTime) {
+            lastTimestamp = timestamp; // Update the last executed timestamp
+            if (callback) callback(timestamp);
+        }
+
+        // Continue the animation loop
+        animationFrameId = requestAnimationFrame(frame);
+    }
+
+    // Start the animation immediately
+    animationFrameId = requestAnimationFrame(frame);
+
+    // Return a function to stop the animation
+    return () => {
+        if (animationFrameId) {
+            cancelAnimationFrame(animationFrameId);
+            animationFrameId = null;
+        }
+    };
+}

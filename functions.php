@@ -180,6 +180,7 @@ function diana_scripts() {
 		wp_register_script( 'popper', get_template_directory_uri() . '/js/popper.min.js' , false, NULL, true );
 		wp_register_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js' , false, NULL, true );
 		wp_register_script( 'videojs', get_template_directory_uri() . '/js/vjs.zencdn.net_8.5.2_video.min.js' , false, NULL, true );
+		wp_register_script( 'moment', get_template_directory_uri() . '/js/moment.min.js' , false, NULL, true );
 
 		wp_enqueue_script( 'jquery' );
 		if(is_page('undergraduate-programs') || is_page('graduate-programs')){

@@ -91,41 +91,16 @@
         <?php endif; ?>
         
         <?php if ( has_nav_menu( 'secondary' ) ) : ?>
-            <nav id="nav-main" class="nav nav-secondary nav-expandables" role="navigation">
+            <nav id="nav-secondary" class="nav nav-secondary nav-expandables" role="navigation">
                 <?php wp_nav_menu( array( 'theme_location' => 'secondary', 'container' => false, 'items_wrap'=> '<ul>%3$s</ul>', 'walker' => new diana_Nav_Walker() ) ); ?>
             </nav>
         <?php endif; ?>
     </div>
     <div id="mobile-menu" class="mobile-menu">
-        <!-- <div class="partition">
-            <?php if ( has_nav_menu( 'top' ) ) : ?>
-                <nav id="top-nav-bar-left" class="nav top-nav-bar-left" role="navigation">
-                    <?php wp_nav_menu( array( 'theme_location' => 'top', 'container' => false, 'items_wrap'=> '<ul>%3$s</ul>', 'walker' => new diana_Nav_Walker() ) ); ?>
-                </nav>
-            <?php endif; ?>
-            <nav id="top-nav-bar-right" class="nav top-nav-bar-right" role="navigation">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <svg style="width:16px;height:16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Apps</title><path fill="currentColor" d="M3,11H11V3H3M3,21H11V13H3M13,21H21V13H13M13,3V11H21V3" /></svg>
-                            <span>Apps</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="date">
-                            <svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M9,10H7V12H9V10M13,10H11V12H13V10M17,10H15V12H17V10M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M19,19H5V8H19V19Z" /></svg>
-                            <span id="date2"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="clock">
-                            <svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M16.2,16.2L11,13V7H12.5V12.2L17,14.9L16.2,16.2Z" /></svg>
-                            <span id="clock2"></span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div> -->
+        <div class="partition">
+            
+           
+        </div>
 
         <?php if ( has_nav_menu( 'primary' ) ) : ?>
             <nav id="nav-main2" class="nav nav-primary nav-white nav-expandables" role="navigation">
@@ -138,6 +113,53 @@
                 <?php wp_nav_menu( array( 'theme_location' => 'secondary', 'container' => false, 'items_wrap'=> '<ul>%3$s</ul>', 'walker' => new diana_Nav_Walker() ) ); ?>
             </nav>
         <?php endif; ?>
+
+        <?php if ( has_nav_menu( 'top' ) ) : ?>
+            <nav id="top-nav-bar-left2" class="nav top-nav-bar-left nav-white nav-expandables" role="navigation">
+                <?php wp_nav_menu( array( 'theme_location' => 'top', 'container' => false, 'items_wrap'=> '<ul>%3$s</ul>', 'walker' => new diana_Nav_Walker() ) ); ?>
+            </nav>
+        <?php endif; ?>
+        <nav id="top-nav-bar-right2" class="nav top-nav-bar-right" role="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <svg style="width:16px;height:16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Apps</title><path fill="currentColor" d="M3,11H11V3H3M3,21H11V13H3M13,21H21V13H13M13,3V11H21V3" /></svg>
+                        <span>Apps</span>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="#" class="date">
+                        <svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M9,10H7V12H9V10M13,10H11V12H13V10M17,10H15V12H17V10M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M19,19H5V8H19V19Z" /></svg>
+                        <span class="date-ticker"></span>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="#" class="clock">
+                        <svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M16.2,16.2L11,13V7H12.5V12.2L17,14.9L16.2,16.2Z" /></svg>
+                        <span class="clock-ticker"></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <div class="wall-clock">
+                <div class="arm-second"></div>
+                <div class="arm-minute"></div>
+                <div class="arm-hour"></div>
+                <div class="hour hour-12">12</div>
+                <div class="hour hour-1">1</div>
+                <div class="hour hour-2">2</div>
+                <div class="hour hour-3">3</div>
+                <div class="hour hour-4">4</div>
+                <div class="hour hour-5">5</div>
+                <div class="hour hour-6">6</div>
+                <div class="hour hour-7">7</div>
+                <div class="hour hour-8">8</div>
+                <div class="hour hour-9">9</div>
+                <div class="hour hour-10">10</div>
+                <div class="hour hour-11">11</div>
+            </div>
+        </div>
     </div>
 </header>
 
