@@ -38,11 +38,15 @@ get_header(); ?>
 <section id="section-journals" class="section-journals">
 	<svg id="wave" style="position: absolute; left: 0; right: 0; bottom: 100%; transform: translateY(5px); z-index: 1" viewBox="0 0 1440 120" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(0, 25, 104, 1)" offset="0%"></stop><stop stop-color="rgba(0, 25, 104, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1; fill: #4bb29d" fill="url(#sw-gradient-0)" d="M0,36L48,40C96,44,192,52,288,64C384,76,480,92,576,94C672,96,768,84,864,82C960,80,1056,88,1152,90C1248,92,1344,88,1440,82C1536,76,1632,68,1728,58C1824,48,1920,36,2016,44C2112,52,2208,80,2304,76C2400,72,2496,36,2592,26C2688,16,2784,32,2880,36C2976,40,3072,32,3168,32C3264,32,3360,40,3456,40C3552,40,3648,32,3744,24C3840,16,3936,8,4032,6C4128,4,4224,8,4320,20C4416,32,4512,52,4608,58C4704,64,4800,56,4896,60C4992,64,5088,80,5184,80C5280,80,5376,64,5472,50C5568,36,5664,24,5760,24C5856,24,5952,36,6048,40C6144,44,6240,40,6336,32C6432,24,6528,12,6624,22C6720,32,6816,64,6864,80L6912,96L6912,120L6864,120C6816,120,6720,120,6624,120C6528,120,6432,120,6336,120C6240,120,6144,120,6048,120C5952,120,5856,120,5760,120C5664,120,5568,120,5472,120C5376,120,5280,120,5184,120C5088,120,4992,120,4896,120C4800,120,4704,120,4608,120C4512,120,4416,120,4320,120C4224,120,4128,120,4032,120C3936,120,3840,120,3744,120C3648,120,3552,120,3456,120C3360,120,3264,120,3168,120C3072,120,2976,120,2880,120C2784,120,2688,120,2592,120C2496,120,2400,120,2304,120C2208,120,2112,120,2016,120C1920,120,1824,120,1728,120C1632,120,1536,120,1440,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"></path></svg>
 	<div class="journals">
-		<div class="d-flex align-items-center justify-content-end justify-content-md-center pt-4">
-			<h2 class="h3 pt-4 text-white ml-2 mr-3 d-none d-md-block">Research Journals</h2>
-			<a class="d-block ml-1 mr-1" target="_blank" href="https://journals.gsu.edu.ph/himal-us/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-1.png" alt=""></a>
-			<a class="d-block ml-1 mr-1" target="_blank" href="https://journals.gsu.edu.ph/the-graduate-school-journal/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-2.png" alt=""></a>
-			<a class="d-block ml-1 mr-1 mr-md-5 pr-md-5" target="_blank" href="https://journals.gsu.edu.ph/higher-education-research-review/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-3.png" alt=""></a>
+		<h2 class="h3 pt-4 text-white ml-2 mr-3 d-none d-md-block">Research Journals</h2>
+		<div class="journal journal-1">
+			<a target="_blank" href="https://journals.gsu.edu.ph/himal-us/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-1.jpg" alt="journal"></a>
+		</div>
+		<div class="journal journal-2">
+			<a target="_blank" href="https://journals.gsu.edu.ph/the-graduate-school-journal/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-2.jpg" alt="journal"></a>
+		</div>
+		<div class="journal journal-3">
+			<a target="_blank" href="https://journals.gsu.edu.ph/higher-education-research-review/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/journal-3.jpg" alt="journal"></a>
 		</div>
 	</div>
 </section>
