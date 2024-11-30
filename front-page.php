@@ -21,11 +21,11 @@ get_header(); ?>
 	</video>
 	<div class="vid-gallery">
 		<div>
-			<a href="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-hymn.mp4"><img src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-hymn.png" alt=""></a>
+			<a href="<?php echo home_url(); ?>/videos"><img src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-hymn.png" alt=""></a>
 			<!-- <div>GSU Hymn</div> -->
 		</div>
 		<div>
-			<a href="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-the-prayer.mp4"><img src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-the-prayer.png" alt=""></a>
+			<a href="<?php echo home_url(); ?>/videos"><img src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-the-prayer.png" alt=""></a>
 			<!-- <div>The Prayer</div> -->
 		</div>
 	</div>

@@ -117,6 +117,7 @@ html {
 	line-height: 1.75;
 }
 body {
+	min-height: 100vh;
 	font-size: 17px; /* Fallback for IE8 */
 	font-size: 1.7rem;
 	font-weight: 300;
@@ -128,6 +129,11 @@ body {
 	font-family: 'book_antiquaregular';
 }
 
+/* Responsive image */
+img {
+	max-width: 100%;
+	height: auto;
+}
 
 /* Vue */
 [v-cloak] {
@@ -525,14 +531,7 @@ div[data-pending="true"]:after {
 	padding: 10px;
 }
 
-.mobile-menu .nav > ul > li .menu-expander:hover svg {
-	transition: all ease-out 200ms;
-	transform: translateY(2px);
-}
-.mobile-menu .nav > ul > li.menu-show .menu-expander svg {
-	transition: all ease-out 200ms;
-	transform: rotate(180deg);
-}
+
 
 /* Mobile Menu White */
 .mobile-menu .nav-white {
@@ -547,9 +546,6 @@ div[data-pending="true"]:after {
 }
 .mobile-menu .nav-white > ul > li {
 	border-bottom: 1px solid #001968;
-}
-.mobile-menu .nav-white > ul > li {
-	
 }
 .mobile-menu .nav-white > ul > li > a {
 	padding-left: 10px;
@@ -598,6 +594,7 @@ div[data-pending="true"]:after {
 }
 .mobile-menu  .menu-expander svg {
 	display: block;
+	transition: all ease-out 200ms;
 }
 .mobile-menu  .menu-expander::after {
 	content: "";
@@ -609,9 +606,14 @@ div[data-pending="true"]:after {
 	height: 50%;
 	background: #ccc;
 	z-index: 1;
-	transform: translate(0, 50%);
+	translate: 0 50%;
 }
-
+.mobile-menu .nav > ul > li .menu-expander:hover svg {
+	translate: 0 2px;
+}
+.mobile-menu .nav > ul > li.menu-show .menu-expander svg {
+	rotate: -180deg;
+}
 
 
 
@@ -627,14 +629,12 @@ div[data-pending="true"]:after {
 	border-radius: 3px;
 	transition: transform linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%) 600ms;
 	transform: translateX(80px);
-	border: 2px solid #001968;
+	border: 2px solid rgb(0 25 104 / 70%);
 	color: #001968;
-	background-color: rgba(255, 255, 255, 0.6);
+	background: #fff;
+	box-shadow: 1px 5px 5px rgba(68, 68, 68, 0.4);
 }
-.back-to-top:hover {
-	background-color: rgba(255, 255, 255, 1);
-}
-.scrolled200 .back-to-top{
+.scrolled200.scrollingUp .back-to-top{
 	transform: translateX(0);
 }
 .back-to-top svg {
@@ -1635,12 +1635,6 @@ a img.aligncenter {
 	border-color: #007aac;
 	box-shadow: 0 0 1px 1px #007aac;
 }
-/* Responsive image */
-img {
-	max-width: 100%;
-	height: auto;
-}
-
 
 .page-sub-menu ul {
 	list-style: inside none;

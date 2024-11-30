@@ -12,8 +12,10 @@ jQuery(document).ready(function ($) {
             return elementBottom - offset > viewportTop && elementTop + offset < viewportBottom;
         }
     };
-    /* Nav */
+
     (function ($) {
+
+        /* Nav */
         if ($('#nav-toggle').is(':visible') === true) { /* Do this on mobile only */
             $('.nav-expandables').find('.current-menu-ancestor').toggleClass('menu-show'); /* Expand menus up to current item */
         }
@@ -99,8 +101,8 @@ jQuery(document).ready(function ($) {
             }
         });
 
-        $(window).scroll(function (event) {
-            var scroll = $(window).scrollTop();
+        function windowOnScroll(scroll, dir) {
+            // console.log(scroll, dir)
             if (scroll < 50) {
                 $('body').removeClass('scrolled')
             } else {
@@ -110,7 +112,11 @@ jQuery(document).ready(function ($) {
                 $('body').removeClass('scrolled200')
             } else {
                 $('body').addClass('scrolled200')
-
+            }
+            if (dir == 'up') {
+                $('body').addClass('scrollingUp')
+            } else if (dir == 'down') {
+                $('body').removeClass('scrollingUp')
             }
 
             if ($('#section-counters').isInViewport()) {
@@ -124,8 +130,31 @@ jQuery(document).ready(function ($) {
                     }
                 })
             }
+            
+        }
+
+        let lastScroll = window.scrollY;
+        let ticking = false;
+        document.addEventListener("scroll", (event) => {
+
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    let dir = ''
+                    if (lastScroll > window.scrollY) { // true if upwards
+                        dir = 'up'
+                    } else if (lastScroll < window.scrollY) {
+                        dir = 'down'
+                    }
+                    windowOnScroll(lastScroll, dir);
+                    ticking = false;
+                    lastScroll = window.scrollY;
+                });
+
+                ticking = true;
+            }
         });
-        $(window).scroll()
+        document.dispatchEvent(new Event("scroll")); // Manual
+
 
         var tick = function () {
             var now = new Date();

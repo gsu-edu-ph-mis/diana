@@ -179,11 +179,16 @@ function diana_scripts() {
 		wp_register_script( 'jquery', get_template_directory_uri() . '/js/jquery.min.js' , false, NULL, true );
 		wp_register_script( 'popper', get_template_directory_uri() . '/js/popper.min.js' , false, NULL, true );
 		wp_register_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js' , false, NULL, true );
-		
+		wp_register_script( 'videojs', get_template_directory_uri() . '/js/vjs.zencdn.net_8.5.2_video.min.js' , false, NULL, true );
+
 		wp_enqueue_script( 'jquery' );
 		if(is_page('undergraduate-programs') || is_page('graduate-programs')){
 			wp_enqueue_script( 'popper' );
 			wp_enqueue_script( 'bootstrap' );
+		}
+		if(is_page('videos')){
+			wp_enqueue_script( 'videojs' );
+			wp_enqueue_style( 'diana-videojs', get_template_directory_uri() . '/css/vjs.zencdn.net_8.5.2_video-js.css', array());
 		}
 		
 	}
@@ -194,6 +199,7 @@ function diana_scripts() {
 		wp_enqueue_style( 'leaflet-css', get_template_directory_uri() . '/leaflet/leaflet.css', array(), '1.7.1' );
 	}
 	wp_enqueue_style( 'diana-style', get_template_directory_uri() . '/style.css', array(), '20230428' );
+	
 
 	if(is_page('map')){
 		wp_enqueue_script( 'leaflet-js', get_template_directory_uri() . '/leaflet/leaflet.js', array(), false, true );
