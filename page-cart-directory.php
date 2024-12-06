@@ -51,40 +51,40 @@ get_header(); ?>
 							<th>CONTACT NUMBER</th>
 						</tr>
 						<tr>
-							<td>1</td>
-							<td>Dr. Luna V. Lamera</td>
+							<td>1</td>	
+							<td>Mr. Ken D. Pillora</td>
 							<td>Chairperson</td>
-							<td class="d-none d-md-table-cell">Chief Administrative Officer - Administrative Division</td>
-							<td class="d-none d-md-table-cell">Office of the Chief Administrative Officer - Administrative Division</td>
-							<td>luna.lamera@gsu.edu.ph</td>
-							<td>09516926710</td>
+							<td class="d-none d-md-table-cell">SAO (Supervising Administrative Officer)- Admin Division/ OIC, CAO</td>
+							<td class="d-none d-md-table-cell">Office of the Supervising Administrative Office- Admin Division</td>
+							<td>kenzie_gsc@yahoo.com</td>
+							<td>09269419120</td>
 						</tr>
 						<tr>
 							<td>2</td>
-							<td>Dr. Efren S. Tellermo</td>
+							<td>Dr. Jonathan G. Gabion</td>
 							<td>Vice Chairperson</td>
-							<td class="d-none d-md-table-cell">Planning Director</td>
-							<td class="d-none d-md-table-cell">Planning Office</td>
-							<td>efren.tellermo@gsu.edu.ph</td>
-							<td>09778330255</td>
+							<td class="d-none d-md-table-cell">Associate Professor V/ Quality Management Coordinator/ Planning and Project Monitoring Unit Director</td>
+							<td class="d-none d-md-table-cell">Quality Management Office/ Planning and Project Monitoring Unit </td>
+							<td>jonathan.gabion@gsu.edu.ph</td>
+							<td>09171707510</td>
 						</tr>
 						<tr>
 							<td>3</td>
-							<td>Instr. Violeta C. Efondo</td>
+							<td>Mrs. Bessie S. Cebuano</td>
 							<td>Member</td>
-							<td class="d-none d-md-table-cell">Executive Assistant on Legal Matters</td>
-							<td class="d-none d-md-table-cell">Office of the Executive Assistant on Legal Matters</td>
-							<td>violeta.efondo@gsu.edu.ph</td>
-							<td>09196985082</td>
+							<td class="d-none d-md-table-cell">Legal Assistant III/ OIC Head, Legal Unit</td>
+							<td class="d-none d-md-table-cell">Legal Unit</td>
+							<td>bessie.cebuano@gsu.edu.ph</td>
+							<td>09162797135</td>
 						</tr>
 						<tr>
 							<td>4</td>
-							<td>Dr. Sol M. Basañes</td>
+							<td>Mrs. Ijieline F. Gallo</td>
 							<td>Member</td>
-							<td class="d-none d-md-table-cell">Records Officer</td>
-							<td class="d-none d-md-table-cell">Records Office</td>
-							<td>sol.basanes@gsu.edu.ph</td>
-							<td>09756759548</td>
+							<td class="d-none d-md-table-cell">Administrative Officer V/ Records Officer III</td>
+							<td class="d-none d-md-table-cell">Records Unit</td>
+							<td>ijieline.gallo@gsu.edu.ph</td>
+							<td>09705979340</td>
 						</tr>
 						<tr>
 							<td>5</td>
@@ -115,21 +115,21 @@ get_header(); ?>
 						</tr>
 						<tr>
 							<td>8</td>
-							<td>Mr. Nestor T. Paez</td>
+							<td>Mr. Roland Yanguas</td>
 							<td>Member</td>
 							<td class="d-none d-md-table-cell">Casual Plantilla</td>
 							<td class="d-none d-md-table-cell">Public Assistance Complaints Desk</td>
-							<td>nestor.paez@gsu.edu.ph</td>
-							<td>09978279411</td>
+							<td>roland.yanguas@gsu.edu.ph</td>
+							<td>09675380582</td>
 						</tr>
 						<tr>
 							<td>9</td>
-							<td>Dr. Adrian J. Forca</td>
+							<td>Mr. Nico G. Amarilla</td>
 							<td>Member</td>
-							<td class="d-none d-md-table-cell">Director, Information, Communication and Technology Officer</td>
-							<td class="d-none d-md-table-cell">Office of the Director, Information, Communication and Technology</td>
-							<td>adrian.forca@gsu.edu.ph</td>
-							<td>09177106115</td>
+							<td class="d-none d-md-table-cell">Information Technology Officer I/ Head, ICTU</td>
+							<td class="d-none d-md-table-cell">Information and  Communications Technology Unit</td>
+							<td>nico.amarilla@gsu.edu.ph</td>
+							<td>09106189160</td>
 						</tr>
 						<tr>
 							<td>10</td>
@@ -142,12 +142,12 @@ get_header(); ?>
 						</tr>
 						<tr>
 							<td>11</td>
-							<td>Dr. Julieta G. Infante</td>
+							<td>Dr. Rhea D. Flora</td>
 							<td>Focal Person - Baterna Campus</td>
 							<td class="d-none d-md-table-cell">Director, Baterna Campus</td>
 							<td class="d-none d-md-table-cell">Office of the Director, Baterna Campus</td>
-							<td>julieta.infante@gsu.edu.ph</td>
-							<td>09194939399</td>
+							<td>rheajoy.flora@gsu.edu.ph</td>
+							<td>09298796046</td>
 						</tr>
 						<tr>
 							<td>12</td>
@@ -160,9 +160,9 @@ get_header(); ?>
 						</tr>
 					</table>
 				</div>
-				<p class="mb-5 text-right"><small><em>References: 
+				<!-- <p class="mb-5 text-right"><small><em>References: 
 					<a href="https://drive.google.com/file/d/1cqnWFvgM1J0-gaZgHenwHYtEf9nIo856/preview">Guimaras State University Mail - Posting in Websites for CART compliance.pdf</a></em></small>
-				</p>
+				</p> -->
 			</div>
 		</main>
 	</div><!-- .container -->
