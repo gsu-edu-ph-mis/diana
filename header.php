@@ -42,7 +42,7 @@
         <nav id="top-nav-bar-right" class="nav top-nav-bar-right" role="navigation">
             <ul>
                 <li>
-                    <a href="#" class="d-flex align-items-center">
+                    <a href="<?= home_url('/apps'); ?>" class="d-flex align-items-center">
                         <svg style="width:16px;height:16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Apps</title><path fill="currentColor" d="M3,11H11V3H3M3,21H11V13H3M13,21H21V13H13M13,3V11H21V3" /></svg>
                         <span class="pl-1">Apps</span>
                     </a>
@@ -122,7 +122,7 @@
         <nav id="top-nav-bar-right2" class="nav top-nav-bar-right" role="navigation">
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="<?= home_url('/apps'); ?>">
                         <svg style="width:16px;height:16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Apps</title><path fill="currentColor" d="M3,11H11V3H3M3,21H11V13H3M13,21H21V13H13M13,3V11H21V3" /></svg>
                         <span>Apps</span>
                     </a>

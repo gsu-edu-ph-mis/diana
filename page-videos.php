@@ -36,73 +36,20 @@ get_header(); ?>
 			</div>
 			<div class="col-md-12">
 				<div class="row">
-					<div class="col-3 mb-5">
-						<video id="my-video2" class="video-js vjs-fluid" style="box-shadow: 0 0 3px lightgray; border-radius: 3px; overflow: hidden;" controls preload="auto" width="320" height="240" poster="<?=get_template_directory_uri(); ?>/media/stream-gsu-the-prayer.png"
-							data-setup="{}">
-							<source src="<?=get_template_directory_uri(); ?>/media/stream-gsu-the-prayer.mp4" type="video/mp4" />
-							<p class="vjs-no-js">
-								To view this video please enable JavaScript, and consider upgrading to a
-								web browser that
-								<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-							</p>
-						</video>
+					<div class="col-md-3 col-2 mb-5">
+						<button type="button" class="btn btn-dark change-video" id="change-video" data-src="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.mp4" data-type="video/mp4">
+							<img src="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.png" alt="preview">
+						</button>
+						<div class="text-center font-weight-normal">GSU Hymn</div>
 					</div>
-				
-					<div class="col-3 mb-5">
-						<video id="my-video3" class="video-js vjs-fluid" style="box-shadow: 0 0 3px lightgray; border-radius: 3px; overflow: hidden;" controls preload="auto" width="320" height="240" poster="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.png"
-							data-setup="{}">
-							<source src="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.mp4" type="video/mp4" />
-							<p class="vjs-no-js">
-								To view this video please enable JavaScript, and consider upgrading to a
-								web browser that
-								<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-							</p>
-						</video>
+					
+					<div class="col-md-3 col-2 mb-5">
+						<button type="button" class="btn btn-dark change-video" id="change-video" data-src="<?=get_template_directory_uri(); ?>/media/stream-gsu-the-prayer.mp4" data-type="video/mp4">
+							<img src="<?=get_template_directory_uri(); ?>/media/stream-gsu-the-prayer.png" alt="preview">
+						</button>
+						<div class="text-center font-weight-normal">The Prayer</div>
 					</div>
-					<div class="col-3 mb-5">
-						<video id="my-video3" class="video-js vjs-fluid" style="box-shadow: 0 0 3px lightgray; border-radius: 3px; overflow: hidden;" controls preload="auto" width="320" height="240" poster="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.png"
-							data-setup="{}">
-							<source src="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.mp4" type="video/mp4" />
-							<p class="vjs-no-js">
-								To view this video please enable JavaScript, and consider upgrading to a
-								web browser that
-								<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-							</p>
-						</video>
-					</div>
-					<div class="col-3 mb-5">
-						<video id="my-video3" class="video-js vjs-fluid" style="box-shadow: 0 0 3px lightgray; border-radius: 3px; overflow: hidden;" controls preload="auto" width="320" height="240" poster="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.png"
-							data-setup="{}">
-							<source src="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.mp4" type="video/mp4" />
-							<p class="vjs-no-js">
-								To view this video please enable JavaScript, and consider upgrading to a
-								web browser that
-								<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-							</p>
-						</video>
-					</div>
-					<div class="col-3 mb-5">
-						<video id="my-video3" class="video-js vjs-fluid" style="box-shadow: 0 0 3px lightgray; border-radius: 3px; overflow: hidden;" controls preload="auto" width="320" height="240" poster="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.png"
-							data-setup="{}">
-							<source src="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.mp4" type="video/mp4" />
-							<p class="vjs-no-js">
-								To view this video please enable JavaScript, and consider upgrading to a
-								web browser that
-								<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-							</p>
-						</video>
-					</div>
-					<div class="col-3 mb-5">
-						<video id="my-video3" class="video-js vjs-fluid" style="box-shadow: 0 0 3px lightgray; border-radius: 3px; overflow: hidden;" controls preload="auto" width="320" height="240" poster="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.png"
-							data-setup="{}">
-							<source src="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.mp4" type="video/mp4" />
-							<p class="vjs-no-js">
-								To view this video please enable JavaScript, and consider upgrading to a
-								web browser that
-								<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-							</p>
-						</video>
-					</div>
+					
 				</div>
 			</div>
 		</main>

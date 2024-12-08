@@ -223,7 +223,20 @@ jQuery(document).ready(function ($) {
         tick();
         createAnimationFrameRunner(tick, 900);
 
-        // 
+        // Video gallery
+        document.querySelectorAll('.change-video').forEach(element => {
+            element.addEventListener('click', (e) => {
+                // console.log(element)
+                const player = videojs('my-video')
+                player.src({
+                    src: element.dataset?.src,
+                    type: element.dataset?.type
+                });
+                player.play();
+            });
+        });
+
+        // Maps
         if (document.getElementById('map')) {
             let map = L.map('map');
             map.setView([10.650, 122.65067], 12);
@@ -291,7 +304,31 @@ jQuery(document).ready(function ($) {
 
         }
 
-
+        // asasa
+        const swiper = new Swiper(".mySwiper", {
+            loop: true,
+            // initialSlide: 2,//0 based
+            autoplay: {
+                delay: 3000, // Time in milliseconds between auto-swipes
+                disableOnInteraction: true, // Disable autoplay  after manual swiping
+            },
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            },
+            pagination: {
+              el: ".swiper-pagination",
+            },
+        });
+        // swiper.slidePrev()
+        // swiper.autoplay.start()
         // 
     })($);
 
