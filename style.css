@@ -741,7 +741,7 @@ body {
 
 /* Section Video */
 .section-video {
-	background: url('media/home-stream.jpg') no-repeat #4bb29d;
+	background: url('media/stream-home.jpg') no-repeat #4bb29d;
 	background-size: cover;
 	text-align: center;
 	overflow: hidden;
