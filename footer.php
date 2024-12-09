@@ -97,7 +97,7 @@
         <div class="row">
             <div class="col-12 col-md-5 mb-5">
                 <h3 class="h3 mb-3">Guimaras State University</h3>
-                <p>&copy; 2024. All Rights Reserved.</p>
+                <p>&copy; Copyright 2024. All Rights Reserved.</p>
             </div>
             <div class="col-6 col-md-4">
                 <h3 class="h3 mb-3">About GSU</h3>
@@ -123,7 +123,7 @@
             </div>
         </div>
 		<div class="row">
-			<p class="col-md-12 pt-5 text-right mb-0"><em>&copy; 2024 - by <a href="https://ict.gsu.edu.ph/about-us">ICT Unit</a></em></p>
+			<p class="col-md-12 pt-5 text-right mb-0">Website by <a href="https://ict.gsu.edu.ph/about-us">ICT Unit</a>. Content by <a href="#">Info Unit</a></p>
 		</div>
     </div>
 </footer>

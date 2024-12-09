@@ -21,7 +21,7 @@ This uses winff but a ffmpeg exe will also work.
 
 Change paths as needed:
 
-    "D:\portables\winff\Bin\Winff\ffmpeg.exe" -i "D:\webserver\htdocs\wp\projects\gsc2\wp-content\themes\diana\media\home.mp4" -c copy -movflags faststart "D:\webserver\htdocs\wp\projects\gsc2\wp-content\themes\diana\media\home-stream.mp4"
+    "C:\Users\Acer Nitro\Desktop\portables\WinFF\Bin\Winff\ffmpeg.exe" -i "C:\xampp\htdocs\gsu.edu.ph\wp-content\themes\diana\media\AVP_July_2024.mp4" -c copy -movflags faststart "C:\xampp\htdocs\gsu.edu.ph\wp-content\themes\diana\media\AVP_July_2024-stream.mp4"
 
 
 

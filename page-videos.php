@@ -23,9 +23,9 @@ get_header(); ?>
 	<div class="container">
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
 			<div class="col-md-12 mb-5">
-				<video id="my-video" class="video-js vjs-fluid" style="box-shadow: 0 0 3px lightgray; border-radius: 3px; overflow: hidden;" controls preload="auto" width="640" height="480" poster="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.png"
+				<video id="my-video" class="video-js vjs-fluid" style="box-shadow: 0 0 3px lightgray; border-radius: 3px; overflow: hidden;" controls preload="auto" width="640" height="480" poster="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/stream-gsu-hymn.jpg"
 					data-setup="{}">
-					<source src="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.mp4" type="video/mp4" />
+					<source src="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/stream-gsu-hymn.mp4" type="video/mp4" />
 					<!-- <source src="/media/what.webm" type="video/webm" /> -->
 					<p class="vjs-no-js">
 						To view this video please enable JavaScript, and consider upgrading to a
@@ -37,17 +37,24 @@ get_header(); ?>
 			<div class="col-md-12">
 				<div class="row">
 					<div class="col-md-3 col-2 mb-5">
-						<button type="button" class="btn btn-dark change-video" id="change-video" data-src="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.mp4" data-type="video/mp4">
-							<img src="<?=get_template_directory_uri(); ?>/media/stream-gsu-hymn.png" alt="preview">
+						<button type="button" class="btn btn-dark change-video" id="change-video" data-src="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/stream-gsu-hymn.mp4" data-type="video/mp4">
+							<img width="1920" height="1080" src="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/stream-gsu-hymn.jpg" alt="preview">
 						</button>
 						<div class="text-center font-weight-normal">GSU Hymn</div>
 					</div>
 					
 					<div class="col-md-3 col-2 mb-5">
-						<button type="button" class="btn btn-dark change-video" id="change-video" data-src="<?=get_template_directory_uri(); ?>/media/stream-gsu-the-prayer.mp4" data-type="video/mp4">
-							<img src="<?=get_template_directory_uri(); ?>/media/stream-gsu-the-prayer.png" alt="preview">
+						<button type="button" class="btn btn-dark change-video" id="change-video" data-src="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/stream-gsu-the-prayer.mp4" data-type="video/mp4">
+							<img width="1920" height="1080" src="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/stream-gsu-the-prayer.jpg" alt="preview">
 						</button>
 						<div class="text-center font-weight-normal">The Prayer</div>
+					</div>
+					
+					<div class="col-md-3 col-2 mb-5">
+						<button type="button" class="btn btn-dark change-video" id="change-video" data-src="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/stream-gsu-promotional-video-july-2024.mp4" data-type="video/mp4">
+							<img width="1920" height="1080" src="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/stream-gsu-promotional-video-july-2024.jpg" alt="preview">
+						</button>
+						<div class="text-center font-weight-normal">GSU Promotional Video</div>
 					</div>
 					
 				</div>

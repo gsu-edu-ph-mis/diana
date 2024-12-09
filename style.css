@@ -741,7 +741,8 @@ body {
 
 /* Section Video */
 .section-video {
-	background: #4bb29d;
+	background: url('media/home-stream.jpg') no-repeat #4bb29d;
+	background-size: cover;
 	text-align: center;
 	overflow: hidden;
 }
@@ -2149,6 +2150,24 @@ iframe {
     border-radius: 100%;
     transform: translate(-50%, -50%); 
 }
+
+/* Swiper */
+.swiper {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.swiper-slide img {
+	display: block;
+	width: 100%;
+}
+
 /* Breakpoints */
 
 /* ≥1200px Extra large desktops */

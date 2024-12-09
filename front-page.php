@@ -17,15 +17,15 @@
 get_header(); ?>
 <section class="section section-video">
 	<video autoplay muted loop id="homeVideo" class="video">
-		<source src="<?php echo get_stylesheet_directory_uri(); ?>/media/home-stream.mp4" type="video/mp4">
+		<source src="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/home-stream.mp4" type="video/mp4">
 	</video>
 	<div class="video-roll">
 		<div>
-			<a href="<?php echo home_url(); ?>/videos"><img src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-hymn.png" alt=""></a>
+			<a href="<?php echo home_url(); ?>/videos"><img src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-hymn.jpg" alt=""></a>
 			<!-- <div>GSU Hymn</div> -->
 		</div>
 		<div>
-			<a href="<?php echo home_url(); ?>/videos"><img src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-the-prayer.png" alt=""></a>
+			<a href="<?php echo home_url(); ?>/videos"><img src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-the-prayer.jpg" alt=""></a>
 			<!-- <div>The Prayer</div> -->
 		</div>
 		<button class="btn btn-videos" type="button">
@@ -52,10 +52,51 @@ get_header(); ?>
 </section>
 <section id="section-press" class=" pt-5 pb-5" >
 	<div class="container">
-		<div class="row pt-0 pt-md-5 pb-5">
-			<div class="col-md-9 text-left order-2 order-md-1">
+		<div class="row">
+		<div class="col-md-12 mee">
 				<h2 class="h1 mb-5 d-flex">
 					<span>News and Updates </span>
+				</h2>
+				<h2 class="h2 mb-1 text-center">
+					<span>Featured News</span>
+				</h2>
+				<!-- Featured -->
+				<div id="featured-swiper" class="swiper mb-5">
+					<div class="swiper-wrapper">
+						<?php 
+						$cat1 = get_category_by_slug( 'bac' );
+						$cat2 = get_category_by_slug( 'career' );
+						$args = array(
+							'post_type' => 'post',
+							'post_status' => array('publish'), // As long as it exist, get it
+							'numberposts' => -1, // Get all
+							'post__in' => get_option('sticky_posts'),
+							'category__not_in' => array(
+								@$cat1->term_id,
+								@$cat2->term_id,
+							) 
+						);
+						$posts   = get_posts( $args ); // Returns array 
+						?>
+						<?php
+						foreach($posts as $_post):
+							// print_r($_post);
+						?>
+						<div class="swiper-slide">
+							<?= diana_get_featured_image(get_post_thumbnail_id($_post->ID), 'medium', 'Image', 'border: 2px solid teal;'); ?>
+							<h3 class="h3 p-4"><a href="<?= get_permalink($_post->ID); ?>"><?php echo $_post->post_title; ?></a></h3>
+						</div>
+						<?php endforeach; ?>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row pt-0 pt-md-5 pb-5">
+			
+			<div class="col-md-9 text-left order-2 order-md-1">
+				<h2 class="h2 mb-4">
+					<span>News and Updates</span>
 				</h2>
 				<div class="form-row">
 					<?php 
@@ -64,7 +105,8 @@ get_header(); ?>
 					$args = array(
 						'post_type' => 'post',
 						'post_status' => array('publish'), // As long as it exist, get it
-						'numberposts' => 6, // Get all
+						'numberposts' => 10, // Get all
+						'post__not_in'   => get_option('sticky_posts'),
 						'category__not_in' => array(
 							@$cat1->term_id,
 							@$cat2->term_id,
@@ -94,7 +136,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-			<!-- <div class="col-md-3 text-left order-1 order-md-2 mb-5 mb-md-0">
+			<div class="col-md-3 text-left order-1 order-md-2 mb-5 mb-md-0">
 				<div class="row">
 					<div class="col-5 col-md-12 order-2 order-md-1">
 						<img srcset="<?= get_stylesheet_directory_uri(); ?>/images/opres-200w.png 200w,
@@ -110,7 +152,7 @@ get_header(); ?>
 						<a href="<?php echo home_url(); ?>/office-of-the-president/" class="btn btn-primary">The President's Message</a>
 					</div>
 				</div>
-			</div> -->
+			</div>
 		</div>
 	</div>
 </section>

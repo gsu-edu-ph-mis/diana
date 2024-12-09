@@ -38,6 +38,27 @@ get_header(); ?>
 				<a href="https://clinic.gsu.edu.ph" class="mb-2 d-block"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/apps-clinic.jpg" alt="clinic"></a>
 				<h3 class="h2">Clinic Online Portal</h3>
 			</div>
+			<div class="col-md-3 mb-5 text-center">
+				<div class="wall-clock">
+					<div class="arm-second"></div>
+					<div class="arm-minute"></div>
+					<div class="arm-hour"></div>
+					<div class="hour hour-12">12</div>
+					<div class="hour hour-1">1</div>
+					<div class="hour hour-2">2</div>
+					<div class="hour hour-3">3</div>
+					<div class="hour hour-4">4</div>
+					<div class="hour hour-5">5</div>
+					<div class="hour hour-6">6</div>
+					<div class="hour hour-7">7</div>
+					<div class="hour hour-8">8</div>
+					<div class="hour hour-9">9</div>
+					<div class="hour hour-10">10</div>
+					<div class="hour hour-11">11</div>
+				</div>
+				<h3 class="h2"><span class="clock-ticker"></span> </h3>
+				<h3 class="h2">Clock </h3>
+			</div>
 		</main>
 	</div><!-- .container -->
 </div>

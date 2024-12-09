@@ -189,23 +189,29 @@ function diana_scripts() {
 		}
 		if(is_page('videos')){
 			wp_enqueue_script( 'videojs' );
-			wp_enqueue_style( 'diana-videojs', get_template_directory_uri() . '/css/vjs.zencdn.net_8.5.2_video-js.css', array());
 		}
 		
 	}
 
 	// Load our main stylesheet.
 	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '4.6.0' );
+	if(is_front_page()){
+		wp_enqueue_style( 'swiper-css', get_template_directory_uri() . '/css/swiper-bundle.min.css', array(), '11.1.5' );
+	}
 	if(is_page('map')){
 		wp_enqueue_style( 'leaflet-css', get_template_directory_uri() . '/leaflet/leaflet.css', array(), '1.7.1' );
 	}
-	wp_enqueue_style( 'diana-style', get_template_directory_uri() . '/style.css', array(), '20230428' );
+	if(is_page('videos')){
+		wp_enqueue_style( 'video-js', get_template_directory_uri() . '/css/vjs.zencdn.net_8.5.2_video-js.css', array(), '8.5.2');
+	}
+	wp_enqueue_style( 'diana-style', get_template_directory_uri() . '/style.css', array(), '20241208' );
 	
-
+	// Other scripts
 	if(is_page('map')){
 		wp_enqueue_script( 'leaflet-js', get_template_directory_uri() . '/leaflet/leaflet.js', array(), false, true );
 	}
 	if(is_front_page()){
+		wp_enqueue_script( 'swiper-js', get_template_directory_uri() . '/js/swiper-bundle.min.js', array(), false, true );
 		wp_enqueue_script( 'anime-js', get_template_directory_uri() . '/js/anime.min.js', array(), false, true );
 	}
 	if(is_page('academic-programs')){
@@ -222,7 +228,7 @@ function diana_scripts() {
 		wp_enqueue_script( 'konva', get_template_directory_uri() . '/js/unpkg.com_konva@8.3.5_konva.min.js', array(), false, true );
 		wp_enqueue_script( 'frames', get_template_directory_uri() . '/js/frames.js', array(), false, true );
 	}
-	wp_enqueue_script( 'diana-script', get_template_directory_uri() . '/js/script.js', array(), '20221012', true );
+	wp_enqueue_script( 'diana-script', get_template_directory_uri() . '/js/script.js', array(), '20241208', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

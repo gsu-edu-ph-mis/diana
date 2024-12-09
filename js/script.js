@@ -16,7 +16,6 @@ jQuery(document).ready(function ($) {
     (function ($) {
 
         /* Nav */
-        
         $(document).on('click.diana', function (e) { 
             $('#main-bar .menu-show').removeClass('menu-show');
 
@@ -221,7 +220,7 @@ jQuery(document).ready(function ($) {
 
         }
         tick();
-        createAnimationFrameRunner(tick, 900);
+        setInterval(tick, 1000);
 
         // Video gallery
         document.querySelectorAll('.change-video').forEach(element => {
@@ -304,32 +303,34 @@ jQuery(document).ready(function ($) {
 
         }
 
-        // asasa
-        const swiper = new Swiper(".mySwiper", {
-            loop: true,
-            // initialSlide: 2,//0 based
-            autoplay: {
-                delay: 3000, // Time in milliseconds between auto-swipes
-                disableOnInteraction: true, // Disable autoplay  after manual swiping
-            },
-            effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            coverflowEffect: {
-              rotate: 50,
-              stretch: 0,
-              depth: 100,
-              modifier: 1,
-              slideShadows: true,
-            },
-            pagination: {
-              el: ".swiper-pagination",
-            },
-        });
-        // swiper.slidePrev()
-        // swiper.autoplay.start()
-        // 
+        // Swiper
+        if(document.getElementById('featured-swiper')){
+            const swiper = new Swiper("#featured-swiper", {
+                loop: true,
+                // initialSlide: 2,//0 based
+                autoplay: {
+                    reverseDirection: true,
+                    delay: 5000, // Time in milliseconds between auto-swipes
+                    disableOnInteraction: true, // Disable autoplay  after manual swiping
+                },
+                effect: "coverflow",
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+            });
+            swiper.slidePrev()
+            swiper.autoplay.start()
+        }
     })($);
 
     try {

@@ -70,13 +70,13 @@
     </div>
     <div id="logo" class="logo">
         <div class="logo-body">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="d-inline-block">
+            <!-- <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="d-inline-block"> -->
                 <?php if (is_home() || is_front_page()): ?>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm.png" width="120" height="120" alt="GSU">
                 <?php else: ?>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/logo-sm.png" width="120" height="120" alt="GSU">
                 <?php endif; ?>
-            </a>
+            <!-- </a> -->
             <div class="name">
                 <div>Guimaras</div>
                 <div class="small">State University</div>
@@ -97,11 +97,6 @@
         <?php endif; ?>
     </div>
     <div id="mobile-menu" class="mobile-menu">
-        <div class="partition">
-            
-           
-        </div>
-
         <?php if ( has_nav_menu( 'primary' ) ) : ?>
             <nav id="nav-main2" class="nav nav-primary nav-white nav-expandables" role="navigation">
                 <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'items_wrap'=> '<ul>%3$s</ul>', 'walker' => new diana_Nav_Walker() ) ); ?>

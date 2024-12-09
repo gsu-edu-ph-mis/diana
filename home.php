@@ -28,12 +28,21 @@ get_header(); ?>
 				<div class="row">
 					<?php while ( have_posts() ) : the_post(); ?>
 						<?php if (is_sticky()) : ?>
-							<div class="col-md-12 mb-5">
-								<?php 
-									the_title( sprintf( '<h2 class="h2"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
-								?>
-								<div><?php diana_entry_meta(); ?></div>
-								<?php the_excerpt(); ?>
+							<div class="col-md-10 mb-5">
+								<div class="row">
+									<div class="col-md-4 mb-3 text-md-left">
+										<a class="d-block" href="<?= get_permalink(); ?>"><?= diana_get_featured_image(get_post_thumbnail_id(), 'medium', 'Image', 'border: 2px solid teal;'); ?></a>
+									</div>
+									<div class="col-md-8 mb-3">
+										<div>
+											<?php 
+												the_title( sprintf( '<h2 class="h2"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+											?>
+											<div class="mb-3"><?php diana_entry_meta(); ?></div>
+										</div>
+									</div>
+								</div>
+								<!--  -->
 							</div>
 						<?php else: ?>
 						<div class="col-md-6 text-center text-md-left mb-4">
