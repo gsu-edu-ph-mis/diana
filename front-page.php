@@ -16,7 +16,7 @@
 
 get_header(); ?>
 <section class="section section-video">
-	<video autoplay muted loop id="homeVideo" disablePictureInPicture class="video">
+	<video autoplay muted loop id="homeVideo" disablePictureInPicture playsinline class="video">
 		<source src="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/stream-home.mp4" type="video/mp4">
 	</video>
 	<div class="video-roll">
