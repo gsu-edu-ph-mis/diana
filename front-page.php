@@ -152,6 +152,11 @@ get_header(); ?>
 						<a href="<?php echo home_url(); ?>/office-of-the-president/" class="btn btn-primary">The President's Message</a>
 					</div>
 				</div>
+				<div class="row pt-5">
+					<div class="col-md-12 pt-5">
+						<a href="<?php echo home_url(); ?>/sustainable-development-goals/"><img src="<?= get_stylesheet_directory_uri(); ?>/images/sdg/E_SDG_logo_UN_emblem_square_trans_WEB.png" alt=""></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

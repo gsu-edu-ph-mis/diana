@@ -39,6 +39,10 @@ get_header(); ?>
 				<h3 class="h2">Clinic Online Portal</h3>
 			</div>
 			<div class="col-md-3 mb-5 text-center">
+				<a href="https://forms.gsu.edu.ph" class="mb-2 d-block"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/apps-forms.jpg" alt="forms"></a>
+				<h3 class="h2"> Evaluation Forms</h3>
+			</div>
+			<div class="col-md-3 mb-5 text-center">
 				<div class="wall-clock">
 					<div class="arm-second"></div>
 					<div class="arm-minute"></div>

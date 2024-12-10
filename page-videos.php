@@ -36,21 +36,21 @@ get_header(); ?>
 			</div>
 			<div class="col-md-12">
 				<div class="row">
-					<div class="col-md-3 col-2 mb-5">
+					<div class="col-md-3 col-6 mb-5">
 						<button type="button" class="btn btn-dark change-video" id="change-video" data-src="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/stream-gsu-hymn.mp4" data-type="video/mp4">
 							<img width="1920" height="1080" src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-hymn.jpg" alt="preview">
 						</button>
 						<div class="text-center font-weight-normal">GSU Hymn</div>
 					</div>
 					
-					<div class="col-md-3 col-2 mb-5">
+					<div class="col-md-3 col-6 mb-5">
 						<button type="button" class="btn btn-dark change-video" id="change-video" data-src="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/stream-gsu-the-prayer.mp4" data-type="video/mp4">
 							<img width="1920" height="1080" src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-the-prayer.jpg" alt="preview">
 						</button>
 						<div class="text-center font-weight-normal">The Prayer</div>
 					</div>
 					
-					<div class="col-md-3 col-2 mb-5">
+					<div class="col-md-3 col-6 mb-5">
 						<button type="button" class="btn btn-dark change-video" id="change-video" data-src="https://videos-gsu-ph.s3.ap-southeast-1.amazonaws.com/stream-gsu-promo-vid-july-2024.mp4" data-type="video/mp4">
 							<img width="1920" height="1080" src="<?php echo get_stylesheet_directory_uri(); ?>/media/stream-gsu-promo-vid-july-2024.jpg" alt="preview">
 						</button>
