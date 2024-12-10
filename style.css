@@ -628,6 +628,10 @@ div[data-pending="true"]:after {
 	transform: translateX(80px);
 }
 .back-to-top svg {
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    translate: -50% -50%;
 	transition: transform 200ms ease-out;
 	width: 28px;
 	height: 28px;
