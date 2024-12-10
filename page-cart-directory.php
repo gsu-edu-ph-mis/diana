@@ -31,7 +31,7 @@ get_header(); ?>
 					</tr>
 					<tr>
 						<td class="font-weight-bold">Department Order</td>
-						<td>Memorandum Order No. 05, series of 2024	</td>
+						<td>Memorandum Order No. 809, series of 2024	</td>
 					</tr>
 					<tr>
 						<td class="font-weight-bold">CART or SUBCART</td>
@@ -160,9 +160,7 @@ get_header(); ?>
 						</tr>
 					</table>
 				</div>
-				<p class="mb-5 text-right"><small><em>Source: 
-					<a href="#">Memorandum Order No. 809, series of 2024</a></em></small>
-				</p>
+				
 			</div>
 		</main>
 	</div><!-- .container -->
