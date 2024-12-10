@@ -629,6 +629,8 @@ div[data-pending="true"]:after {
 }
 .back-to-top svg {
 	transition: transform 200ms ease-out;
+	width: 28px;
+	height: 28px;
 }
 .back-to-top.play svg {
 	animation: fxFlash 200ms ease-out 3;
