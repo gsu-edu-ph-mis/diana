@@ -160,9 +160,9 @@ get_header(); ?>
 						</tr>
 					</table>
 				</div>
-				<!-- <p class="mb-5 text-right"><small><em>References: 
-					<a href="https://drive.google.com/file/d/1cqnWFvgM1J0-gaZgHenwHYtEf9nIo856/preview">Guimaras State University Mail - Posting in Websites for CART compliance.pdf</a></em></small>
-				</p> -->
+				<p class="mb-5 text-right"><small><em>Source: 
+					<a href="#">Memorandum Order No. 809, series of 2024</a></em></small>
+				</p>
 			</div>
 		</main>
 	</div><!-- .container -->
