@@ -36,7 +36,11 @@ jQuery(document).ready(function ($) {
                     $subMenu.height(0)
                     $parent.removeClass('menu-show');
                 } else {
-                    let height = $subMenu.find('> li').height() * $subMenu.find('> li').length
+                    let height = 0
+                    //  Account for varying element heights
+                    $subMenu.find('> li').each(function(){
+                        height += $(this).height()
+                    })
                     $subMenu.height(height)
                     $parent.addClass('menu-show');
                 }
