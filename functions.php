@@ -204,7 +204,7 @@ function diana_scripts() {
 	if(is_page('videos')){
 		wp_enqueue_style( 'video-js', get_template_directory_uri() . '/css/vjs.zencdn.net_8.5.2_video-js.css', array(), '8.5.2');
 	}
-	wp_enqueue_style( 'diana-style', get_template_directory_uri() . '/style.css', array(), '20241208' );
+	wp_enqueue_style( 'diana-style', get_template_directory_uri() . '/style.css', array(), '20241222' );
 	
 	// Other scripts
 	if(is_page('map')){
@@ -228,7 +228,7 @@ function diana_scripts() {
 		wp_enqueue_script( 'konva', get_template_directory_uri() . '/js/unpkg.com_konva@8.3.5_konva.min.js', array(), false, true );
 		wp_enqueue_script( 'frames', get_template_directory_uri() . '/js/frames.js', array(), false, true );
 	}
-	wp_enqueue_script( 'diana-script', get_template_directory_uri() . '/js/script.js', array(), '20241208', true );
+	wp_enqueue_script( 'diana-script', get_template_directory_uri() . '/js/script.min.js', array(), '20241222', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
