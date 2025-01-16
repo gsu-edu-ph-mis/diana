@@ -139,6 +139,169 @@ get_header(); ?>
 			</div>
 			<div class="col-md-4 mb-5">
 				<div class="calendar-box mb-4">
+					<!-- 24-25 -->
+					<h2 class="h4 mb-4 text-center">For Academic Year 2024-2025</h2>
+					<div class="title-first bg-gsu-blue text-center text-white p-3">
+						<h3 class="h4 mb-0">First Semester</h3>
+						<p class="mb-0">August 19 - December 21, 2024</p>
+					</div>
+					<div class="body">
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue">
+							<div class="col-md-12 text-center">
+								<div class="p-2">Enrollment Schedule</div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">4<sup>th</sup> Year</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-08-01">August 1 - 2, 2024</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">3<sup>rd</sup> Year</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-08-05">August 5 - 6, 2024</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">2<sup>nd</sup> Year</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-08-07">August 7 - 9, 2024</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Incoming 1<sup>st</sup> Year</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-08-12">Aug 12 - 14, 2024</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">All programs/year levels/ transferees</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-08-15">Aug 15 - 16, 2024</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Beginning of Classes</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-08-19">Aug 19, 2024</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Changing, Adding and Dropping</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-08-19">Aug 19 - 23, 2024</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Orientation Program/ Campus/ College Acquaintance Party</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-09-04">Sep 4, 2024</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Middle Term Exam</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-10-11">October 17 - 19, 2024</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Sports, Science, Departmental Week Activities</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-10-21">October 21 - 25, 2024</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Final Exam</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-12-19">December 18 - 20, 2024</a></div>
+							</div>
+						</div>
+					</div>
+					<!-- 24-25-2 -->
+					<div class="title bg-gsu-blue text-center text-white p-3">
+						<h3 class="h4 mb-0">Second Semester</h3>
+						<p class="mb-0">January 27, 2025 - May 31, 2025</p>
+					</div>
+					<div class="body">
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue">
+							<div class="col-md-5">
+								<div class="p-2">Deadline for Submission of Grade Sheets for 1st Semester</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-04-01">January 17, 2025</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Deadline for Encoding of Grades in the SIAS</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-04-01">January 17, 2025</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Final Exam (Graduating)</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-06-10">June 10 – 11, 2024</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Final Exam (Non-graduating)</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-06-13">June 13 – 14, 2024</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="title bg-gsu-blue text-center text-white p-3">
+						<h3 class="h4 mb-0">Summer Class</h3>
+						<p class="mb-0">July 01 – August 09, 2024</p>
+					</div>
+					<div class="body">
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue">
+							<div class="col-md-5">
+								<div class="p-2">Midterm Exam</div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-07-18">July 18 – 19, 2024</a></div>
+							</div>
+						</div>
+						<div class="d-flex align-items-center border-style-solid border-width-2 border-color-gsu-blue border-top-0">
+							<div class="col-md-5">
+								<div class="p-2">Final Exam </div>
+							</div>
+							<div class="col-md-7">
+								<div class="p-2"><a href="?date=2024-08-05">August 05 – 06, 2024</a></div>
+							</div>
+						</div>
+					</div>
+
 					<!-- 23-24 -->
 					<h2 class="h4 mb-4 text-center">For Academic Year 2023-2024</h2>
 					<div class="title-first bg-gsu-blue text-center text-white p-3">
