@@ -22,10 +22,83 @@ get_header(); ?>
 <div class="site-content">
 	<div class="container">
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
+			
+			<!--  -->
 			<div class="order-2 col-md-8">
-				<h2 class="h2"><?php single_post_title(); ?></h2>
-				<div><?= the_content(); ?></div>
+			<?php
+			$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+
+			$args = array( 
+				'posts_per_page' => 10, 
+				'category_name' => 'sdg-16',
+				'paged' => $paged,
+				'post_type' => 'post' 
+			);
+			$query = new WP_Query( $args );
+
+			if ( $query->have_posts() ) : 
+				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+				$posts_per_page  = $query->query_vars['posts_per_page'] > -1 ? $query->query_vars['posts_per_page'] : 0;
+				?>
+				<h2 class="h2 mb-5">Found <?= $query->found_posts; ?> article(s) on this SDG</h2>
+				<div class="table-responsive mb-5">
+					<table class="table table-striped">
+						<tr>
+							<th width="1%">#</th>
+							<th width="15%">Date</th>
+							<th>Title</th>
+							<th></th>
+						</tr>
+						<?php 
+						$count = 0;
+						while ( $query->have_posts() ) : $query->the_post(); $count++;
+						?>
+						<tr>
+							<td><?= $count + ($posts_per_page * ($paged -1)); ?></td>
+							<td><?= get_the_date(); ?></td>
+							<!-- <td><?php //echo diana_categories($post->ID); ?></td> -->
+							<td><?php the_title(); ?></td>
+							<td><a class="btn btn-primary" href="<?php echo get_permalink( $post->ID); ?>">Read</a></td>
+						</tr>
+						<?php endwhile;  ?>
+					</table>
+				</div>
+				<div class="pagination">
+					<?php 
+						echo paginate_links( array(
+							'base'         => str_replace( 999999999, '%#%', esc_url( get_pagenum_link( 999999999 ) ) ),
+							'total'        => $query->max_num_pages,
+							'current'      => max( 1, get_query_var( 'paged' ) ),
+							'format'       => '?paged=%#%',
+							'show_all'     => false,
+							'type'         => 'plain',
+							'end_size'     => 1,
+							'mid_size'     => 0,
+							'prev_next'    => true,
+							'prev_text'    => sprintf( '<i></i> %1$s', __( '&laquo; Newer Posts', 'diana' ) ),
+							'next_text'    => sprintf( '%1$s <i></i>', __( 'Older Posts &raquo;', 'diana' ) ),
+							'add_args'     => false,
+							'add_fragment' => '',
+						) );
+					?>
+				</div>
+
+				<?php 
+				// next_posts_link( 'Older Entries', $query->max_num_pages );
+				// previous_posts_link( 'Next Entries &raquo;' ); 
+				?>
+				<?php wp_reset_postdata(); ?>
+			<?php 
+			else: 
+			?>
+				<h2 class="h2 mb-5">There are no postings yet.</h2>
+				<p>Try adding a post under this SDG.</p>
+			<?php
+			endif;
+			?>
 			</div>
+			<!--  -->
+
 			<div class="order-1 col-md-4 mb-5">
 				<div class="mb-3">
 					<img src="<?= get_stylesheet_directory_uri(); ?>/images/sdg/16_SDG_MakeEveryDayCount_Gifs_GDU.gif" alt="">
