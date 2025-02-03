@@ -67,6 +67,7 @@ get_header(); ?>
 						<li><a href="<?= home_url(); ?>/library-online-services">Online Services</a></li>
 						<li><a href="<?= home_url(); ?>/library-online-resources">Online Resources</a></li>
 						<li><a href="https://drive.google.com/drive/folders/1CrO_3W0pttp_y-iQV8sQ6wcUMsKJl_UL">E-Books</a></li>
+						<li><a href="https://sites.google.com/view/gsudigital-archives/about?authuser=0">Digital Archives</a></li>
 					</ul>
 				</nav>
 				
