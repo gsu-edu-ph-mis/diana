@@ -40,7 +40,7 @@ get_header(); ?>
 				</div>
 				<p>The library is the heart of all learning institution. </p>
 				<p>It is synergy of people, the hardware and the software which assist clients in interpolating the knowledge and technology to transform and improve lives.
-				<p>Information and knowledge are essential to the attainment of institutional goals. The ways in which they selected, acquired, stored, accessed and distributed within Guimaras State College will measure and determine the success of teaching, research and other academic concepts.</p>
+				<p>Information and knowledge are essential to the attainment of institutional goals. The ways in which they selected, acquired, stored, accessed and distributed within Guimaras State University will measure and determine the success of teaching, research and other academic concepts.</p>
 				<p>Located in the second floor of the Science building, the library, named after the former Governor Emily R. Lopez, offer rich opportunities for students to boost their academic performance and concretize their holistic growth through books and non-books materials.</p>
 				<p>The library maintains a regular periodical subscription to give students and faculty up-to-date information which are not yet contained in books. Inter-library services with some academic libraries in the city and province of Iloilo are also fostered.</p>
 				<p>The library likewise provides computer and internet services to further support learning by taking advantage of the current technologies.</p>
