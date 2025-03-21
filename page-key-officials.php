@@ -27,8 +27,7 @@ get_header(); ?>
 				<div class="college mb-5 pb-5">
 					<div class="row mb-5">
 						<div class="col-12">
-						<p class="text-center alert alert-warning mb-5"><em><strong>Note:</strong> Images and emails are hidden by default to protect the info of our key officials from spammers and web scrapers. Just click manually to view.</em></p>
-
+							<p class="text-center alert alert-warning mb-5"><em><strong>Note:</strong> Images and emails are hidden by default to protect the info of our key officials from spammers and web scrapers. Just click manually to view.</em></p>
 						</div>
 						<div class="col-md-4">
 						</div>
@@ -56,14 +55,14 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/efren.tellermo.jpg" width="250" height="250" alt="Profile Photo">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/erly.martir.jpg" width="250" height="250" alt="Profile Photo">
 							</div>
-							<h3 class="h3">Dr. Efren S. Tellermo</h3>
+							<h3 class="h3">Dr. Erly M. Martir</h3>
 							<h4 class="h4">Vice President for Academic Affairs </h4>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									<span @click.prevent=toggleM($event) data-show="rsera.gryyrezb@tfh.rqh.cu">***click to show email***</span>
+									<span @click.prevent=toggleM($event) data-show="icnn@tfh.rqh.cu">***click to show email***</span>
 								</a>
 							</div>
 						</div>
@@ -125,14 +124,14 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/rome.moralista.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/arthur.soquena.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Dr. Rome D. Moralista</h3>
+							<h3 class="h3">Dr. Arthur C. Soqueña</h3>
 							<h4 class="h4">Dean, College of Business and Management (CBM)</h4>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									rome.moralista@gsu.edu.ph 
+									<span @click.prevent=toggleM($event) data-show="neguhe.fbdhran@tfh.rqh.cu">***click to show email***</span>
 								</a>	
 							</div>
 						</div>
@@ -152,14 +151,14 @@ get_header(); ?>
 						
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/ruben.habana.jpg" width="250" height="250" alt="ProfileProfile Photo">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/conrado.calumpita.jpg" width="250" height="250" alt="ProfileProfile Photo">
 							</div>
-							<h3 class="h3">Engr. Ruben M. Habaña</h3>
+							<h3 class="h3">Engr. Conrado S. Calumpita</h3>
 							<h4 class="h4">Dean, College of Engineering and Industrial Technology (CEIT)</h4>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									ruben.habana@gsu.edu.ph
+									<span @click.prevent=toggleM($event) data-show="pbaenqb.pnyhzcvgn@tfh.rqh.cu">***click to show email***</span>
 								</a>	
 							</div>
 
@@ -186,7 +185,7 @@ get_header(); ?>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									jasmin.gadian@gsu.edu.ph
+									<span @click.prevent=toggleM($event) data-show="wnfzva.tnqvna@tfh.rqh.cu">***click to show email***</span>
 								</a>	
 							</div>
 						</div>
@@ -199,7 +198,8 @@ get_header(); ?>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									erly.martir@gsu.edu.ph
+									<span @click.prevent=toggleM($event) data-show="reyl.znegve@tfh.rqh.cu">***click to show email***</span>
+
 								</a>	
 							</div>
 						</div>
@@ -248,7 +248,8 @@ get_header(); ?>
 								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/ken.pillora.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Ken D. Pillora</h3>
-							<h4 class="h4">Head, Supply and Property Management Office / Supervising Administrative Officer - Admin</h4>
+							<h4 class="h4">Head, Supply and Property Management Office / Supervising Administrative Officer - Admin / OIC-Chief Administrative Officer (CAO)
+							</h4>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
@@ -397,14 +398,14 @@ get_header(); ?>
 
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/erwin.dumagpi.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/philippe.prologo.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Dr. Erwin D. Dumagpi</h3>
+							<h3 class="h3">Philippe R. Prologo</h3>
 							<h4 class="h4">Director, Economic Development Center (EDC)</h4>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									erwin.dumagpi@gsu.edu.ph
+									philippe.prologo@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -441,20 +442,20 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/rosebelle.tembrevilla.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/rosabeth.arturo.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Rosebelle V. Tembrevilla</h3>
+							<h3 class="h3">Rosabeth M. Arturo</h3>
 							<h4 class="h4">University Guidance Office / Guidance Counselor III</h4>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									rosebelle.tembrevilla@gsu.edu.ph
+									rosabeth.arturo@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/xxx.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/ronel.dulla.jpg" width="250" height="250" alt="Profile">
 							</div>
 							<h3 class="h3">Ronel P. Dulla</h3>
 							<h4 class="h4">Registrar's Office / Registrar III</h4>
@@ -663,14 +664,15 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/kitt.siva.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/frennie.zarate.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Dr. Enriqueta N. Siva</h3>
+							<h3 class="h3">Frennie D. Zarate</h3>
 							<h4 class="h4">Director, Gender and Development (GAD)</h4>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									enriqueta.siva@gsu.edu.ph
+									<span @click.prevent=toggleM($event) data-show="seraavr.mnengr@tfh.rqh.cu">***click to show email***</span>
+
 								</a>	
 							</div>
 						</div>
@@ -747,14 +749,14 @@ get_header(); ?>
 						
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/jeffrey.magbanua.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/erwin.dumagpi.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Jeffrey G. Magbanua </h3>
-							<h4 class="h4">Director, Alumni Affairs</h4>
+							<h3 class="h3">Dr. Erwin D. Dumagpi </h3>
+							<h4 class="h4">Director, Alumni Affairs / Placement Officer</h4>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									jeffrey.magbanua@gsu.edu.ph
+									erwin.dumagpi@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -770,6 +772,9 @@ get_header(); ?>
 									arthur.soquena@gsu.edu.ph
 								</a>	
 							</div>
+						</div>
+						<div class="col-12">
+							<p class="mt-5 mb-5 text-right"><small><em>Source: Memorandum No. 840, Series of 2024</em></small></p>
 						</div>
 					</div>
 				</div>
