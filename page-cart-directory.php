@@ -70,21 +70,21 @@ get_header(); ?>
 						</tr>
 						<tr>
 							<td>3</td>
-							<td>Mrs. Bessie S. Cebuano</td>
-							<td>Member</td>
-							<td class="d-none d-md-table-cell">Legal Assistant III/ OIC Head, Legal Unit</td>
-							<td class="d-none d-md-table-cell">Legal Unit</td>
-							<td>bessie.cebuano@gsu.edu.ph</td>
-							<td>09162797135</td>
-						</tr>
-						<tr>
-							<td>4</td>
 							<td>Mrs. Ijieline F. Gallo</td>
-							<td>Member</td>
+							<td>Secretariat</td>
 							<td class="d-none d-md-table-cell">Administrative Officer V/ Records Officer III</td>
 							<td class="d-none d-md-table-cell">Records Unit</td>
 							<td>ijieline.gallo@gsu.edu.ph</td>
 							<td>09705979340</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Atty. Vail Michael Nagaynay</td>
+							<td>Member</td>
+							<td class="d-none d-md-table-cell">Attorney IV / Head, Legal Unit</td>
+							<td class="d-none d-md-table-cell">Legal Unit</td>
+							<td>vailmichael.nagaynay@gsu.edu.ph</td>
+							<td>09177995069</td>
 						</tr>
 						<tr>
 							<td>5</td>
@@ -133,15 +133,6 @@ get_header(); ?>
 						</tr>
 						<tr>
 							<td>10</td>
-							<td>Mrs. Grace D. Ello</td>
-							<td>Secretariat</td>
-							<td class="d-none d-md-table-cell">Administrative Aide VI</td>
-							<td class="d-none d-md-table-cell">Human Resource and Management Office</td>
-							<td>grace.ello@gsu.edu.ph</td>
-							<td>09359604220</td>
-						</tr>
-						<tr>
-							<td>11</td>
 							<td>Dr. Rhea D. Flora</td>
 							<td>Focal Person - Baterna Campus</td>
 							<td class="d-none d-md-table-cell">Director, Baterna Campus</td>
@@ -150,7 +141,7 @@ get_header(); ?>
 							<td>09298796046</td>
 						</tr>
 						<tr>
-							<td>12</td>
+							<td>11</td>
 							<td>Dr. Kert D. Pillora</td>
 							<td>Focal Person - Mosqueda Campus</td>
 							<td class="d-none d-md-table-cell">Director, Mosqueda Campus</td>
