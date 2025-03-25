@@ -24,19 +24,12 @@ get_header(); ?>
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
 			<div class="order-2 col-md-12">
 				<div class="row">
-					
-					<div class="col-md-7">
+					<div class="col-md-12">
 						<h2 class="h1 mb-4">Our Commitment to Quality</h2>
 						<p>Guimaras State University (GSU) is committed to providing high-quality education and services, which is supported by a strong Quality Assurance (QA) system. The Quality Assurance Office, in line with the university's governance, manages and coordinates all quality-related activities across the institution.</p>
 					</div>
-					<div class="col-md-4">
-						<div class="text-center mb-5">
-							<img src="<?= get_stylesheet_directory_uri(); ?>/images/qa/qa-o.png" alt="QA">
-						</div>	
-					</div>
 				</div>
 				<div class="row">
-					
 					<div class="col-md-12">
 						<h3 class="h2 mt-5 mb-3">Guiding Principle</h3>
 						<p>GSU's Quality Policy is the foundation of our commitment to excellence. We are dedicated to implementing an effective and efficient quality management system that produces globally competitive, technologically equipped, and research-oriented graduates. Through innovative programs, a commitment to continuous improvement, adherence to all requirements, and proactive risk management, GSU strives to enhance stakeholder satisfaction.</p>
@@ -125,7 +118,6 @@ get_header(); ?>
 						<p>Following these introductions, Dr. Parreño proudly presented GSU’s recent successes, program improvements, and ongoing developments. The accreditation team then engaged in conversations through interviews, carefully reviewed documents, and toured our university’s facilities. They also held meetings to share their initial findings and observations.</p>
 						<p>Having already achieved Level I Accredited Status after the 2018 evaluation, this new process demonstrates GSU's ongoing dedication to raising our educational standards and improving our operations. Our university aims to build on our current strengths and further establish itself as a leading institution in the region. The results of this evaluation will provide valuable insights to guide GSU’s future growth, ensuring it continues to effectively serve our students and the wider community.</p>
 					</div>
-					
 				</div>
 				<div class="row">
 					<div class="col-md-6">
@@ -141,7 +133,6 @@ get_header(); ?>
 						<img class="mt-5" src="<?= get_stylesheet_directory_uri(); ?>/images/qa/ia-4.jpg" alt="QA">
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-md-12">
 						<h3 class="h2 mt-5 mb-3">Adhering to Global Standards</h3>
@@ -167,7 +158,6 @@ get_header(); ?>
 						<img class="mt-5" src="<?= get_stylesheet_directory_uri(); ?>/images/qa/iso-4.jpg" alt="QA">
 					</div>
 				</div>
-				
 				<div class="row">
 					<div class="col-md-12">
 						<h3 class="h2 mt-5 mb-3">Striving for Sustainability</h3>
