@@ -121,16 +121,16 @@ get_header(); ?>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<img class="mt-5" src="<?= get_stylesheet_directory_uri(); ?>/images/qa/ia-1.jpg" alt="QA">
-					</div>
-					<div class="col-md-6">
-						<img class="mt-5" src="<?= get_stylesheet_directory_uri(); ?>/images/qa/ia-2.jpg" alt="QA">
-					</div>
-					<div class="col-md-6">
-						<img class="mt-5" src="<?= get_stylesheet_directory_uri(); ?>/images/qa/ia-3.jpg" alt="QA">
-					</div>
-					<div class="col-md-6">
 						<img class="mt-5" src="<?= get_stylesheet_directory_uri(); ?>/images/qa/ia-4.jpg" alt="QA">
+					</div>
+					<div class="col-md-6">
+						<img class="mt-5" src="<?= get_stylesheet_directory_uri(); ?>/images/qa/ia-5.jpg" alt="QA">
+					</div>
+					<div class="col-md-6">
+						<img class="mt-5" src="<?= get_stylesheet_directory_uri(); ?>/images/qa/ia-6.jpg" alt="QA">
+					</div>
+					<div class="col-md-6">
+						<img class="mt-5" src="<?= get_stylesheet_directory_uri(); ?>/images/qa/ia-7.jpg" alt="QA">
 					</div>
 				</div>
 				<div class="row">
