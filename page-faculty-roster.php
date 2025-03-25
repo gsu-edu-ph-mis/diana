@@ -511,12 +511,6 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/violeta.efondo.jpg" alt="">
-							</div>
-							<h3 class="h3">Violeta C. Efondo</h3>
-						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/aizle.eres.jpg" alt="">
 							</div>
 							<h3 class="h3">Aizle  F. Eres</h3>
@@ -651,12 +645,12 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Ferick Brenz P. Porras</h3>
 						</div>
-						<div class="col-md-4 official">
+						<!-- <div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/salem.suelon.jpg" alt="">
 							</div>
 							<h3 class="h3">Salem John P. Suelon</h3>
-						</div>
+						</div> -->
 					</div>
 				</div>
 				<!-- CST -->
