@@ -24,15 +24,13 @@ get_header(); ?>
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
 			<div class="order-2 col-md-12">
 				<div class="row">
-					<div class="col-md-4">
+					<!-- <div class="col-md-4">
 						<div id="symbolism" class="text-center mb-5">
 							<img src="<?= get_stylesheet_directory_uri(); ?>/images/sdg/E_SDG_logo_UN_emblem_square_trans_WEB.png" alt="SDG">
 						</div>	
-					</div>
-					<div class="col-md-7">
-						<h2 class="h1 mb-4">Guimaras State University is committed in achieving its Sustainable Development Goals.</h2>
-						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At maiores minus totam nemo fuga molestiae ipsa ducimus pariatur qui. Mollitia beatae quasi soluta quae obcaecati voluptate, laudantium ab voluptatem. Est!</p>
-						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At maiores minus totam nemo fuga molestiae ipsa ducimus pariatur qui. Mollitia beatae quasi soluta quae obcaecati voluptate, laudantium ab voluptatem. Est!</p>
+					</div> -->
+					<div class="col-md-12">
+						<h2 class="h1 mb-5 text-center">Our Commitment to Quality</h2>
 					</div>
 				</div>
 				<div class="sdg">

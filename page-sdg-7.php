@@ -12,7 +12,7 @@
  * @subpackage Diana
  * subpackage Diana 1.0
  */
-
+$SDG = 7;
 get_header(); ?>
 <div class="section section-page-title">
 	<div class="container">
@@ -21,16 +21,16 @@ get_header(); ?>
 </div>
 <div class="site-content">
 	<div class="container">
-		<main id="main" class="row pt-5 pb-5  text-left" role="main">
+		<main id="main" class="form-row pt-5 pb-5  text-left" role="main">
 			
 			<!--  -->
-			<div class="order-2 col-md-8">
+			<div class="order-2 col-md-8 col-7 pl-md-5 pt-4">
 			<?php
 			$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
 			$args = array( 
 				'posts_per_page' => 10, 
-				'category_name' => 'sdg-7',
+				'category_name' => 'sdg-' . $SDG,
 				'paged' => $paged,
 				'post_type' => 'post' 
 			);
@@ -45,9 +45,9 @@ get_header(); ?>
 					<table class="table table-striped">
 						<tr>
 							<th width="1%">#</th>
-							<th width="15%">Date</th>
+							<th width="15%" class="d-none d-md-table-cell">Date</th>
 							<th>Title</th>
-							<th></th>
+							<th class="d-none d-md-table-cell"></th>
 						</tr>
 						<?php 
 						$count = 0;
@@ -55,10 +55,10 @@ get_header(); ?>
 						?>
 						<tr>
 							<td><?= $count + ($posts_per_page * ($paged -1)); ?></td>
-							<td><?= get_the_date(); ?></td>
+							<td class="d-none d-md-table-cell"><?= get_the_date(); ?></td>
 							<!-- <td><?php //echo diana_categories($post->ID); ?></td> -->
-							<td><?php the_title(); ?></td>
-							<td><a class="btn btn-primary" href="<?php echo get_permalink( $post->ID); ?>">Read</a></td>
+							<td><a href="<?php echo get_permalink( $post->ID); ?>"><?php the_title(); ?></a></td>
+							<td class="d-none d-md-table-cell"><a class="btn btn-primary" href="<?php echo get_permalink( $post->ID); ?>">Read</a></td>
 						</tr>
 						<?php endwhile;  ?>
 					</table>
@@ -92,16 +92,15 @@ get_header(); ?>
 			else: 
 			?>
 				<h2 class="h2 mb-5">There are no postings yet.</h2>
-				<p>Try adding a post under this SDG.</p>
 			<?php
 			endif;
 			?>
 			</div>
 			<!--  -->
 
-			<div class="order-1 col-md-4 mb-5">
+			<div class="order-1 col-md-4 col-5 mb-5">
 				<div class="mb-3">
-					<img src="<?= get_stylesheet_directory_uri(); ?>/images/sdg/7_SDG_MakeEveryDayCount_Gifs_GDU.gif" alt="">
+					<img src="<?= get_stylesheet_directory_uri(); ?>/images/sdg/<?= $SDG; ?>_SDG_MakeEveryDayCount_Gifs_GDU.gif" alt="">
 				</div>
 				<?php get_sidebar('sdg'); ?>
 			</div>

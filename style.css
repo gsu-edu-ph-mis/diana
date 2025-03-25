@@ -1212,6 +1212,7 @@ h6 {
 .sdg {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 .sdg .heads {
 	position: relative;
@@ -1313,7 +1314,7 @@ h6 {
 	width: 600px;
 	height: 200px;
 	display: flex;
-	align-items: end;
+	align-items: center;
 }
 /* SDG Sidebar */
 .sdg-sidebar .sidebar-title h3{
