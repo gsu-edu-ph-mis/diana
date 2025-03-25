@@ -204,7 +204,7 @@ function diana_scripts() {
 	if(is_page('videos')){
 		wp_enqueue_style( 'video-js', get_template_directory_uri() . '/css/vjs.zencdn.net_8.5.2_video-js.css', array(), '8.5.2');
 	}
-	wp_enqueue_style( 'diana-style', get_template_directory_uri() . '/style.css', array(), '20241222' );
+	wp_enqueue_style( 'diana-style', get_template_directory_uri() . '/style.css', array(), '20250325' );
 	
 	// Other scripts
 	if(is_page('map')){
