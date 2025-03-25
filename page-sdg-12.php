@@ -12,7 +12,7 @@
  * @subpackage Diana
  * subpackage Diana 1.0
  */
-$SDG = 1;
+$SDG = 12;
 get_header(); ?>
 <div class="section section-page-title">
 	<div class="container">
@@ -40,7 +40,7 @@ get_header(); ?>
 				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				$posts_per_page  = $query->query_vars['posts_per_page'] > -1 ? $query->query_vars['posts_per_page'] : 0;
 				?>
-				<h2 class="h2 mb-5">Found <?= $query->found_posts; ?> article(s) on this SDG</h2>
+				<h2 class="h2 mb-5">There <? printf(_n( 'is %s article', 'are %s articles', $query->found_posts, 'diana' ), number_format_i18n( $query->found_posts )) ?> for SDG <?= $SDG; ?></h2>
 				<div class="table-responsive mb-5">
 					<table class="table table-striped">
 						<tr>
