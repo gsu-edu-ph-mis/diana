@@ -28,11 +28,11 @@ get_header(); ?>
 		<main id="main" class="row pt-5 pb-5  text-left" role="main">
 			
 			<div class="col-lg-3 text-center">
-				<img class="mb-4" src="<?= get_stylesheet_directory_uri(); ?>/images/logos/CIMD-md.png" alt="Logo">
+				<!-- <img class="mb-4" src="<?= get_stylesheet_directory_uri(); ?>/images/logos/CIMD-md.png" alt="Logo"> -->
 			</div>
 			<div class="col-lg-6 text-justify">
-				<h2 class="h2 mb-3">About the Center</h2>
-				<p>The Center for Instructional Materials Development (CIMD) assists faculty authors in meticulously planning, selecting, organizing, refining, and utilizing instructional materials (IM) to maximize their effectiveness. It ensures both the breadth and depth of content to optimize student learning. CIMD guides the editorial direction of instructional materials and their content, including digital content, to promote equitable access, effective teaching and learning, and curriculum enhancement. The dual goal is to increase student success and ensure that graduates of the Guimaras State University are globally competitive, locally relevant, socially responsive, and fully representative of the country's diverse population. CIMD's content is managed by teams of editors, designers, industry experts, and freelance contributors.</p>
+				<h2 class="h2 mb-3">About </h2>
+				<p>The Instructional Materials Development Office assists faculty authors in meticulously planning, selecting, organizing, refining, and utilizing instructional materials (IM) to maximize their effectiveness. It ensures both the breadth and depth of content to optimize student learning. CIMD guides the editorial direction of instructional materials and their content, including digital content, to promote equitable access, effective teaching and learning, and curriculum enhancement. The dual goal is to increase student success and ensure that graduates of the Guimaras State University are globally competitive, locally relevant, socially responsive, and fully representative of the country's diverse population. CIMD's content is managed by teams of editors, designers, industry experts, and freelance contributors.</p>
 				<!-- <h2 class="h2 mb-3">Message from the Director</h2>
                 <p>"In this day and age, writing IMs (Instructional Materials) has something to do with the fact that most people are juggling a variety of responsibilities such as family, career, and personal lives.</p>
                 <p>I've discovered that everything is true. </p>
