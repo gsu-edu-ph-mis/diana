@@ -32,7 +32,7 @@ get_header(); ?>
 			</div>
 			<div class="col-lg-6 text-justify">
 				<h2 class="h2 mb-3">About </h2>
-				<p>The Instructional Materials Development Office assists faculty authors in meticulously planning, selecting, organizing, refining, and utilizing instructional materials (IM) to maximize their effectiveness. It ensures both the breadth and depth of content to optimize student learning. CIMD guides the editorial direction of instructional materials and their content, including digital content, to promote equitable access, effective teaching and learning, and curriculum enhancement. The dual goal is to increase student success and ensure that graduates of the Guimaras State University are globally competitive, locally relevant, socially responsive, and fully representative of the country's diverse population. CIMD's content is managed by teams of editors, designers, industry experts, and freelance contributors.</p>
+				<p>The Instructional Materials Development Office assists faculty authors in meticulously planning, selecting, organizing, refining, and utilizing instructional materials (IM) to maximize their effectiveness. It ensures both the breadth and depth of content to optimize student learning. CIMD guides the editorial direction of instructional materials and their content, including digital content, to promote equitable access, effective teaching and learning, and curriculum enhancement. The dual goal is to increase student success and ensure that graduates of the Guimaras State University are globally competitive, locally relevant, socially responsive, and fully representative of the country's diverse population.</p>
 				<!-- <h2 class="h2 mb-3">Message from the Director</h2>
                 <p>"In this day and age, writing IMs (Instructional Materials) has something to do with the fact that most people are juggling a variety of responsibilities such as family, career, and personal lives.</p>
                 <p>I've discovered that everything is true. </p>
@@ -48,7 +48,7 @@ get_header(); ?>
 				</div>
 				<p>
 					<strong>Dr. Roger B. Rueda</strong> <br>
-					<em>Director, Center for Instructional Materials Development</em>
+					<em>Director, Instructional Materials Development Office</em>
 				</p>
 			</div>
 			<!-- <div class="col-12">
