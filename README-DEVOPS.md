@@ -47,3 +47,14 @@ To disable
 Paste password and
 
 CREATE DATABASE beta DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+## Basic Auth
+
+See:
+
+    `/etc/nginx/.htpasswd`
+
+    `/etc/nginx/sites-available/gsu.edu.ph`
+    
+    `/etc/nginx/sites-available/cst.gsu.edu.ph`
+
