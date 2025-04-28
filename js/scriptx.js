@@ -15,6 +15,8 @@ jQuery(document).ready(function ($) {
 
     (function ($) {
 
+        $('#arta').modal('show')
+        
         /* Nav */
         $(document).on('click.diana', function (e) { 
             $('#main-bar .menu-show').removeClass('menu-show');
@@ -388,6 +390,7 @@ jQuery(document).ready(function ($) {
         });
     }
 
+    
     document.getElementById('track')?.addEventListener('timeupdate', function (e) {
         let currentTimeSec = Math.floor(e.target.currentTime);
 

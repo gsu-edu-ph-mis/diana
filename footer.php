@@ -91,7 +91,26 @@
 		</div>
 	</section>
 </div>
-
+<div id="arta" class="modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">
+			<a target="_blank" href="https://www.facebook.com/hashtag/EODBMonth2025">#EODBMonth2025</a> 
+			<a target="_blank" href="https://www.facebook.com/hashtag/FromRedTapeToRedCarpet">#FromRedTapeToRedCarpet </a> 
+			<a target="_blank" href="https://www.facebook.com/hashtag/BetterBusinessMovement">#BetterBusinessMovement </a> 
+		</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/eodb2025/2025-EODB-MONTH-FB-COVER-PAGE.jpg" alt="">
+      </div>
+     
+    </div>
+  </div>
+</div>
 <footer class="footer" role="contentinfo">
     <div class="container">
         <div class="row">
