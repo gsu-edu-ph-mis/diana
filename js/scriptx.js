@@ -15,8 +15,14 @@ jQuery(document).ready(function ($) {
 
     (function ($) {
 
-        $('#arta').modal('show')
-        
+        const today = new Date();
+        const currentMonth = today.getMonth(); // 0 = January, 4 = May
+        const currentYear = today.getFullYear(); // e.g., 2025
+        if (currentMonth === 4 && currentYear === 2025) { // Arta month
+            $('#arta').modal('show')
+        } 
+
+
         /* Nav */
         $(document).on('click.diana', function (e) { 
             $('#main-bar .menu-show').removeClass('menu-show');
