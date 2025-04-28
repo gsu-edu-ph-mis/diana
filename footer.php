@@ -94,17 +94,13 @@
 <div id="arta" class="modal" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">
-			<a target="_blank" href="https://www.facebook.com/hashtag/EODBMonth2025">#EODBMonth2025</a> 
-			<a target="_blank" href="https://www.facebook.com/hashtag/FromRedTapeToRedCarpet">#FromRedTapeToRedCarpet </a> 
-			<a target="_blank" href="https://www.facebook.com/hashtag/BetterBusinessMovement">#BetterBusinessMovement </a> 
-		</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
+     
       <div class="modal-body">
+	  	<div class="d-flex align-items-center justify-content-center pb-3">
+			<img class="m-2" width="80" src="<?php echo get_stylesheet_directory_uri(); ?>/images/bagong-ph.png" alt="">
+			<img class="m-2" width="80" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-gsu.png" alt="">
+			<img class="m-2" width="80" src="<?php echo get_stylesheet_directory_uri(); ?>/images/arta-round-sm.png" alt="">
+		</div>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/eodb2025/2025-EODB-MONTH-FB-COVER-PAGE.jpg" alt="">
       </div>
      
