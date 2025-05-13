@@ -109,6 +109,7 @@ var vApp = new Vue({
             },
         ],
         programs: [
+            // cags
             {
                 name: 'Bachelor of Science in Agriculture',
                 logo: '/images/logos/CAGS-md.png',
@@ -117,6 +118,16 @@ var vApp = new Vue({
                 tags: ['undergrad', 'cags', 'baterna', 'board'],
                 college: 'College of Agricultural Sciences (CAgS)',
                 board: '(Board Course)',
+                majors: ''
+            },
+            {
+                name: 'Bachelor of Science in Food Technology',
+                logo: '/images/logos/CAGS-md.png',
+                logoCampus: '/images/campus-baterna-sm.png',
+                campus: 'Baterna Campus',
+                tags: ['undergrad', 'cags', 'baterna'],
+                college: 'College of Agricultural Sciences (CAgS)',
+                board: '',
                 majors: ''
             },
             {
@@ -129,6 +140,7 @@ var vApp = new Vue({
                 board: '(Board Course)',
                 majors: ''
             },
+            //cas
             {
                 name: 'Bachelor of Arts in English Language Studies',
                 logo: '/images/logos/CAS-md.png',
@@ -274,15 +286,26 @@ var vApp = new Vue({
                 majors: ''
             },
             {
-                name: 'Bachelor of Science in Food Technology',
+                name: 'Bachelor of Science in Entertainment and Multimedia Computing',
                 logo: '/images/logos/CST-md.png',
-                logoCampus: '/images/campus-baterna-sm.png',
+                logoCampus: '/images/campus-mosqueda-sm.png',
                 campus: 'Mosqueda Campus',
-                tags: ['undergrad', 'cst', 'baterna'],
+                tags: ['undergrad', 'cst', 'mosqueda'],
                 college: 'College of Science and Technology (CST)',
                 board: '',
                 majors: ''
             },
+            {
+                name: 'Bachelor of Library and Information Science',
+                logo: '/images/logos/CST-md.png',
+                logoCampus: '/images/campus-mosqueda-sm.png',
+                campus: 'Mosqueda Campus',
+                tags: ['undergrad', 'cst', 'mosqueda'],
+                college: 'College of Science and Technology (CST)',
+                board: '',
+                majors: ''
+            },
+            
             // cte
             {
                 name: 'Bachelor of Elementary Education',

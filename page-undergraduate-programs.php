@@ -50,6 +50,10 @@ get_header(); ?>
 							<div>
 								<h2 class="h3">Bachelor of Science in Fisheries <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-baterna-sm.png" data-toggle="tooltip" alt="Baterna" title="Baterna"></h2>
 							</div>
+							
+							<div>
+								<h2 class="h3">Bachelor of Science in Food Technology   <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-mosqueda-sm.png" data-toggle="tooltip" alt="Mosqueda" title="Mosqueda"></h2>
+							</div>
 						</div>
 					</div>
 					<div id="cas" class="college-programs">
@@ -135,8 +139,13 @@ get_header(); ?>
 							<div>
 								<h2 class="h3">Bachelor of Science in Information System  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-mosqueda-sm.png" data-toggle="tooltip" alt="Mosqueda" title="Mosqueda"></h2>
 							</div>
+							
 							<div>
-								<h2 class="h3">Bachelor of Science in Food Technology   <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-mosqueda-sm.png" data-toggle="tooltip" alt="Mosqueda" title="Mosqueda"></h2>
+								<h2 class="h3">Bachelor of Science in Entertainment and Multimedia Computing <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-mosqueda-sm.png" data-toggle="tooltip" alt="Mosqueda" title="Mosqueda"></h2>
+							</div>
+							
+							<div>
+								<h2 class="h3">Bachelor of Library and Information Science <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-mosqueda-sm.png" data-toggle="tooltip" alt="Mosqueda" title="Mosqueda"></h2>
 							</div>
 						</div>
 					</div>

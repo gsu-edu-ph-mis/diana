@@ -217,7 +217,7 @@ function diana_scripts() {
 	}
 	if(is_page('academic-programs')){
 		wp_enqueue_script( 'vuejs', get_template_directory_uri() . '/js/vue.js', array(), false, true );
-		wp_enqueue_script( 'programs', get_template_directory_uri() . '/js/programs.js', array(), false, true );
+		wp_enqueue_script( 'programs', get_template_directory_uri() . '/js/programs.js', array(),  '20250513', true );
 	}
 	if(is_page('key-officials')){
 		wp_enqueue_script( 'vuejs', get_template_directory_uri() . '/js/vue.js', array(), false, true );
