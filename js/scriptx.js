@@ -19,7 +19,8 @@ jQuery(document).ready(function ($) {
         const currentMonth = today.getMonth(); // 0 = January, 4 = May
         const currentYear = today.getFullYear(); // e.g., 2025
         if (currentMonth === 4 && currentYear === 2025) { // Arta month
-            $('#arta')?.modal('show')
+            let $arta = $('#arta')
+            if($arta.modal) $arta.modal('show')
         } 
 
 
