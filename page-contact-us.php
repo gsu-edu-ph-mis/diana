@@ -46,6 +46,18 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 text-center mb-5">
 							<div class="mb-3">
+								<a href="https://www.facebook.com/GuimarasStateUniversity"><img src="<?= get_stylesheet_directory_uri(); ?>/images/logo-gsu.png" width="200" height="200" alt="PresOff"></a>
+							</div>
+							<h3 class="h3">Registrar</h3>
+							<h3 class="h4">
+								<a href="mailto:registrar@gsu.edu.ph">
+									<svg style="width:16px;height:16px" viewBox="0 0 24 24">    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
+									registrar@gsu.edu.ph
+								</a>
+							</h3>
+						</div>
+						<div class="col-md-4 text-center mb-5">
+							<div class="mb-3">
 								<a href="https://www.facebook.com/GradSchoolPage"><img src="<?= get_stylesheet_directory_uri(); ?>/images/logos/gradschool.png" width="200" height="200" alt="GradSchool"></a>
 							</div>
 							<h3 class="h3">Graduate School</h3>
