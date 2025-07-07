@@ -46,7 +46,7 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 text-center mb-5">
 							<div class="mb-3">
-								<a href="https://www.facebook.com/GuimarasStateUniversity"><img src="<?= get_stylesheet_directory_uri(); ?>/images/logo-gsu.png" width="200" height="200" alt="PresOff"></a>
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/logo-gsu.png" width="200" height="200" alt="Registrar">
 							</div>
 							<h3 class="h3">Registrar</h3>
 							<h3 class="h4">
