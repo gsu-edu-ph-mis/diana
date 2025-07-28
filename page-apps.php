@@ -47,6 +47,10 @@ get_header(); ?>
 				<h3 class="h2"> Password Generator</h3>
 			</div>
 			<div class="col-md-3 mb-5 text-center">
+				<a href="https://alumni.gsu.edu.ph" class="mb-2 d-block"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/apps-alumni.png" alt="forms"></a>
+				<h3 class="h2">Alumni Portal</h3>
+			</div>
+			<div class="col-md-3 mb-5 text-center">
 				<div class="wall-clock">
 					<div class="arm-second"></div>
 					<div class="arm-minute"></div>
