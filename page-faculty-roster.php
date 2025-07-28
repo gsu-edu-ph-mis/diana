@@ -362,10 +362,10 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/arthur.soquena.jpg" alt="">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/revenlie.galapin.jpg" alt="">
 							</div>
-							<h3 class="h3">Arthur C. Soqueña</h3>
-							<h4 class="h4">Dean</h4>
+							<h3 class="h3">Revenlie G. Galapin</h3>
+							<h4 class="h4">Dean (OIC)</h4>
 						</div>
 						<div class="col-md-4">
 						</div>
