@@ -468,7 +468,7 @@ var vApp = new Vue({
             setTimeout(function(){
                 me.pending = false;
                 me.update(event)
-            }, 800)
+            }, 400)
             
         },
         update: function (event) {
