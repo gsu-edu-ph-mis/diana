@@ -77,15 +77,15 @@ get_header(); ?>
 						</div>
 						<div class="programs">
 							<div>
-								<h2 class="h3">Bachelor of Science in Business Administration <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
+								<h2 class="h3">Bachelor of Science in Business Administration <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-mosqueda-sm.png" data-toggle="tooltip" alt="Mosqueda" title="Mosqueda"></h2>
 								<p class="mb-0">Major in: Financial Management, Marketing Management, Human Resource Management </p>
 							</div>
 							
 							<div>
-								<h2 class="h3">Bachelor of Science in Real Estate Management  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
+								<h2 class="h3">Bachelor of Science in Real Estate Management  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-mosqueda-sm.png" data-toggle="tooltip" alt="Mosqueda" title="Mosqueda"></h2>
 							</div>
 							<div>
-								<h2 class="h3">Bachelor of Science in Entrepreneurship  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-salvador-sm.png" data-toggle="tooltip" alt="Salvador" title="Salvador"></h2>
+								<h2 class="h3">Bachelor of Science in Entrepreneurship  <img src="<?= get_stylesheet_directory_uri(); ?>/images/campus-mosqueda-sm.png" data-toggle="tooltip" alt="Mosqueda" title="Mosqueda"></h2>
 							</div>
 						</div>
 					</div>

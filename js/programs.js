@@ -165,9 +165,9 @@ var vApp = new Vue({
             {
                 name: 'Bachelor of Science in Business Administration',
                 logo: '/images/logos/CBM-md.png',
-                logoCampus: '/images/campus-salvador-sm.png',
-                campus: 'Salvador Campus',
-                tags: ['undergrad', 'cbm', 'salvador'],
+                logoCampus: '/images/campus-mosqueda-sm.png',
+                campus: 'Mosqueda Campus',
+                tags: ['undergrad', 'cbm', 'mosqueda'],
                 college: 'College of Business and Management (CBM)',
                 board: '',
                 majors: 'Financial Management, Marketing Management, Human Resource Management'
@@ -175,30 +175,32 @@ var vApp = new Vue({
             {
                 name: 'Bachelor of Science in Entrepreneurship',
                 logo: '/images/logos/CBM-md.png',
-                logoCampus: '/images/campus-salvador-sm.png',
-                campus: 'Salvador Campus',
-                tags: ['undergrad', 'cbm', 'salvador'],
+                logoCampus: '/images/campus-mosqueda-sm.png',
+                campus: 'Mosqueda Campus',
+                tags: ['undergrad', 'cbm', 'mosqueda'],
                 college: 'College of Business and Management (CBM)',
                 board: '',
                 majors: ''
             },
+            
+            {
+                name: 'Bachelor of Science in Real Estate Management',
+                logo: '/images/logos/CBM-md.png',
+                logoCampus: '/images/campus-mosqueda-sm.png',
+                campus: 'Mosqueda Campus',
+                tags: ['undergrad', 'cbm', 'mosqueda'],
+                college: 'College of Business and Management (CBM)',
+                board: '',
+                majors: ''
+            },
+            // 
             {
                 name: 'Bachelor of Science in Hospitality Management',
                 logo: '/images/logos/CBM-md.png',
                 logoCampus: '/images/campus-salvador-sm.png',
                 campus: 'Salvador Campus',
                 tags: ['undergrad', 'cbm', 'salvador'],
-                college: 'College of Business and Management (CBM)',
-                board: '',
-                majors: ''
-            },
-            {
-                name: 'Bachelor of Science in Real Estate Management',
-                logo: '/images/logos/CBM-md.png',
-                logoCampus: '/images/campus-salvador-sm.png',
-                campus: 'Salvador Campus',
-                tags: ['undergrad', 'cbm', 'salvador'],
-                college: 'College of Business and Management (CBM)',
+                college: 'College of Tourism and Hospitality Management (CTHM)',
                 board: '',
                 majors: ''
             },
@@ -208,7 +210,7 @@ var vApp = new Vue({
                 logoCampus: '/images/campus-salvador-sm.png',
                 campus: 'Salvador Campus',
                 tags: ['undergrad', 'cbm', 'salvador'],
-                college: 'College of Business and Management (CBM)',
+                college: 'College of Tourism and Hospitality Management (CTHM)',
                 board: '',
                 majors: ''
             },
