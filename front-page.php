@@ -159,7 +159,7 @@ get_header(); ?>
 				</div>
 				<div class="row pt-5">
 					<div class="col-md-12 pt-5">
-						<a href="<?php echo home_url(); ?>/gad-corner/"><img src="<?= get_stylesheet_directory_uri(); ?>/images/GAD-corner.jpg" alt="GAD"></a>
+						<a href="<?php echo home_url(); ?>/gad-corner/"><img src="<?= get_stylesheet_directory_uri(); ?>/images/GAD-corner.png" alt="GAD"></a>
 					</div>
 				</div>
 			</div>
