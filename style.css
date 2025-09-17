@@ -2179,6 +2179,46 @@ iframe {
 	opacity: 0.85;
 }
 
+.search-light.menu-show {
+	display: block;
+}
+.search-light {
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.95);
+	z-index: 9999;
+
+} 
+.search-light form {
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, 0);
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: #858585 0 10px 14px 6px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search-light form svg {
+	width: 30px;
+}
+.search-light form input {
+	border: 0;
+	background: none;
+	margin: 0;
+	display: block;
+	outline: none !important;
+	min-width: 250px
+}
+
 /* Breakpoints */
 
 /* ≥1200px Extra large desktops */

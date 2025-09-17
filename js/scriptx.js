@@ -37,6 +37,45 @@ jQuery(document).ready(function ($) {
             $parent.siblings().removeClass('menu-show').find('.menu-show').removeClass('menu-show');
             $parent.toggleClass('menu-show');
         });
+        $(document).on('click.diana', '#search-btn', function (e) {
+            let $search = $('#search-light')
+            e.stopPropagation();
+            e.preventDefault();
+            if($search.hasClass('menu-show')){
+                $search.removeClass('menu-show');
+            } else {
+                $search.addClass('menu-show');
+                $('#q-search').focus()
+            }
+        })
+
+        // 
+        $(function () {
+            // Detect Escape key
+            $(document).on("keydown", function (e) {
+                if (e.key === "Escape" || e.keyCode === 27) {
+                    handleExit("escape");
+                }
+            });
+
+            // Detect back button (mobile/browser)
+            history.pushState(null, null, location.href);
+            $(window).on("popstate", function () {
+                handleExit("back");
+            });
+
+            // Shared handler
+            function handleExit(type) {
+                if (type === "escape") {
+                    let $search = $('#search-light')
+                    $search.removeClass('menu-show');
+                } else if (type === "back") {
+                    let $search = $('#search-light')
+                    $search.removeClass('menu-show');
+                }
+            }
+        });
+
 
         $('#mobile-menu').on('click.diana', '.menu-expander', function (e) {
                 let $parent = $(this).parent();
