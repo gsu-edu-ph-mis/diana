@@ -596,14 +596,14 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/margie.delacruz.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/daisy.ibieza.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Dr. Margie Y. De la Cruz</h3>
+							<h3 class="h3">Daisy B. Ibieza</h3>
 							<h4 class="h4">University Extension, Training and Development Services</h4>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									margie.delacruz@gsu.edu.ph
+									daisy.ibieza@gsu.edu.ph
 								</a>	
 							</div>
 						</div>
@@ -779,7 +779,7 @@ get_header(); ?>
 							</div>
 						</div>
 						<div class="col-12">
-							<p class="mt-5 mb-5 text-right"><small><em>Source: Memorandum No. 840, Series of 2024</em></small></p>
+							<!-- <p class="mt-5 mb-5 text-right"><small><em>Source: Memorandum No. 840, Series of 2024</em></small></p> -->
 						</div>
 					</div>
 				</div>
