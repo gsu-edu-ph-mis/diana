@@ -124,14 +124,14 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/revenlie.galapin.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/rome.moralista.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Dr. Revenlie G. Galapin</h3>
+							<h3 class="h3">Dr. Rome B. Moralista</h3>
 							<h4 class="h4">Dean, College of Business and Management (CBM)</h4>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									<span @click.prevent=toggleM($event) data-show="erirayvr.tnyncva@tfh.rqh.cu">***click to show email***</span>
+									<span @click.prevent=toggleM($event) data-show="ebzr.zbenyvfgn@tfh.rqh.cu">***click to show email***</span>
 								</a>	
 							</div>
 						</div>
@@ -238,35 +238,35 @@ get_header(); ?>
 						
 						<div class="col-md-12 mb-4 text-center">
 							<h2 class="h1 pt-5">Administration Staff</h2>
-							<p>Based on the Organizational Structure of 2024</p>
+							<!-- <p>Based on the Organizational Structure of 2024</p> -->
 						</div>
 						<div class="col-md-12 mb-4 text-center">
 							<h2 class="h2 pt-5 text-primary">Administration</h2>
 						</div>
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/ken.pillora.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/janet.aleman.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Ken D. Pillora</h3>
-							<h4 class="h4">Head, Supply and Property Management Office / Supervising Administrative Officer - Admin / OIC-Chief Administrative Officer (CAO)
-							</h4>
+							<h3 class="h3">Janet R. Aleman</h3>
+							<h4 class="h4">Head, Bids and Awards Committee</h4>
 							<div class="h5">
-								<a href="#">
+								<!-- <a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									ken.pillora@gsu.edu.ph
-								</a>	
+									janet.aleman@gsu.edu.ph
+								</a>	 -->
 							</div>
 						</div>
+						
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/rechel.pillora.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/jonathan.gabion.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Ma. Rechel A. Pillora</h3>
-							<h4 class="h4">Head, Human Resource Management Office (HRMO) / Administrative Officer V</h4>
+							<h3 class="h3">Jonathan G. Gabion</h3>
+							<h4 class="h4">Chief Administrative Officer - Administration Division</h4>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									marechel.pillora@gsu.edu.ph
+									<span @click.prevent=toggleM($event) data-show="wbanguna.tnovba@tfh.rqh.cu">***click to show email***</span>
 								</a>	
 							</div>
 						</div>
@@ -280,10 +280,11 @@ get_header(); ?>
 							<div class="h5">
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									ijieline.gallo@gsu.edu.ph
+									<span @click.prevent=toggleM($event) data-show="vwvryvar.tnyyb@tfh.rqh.cu">***click to show email***</span>
 								</a>	
 							</div>
 						</div>
+
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/ian.gallo.jpg" width="250" height="250" alt="Profile">
@@ -297,6 +298,7 @@ get_header(); ?>
 								</a>	
 							</div>
 						</div>
+
 						<div class="col-md-4 official">
 							<div class="official-photo-2 mb-3">
 								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/hazel.jarangue.jpg" width="250" height="250" alt="Profile">
@@ -307,6 +309,21 @@ get_header(); ?>
 								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
 									hazel.jarangue@gsu.edu.ph
+								</a>	
+							</div>
+						</div>
+
+						<div class="col-md-4 official ">
+							<div class="official-photo-2 mb-3">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/nissa.jolin.jpg" width="250" height="250" alt="Profile">
+							</div>
+							<h3 class="h3">Nissa Joy G. Jolin</h3>
+							<h4 class="h4">Head, Supply and Property Management Office / Administrative Officer V (Supply Officer III)
+							</h4>
+							<div class="h5">
+								<a href="#">
+									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
+									<span @click.prevent=toggleM($event) data-show="fhccylbssvpr@tfh.rqh.cu">***click to show email***</span>
 								</a>	
 							</div>
 						</div>
@@ -327,17 +344,18 @@ get_header(); ?>
 						
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/janet.aleman.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/rechel.pillora.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Janet R. Aleman</h3>
-							<h4 class="h4">Head, Bids and Awards Committee</h4>
+							<h3 class="h3">Ma. Rechel A. Pillora</h3>
+							<h4 class="h4">Head, Human Resource Management Office (HRMO) / Administrative Officer V</h4>
 							<div class="h5">
-								<!-- <a href="#">
+								<a href="#">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									janet.aleman@gsu.edu.ph
-								</a>	 -->
+									marechel.pillora@gsu.edu.ph
+								</a>	
 							</div>
 						</div>
+
 						<div class="col-md-12 mb-4 text-center">
 							<h2 class="h1 pt-5 mb-4 text-primary">Finance</h2>
 						</div>
@@ -649,7 +667,7 @@ get_header(); ?>
 								</a>	
 							</div>
 						</div>
-						<div class="col-md-4 official ">
+						<!-- <div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/felizardo.valdez.jpg" width="250" height="250" alt="Profile">
 							</div>
@@ -661,7 +679,7 @@ get_header(); ?>
 									<span @click.prevent=toggleM($event) data-show="sryvmneqb.inyqrm@tfh.rqh.cu">***click to show email***</span>
 								</a>
 							</div>
-						</div>
+						</div> -->
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/frennie.zarate.jpg" width="250" height="250" alt="Profile">
@@ -679,14 +697,14 @@ get_header(); ?>
 
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/joel.japitana.jpg" width="250" height="250" alt="Profile">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/helen.vilbar.jpg" width="250" height="250" alt="Profile">
 							</div>
-							<h3 class="h3">Dr. Joel V. Japitana</h3>
+							<h3 class="h3">Dr. Helen R. Vilbar</h3>
 							<h4 class="h4">Director, International Affairs and External Linkages</h4>
 							<div class="h5">
 								<a href="mailto:jvgsc55@gmail.com">
 									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									jvgsc55@gmail.com
+									<span @click.prevent=toggleM($event) data-show="uryra.ivyone@tfh.rqh.cu">***click to show email***</span>
 								</a>	
 							</div>
 
