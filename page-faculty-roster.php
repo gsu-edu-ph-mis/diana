@@ -50,6 +50,12 @@ get_header(); ?>
 						</div>
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
+								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/bherra.bontigao.jpg" alt="">
+							</div>
+							<h3 class="h3">Bherra Grace B. Bontigao</h3>
+						</div>
+						<div class="col-md-4 official">
+							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/april.cantua.jpg" alt="">
 							</div>
 							<h3 class="h3">April Rose S. Cantua</h3>
@@ -384,12 +390,7 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Shiela Mae A. Diaz</h3>
 						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-3 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/ivony.asprilla.jpg" alt="">
-							</div>
-							<h3 class="h3">Ivony S. Asprilla</h3>
-						</div>
+						
 						<div class="col-md-4 official  mb-4">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/kizzy.cariaga.jpg" alt="">
@@ -865,12 +866,7 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Anelyn P. Anas</h3>
 						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-3 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/ivony.asprilla.jpg" alt="">
-							</div>
-							<h3 class="h3">Ivony S. Asprilla</h3>
-						</div>
+					
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/julie.borreros.jpg" alt="">
