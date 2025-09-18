@@ -123,7 +123,7 @@ var vApp = new Vue({
             {
                 name: 'Bachelor of Science in Food Technology',
                 logo: '/images/logos/CAGS-md.png',
-                logoCampus: '/images/campus-baterna-sm.png',
+                logoCampus: '/images/campus-mosqueda-sm.png',
                 campus: 'Mosqueda Campus',
                 tags: ['undergrad', 'cags', 'mosqueda'],
                 college: 'College of Agricultural Sciences (CAgS)',
