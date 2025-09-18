@@ -359,19 +359,7 @@ get_header(); ?>
 						<div class="col-md-12 mb-4 text-center">
 							<h2 class="h1 pt-5 mb-4 text-primary">Finance</h2>
 						</div>
-						<div class="col-md-4 official ">
-							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/ann.tumapang.jpg" width="250" height="250" alt="Profile">
-							</div>
-							<h3 class="h3">Dr. Ann Lyn S. Tumapang</h3>
-							<h4 class="h4">Chief Administrative Officer - Finance Division</h4>
-							<div class="h5">
-								<a href="#">
-									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									annlyn.tumapang@gsu.edu.ph
-								</a>	
-							</div>
-						</div>
+						
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
 								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/philippe.prologo.jpg" width="250" height="250" alt="Profile">
@@ -399,6 +387,20 @@ get_header(); ?>
 								</a>	
 							</div>
 						</div>
+						
+						<div class="col-md-4 official ">
+							<div class="official-photo-2 mb-3">
+								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/ann.tumapang.jpg" width="250" height="250" alt="Profile">
+							</div>
+							<h3 class="h3">Dr. Ann Lyn S. Tumapang</h3>
+							<h4 class="h4">Chief Administrative Officer - Finance Division</h4>
+							<div class="h5">
+								<a href="#">
+									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
+									annlyn.tumapang@gsu.edu.ph
+								</a>	
+							</div>
+						</div>
 
 						<div class="col-md-4 official ">
 							<div class="official-photo-2 mb-3">
@@ -414,19 +416,7 @@ get_header(); ?>
 							</div>
 						</div>
 
-						<div class="col-md-4 official ">
-							<div class="official-photo-2 mb-3">
-								<img @click="toggle($event)" data-no="" src="<?= get_stylesheet_directory_uri(); ?>/images/officials/zzz.jpg" data-me="<?= get_stylesheet_directory_uri(); ?>/images/officials/philippe.prologo.jpg" width="250" height="250" alt="Profile">
-							</div>
-							<h3 class="h3">Philippe R. Prologo</h3>
-							<h4 class="h4">Director, Economic Development Center (EDC)</h4>
-							<div class="h5">
-								<a href="#">
-									<svg style="width:16px;height:16px" viewBox="0 0 24 24"><path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
-									philippe.prologo@gsu.edu.ph
-								</a>	
-							</div>
-						</div>
+						
 
 						<div class="col-md-12 mb-4 text-center">
 							<h2 class="h1 pt-5 mb-4 text-primary">Academic Affairs</h2>
