@@ -144,7 +144,7 @@ img {
 }
 [v-cloak]:before {
     content:"";
-    background: url("../images/ajax-loader.gif") no-repeat top center;
+    background: url("images/ajax-loader.gif") no-repeat top center;
     position: absolute;
     left: 0;
     right: 0;
