@@ -194,7 +194,7 @@ function diana_scripts() {
 	}
 
 	// Load our main stylesheet.
-	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '4.6.0' );
+	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '20250925' );
 	if(is_front_page()){
 		wp_enqueue_script( 'bootstrap' );
 		wp_enqueue_style( 'swiper-css', get_template_directory_uri() . '/css/swiper-bundle.min.css', array(), '11.1.5' );
