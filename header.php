@@ -56,15 +56,15 @@
                         <span class="pl-1">Search</span>
                     </a>
                 </li>
-                <li id="menu-item-8995" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8995"><a href="http://localhost:8000/contact-us/">Contact Us</a></li>
+                <li id="menu-item-8995" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8995"><a href="/contact-us/">Contact Us</a></li>
             </ul>            
         </nav>
         <nav id="top-nav-bar-right" class="nav top-nav-bar-right" role="navigation">
             <ul>
-                <li id="menu-item-8993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8993"><a href="http://localhost:8000/careers/">Careers</a></li>
+                <li id="menu-item-8993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8993"><a href="/careers/">Careers</a></li>
                 
                 
-                <li id="menu-item-8994" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8994"><a href="http://localhost:8000/bids-and-awards-committee/">Bid Opportunity</a></li>
+                <li id="menu-item-8994" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8994"><a href="/bids-and-awards-committee/">Bid Opportunity</a></li>
 
                 <!-- <li>
                     <a href="#" class="date">

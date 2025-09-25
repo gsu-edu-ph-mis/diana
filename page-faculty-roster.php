@@ -806,12 +806,7 @@ get_header(); ?>
 							</div>
 							<h3 class="h3">Aziel Lyn Y. Estilo</h3>
 						</div>
-						<div class="col-md-4 official">
-							<div class="official-photo-3 mb-3">
-								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/joel.japitana.jpg" alt="">
-							</div>
-							<h3 class="h3">Joel V. Japitana</h3>
-						</div>
+					
 						<div class="col-md-4 official">
 							<div class="official-photo-3 mb-3">
 								<img src="<?= get_stylesheet_directory_uri(); ?>/images/officials/jeffrey.magbanua.jpg" alt="">
